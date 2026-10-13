@@ -1,0 +1,69 @@
+# Aktienresearch-Monitor in GitHub Actions: einziger "Läufer" (Telegram, gemeinsamer Meldestand).
+# Zeiten in UTC. Sommerzeit (bis 25.10.2026): Schnellprüfung 8:00-22:45 Uhr, volle Läufe 8:30 / 15:45 / 22:30 Uhr.
+# Winterzeit: jeweils eine Stunde früher.
+name: Monitor
+
+on:
+  schedule:
+    - cron: "*/15 6-20 * * 1-5"   # Schnellprüfung: Indizes, VIX, Crash-Muster, Fear & Greed
+    - cron: "30 6 * * 1-5"        # voller Lauf morgens
+    - cron: "45 13 * * 1-5"       # voller Lauf nach US-Börsenstart
+    - cron: "30 20 * * 1-5"       # voller Lauf abends
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "schnell oder voll"
+        required: true
+        default: "voll"
+        type: choice
+        options: [schnell, voll]
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lauf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      AKTIEN_LAEUFER: "1"
+      TZ: Europe/Berlin
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Pakete
+        run: pip install -q -r requirements.txt
+
+      - name: Monitor
+        run: |
+          MODUS="schnell"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then MODUS="${{ inputs.modus }}"; fi
+          case "${{ github.event.schedule }}" in
+            "30 6 * * 1-5"|"45 13 * * 1-5"|"30 20 * * 1-5") MODUS="voll" ;;
+          esac
+          echo "Modus: $MODUS"
+          if [ "$MODUS" = "voll" ]; then python monitor.py --telegram; else python monitor.py --schnell --telegram; fi
+
+      - name: Stand speichern
+        run: |
+          git config user.name "aktien-monitor"
+          git config user.email "aktien-monitor@users.noreply.github.com"
+          git add state.json kurs_cache.json dashboard.html reports/daten.json reports/latest.json reports/latest_schnell.json reports/fear_greed.json reports/20*.md 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nichts zu speichern"; exit 0; fi
+          git commit -q -m "Monitor-Lauf $(date '+%d.%m.%Y %H:%M')"
+          for i in 1 2 3; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep 5
+          done
+          echo "Push fehlgeschlagen"; exit 1

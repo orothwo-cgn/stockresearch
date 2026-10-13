@@ -1,0 +1,127 @@
+# Aktienresearch – Monitor-Konfiguration
+# Kurse kommen von Yahoo Finance (yfinance). Ticker so schreiben wie auf finance.yahoo.com.
+
+# Indizes für die Marktlage (Abstand zur 200-Tage-Linie, Drawdown)
+indizes:
+  "^NDX": Nasdaq 100
+  "^GSPC": S&P 500
+  "^GDAXI": DAX
+
+# Angstbarometer
+vix: "^VIX"
+
+# Index für das Crash-Muster (crash.py)
+crash_index: "^NDX"
+
+# Sektor-ETFs für die Rotation, verglichen mit dem S&P 500 (SPY)
+sektoren:
+  XLK: Technologie
+  XLC: Kommunikation
+  XLY: Zykl. Konsum
+  XLP: Basiskonsum
+  XLF: Finanzen
+  XLV: Gesundheit
+  XLE: Energie
+  XLI: Industrie
+  XLU: Versorger
+  XLB: Grundstoffe
+  XLRE: Immobilien
+  CIBR: Cybersecurity
+  SMH: Halbleiter
+
+# Schwellen für Warnungen
+schwellen:
+  ma200_nah_prozent: 3          # Index/Aktie liegt höchstens so viel % über der 200-Tage-Linie
+  ma90_nah_prozent: 2           # dasselbe für die 90-Tage-Linie
+  index_tagesverlust: 2.5       # Index fällt an einem Tag um mindestens so viel %
+  aktie_tagesverlust: 6         # Aktie fällt an einem Tag um mindestens so viel %
+  aktie_tagesverlust_wichtig: 10  # ab hier wird ein Tagesverlust als wichtig gemeldet
+  position_gross_prozent: 3     # Depotanteil, ab dem schon der normale Tagesverlust wichtig ist
+  drawdown_stufen: [15, 25, 35] # % unter dem 52-Wochen-Hoch
+  vix_stufen: [25, 30, 40]
+  vix_wichtig: 30               # VIX-Stufe, ab der gepusht wird
+  rsi_ueberverkauft: 30
+  fear_greed_reset: 45          # Fear & Greed: Stufen 25/15/10 melden sich erneut erst, wenn der Index wieder auf diesen Wert gestiegen ist
+  bigplayer:                    # Frühwarnung für die Gruppe big_player, je Abwärtsphase jede Meldung nur einmal
+    stufen: [10, 15, 20, 25, 30, 40]   # % unter dem 52-Wochen-Hoch
+    rel_schwaeche_1m: 10        # Prozentpunkte schlechter als Nasdaq 100 über einen Monat
+    phase_ende_prozent: 5       # Phase endet, wenn wieder weniger als so viel % unter dem Hoch
+  kaufzone_nah_prozent: 3       # Hinweis (nur Bericht), wenn der Kurs höchstens so viel % über der ersten Kaufzone liegt
+  abstauber_nah_prozent: 5      # Hinweis, wenn der Kurs höchstens so viel % über Abstauber-Limit 1 liegt
+  dividende_ueber_schnitt: 20   # Rendite liegt so viel % über dem 5-Jahres-Schnitt
+  dividende_min_rendite: 1.5    # erst ab dieser Rendite (%) prüfen
+
+# Screener für neue Ideen (screener.py)
+screener:
+  min_marktkap_mrd_usd: 10
+  min_ruecksetzer_prozent: 15   # mindestens so viel % unter dem 52-Wochen-Hoch
+
+# YouTube-Kanäle: neue Videos werden per RSS erkannt und als Transkript abgelegt.
+# filter (optional): nur Videos, deren Titel eines dieser Wörter enthält.
+youtube:
+  - { name: Wir lieben Aktien, id: UCSy5QKEX08NXB1PC5bw9BuA }
+  - { name: aktienlust, id: UCJSlXY7qCCQqpbv_-WspoFQ }
+  - { name: ALWAYS AHEAD (François Bloch / payOFF The Week), id: UCM4Wde30D2pBSN-SWj-B18w }
+  - { name: Tim Schäfer, id: UCdYgvhtx9v7mWiSFxepLM2w }
+  - { name: InvestIngenieur, id: UC9APzxgyJI7IjJNKi-oLnhA }
+  - { name: Divizend, id: UCtI3d_DXWlaVkFRJ3_0Hp7w }
+  - { name: Beating Beta, id: UC4KOh3H9FJldjTgUkhQ1UyA }   # @BeatingBeta_official, aufgenommen 12.10.2026
+
+# Suchen: neue Videos zu einem Namen auf beliebigen Kanälen (YouTube-Suche, neueste zuerst).
+# im_titel: nur Treffer, deren Titel oder Beschreibung diesen Text enthält (gegen Beifang).
+youtube_suche:
+  - { name: Thomas Rappold, begriff: '"Thomas Rappold"', im_titel: Rappold }
+
+# Ausschluss: Yahoo-Ticker, die aus Watchlist und allen Listen verschwinden sollen.
+# Depotpositionen bleiben in der Bewertung, lösen aber keine Hinweise mehr aus.
+ausschluss:
+  - STLAM.MI   # Stellantis
+  - TTD        # The Trade Desk
+  - RHM.DE     # Rheinmetall: Rüstung passt nicht (09.10.2026)
+  - HAG.DE     # Hensoldt: Rüstung
+  - DRO.AX     # DroneShield: Rüstung
+
+# Watchlist: Titel, die du beobachtest oder hältst.
+# kaufzone (optional): Kurs in Handelswährung, ab dem du zugreifen würdest.
+# kaufzonen_eur (optional): Liste von Euro-Kursen für Nachkäufe in Tranchen, z. B. [15.10, 14.15].
+# fruehwarnung (optional): Frühwarnung wie bei den Big Playern; fruehwarnung_90t: zusätzlich Bruch der 90-Tage-Linie.
+watchlist:
+  big_player:   # Frühwarnung bei Abwärtstrend (schwellen → bigplayer)
+    AMZN: { name: Amazon }
+    AAPL: { name: Apple }
+    META: { name: Meta Platforms }
+    MSFT: { name: Microsoft }
+    ORCL: { name: Oracle }
+    GOOGL: { name: Alphabet }
+  wachstum:
+    PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026)
+    CRWD: { name: CrowdStrike }
+    NET: { name: Cloudflare }
+    DDOG: { name: Datadog }   # aufgenommen 11.10.2026
+    FTNT: { name: Fortinet }
+    VRT: { name: Vertiv }
+  wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
+    # Kaufzonen: 5 % bzw. 15 % unter der 200-Tage-Linie, Stand 08.10.2026 (200T wandert mit, gelegentlich neu setzen)
+    KLAC: { name: KLA, kaufzonen_eur: [152, 136] }
+    ONTO: { name: Onto Innovation, kaufzonen_eur: [217, 195] }
+    Q: { name: Qnity Electronics, kaufzonen_eur: [107, 96] }
+    TER: { name: Teradyne, kaufzonen_eur: [287, 257] }
+    ALAB: { name: Astera Labs, kaufzonen_eur: [209, 187] }   # aufgenommen 09.10.2026, Zonen nach derselben Regel
+  beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
+    RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
+    BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
+  zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
+    SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
+  dividende:
+    HSBA.L: { name: HSBC, kaufzonen_eur: [15.10, 14.15] }   # Nachkauf-Tranchen: −20 % / −25 % vom 52-W-Hoch (18,84 €), Stand 08.10.2026
+    ALV.DE: { name: Allianz }
+    MUV2.DE: { name: Münchener Rück }
+    BATS.L: { name: British American Tobacco }
+    MO: { name: Altria }
+    PG: { name: Procter & Gamble }
+    MCD: { name: McDonald's }
+    KO: { name: Coca-Cola }
+    PEP: { name: PepsiCo }
+    NEE: { name: NextEra Energy }
+    BIP: { name: Brookfield Infrastructure }   # aufgenommen 12.10.2026, ca. 4,9 % Dividende
+    O: { name: Realty Income, kaufzonen_eur: [44.80, 42.10] }   # 12.10.2026; Zonen = ca. 50 $ / 47 $, Unterstützung laut InvestIngenieur ~52 $

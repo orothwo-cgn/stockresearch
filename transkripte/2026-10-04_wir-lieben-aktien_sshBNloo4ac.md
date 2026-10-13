@@ -1,0 +1,10 @@
+# Gold nach Korrektur jetzt kaufen?!
+
+- Kanal: Wir lieben Aktien
+- Datum: 04.10.2026
+- Link: https://www.youtube.com/watch?v=sshBNloo4ac
+- Ausgewertet: ja
+
+## Transkript
+
+Nachdem sich der Goldkurs von Anfang 2025 bis Januar diesen Jahres mehr als verdoppelt hat und jeder kaufen wollte, gab es jetzt eine große Korrektur und auf einmal hat keiner mehr Interesse. Ist das jetzt also eine Top Kaufchance? Schauen wir uns Gold erstmal langfristig an, dann sehen wir hier auf jeden Fall einen Aufwärtstrend und wir sehen auch, wie stark diese gesamte Rally war, bevor diese Korrektur jetzt hier gestartet ist. Die vergangenen Korrekturen bei Gold dauern aber vor allem länger an. Also, sie gehen nicht unbedingt tiefer als die aktuelle Korrektur, aber sie erstrecken sich meistens über einen größeren zeitlichen Horizont. Bedeutet, selbst wenn wir noch mal hochlaufen, ist es gut möglich, dass wir diese Korrektur auf der zeitlichen Ebene noch mal verlängern. Damit will ich jetzt nicht leicht den Teufel an die Wand malen und auf die Korrektur hier 2011 bis 2015 2016 hinweisen, die sich wirklich lange und tief erstreckt hat, aber das Chance Risikoverhältnis ist auf diesem Niveau für langfristige Käufe einfach noch nicht besonders gut. Schauen wir uns aber mal an, wie es kurz bis Mittelfristig weitergehen könnte. Dann sehen wir hier diesen starken Abverkauf, aber auch das Gold hier einen Boden im Juli diesen Jahres gebildet hat. Nach dem ersten Aufwärtsimpuls sind wir jetzt in den Boden zurückgerutscht und wichtig für den weiteren Verlauf ist jetzt, dass dieses Niveau nicht unterschritten wird. Sollten wir nachhaltig unter die 3940 US-Dollar fallen, dann sind wir im Szenario einer Korrekturausweitung drin und müssen uns erstmal komplett neu stabilisieren. Nach dem jüngsten Abwärtsdruck ist das aber gar nicht mal so unwahrscheinlich. Bevor der Goldkurs wieder ann bullish zu sehen ist, müssten wir zur Oberseite mindestens mal über 4400 US-Dollar und am besten sogar über 4700 US-Dollar steigen. ist es aktuell aber recht weit weg.

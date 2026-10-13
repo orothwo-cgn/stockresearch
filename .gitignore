@@ -1,0 +1,17 @@
+# Rechnerspezifisch
+.venv/
+__pycache__/
+ca-bundle.pem
+
+# Geheim: Telegram-Token (in GitHub als Secret hinterlegt)
+.env
+.env.*
+
+# Lokale Läufe auf Laptop/Büro-PC (der gemeinsame Stand kommt von GitHub Actions)
+state_lokal.json
+kurs_cache_lokal.json
+reports_lokal/
+dashboard_lokal.html
+
+# Gespeicherte Google-Seite: nur die HTML-Datei wird gebraucht
+quellen/google-finance-listen_files/

@@ -1,0 +1,11 @@
+# UPTOBER: 20 % PLUS in einem MONAT!
+
+- Kanal: Beating Beta
+- Quelle: Beating Beta
+- Datum: 01.10.2026
+- Link: https://www.youtube.com/watch?v=aBjBZKSyGQA
+- Ausgewertet: ja
+
+## Transkript
+
+Fast 20% plus alleine im Oktober. So stark war der Bitcoin im historischen Vergleich und Anleger fragen sich, steht jetzt die nächste Rally vor der Tür? Von 2013 bis 2025 [musik] endeten 10 von 13 Oktobern im Plus. Daher auch der Name Oktober. Und sogar von der Saisonalität her steht dem Bitcoin das stärkste Quartal im [musik] gesamten Jahr bevor. Oktober, November, Dezember ist der beste Dionnats Zeitraum beim Bitcoin mit wahnsinnig starken Renditen aus der Vergangenheit. Im Schnitt ging es sogar um 77% nach oben. Ganz so viel erwarte ich jetzt nicht. Ja, das war natürlich auch auf den frühen Rallyys basiert. Aber jetzt beginnt eine super super spannende Zeit für Krypto und Anleger fragen sich, ja, sollte man Bitcoin jetzt kaufen? Das ist natürlich hier keine Anlageberatung, aber der Zeitpunkt, um in Bitcoin zu investieren, am besten tranchenweise oder per Sparplan, der könnte wenig besser sein. Der Bärenmarkt ist beendet, Bitcoin ist im neuen Bullenmarkt und ja, das wird super super spannend über die nächsten Monate. Das heißt nicht, dass der Oktober jetzt unbedingt golden [musik] werden muss. Historisch sieht's gut aus und langfristig bin ich überzeugt, aber Vorsicht ist bei den Altcoins geboten, denn [musik] wenn wir uns Ethereum anschauen, da sieht das Ganze schon anders aus. Da ist das vierte Quartal und auch dann der Monat Oktober gar nicht so besonders [musik] gut. Statt 20 % legt Ethereum historisch lediglich 3,6% im Oktober zu und Q4 war bei Ethereum auch nicht besonders gut. Also nur weil es [musik] beim Bitcoin gut aussah, heißt es nicht, dass man diesen Rückschluss für alle Kryptowährungen ziehen [musik] muss oder sollte. Deswegen bei Altcoins wäre ich aktuell noch vorsichtig. zunächst dürfte Bitcoin anziehen, Altcoin später hinterherziehen, aber ich würde jetzt noch nicht zu viel Risiko reingehen, auch wenn es aktuell beim Bitcoin stark aussieht. Team Bitcoin oder Team Altcoin? Wozu zählst du? Schreib es mir in die Kommentare und schicke dieses Video jemandem, der Bitcoin gegenüber skeptisch ist. Yeah.

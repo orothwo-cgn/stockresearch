@@ -1,0 +1,107 @@
+[
+  {
+    "datei": "2026-10-05_aktienlust_dz8y4T_HBSc.md",
+    "kanal": "aktienlust",
+    "datum": "2026-10-05",
+    "titel": "Tech-Investitionsoffensive: Wer hat den längsten Atem?",
+    "zusammenfassung": "Marktbericht zur Börsenwoche (DAX, MDAX, Wall Street, Termine) und Schwerpunkt, welche KI-Investoren bei Renditen über 5 % den längsten Atem haben. Microsoft, Alphabet und Amazon gelten als finanziell am sichersten, Meta, Oracle und CoreWeave als riskanter. Im Chat-Teil folgen Einschätzungen zu Autowerten, Evonik, McDonald's, Uber und anderen.",
+    "markt": "Die Anleiherenditen bleiben mit über 5 % hoch, der Nasdaq läuft dank KI weiter; der Sprecher erwartet eher Rotation in einzelne Branchen als einen breiten Einbruch und hält eine Cashquote von knapp 10 %.",
+    "erwaehnungen": [
+      {"name": "Microsoft", "ticker": "MSFT", "tendenz": "kaufen", "these": "Aus Sicht des Sprechers hat Microsoft den längsten Atem: 55,4 Mrd. $ operativer Cashflow im Quartal, 19,6 Mrd. $ Free Cashflow trotz 41 Mrd. $ Capex, dazu Cloud, Azure und die OpenAI-Beteiligung mit stillen Reserven.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Alphabet", "ticker": "GOOGL", "tendenz": "kaufen", "these": "Cashmäßig völlig entspannt, KGV knapp über 20 für ein wachstumsstarkes Unternehmen sei 'geschenkt'; Werbegeschäft mit Gemini, autonomes Fahren und Quantencomputing; Einstieg sei auf niedrigem Niveau noch möglich.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Amazon", "ticker": "AMZN", "tendenz": "kaufen", "these": "Cashmäßig sicher, Aktie lief zwei Jahre seitwärts (rund 250 $ nach 240 $ Hoch); der Sprecher bleibt bei seiner Zukunftsvision von 3000 $ in 8 bis 12 Jahren.", "kaufzone_oder_ziel": "Zukunftsvision 3000 $ in 8 bis 12 Jahren", "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Nvidia", "ticker": "NVDA", "tendenz": "neutral", "these": "Profiteur der Rechenzentrumsinvestitionen, 21,3 Mrd. $ Free Cashflow im Quartal, finanziert sich die Nachfrage quasi selbst.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Broadcom", "ticker": "AVGO", "tendenz": "neutral", "these": "Profiteur der Entwicklung, 13,7 Mrd. $ Free Cashflow im Quartal bei geringen eigenen Ausgaben.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Arista Networks", "ticker": "ANET", "tendenz": "neutral", "these": "Als Profiteur des KI-Ausbaus genannt, 38 % Wachstum und 13 Mrd. $ Cash und Wertpapiere.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Vertiv", "ticker": "VRT", "tendenz": "neutral", "these": "Zuständig für Kühlung, netto schuldenfrei und damit bei steigenden Renditen im Vorteil; profitiert vom Strom- und Kühlungsbedarf.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Micron", "ticker": "MU", "tendenz": "beobachten", "these": "Kurzfristig kann die Aktie vom Jahresend-Einsammeln der Gewinner profitieren, der operative Höhepunkt sei aber erreicht, der Free Cashflow (18,3 Mrd. $) sei rückläufig und Speicher bleibe zyklisch; daher vorsichtiger sein.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Meta Platforms", "ticker": "META", "tendenz": "halten", "these": "Enorme Ertragskraft und 90 Mrd. $ liquide Mittel, aber Free Cashflow nur 784 Mio. $ im Quartal und 83 Mrd. $ Schulden; der KI-Agent kommt gut an, der Sprecher bleibt optimistisch.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "Oracle", "ticker": "ORCL", "tendenz": "halten", "these": "Operativ starker Boom (Cloud +121 %, Auftragsbestand 664 Mrd. $), aber Free Cashflow -23,7 Mrd. $ und 43 Mrd. $ neue Schulden; Spekulation, die bei weiter steigenden Zinsen schwierig werden kann.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "CoreWeave", "ticker": "CRWV", "tendenz": "halten", "these": "Extrem fremdfinanziert, Aktie zuletzt schwach; der Sprecher traut dem Unternehmen einiges zu, würde bei weiter steigenden Renditen aber nicht mehr zukaufen.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "Apple", "ticker": "AAPL", "tendenz": "neutral", "these": "147 Mrd. $ Cash profitieren von hohen Zinsen, steigende Chippreise belasten, aber der Burggraben ist groß; der Sprecher gewichtet die positive Seite höher.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Continental", "ticker": "CON.DE", "tendenz": "neutral", "these": "Im Marktbericht: Morgan Stanley stuft auf Overweight und hebt das Kursziel von 62 auf 78 € wegen erwarteter Margenverbesserung im Reifengeschäft.", "kaufzone_oder_ziel": "Analysten-Kursziel Morgan Stanley 78 €", "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "CTS Eventim", "ticker": "EVD.DE", "tendenz": "neutral", "these": "Im Marktbericht: JP Morgan bestätigt Übergewichten und hebt das Kursziel auf 95 €.", "kaufzone_oder_ziel": "Analysten-Kursziel JP Morgan 95 €", "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Auto1", "ticker": "AG1.DE", "tendenz": "neutral", "these": "Im Marktbericht: Aktie verlor über 5 %, nachdem Analysten ihre Schätzungen senkten; Goldman Sachs senkt das Kursziel von 37 auf 32 €.", "kaufzone_oder_ziel": "Analysten-Kursziel Goldman Sachs 32 €", "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "PTC", "ticker": "PTC", "tendenz": "neutral", "these": "Im Marktbericht: Aktie sprang um bis zu 35 %, weil Schneider Electric das Softwareunternehmen für 22,6 Mrd. $ übernehmen will.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Evonik", "ticker": "EVK.DE", "tendenz": "nachkaufen", "these": "Chemie und Spezialchemie werde langfristig gebraucht, Evonik wachse in Schwellenländern und sei ein toller Wert fürs Dividendendepot; der Sprecher glaubt, dass die Tiefstände gesehen wurden und man auf dem Niveau weiter zukaufen kann.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Mercedes-Benz", "ticker": "MBG.DE", "tendenz": "kaufen", "these": "Bei deutschen Autos nur Oberklasse: gewaltiges Turnaround-Potenzial, im Kurs sei unfassbar viel Negatives enthalten; wo die Tiefs liegen, könne er nicht sagen.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "BMW", "ticker": "BMW.DE", "tendenz": "kaufen", "these": "Wie Mercedes und Porsche AG ein favorisierter Oberklasse-Hersteller mit Turnaround-Potenzial; schlechte Ergebnisse seien oft der Zeitpunkt, an dem die Aktie dreht.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Porsche AG", "ticker": "P911.DE", "tendenz": "kaufen", "these": "Favorit unter den Oberklasse-Autowerten (die AG, nicht die Holding) mit Turnaround-Potenzial.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Volkswagen", "ticker": "VOW3.DE", "tendenz": "meiden", "these": "Der Sprecher wäre vorsichtig: Gemischtwarenladen, der sich mit Billiganbietern aus China messen muss, dazu staatlicher Einfluss.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "NextEra Energy", "ticker": "NEE", "tendenz": "beobachten", "these": "Der Sprecher nennt den Energiemarkt (auch Solar) als spannend und verweist auf seinen Jahresausblick.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "McDonald's", "ticker": "MCD", "tendenz": "kaufen", "these": "Konsumgüteraktie, die der Sprecher sehr spannend findet; über Jahrzehnte rund 13 % Durchschnittsrendite ohne Dividende, und sie sei besonders interessant, wenn die Aktie im Keller ist.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Schaeffler", "ticker": "SHA.DE", "tendenz": "beobachten", "these": "Spannend als Zulieferer im Robotik-Thema (Komponenten für Gelenke), wo sich Schaeffler festsetzen will.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Booking Holdings", "ticker": "BKNG", "tendenz": "beobachten", "these": "Reisen hängt davon ab, wie es den Menschen geht; der Sprecher setzt darauf, dass bald wieder Stimuli kommen.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Rigetti Computing", "ticker": "RGTI", "tendenz": "neutral", "these": "Quantencomputing sei spannend, aber unklar, wer das Rennen macht; der Sprecher investiert wenig Geld in mehrere Player, um dabei zu sein.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Uber", "ticker": "UBER", "tendenz": "kaufen", "these": "Im Vergleich zu Tesla würde er 1000-mal eher in Uber investieren, weil Uber richtig Geld verdiene.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Tesla", "ticker": "TSLA", "tendenz": "meiden", "these": "Gegenüber Uber klar unterlegen: Tesla verdiene sein Geld nicht in dem Maß wie Uber.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Fair Isaac", "ticker": "FICO", "tendenz": "halten", "these": "Von den Anleiherenditen betroffen, doch auf dem aktuellen Niveau sieht der Sprecher die Perspektiven besser als die Gefahren.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"}
+    ]
+  },
+  {
+    "datei": "2026-10-02_aktienlust_F430-r4xJqk.md",
+    "kanal": "aktienlust",
+    "datum": "2026-10-02",
+    "titel": "China-Aktien: Jahrhundert-Chance oder FALLE? Tencent, Xiaomi, Alibaba, JD & BYD",
+    "zusammenfassung": "Gespräch mit Erik Nebe (Asien-Spezialist) über den China-Markt nach dem Trump-Xi-Gipfel und über Einzelwerte. Hightech und Exporte laufen stark, der Konsum ist schwach; Nebe sieht bei ausgewählten Titeln attraktive Niveaus, aber keinen pauschalen Kauf des Marktes. Tencent ist sein Top-Pick.",
+    "markt": "Der Hang Seng steckt seit Jahresbeginn in einer Korrektur und scheitert an 25.000 Punkten; es fehlen staatliche Impulse und überzeugende Quartalszahlen, ausländische Investoren sind zurückhaltend.",
+    "erwaehnungen": [
+      {"name": "Tencent", "ticker": "0700.HK", "tendenz": "kaufen", "these": "Nebes Top-Pick: fundamental extrem stark (Gaming, WeChat mit integrierter KI, Nettomargen um 40 %), KGV um 15 sei zu wenig; die Schwäche sei ein Sentiment-Thema.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "Alibaba", "ticker": "9988.HK", "tendenz": "kaufen", "these": "Langfristig enormes Potenzial durch KI (eigener Chip, Qwen-Modell, Kooperationen), kurzfristig wegen E-Commerce und schwachen Margen riskanter und spekulativer; Nebe gewichtete Alibaba höher als JD.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "Baidu", "ticker": "9888.HK", "tendenz": "halten", "these": "Das Suchmaschinen-Werbegeschäft ist massiv rückläufig, die Zukunftsfelder (Robotaxis, KI) verdienen noch kein Geld; Nebe behält nur eine kleine Position als spekulative Wette auf einen Technologie-Durchbruch.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "JD.com", "ticker": "9618.HK", "tendenz": "verkaufen", "these": "Nebe hat die Position nach vielen Jahren verkauft: im Konsumfeld sei Alibaba der bessere Wert; JD wandele sich zum Value-Titel (4 % Dividende, KGV günstig), reiche ihm aber im Vergleich nicht.", "kaufzone_oder_ziel": null, "besitzt_sprecher": false, "gewicht": "Hauptthema"},
+      {"name": "Xiaomi", "ticker": "1810.HK", "tendenz": "halten", "these": "Vor allem eine Wette auf die Marke (vergleichbar mit Apple), Europa-Expansion und neue Modelle; Nebe ist relativ hoch investiert und optimistisch, betont aber, dass es spekulativer ist als viele denken.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "BYD", "ticker": "1211.HK", "tendenz": "kaufen", "these": "Trotz angespanntem Automarkt (weggefallene Subventionen, sinkende Margen) positiv wegen vertikaler Kette von Batterie über Chips bis Ladeinfrastruktur; ein Geduldspiel, langfristig Chance auf die Spitzenposition.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Trip.com", "ticker": "9961.HK", "tendenz": "beobachten", "these": "Beispiel für eine abgestrafte Reiseplattform mit interessanten Niveaus und möglicher Erholung beim chinesischen Verbraucher.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Chinesische Solarwerte", "ticker": null, "tendenz": "meiden", "these": "Zwar ist ein technischer Rebound möglich, aber Solar sei keine Wachstumsbranche für Aktionäre, schwer profitabel und das Spekulativste, was man in China anfasse; Nebe ist nicht investiert.", "kaufzone_oder_ziel": null, "besitzt_sprecher": false, "gewicht": "Nebenbei"}
+    ]
+  },
+  {
+    "datei": "2026-10-06_investingenieur_Wq_N_eDp4Vs.md",
+    "kanal": "InvestIngenieur",
+    "datum": "2026-10-06",
+    "titel": "PepsiCo-Aktie: Historische Kaufchance mit 4,5 % Dividende?",
+    "zusammenfassung": "Analyse der PepsiCo-Aktie: günstige Bewertung (KGV 16,9 gegen 24,5 im Zehnjahresmittel) und Rekord-Dividendenrendite von rund 4,6 %. Gründe für die Korrektur sind Inflation und schwache US-Konsumstimmung, geänderte Ernährungstrends und hohe Anleiherenditen. Fazit des Sprechers: aktuell eine Kaufchance, aber nur in Tranchen.",
+    "markt": "Die Anleiherenditen liegen mit über 5 % auf Mehrjahreshoch und drücken defensive Aktien; Entspannung bei den Energiepreisen könnte nach den US-Zwischenwahlen helfen.",
+    "erwaehnungen": [
+      {"name": "PepsiCo", "ticker": "PEP", "tendenz": "kaufen", "these": "Günstige Multiplikatoren, Dividendenkönig mit 54 Jahren Steigerung, plausible Gegenstrategie im schwachen Nordamerika-Geschäft (Effizienz, Synergien, bessere Produkte, Preisoffensive) und Analysten-Upside; Risiken sind Inflation, Konsumschwäche und hohe Zinsen.", "kaufzone_oder_ziel": "Kauf in Tranchen; Unterstützungszone um 125-126 $, weitere Unterstützung um 107 $ und bei 100 $; Analysten-Mittel 133 € (Kurs 112 €)", "besitzt_sprecher": null, "gewicht": "Hauptthema"}
+    ]
+  },
+  {
+    "datei": "2026-09-26_aktienlust_1T43h2Qwmg8.md",
+    "kanal": "aktienlust",
+    "datum": "2026-09-26",
+    "titel": "Ich kaufe wieder! Nasdaq auf Rekordhoch - doch die meisten Aktien fallen",
+    "zusammenfassung": "Der Sprecher erklärt, warum der Nasdaq Rekorde markiert, während der Fear-and-Greed-Index im Angstbereich steht: Wenige KI-Aktien tragen den Markt, die Breite ist schwach. Er hat im Spätsommer Gewinne realisiert und will ab nächster Woche in Sektoren wie Energie und bei Hyperscalern neue Positionen aufbauen. Ein großer Teil des Videos ist Eigenwerbung für seinen Börsendienst.",
+    "markt": "Divergenter Markt: Nasdaq-Rekordhoch durch wenige KI-Aktien bei schwacher Marktbreite; der Sprecher erwartet noch Kurskorrekturen, etwa rund um die US-Midterms, und sieht in der Breite gute Kaufgelegenheiten.",
+    "erwaehnungen": [
+      {"name": "NextEra Energy", "ticker": "NEE", "tendenz": "kaufen", "these": "Strombedarf der Rechenzentren führt nächstes Jahr zu Engpässen; NextEra sei gut positioniert (Kernkraftwerk-Kredite, 25-Jahres-Abnahmevertrag mit Alphabet, Erneuerbare) und ist von 100 auf 80 $ zurückgekommen.", "kaufzone_oder_ziel": "Positionsaufbau zwischen 70 und 78 $", "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Meta Platforms", "ticker": "META", "tendenz": "kaufen", "these": "Der KI-Assistent Muse (laut Sprecher seit 14 Tagen Nr. 1 in den App Stores) löste den Nasdaq-Ausbruch aus; Hyperscaler sieht er für das kommende Jahr in der Favoritenrolle.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"},
+      {"name": "AMD", "ticker": "AMD", "tendenz": "verkaufen", "these": "Neues Allzeithoch, Börsenwert über 1 Bio. $ und Kurs mehr als verfünffacht bei KGVs von 70 bis 90; da dürfe nichts schiefgehen, der Sprecher realisiert weiter Teilgewinne.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Intel", "ticker": "INTC", "tendenz": "meiden", "these": "Gravierender Höhenflug mit rund 10 % im Monat bei Verlusten im laufenden Jahr; das sei nicht haltbar, Zyklen drehten am fundamentalen Höhepunkt.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "KLA", "ticker": "KLAC", "tendenz": "beobachten", "these": "Ausrüster, der von 320 $ rund halbiert wurde; als kurzfristiger Trade bis Jahresende interessant (Gewinner des Jahres werden im Herbst oft eingesammelt), aber nicht als Langfristkauf.", "kaufzone_oder_ziel": null, "besitzt_sprecher": null, "gewicht": "Nebenbei"},
+      {"name": "Adobe", "ticker": "ADBE", "tendenz": "beobachten", "these": "Der Sprecher stieg nach einer Rally von unter 200 auf fast 300 $ aus und erwägt einen Wiedereinstieg im Softwarebereich.", "kaufzone_oder_ziel": null, "besitzt_sprecher": false, "gewicht": "Nebenbei"}
+    ]
+  },
+  {
+    "datei": "2026-10-04_aktienlust_ezoWWFcGIAA.md",
+    "kanal": "aktienlust",
+    "datum": "2026-10-04",
+    "titel": "Der Staat schleicht um euer Haus und euer Vermögen! Reform 2027",
+    "zusammenfassung": "Hinweis auf ein Webinar zu drohenden Erbschaft- und Vermögensbelastungen für Unternehmer und Vermögende, nachdem das Bundesverfassungsgericht am 12. und 13. Oktober tagt. Reine Steuer- und Politikthematik, überwiegend Eigenwerbung für das Webinar; keine Aktien besprochen.",
+    "markt": null,
+    "erwaehnungen": []
+  },
+  {
+    "datei": "2026-10-06_wir-lieben-aktien_9kbPewFHRmc.md",
+    "kanal": "Wir lieben Aktien",
+    "datum": "2026-10-06",
+    "titel": "Er will verkaufen, ich würde beide Aktien kaufen!",
+    "zusammenfassung": "Kurze Antwort auf die Frage eines Zuschauers, der Novo Nordisk (rund 50 % im Minus) und eine zweite Aktie verkaufen will. Der Sprecher rät bei Novo Nordisk vom Verkaufen ab und findet Constellation Software noch spannender.",
+    "markt": null,
+    "erwaehnungen": [
+      {"name": "Novo Nordisk", "ticker": "NOVO-B.CO", "tendenz": "halten", "these": "Die Korrektur sei überstanden, ein Verkauf mache wenig Sinn; nächstes Ziel sind die Verlaufstiefs, danach neue Stabilisierung abwarten, in ein bis zwei Jahren stehe die Aktie mit hoher Wahrscheinlichkeit deutlich höher.", "kaufzone_oder_ziel": "Verlaufstiefs abwarten, dann Stabilisierung", "besitzt_sprecher": null, "gewicht": "Hauptthema"},
+      {"name": "Constellation Software", "ticker": "CSU.TO", "tendenz": "kaufen", "these": "Gilt als das Berkshire Hathaway des Softwarebereichs und sei so günstig wie lange nicht; der Boden sei gebildet, der Sprecher sieht den Turnaround positiv und hat den Dip dieses Jahr schon genutzt.", "kaufzone_oder_ziel": null, "besitzt_sprecher": true, "gewicht": "Hauptthema"}
+    ]
+  }
+]

@@ -1,0 +1,610 @@
+# Google-Symbol -> Yahoo-Ticker. Ticker korrigieren oder leeren, wenn die Zuordnung falsch ist.
+0P8:FRA:
+  name: Penumbra
+  ticker: PEN
+1AKA:FRA:
+  name: Aker Solutions
+  ticker: AKSO.OL
+1Q5:FRA:
+  name: Dropbox Inc
+  ticker: DBX
+1QZ:ETR:
+  name: Coinbase
+  ticker: COIN
+1S2:FRA:
+  name: Figma Inc
+  ticker: FIG
+1VT:FRA:
+  name: Viking Therapeutics Inc
+  ticker: VKTX
+1YD:ETR:
+  name: Broadcom Inc.
+  ticker: AVGO
+22UA:ETR:
+  name: Biontech
+  ticker: BNTX
+34Q0:FRA:
+  name: Quantum eMotion Corp
+  ticker: QNC.V
+3QD:ETR:
+  name: Datadog
+  ticker: DDOG
+3V64:ETR:
+  name: Visa Inc.
+  ticker: V
+45C:FRA:
+  name: CrowdStrike
+  ticker: CRWD
+49V:FRA:
+  name: Vertiv Holdings Co
+  ticker: VRT
+4AB:ETR:
+  name: Abbvie
+  ticker: ABBV
+4S0:ETR:
+  name: ServiceNow
+  ticker: NOW
+55H0:FRA:
+  name: Mp Materials Corp
+  ticker: MP
+5AP:ETR:
+  name: Palo Alto Networks
+  ticker: PANW
+5Q5:ETR:
+  name: Snowflake Inc.
+  ticker: SNOW
+6324:TYO:
+  name: Harmonic Drive Systems Inc
+  ticker: 6324.T
+8A0:FRA:
+  name: A10 Networks Inc
+  ticker: ATEN
+8CF:FRA:
+  name: Cloudflare
+  ticker: NET
+8K2:FRA:
+  name: GitLab Inc.
+  ticker: GTLB
+8PB:FRA:
+  name: Pareto Bank ASA
+  ticker: PARB.OL
+9888:HKG:
+  name: Baidu
+  ticker: 9888.HK
+9A2:FRA:
+  name: Ares Capital Corporation
+  ticker: ARCC
+9CF:FRA:
+  name: Comfort Systems USA Inc
+  ticker: FIX
+9MW:FRA:
+  name: Marvell Technology Group
+  ticker: MRVL
+AAOI:NASDAQ:
+  name: Applied Optoelectronics Inc
+  ticker: AAOI
+AAPL:NASDAQ:
+  name: Apple
+  ticker: AAPL
+ABBV:NYSE:
+  name: Abbvie
+  ticker: ABBV
+ABT:NYSE:
+  name: Abbott Laboratories
+  ticker: ABT
+AEE:NYSE:
+  name: Ameren
+  ticker: AEE
+AER:NYSE:
+  name: AerCap
+  ticker: AER
+AEU:FRA:
+  name: Prysmian
+  ticker: PRY.MI
+ALAB:NASDAQ:
+  name: Astera Labs
+  ticker: ALAB
+ALV:ETR:
+  name: Allianz SE
+  ticker: ALV.DE
+AMGN:NASDAQ:
+  name: Amgen
+  ticker: AMGN
+AMZN:NASDAQ:
+  name: Amazon
+  ticker: AMZN
+APC:ETR:
+  name: Apple
+  ticker: AAPL
+APH:NYSE:
+  name: Amphenol
+  ticker: APH
+APO:NYSE:
+  name: Apollo Global Management
+  ticker: APO
+ARGX:EBR:
+  name: Argenx
+  ticker: ARGX.BR
+AS5:FRA:
+  name: Corebridge Financial
+  ticker: CRBG
+AVGO:NASDAQ:
+  name: Broadcom Inc.
+  ticker: AVGO
+BAS:ETR:
+  name: BASF
+  ticker: BAS.DE
+BAYN:ETR:
+  name: Bayer AG
+  ticker: BAYN.DE
+BBZA:ETR:
+  name: BB Biotech
+  ticker: BBZA.DE
+BHP:FRA:
+  name: BHP Billiton
+  ticker: 0HN3.L
+BILN:LON:
+  name: Billington Holdings PLC
+  ticker: BILN.L
+BIP:NYSE:
+  name: Brookfield Infrastructure
+  ticker: BIP
+BLSH:NYSE:
+  name: Bullish
+  ticker: BLSH
+BMT:ETR:
+  name: British American Tobacco
+  ticker: BTI
+BRM:ETR:
+  name: Bristol-Myers Squibb
+  ticker: BMY
+BSX:ETR:
+  name: Boston Scientific
+  ticker: BSX
+BX:NYSE:
+  name: Blackstone Group
+  ticker: BX
+BY6:FRA:
+  name: BYD
+  ticker: BYD
+CALM:NASDAQ:
+  name: Cal-Maine
+  ticker: CALM
+CHQ1:FRA:
+  name: Cheniere Energy
+  ticker: LNG
+CIG:NYSE:
+  name: Companhia Energética de Minas Gerais
+  ticker: CIG
+CRCL:NYSE:
+  name: Circle Internet Group Inc
+  ticker: CRCL
+CRDO:NASDAQ:
+  name: Credo Technology Group Holding Ltd
+  ticker: CRDO
+CRM:NYSE:
+  name: Salesforce
+  ticker: CRM
+CRWD:NASDAQ:
+  name: CrowdStrike
+  ticker: CRWD
+CRWV:NASDAQ:
+  name: CoreWeave
+  ticker: CRWV
+CSL:MEHRDEUTIG:
+  name: Carlisle Companies
+  ticker: CSL
+CTP2:ETR:
+  name: Comcast
+  ticker: CMCSA
+DDOG:NASDAQ:
+  name: Datadog
+  ticker: DDOG
+DEVL:FRA:
+  name: DBS Group Holdings Ltd
+  ticker: D05.SI
+DIS:NYSE:
+  name: The Walt Disney Company
+  ticker: DIS
+DO2:FRA:
+  name: Deckers Outdoor Corporation
+  ticker: DECK
+DOW:NYSE:
+  name: Dow, Inc.
+  ticker: DOW
+DRO:ASX:
+  name: DroneShield
+  ticker: DRO.AX
+E0P:ETR:
+  name: Enphase Energy
+  ticker: ENPH
+E7S:FRA:
+  name: Constellation Energy
+  ticker: CEG
+EL:EPA:
+  name: EssilorLuxottica
+  ticker: EL.PA
+ELE:BME:
+  name: Endesa
+  ticker: ELE.MC
+EQIX:NASDAQ:
+  name: Equinix
+  ticker: EQIX
+EQT:NYSE:
+  name: EQT Corporation
+  ticker: EQT
+ESTC:NYSE:
+  name: Elastic
+  ticker: ESTC
+EVD:ETR:
+  name: CTS Eventim
+  ticker: EVD.DE
+EWL:ETR:
+  name: Edwards Lifesciences Corporation
+  ticker: EW
+EXC:NASDAQ:
+  name: Exelon
+  ticker: EXC
+EXEL:NASDAQ:
+  name: Exelixis Inc.
+  ticker: EXEL
+EXLS:NASDAQ:
+  name: ExlService Holdings Inc
+  ticker: EXLS
+FAN:FRA:
+  name: Fabrinet
+  ticker: FN
+FB2A:ETR:
+  name: Meta
+  ticker: META
+FIV:FRA:
+  name: Fiserv
+  ticker: FISV
+FO8:FRA:
+  name: Fortinet
+  ticker: FTNT
+FOO:ETR:
+  name: Salesforce
+  ticker: CRM
+G1WW34:BVMF:
+  name: W. W. Grainger
+  ticker: GWW
+GENB:NASDAQ:
+  name: Generate Biomedicines Inc
+  ticker: GENB
+GILD:NASDAQ:
+  name: Gilead Sciences
+  ticker: GILD
+GIS:MEHRDEUTIG:
+  name: Gilead Sciences
+  ticker: GILD
+GOOG:NASDAQ:
+  name: Alphabet Inc.
+  ticker: GOOG
+GOOGL:NASDAQ:
+  name: Alphabet Inc.
+  ticker: GOOGL
+GOS:ETR:
+  name: The Goldman Sachs Group, Inc.
+  ticker: GS
+GRAB:NASDAQ:
+  name: Grab
+  ticker: GRAB
+GUI:ETR:
+  name: Diageo
+  ticker: DEO
+GWW:NYSE:
+  name: W. W. Grainger
+  ticker: GWW
+HBC1:ETR:
+  name: HSBC
+  ticker: HSBC
+HOOD:NASDAQ:
+  name: Robinhood
+  ticker: HOOD
+HPE:NYSE:
+  name: Hewlett Packard Enterprise
+  ticker: HPE
+HRL:NYSE:
+  name: Hormel Foods
+  ticker: HRL
+HSBA:LON:
+  name: HSBC
+  ticker: HSBA.L
+HTGC:NYSE:
+  name: Hercules Capital Inc
+  ticker: HTGC
+IESC:NASDAQ:
+  name: IES Holdings Inc
+  ticker: IESC
+INCY:NASDAQ:
+  name: Incyte
+  ticker: INCY
+INL:ETR:
+  name: Intel
+  ticker: INTC
+IONQ:NYSE:
+  name: IonQ
+  ticker: IONQ
+IOT:NYSE:
+  name: Samsara Inc.
+  ticker: IOT
+IQV:NYSE:
+  name: Iqvia Holdings Inc
+  ticker: IQV
+IRM:NYSE:
+  name: Iron Mountain Incorporated
+  ticker: IRM
+ISRG:NASDAQ:
+  name: Intuitive Surgical
+  ticker: ISRG
+IUI1:ETR:
+  name: Intuitive Surgical
+  ticker: ISRG
+J36:SGX:
+  name: Jardine Matheson Holdings
+  ticker: J36.SI
+J4V:FRA:
+  name: Vår Energi
+  ticker: VAR.OL
+JNJ:ETR:
+  name: Johnson & Johnson
+  ticker: JNJ
+KEE:FRA:
+  name: Keyence
+  ticker: 6861.T
+KKR:NYSE:
+  name: Kohlberg Kravis Roberts & Co.
+  ticker: KKR
+KLA:ETR:
+  name: KLA Corporation
+  ticker: KLAC
+KMB:NASDAQ:
+  name: Kimberly-Clark
+  ticker: KMB
+KS70:FRA:
+  name: Kingsoft Cloud Holdings Ltd
+  ticker: 3896.HK
+LAR0:FRA:
+  name: Lam Research
+  ticker: LRCX
+LLY:NYSE:
+  name: Eli Lilly and Company
+  ticker: LLY
+LULU:NASDAQ:
+  name: Lululemon Athletica
+  ticker: LULU
+META:NASDAQ:
+  name: Meta
+  ticker: META
+MO:NYSE:
+  name: Altria Group
+  ticker: MO
+MOH:ETR:
+  name: LVMH
+  ticker: MC.PA
+MPWR:NASDAQ:
+  name: Monolithic Power Systems
+  ticker: MPWR
+MSF:ETR:
+  name: Microsoft
+  ticker: MSFT
+MTSI:NASDAQ:
+  name: M/A-Com Technology Solutions Holdings Inc.
+  ticker: MTSI
+MU:NASDAQ:
+  name: Micron Technology
+  ticker: MU
+MUV2:ETR:
+  name: Münchener Rück
+  ticker: MUV2.DE
+NFC:ETR:
+  name: Netflix
+  ticker: NFLX
+NFLX:NASDAQ:
+  name: Netflix
+  ticker: NFLX
+NKE:ETR:
+  name: Nike
+  ticker: NKE
+NOV:ETR:
+  name: Novo Nordisk
+  ticker: NVO
+NTNX:BMV:
+  name: Nutanix
+  ticker: NTNX
+NU:NYSE:
+  name: Nubank
+  ticker: NU
+NVD:ETR:
+  name: Nvidia
+  ticker: NVDA
+NVO:NYSE:
+  name: Novo Nordisk
+  ticker: NVO
+NXPI:NASDAQ:
+  name: NXP Semiconductors
+  ticker: NXPI
+OKTA:NASDAQ:
+  name: Okta Inc.
+  ticker: OKTA
+ONC:NASDAQ:
+  name: BeOne Medicines
+  ticker: ONC
+ONTO:NYSE:
+  name: Onto Innovation Inc
+  ticker: ONTO
+ORCL:NYSE:
+  name: Oracle
+  ticker: ORCL
+PANW:NASDAQ:
+  name: Palo Alto Networks
+  ticker: PANW
+PAR:FRA:
+  name: Parker-Hannifin
+  ticker: PH
+PEP:NASDAQ:
+  name: PepsiCo
+  ticker: PEP
+PETR4:BVMF:
+  name: Petrobras
+  ticker: PETR4.SA
+PFE:MEHRDEUTIG:
+  name: Pfizer
+  ticker: PFE
+PLTR:NASDAQ:
+  name: Palantir Technologies
+  ticker: PLTR
+POET:NASDAQ:
+  name: POET Technologies Inc
+  ticker: POET
+PYPL:NASDAQ:
+  name: PayPal Holdings Inc
+  ticker: PYPL
+Q:NYSE:
+  name: Qnity Electronics Inc
+  ticker: Q
+QAA:FRA:
+  name: Quanta Services
+  ticker: PWR
+QCI:ETR:
+  name: Qualcomm
+  ticker: QCOM
+QCOM:NASDAQ:
+  name: Qualcomm
+  ticker: QCOM
+QNC:CVE:
+  name: Quantum eMotion Corp
+  ticker: QNC.V
+RBC:NYSE:
+  name: RBC Bearings Inc
+  ticker: RBC
+RBRK:NYSE:
+  name: Rubrik
+  ticker: RBRK
+RHO6:FRA:
+  name: Roche Holding
+  ticker: ROP.SW
+S:NYSE:
+  name: SentinelOne
+  ticker: S
+SAIL:NASDAQ:
+  name: Sailpoint Inc
+  ticker: SAIL
+SDZ:SWX:
+  name: Sandoz
+  ticker: SDZ.SW
+SERV:NASDAQ:
+  name: Serve Robotics Inc
+  ticker: SERV
+SMCI:NASDAQ:
+  name: Super Micro Computer
+  ticker: SMCI
+SMMT:NASDAQ:
+  name: Summit Therapeutics Inc
+  ticker: SMMT
+SMR:NYSE:
+  name: Nuscale Power Corp
+  ticker: SMR
+SN6:FRA:
+  name: Stolt-Nielsen
+  ticker: SNI.OL
+SNPS:NASDAQ:
+  name: Synopsys
+  ticker: SNPS
+SPCX:NASDAQ:
+  name: SpaceX
+  ticker: SPCX
+SQ3:ETR:
+  name: Square
+  ticker: XYZ
+SRPT:NASDAQ:
+  name: Sarepta Therapeutics
+  ticker: SRPT
+STRL:NASDAQ:
+  name: Sterling Infrastructure Inc
+  ticker: STRL
+SYP:ETR:
+  name: Synopsys
+  ticker: SNPS
+TEAM:NASDAQ:
+  name: Atlassian
+  ticker: TEAM
+TEM:NASDAQ:
+  name: Tempus AI Inc
+  ticker: TEM
+TEN:BIT:
+  name: Tenaris S.A.
+  ticker: TEN.MI
+TENB:NASDAQ:
+  name: Tenable Holdings Inc
+  ticker: TENB
+TF7A:FRA:
+  name: Tyson Foods
+  ticker: TSN
+TGT:NYSE:
+  name: Target Corporation
+  ticker: TGT
+TL0:ETR:
+  name: Tesla, Inc.
+  ticker: TSLA
+TMI:FRA:
+  name: Trend Micro
+  ticker: 4704.T
+TMRA:FRA:
+  name: Tomra Systems
+  ticker: TOM.OL
+TTD:NASDAQ:
+  name: The Trade Desk
+  ticker: TTD
+TWLO:NYSE:
+  name: Twilio
+  ticker: TWLO
+UNH:NYSE:
+  name: UnitedHealth
+  ticker: UNH
+UTH:FRA:
+  name: United Therapeutics
+  ticker: UTHR
+UTHR:NASDAQ:
+  name: United Therapeutics
+  ticker: UTHR
+V:NYSE:
+  name: Visa Inc.
+  ticker: V
+VACN:SWX:
+  name: VAT Group
+  ticker: VACN.SW
+VEEV:NYSE:
+  name: Veeva Systems
+  ticker: VEEV
+VICR:NASDAQ:
+  name: Vicor Corporation
+  ticker: VICR
+VIR:NASDAQ:
+  name: Vir Biotechnology Inc
+  ticker: VIR
+VISA:VIE:
+  name: Visa Inc.
+  ticker: V
+VRT:NYSE:
+  name: Vertiv Holdings Co
+  ticker: VRT
+VRTX:NASDAQ:
+  name: Vertex Pharmaceuticals
+  ticker: VRTX
+VX1:ETR:
+  name: Vertex Pharmaceuticals
+  ticker: VRTX
+WFC:NYSE:
+  name: Wells Fargo
+  ticker: WFC
+ZS:NASDAQ:
+  name: Zscaler
+  ticker: ZS
+ZT8:FRA:
+  name: Terawulf Inc
+  ticker: WULF
+ZTS:NYSE:
+  name: Zoetis
+  ticker: ZTS

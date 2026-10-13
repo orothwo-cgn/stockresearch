@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marktmonitor</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f4f3f0;
+  --surface-1: #fcfcfb;
+  --surface-2: #f0efec;
+  --border: #e3e2de;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #7a7974;
+  --neg: #b8312f;
+  --pos: #1c6b1c;
+  --critical: #d03b3b;
+  --warning: #fab219;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --grid: #e9e8e4;
+  --accent: #2a78d6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-0: #121211;
+    --surface-1: #1a1a19;
+    --surface-2: #232321;
+    --border: #33332f;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #8f8e86;
+    --neg: #f07a78;
+    --pos: #6fcf6f;
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --grid: #2c2c29;
+    --accent: #5598e7;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211;
+  --surface-1: #1a1a19;
+  --surface-2: #232321;
+  --border: #33332f;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #8f8e86;
+  --neg: #f07a78;
+  --pos: #6fcf6f;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --grid: #2c2c29;
+  --accent: #5598e7;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+main { max-width: 1280px; margin: 0 auto; padding: 20px 16px 48px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin-bottom: 16px; }
+h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 15px; margin: 0 0 10px; }
+.stand { color: var(--text-secondary); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin-bottom: 16px; }
+.tile, .card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; }
+.tile { padding: 12px 14px; }
+.tile .label { color: var(--text-secondary); font-size: 12px; }
+.tile .wert { font-size: 22px; font-weight: 600; margin-top: 2px; }
+.tile .sub { color: var(--text-secondary); font-size: 12px; margin-top: 2px; }
+.card { padding: 14px; margin-bottom: 16px; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+ul.hinweise { list-style: none; margin: 0; padding: 0; }
+ul.hinweise li { padding: 6px 0; border-top: 1px solid var(--border); display: flex; gap: 8px; }
+ul.hinweise li:first-child { border-top: 0; }
+.badge { flex: none; display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; height: 19px; margin-top: 1px; }
+.badge.wichtig { background: var(--critical); color: #fff; }
+.badge.info { background: var(--surface-2); color: var(--text-secondary); }
+.leer { color: var(--text-muted); }
+details summary { cursor: pointer; color: var(--text-secondary); margin-top: 8px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.tabs button, .filter button, .zeitraum button {
+  font: inherit; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  padding: 5px 11px; border-radius: 999px; cursor: pointer;
+}
+.tabs button[aria-pressed="true"], .filter button[aria-pressed="true"], .zeitraum button[aria-pressed="true"] {
+  background: var(--text-primary); color: var(--surface-1); border-color: var(--text-primary);
+}
+.tabs .anzahl { color: inherit; opacity: .65; margin-left: 4px; }
+.filter { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; }
+.filter input {
+  font: inherit; padding: 5px 10px; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--surface-1); color: var(--text-primary); min-width: 200px; flex: 1 1 200px; max-width: 320px;
+}
+.tabelle { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 6px 8px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--border); }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--text-secondary); font-weight: 600; font-size: 12px; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface-1); }
+th.sortiert::after { content: " ↓"; }
+th.sortiert.auf::after { content: " ↑"; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--surface-2); }
+td .tk { color: var(--text-muted); font-size: 12px; margin-left: 4px; }
+td .chip { font-size: 11px; color: var(--text-secondary); background: var(--surface-2); border-radius: 4px; padding: 0 5px; margin-left: 4px; }
+.neg { color: var(--neg); }
+.pos { color: var(--pos); }
+.muted { color: var(--text-muted); }
+.hinweis-text { color: var(--text-secondary); font-size: 12px; margin: 8px 0 0; }
+dialog {
+  border: 1px solid var(--border); border-radius: 12px; padding: 0; width: min(980px, calc(100vw - 32px));
+  background: var(--surface-1); color: var(--text-primary);
+}
+dialog::backdrop { background: rgba(0,0,0,.45); }
+.dlg-kopf { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; padding: 14px 16px 6px; }
+.dlg-kopf h3 { margin: 0; font-size: 17px; }
+.dlg-kopf .sub { color: var(--text-secondary); font-size: 13px; }
+.dlg-kopf button { font: inherit; border: 0; background: transparent; color: var(--text-secondary); font-size: 20px; cursor: pointer; }
+.dlg-steuer { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding: 0 16px; }
+.legende { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-secondary); }
+.legende span { display: inline-flex; align-items: center; gap: 6px; }
+.legende i { display: inline-block; width: 14px; height: 2px; border-radius: 2px; }
+.zeitraum { display: flex; gap: 6px; }
+.chart { position: relative; padding: 8px 8px 12px; }
+.chart svg { display: block; width: 100%; height: auto; }
+.tooltip {
+  position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 9px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.12); display: none; white-space: nowrap;
+}
+.tooltip .zeile { display: flex; align-items: center; gap: 6px; }
+.tooltip i { width: 10px; height: 2px; display: inline-block; border-radius: 2px; }
+.kennzahlen { display: flex; flex-wrap: wrap; gap: 18px; padding: 0 16px 16px; font-size: 13px; }
+.kennzahlen div span { display: block; color: var(--text-secondary); font-size: 11px; }
+footer { color: var(--text-muted); font-size: 12px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Marktmonitor</h1>
+    <div class="stand" id="stand"></div>
+  </header>
+
+  <section class="tiles" id="tiles"></section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>Neu seit dem letzten Lauf</h2>
+      <ul class="hinweise" id="neu"></ul>
+      <details><summary id="weitere-summary"></summary><ul class="hinweise" id="weitere"></ul></details>
+    </section>
+    <section class="card">
+      <h2>Marktlage</h2>
+      <div class="tabelle"><table id="markt"></table></div>
+      <p class="hinweis-text">Zeile anklicken für den Verlauf mit 90- und 200-Tage-Linie.</p>
+    </section>
+  </div>
+
+  <section class="card">
+    <div class="tabs" id="tabs" role="toolbar" aria-label="Liste wählen"></div>
+    <div class="filter">
+      <input type="search" id="suche" placeholder="Name oder Ticker suchen" aria-label="Suche">
+      <button type="button" data-filter="unter200" aria-pressed="false">unter 200T</button>
+      <button type="button" data-filter="nah200" aria-pressed="false">nahe 200T</button>
+      <button type="button" data-filter="unter90" aria-pressed="false">unter 90T</button>
+      <button type="button" data-filter="nah90" aria-pressed="false">nahe 90T</button>
+    </div>
+    <div class="tabelle"><table id="liste"></table></div>
+    <p class="hinweis-text" id="listen-hinweis"></p>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>Sektorrotation <span class="muted">(relativ zum S&amp;P 500)</span></h2>
+      <div class="tabelle"><table id="sektoren"></table></div>
+    </section>
+    <section class="card">
+      <h2>Crash-Muster: frühere Phasen</h2>
+      <div class="tabelle"><table id="episoden"></table></div>
+      <p class="hinweis-text">Score aus Nasdaq-100-Verlust über 5 Tage, VIX-Niveau, VIX-Sprung und Abstand zum Hoch. Ab 45 (Korrektur) wird sofort gemeldet, ebenso das Erholungssignal danach.</p>
+    </section>
+  </div>
+
+  <footer>Datenquelle: Yahoo Finance über yfinance, Schlusskurse bzw. verzögerte Kurse. Keine Anlageberatung, das System handelt nicht.</footer>
+</main>
+
+<dialog id="dlg" aria-labelledby="dlg-titel">
+  <div class="dlg-kopf">
+    <div><h3 id="dlg-titel"></h3><div class="sub" id="dlg-sub"></div></div>
+    <button type="button" id="dlg-zu" aria-label="Schließen">×</button>
+  </div>
+  <div class="dlg-steuer">
+    <div class="legende">
+      <span><i style="background:var(--series-1)"></i>Kurs</span>
+      <span><i style="background:var(--series-2)"></i>90-Tage-Linie</span>
+      <span><i style="background:var(--series-3)"></i>200-Tage-Linie</span>
+    </div>
+    <div class="zeitraum" id="zeitraum">
+      <button type="button" data-tage="126" aria-pressed="false">6 M</button>
+      <button type="button" data-tage="252" aria-pressed="true">1 J</button>
+      <button type="button" data-tage="9999" aria-pressed="false">2 J</button>
+    </div>
+  </div>
+  <div class="chart" id="chart"><div class="tooltip" id="tip"></div></div>
+  <div class="kennzahlen" id="dlg-zahlen"></div>
+</dialog>
+
+<script>
+const D = /*__DATEN__*/null;
+
+const nf = (d) => new Intl.NumberFormat("de-DE", { minimumFractionDigits: d, maximumFractionDigits: d });
+const zahl = (v, d = 2) => v == null ? "–" : nf(d).format(v);
+const proz = (v, d = 1, vz = true) => v == null ? "–" : (vz && v > 0 ? "+" : "") + nf(d).format(v) + " %";
+const klasse = (v) => v == null ? "muted" : v < 0 ? "neg" : "";
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+document.getElementById("stand").textContent = "Stand " + D.stand;
+
+// Kacheln
+(function kacheln() {
+  const t = [];
+  if (D.depot.einstand) {
+    const erg = D.depot.wert - D.depot.einstand;
+    t.push(["Depotwert", zahl(D.depot.wert, 0) + " €", `Ergebnis <span class="${klasse(erg)}">${erg > 0 ? "+" : ""}${zahl(erg, 0)} € (${proz((D.depot.wert / D.depot.einstand - 1) * 100)})</span>`]);
+  }
+  for (const m of D.markt) {
+    if (m.name === "VIX") {
+      t.push(["VIX", zahl(m.kurs, 1), `Tag ${proz(m.tag)}`]);
+    } else {
+      t.push([m.name, zahl(m.kurs, 0), `200T <span class="${klasse(m.a200)}">${proz(m.a200)}</span> · 90T <span class="${klasse(m.a90)}">${proz(m.a90)}</span>`]);
+    }
+  }
+  if (D.fear_greed) {
+    const f = D.fear_greed;
+    t.unshift(["Fear & Greed (CNN)", zahl(f.score, 0), `${esc(f.rating)} · Vorwoche ${zahl(f.vorwoche, 0)} · Vormonat ${zahl(f.vormonat, 0)}`]);
+  }
+  if (D.panik) {
+    t.unshift(["Crash-Muster", D.panik.stufe, `Score ${zahl(D.panik.score, 0)} von 100`]);
+  }
+  document.getElementById("tiles").innerHTML = t.map(([l, w, s]) =>
+    `<div class="tile"><div class="label">${esc(l)}</div><div class="wert">${w}</div><div class="sub">${s}</div></div>`).join("");
+})();
+
+// Hinweise
+(function hinweise() {
+  const li = (text, wichtig) => `<li><span class="badge ${wichtig ? "wichtig" : "info"}">${wichtig ? "! wichtig" : "Info"}</span><span>${esc(text)}</span></li>`;
+  document.getElementById("neu").innerHTML = D.neu_wichtig.length
+    ? D.neu_wichtig.map((t) => li(t, true)).join("")
+    : `<li class="leer">Nichts Wichtiges seit dem letzten Lauf.</li>`;
+  document.getElementById("weitere-summary").textContent = `${D.neu_weitere.length} weitere neue Hinweise, ${D.aktiv.length} insgesamt aktiv`;
+  document.getElementById("weitere").innerHTML = D.neu_weitere.map((t) => li(t, false)).join("") || `<li class="leer">keine</li>`;
+})();
+
+// Markt
+(function markt() {
+  const kopf = `<thead><tr><th>Index</th><th>Stand</th><th>Tag</th><th>Abstand 90T</th><th>Abstand 200T</th><th>unter Hoch</th><th>YTD</th></tr></thead>`;
+  const zeilen = D.markt.map((m) => `<tr data-t="${esc(m.t)}"><td>${esc(m.name)}</td><td>${zahl(m.kurs, m.name === "VIX" ? 1 : 0)}</td>
+    <td class="${klasse(m.tag)}">${proz(m.tag)}</td><td class="${klasse(m.a90)}">${proz(m.a90)}</td><td class="${klasse(m.a200)}">${proz(m.a200)}</td>
+    <td class="${klasse(m.dd)}">${proz(m.dd, 1, false)}</td><td class="${klasse(m.ytd)}">${proz(m.ytd)}</td></tr>`).join("");
+  const tab = document.getElementById("markt");
+  tab.innerHTML = kopf + "<tbody>" + zeilen + "</tbody>";
+  tab.addEventListener("click", (e) => { const tr = e.target.closest("tr[data-t]"); if (tr) zeigeChart(tr.dataset.t); });
+})();
+
+// Listen
+const titelNach = Object.fromEntries(D.titel.map((t) => [t.t, t]));
+const reiter = [
+  { id: "depot", name: "Depot", fn: (t) => !!t.depot },
+  { id: "watch", name: "Watchlist", fn: (t) => !!t.gruppe },
+  { id: "abstauber", name: "Abstauber", fn: (t) => !!t.ab },
+  ...Object.entries(D.listen).filter(([k]) => k.startsWith("google_")).map(([k, n]) => ({ id: k, name: n, fn: (t) => t.listen.includes(k) })),
+  { id: "alle", name: "Alle", fn: () => true },
+];
+let aktiv = "depot", sortSpalte = null, sortAuf = false;
+const filter = new Set();
+
+const spaltenBasis = [
+  { k: "name", n: "Titel", v: (t) => t.name.toLowerCase(), h: (t) => `${esc(t.name)}<span class="tk">${esc(t.t)}</span>${t.aus ? '<span class="chip">ausgeschlossen</span>' : ""}` },
+  { k: "kurs", n: "Kurs", v: (t) => t.kurs, h: (t) => `${zahl(t.kurs)} <span class="muted">${esc(t.wa || "")}</span>` },
+  { k: "tag", n: "Tag", v: (t) => t.tag, h: (t) => `<span class="${klasse(t.tag)}">${proz(t.tag)}</span>` },
+  { k: "dd", n: "unter Hoch", v: (t) => t.dd, h: (t) => `<span class="${klasse(t.dd)}">${proz(t.dd, 1, false)}</span>` },
+  { k: "a90", n: "Abstand 90T", v: (t) => t.a90, h: (t) => `<span class="${klasse(t.a90)}">${proz(t.a90)}</span>` },
+  { k: "a200", n: "Abstand 200T", v: (t) => t.a200, h: (t) => `<span class="${klasse(t.a200)}">${proz(t.a200)}</span>` },
+  { k: "rsi", n: "RSI", v: (t) => t.rsi, h: (t) => zahl(t.rsi, 0) },
+  { k: "p3m", n: "3 M", v: (t) => t.p3m, h: (t) => `<span class="${klasse(t.p3m)}">${proz(t.p3m)}</span>` },
+];
+const spaltenDepot = [
+  { k: "gew", n: "Gewicht", v: (t) => t.depot?.gew, h: (t) => proz(t.depot?.gew, 1, false) },
+  { k: "wert", n: "Wert €", v: (t) => t.depot?.wert, h: (t) => zahl(t.depot?.wert, 0) },
+  { k: "erg", n: "seit Kauf", v: (t) => t.depot?.erg, h: (t) => `<span class="${klasse(t.depot?.erg)}">${proz(t.depot?.erg)}</span>` },
+];
+const spaltenAbst = [
+  { k: "keur", n: "Kurs €", v: (t) => t.ab?.keur, h: (t) => zahl(t.ab?.keur) },
+  { k: "l1", n: "Limit 1 €", v: (t) => t.ab?.l1, h: (t) => zahl(t.ab?.l1) + (t.ab?.split ? '<span class="chip">Split</span>' : "") },
+  { k: "l2", n: "Limit 2 €", v: (t) => t.ab?.l2, h: (t) => zahl(t.ab?.l2) },
+  { k: "ziel", n: "Ziel €", v: (t) => t.ab?.ziel, h: (t) => zahl(t.ab?.ziel, 0) },
+  { k: "abst", n: "zu Limit 1", v: (t) => t.ab?.abst, h: (t) => `<span class="${klasse(t.ab?.abst)}">${proz(t.ab?.abst)}</span>` },
+  { k: "imdepot", n: "im Depot", v: (t) => (t.depot ? 1 : 0), h: (t) => (t.depot ? "ja" : "") },
+];
+const spalten = () => aktiv === "depot" ? [spaltenBasis[0], ...spaltenDepot, ...spaltenBasis.slice(1)]
+  : aktiv === "abstauber" ? [spaltenBasis[0], ...spaltenAbst, ...spaltenBasis.slice(2, 6)]
+  : spaltenBasis;
+
+const filterFn = {
+  unter200: (t) => t.a200 != null && t.a200 < 0,
+  nah200: (t) => t.a200 != null && t.a200 >= 0 && t.a200 <= D.schwellen.nah200,
+  unter90: (t) => t.a90 != null && t.a90 < 0,
+  nah90: (t) => t.a90 != null && t.a90 >= 0 && t.a90 <= D.schwellen.nah90,
+};
+
+function zeichneTabs() {
+  document.getElementById("tabs").innerHTML = reiter.map((r) =>
+    `<button type="button" data-id="${r.id}" aria-pressed="${r.id === aktiv}">${esc(r.name)}<span class="anzahl">${D.titel.filter(r.fn).length}</span></button>`).join("");
+}
+function zeichneListe() {
+  const r = reiter.find((x) => x.id === aktiv);
+  const q = document.getElementById("suche").value.trim().toLowerCase();
+  let zeilen = D.titel.filter(r.fn).filter((t) => !q || t.name.toLowerCase().includes(q) || t.t.toLowerCase().includes(q));
+  for (const f of filter) zeilen = zeilen.filter(filterFn[f]);
+  const sp = spalten();
+  const standardSort = aktiv === "depot" ? "wert" : aktiv === "abstauber" ? "abst" : "dd";
+  const s = sp.find((x) => x.k === (sortSpalte || standardSort)) || sp[0];
+  const auf = sortSpalte ? sortAuf : (aktiv === "depot" ? false : true);
+  zeilen.sort((a, b) => {
+    const va = s.v(a), vb = s.v(b);
+    if (va == null) return 1; if (vb == null) return -1;
+    return (va < vb ? -1 : va > vb ? 1 : 0) * (auf ? 1 : -1);
+  });
+  const kopf = "<thead><tr>" + sp.map((x) => `<th data-k="${x.k}" class="${x.k === s.k ? "sortiert" + (auf ? " auf" : "") : ""}">${x.n}</th>`).join("") + "</tr></thead>";
+  const body = zeilen.map((t) => `<tr data-t="${esc(t.t)}">` + sp.map((x) => `<td>${x.h(t)}</td>`).join("") + "</tr>").join("");
+  document.getElementById("liste").innerHTML = kopf + "<tbody>" + (body || `<tr><td class="leer" colspan="${sp.length}">Keine Titel für diese Auswahl.</td></tr>`) + "</tbody>";
+  const hinw = aktiv === "abstauber" ? "Limits aus den aktienlust-Abstauberlisten, Stand April 2025, um Aktiensplits bereinigt. Sie sind nicht mehr aktuell." : "";
+  document.getElementById("listen-hinweis").textContent = `${zeilen.length} Titel. ${hinw}`;
+}
+document.getElementById("tabs").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-id]"); if (!b) return;
+  aktiv = b.dataset.id; sortSpalte = null; zeichneTabs(); zeichneListe();
+});
+document.querySelector(".filter").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-filter]"); if (!b) return;
+  const f = b.dataset.filter;
+  filter.has(f) ? filter.delete(f) : filter.add(f);
+  b.setAttribute("aria-pressed", filter.has(f));
+  zeichneListe();
+});
+document.getElementById("suche").addEventListener("input", zeichneListe);
+document.getElementById("liste").addEventListener("click", (e) => {
+  const th = e.target.closest("th[data-k]");
+  if (th) {
+    if (sortSpalte === th.dataset.k) sortAuf = !sortAuf; else { sortSpalte = th.dataset.k; sortAuf = th.dataset.k === "name"; }
+    zeichneListe(); return;
+  }
+  const tr = e.target.closest("tr[data-t]"); if (tr) zeigeChart(tr.dataset.t);
+});
+zeichneTabs(); zeichneListe();
+
+// Sektoren
+(function sektoren() {
+  const kopf = `<thead><tr><th>Sektor</th><th>ETF</th><th>rel. 1 M</th><th>rel. 3 M</th><th>Abstand 200T</th></tr></thead>`;
+  const z = D.sektoren.map((s) => `<tr data-t="${esc(s.t)}"><td>${esc(s.name)}</td><td>${esc(s.t)}</td>
+    <td class="${klasse(s.rel1m)}">${proz(s.rel1m)}</td><td class="${klasse(s.rel3m)}">${proz(s.rel3m)}</td><td class="${klasse(s.a200)}">${proz(s.a200)}</td></tr>`).join("");
+  const tab = document.getElementById("sektoren");
+  tab.innerHTML = kopf + "<tbody>" + z + "</tbody>";
+  tab.addEventListener("click", (e) => { const tr = e.target.closest("tr[data-t]"); if (tr) zeigeChart(tr.dataset.t); });
+})();
+
+// Crash-Episoden
+(function episoden() {
+  const ep = (D.panik?.episoden || []).filter((e) => e.max >= 25).slice().reverse();
+  const kopf = `<thead><tr><th>Zeitraum</th><th>Stufe</th><th>Score</th><th>unter Hoch</th><th>VIX max</th></tr></thead>`;
+  const z = ep.map((e) => `<tr><td>${e.von === e.bis ? e.von : e.von + " – " + e.bis}</td><td>${esc(e.stufe)}</td><td>${e.max}</td>
+    <td class="neg">${proz(e.dd, 1, false)}</td><td>${zahl(e.vix, 1)}</td></tr>`).join("");
+  document.getElementById("episoden").innerHTML = kopf + "<tbody>" + (z || `<tr><td class="leer" colspan="5">keine</td></tr>`) + "</tbody>";
+})();
+
+// Chart
+const dlg = document.getElementById("dlg");
+let chartTicker = null, chartTage = 252;
+document.getElementById("dlg-zu").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+document.getElementById("zeitraum").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-tage]"); if (!b) return;
+  chartTage = +b.dataset.tage;
+  document.querySelectorAll("#zeitraum button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+  zeichneChart();
+});
+window.addEventListener("resize", () => { if (dlg.open) zeichneChart(); });
+
+function sma(werte, n) {
+  const out = new Array(werte.length).fill(null);
+  let summe = 0, anzahl = 0;
+  const fenster = [];
+  for (let i = 0; i < werte.length; i++) {
+    const v = werte[i];
+    if (v == null) continue;
+    fenster.push(v); summe += v;
+    if (fenster.length > n) summe -= fenster.shift();
+    if (fenster.length === n) out[i] = summe / n;
+  }
+  return out;
+}
+
+function zeigeChart(t) {
+  chartTicker = t;
+  const ti = titelNach[t];
+  document.getElementById("dlg-titel").textContent = (D.namen[t] || t);
+  const teile = [t];
+  if (ti?.listen?.length) teile.push(ti.listen.map((l) => D.listen[l] || l).join(", "));
+  if (ti?.depot) teile.push(`im Depot: ${zahl(ti.depot.wert, 0)} € (${proz(ti.depot.erg)} seit Kauf)`);
+  document.getElementById("dlg-sub").textContent = teile.join(" · ");
+  const z = [];
+  if (ti) {
+    z.push(["Abstand 90T", `<span class="${klasse(ti.a90)}">${proz(ti.a90)}</span>`], ["Abstand 200T", `<span class="${klasse(ti.a200)}">${proz(ti.a200)}</span>`],
+      ["unter 52-W-Hoch", proz(ti.dd, 1, false)], ["RSI", zahl(ti.rsi, 0)], ["3 Monate", proz(ti.p3m)], ["seit Jahresbeginn", proz(ti.ytd)]);
+    if (ti.ab) z.push(["Abstauber Limit 1 / 2", `${zahl(ti.ab.l1)} / ${zahl(ti.ab.l2)} €`], ["Kurs in €", zahl(ti.ab.keur)]);
+  }
+  document.getElementById("dlg-zahlen").innerHTML = z.map(([l, w]) => `<div><span>${l}</span>${w}</div>`).join("");
+  dlg.showModal();
+  zeichneChart();
+}
+
+function zeichneChart() {
+  const box = document.getElementById("chart");
+  const tip = document.getElementById("tip");
+  box.querySelector("svg")?.remove();
+  const roh = D.reihen[chartTicker];
+  if (!roh) { box.insertAdjacentHTML("afterbegin", `<svg viewBox="0 0 600 60"><text x="10" y="35" fill="currentColor">Keine Kursdaten.</text></svg>`); return; }
+  const s90 = sma(roh, 90), s200 = sma(roh, 200);
+  // Lücken (Börsenfeiertage anderer Märkte) überspringen
+  const idx = []; roh.forEach((v, i) => { if (v != null) idx.push(i); });
+  const sicht = idx.slice(-Math.min(chartTage, idx.length));
+  const B = Math.max(320, box.clientWidth - 16), H = Math.round(Math.min(420, Math.max(240, B * 0.42)));
+  const rand = { l: 8, r: 64, o: 12, u: 26 };
+  const werte = sicht.flatMap((i) => [roh[i], s90[i], s200[i]]).filter((v) => v != null);
+  const ti = titelNach[chartTicker];
+  let min = Math.min(...werte), max = Math.max(...werte);
+  const pad = (max - min) * 0.06 || 1; min -= pad; max += pad;
+  const x = (j) => rand.l + (j / Math.max(1, sicht.length - 1)) * (B - rand.l - rand.r);
+  const y = (v) => rand.o + (1 - (v - min) / (max - min)) * (H - rand.o - rand.u);
+  const pfad = (reihe) => {
+    let d = "", offen = false;
+    sicht.forEach((i, j) => {
+      const v = reihe[i];
+      if (v == null) { offen = false; return; }
+      d += (offen ? "L" : "M") + x(j).toFixed(1) + "," + y(v).toFixed(1); offen = true;
+    });
+    return d;
+  };
+  // Achse: 4 horizontale Gitterlinien
+  const ticks = []; for (let k = 0; k <= 4; k++) ticks.push(min + (max - min) * (k / 4));
+  const nk = max - min > 50 ? 0 : 2;
+  let svg = `<svg viewBox="0 0 ${B} ${H}" role="img" aria-label="Kursverlauf ${esc(D.namen[chartTicker] || chartTicker)} mit 90- und 200-Tage-Linie">`;
+  for (const v of ticks) svg += `<line x1="${rand.l}" x2="${B - rand.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--grid)" stroke-width="1"/>
+    <text x="${B - rand.r + 6}" y="${y(v) + 4}" font-size="11" fill="var(--text-muted)">${zahl(v, nk)}</text>`;
+  // Monatsbeschriftung
+  let letzterMonat = "";
+  sicht.forEach((i, j) => {
+    const m = D.daten[i].slice(0, 7);
+    if (m !== letzterMonat) {
+      letzterMonat = m;
+      const [jahr, mon] = m.split("-");
+      if (j > 0 && (chartTage <= 252 || +mon % 3 === 1)) svg += `<text x="${x(j)}" y="${H - 8}" font-size="11" fill="var(--text-muted)" text-anchor="middle">${mon}/${jahr.slice(2)}</text>`;
+    }
+  });
+  // Abstauber-Limits in Handelswährung umrechnen (Verhältnis Kurs/Kurs in EUR)
+  if (ti?.ab && ti.kurs && ti.ab.keur) {
+    const f = ti.kurs / ti.ab.keur;
+    for (const [n, v] of [["Limit 1", ti.ab.l1], ["Limit 2", ti.ab.l2]]) {
+      const w = v * f;
+      if (w > min && w < max) svg += `<line x1="${rand.l}" x2="${B - rand.r}" y1="${y(w)}" y2="${y(w)}" stroke="var(--text-muted)" stroke-dasharray="4 4" stroke-width="1"/>
+        <text x="${rand.l + 4}" y="${y(w) - 4}" font-size="11" fill="var(--text-secondary)">Abstauber ${n}</text>`;
+    }
+  }
+  const serien = [["Kurs", roh, "var(--series-1)"], ["90T", s90, "var(--series-2)"], ["200T", s200, "var(--series-3)"]];
+  for (const [, r, c] of serien.slice().reverse()) svg += `<path d="${pfad(r)}" fill="none" stroke="${c}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+  const enden = serien.map(([n, r, c]) => ({ n, c, v: r[sicht[sicht.length - 1]] })).filter((e) => e.v != null);
+  svg += `<line id="kreuz" x1="0" x2="0" y1="${rand.o}" y2="${H - rand.u}" stroke="var(--text-muted)" stroke-width="1" visibility="hidden"/>`;
+  svg += `<rect x="${rand.l}" y="${rand.o}" width="${B - rand.l - rand.r}" height="${H - rand.o - rand.u}" fill="transparent" id="flaeche"/>`;
+  svg += `<g id="punkte"></g></svg>`;
+  box.insertAdjacentHTML("afterbegin", svg);
+  const el = box.querySelector("svg");
+  // Endpunkte als Marker am letzten Kurs
+  const g = el.querySelector("#punkte");
+  for (const e of enden) {
+    g.insertAdjacentHTML("beforeend", `<circle cx="${x(sicht.length - 1)}" cy="${y(e.v)}" r="4" fill="${e.c}" stroke="var(--surface-1)" stroke-width="2"/>`);
+  }
+  const fl = el.querySelector("#flaeche"), kreuz = el.querySelector("#kreuz");
+  fl.addEventListener("mousemove", (ev) => {
+    const r = el.getBoundingClientRect();
+    const px = (ev.clientX - r.left) * (B / r.width);
+    const j = Math.max(0, Math.min(sicht.length - 1, Math.round((px - rand.l) / (B - rand.l - rand.r) * (sicht.length - 1))));
+    const i = sicht[j];
+    kreuz.setAttribute("x1", x(j)); kreuz.setAttribute("x2", x(j)); kreuz.setAttribute("visibility", "visible");
+    const [jj, mm, tt] = D.daten[i].split("-");
+    tip.innerHTML = `<div class="muted">${tt}.${mm}.${jj}</div>` + serien.map(([n, rr, c]) =>
+      `<div class="zeile"><i style="background:${c}"></i>${n === "Kurs" ? "Kurs" : n.replace("T", "-Tage") + "-Linie"}: <b>${zahl(rr[i], nk)}</b></div>`).join("");
+    tip.style.display = "block";
+    const links = (x(j) / B) * r.width;
+    tip.style.left = Math.min(r.width - tip.offsetWidth - 4, Math.max(4, links + 12)) + "px";
+    tip.style.top = "14px";
+  });
+  fl.addEventListener("mouseleave", () => { tip.style.display = "none"; kreuz.setAttribute("visibility", "hidden"); });
+}
+</script>
+</body>
+</html>
