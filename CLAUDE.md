@@ -17,6 +17,8 @@ Marktbeobachtung und Recherche für ein privates Langfrist-Depot. Das System gib
 - Rückmeldungen zu Ideen (für künftige Recherchen beachten):
   - 08.10.2026: argenx nach dem Studienabbruch nachgekauft (langfristig überzeugt). Stryker "eher nichts für mich" → ausgeschlossen. NextEra Energy "klingt gut" → Watchlist Dividende. Versorger/Energie ja. (Korrektur 11.10.2026: Medizintechnik ist durchaus interessant. Stryker "erst einmal nicht, aber nicht völlig ignorieren" → Gruppe `zurueckgestellt`: still beobachten, nicht aktiv vorschlagen, nur bei wesentlichen Neuigkeiten erwähnen (Q3 am 29.10.). Im Depot: Intuitive Surgical, Abbott, EssilorLuxottica; auf der Beobachtungsliste u. a. Penumbra, Edwards, Boston Scientific.)
   - 09.10.2026: **Rüstung passt grundsätzlich nicht** (Rheinmetall, Hensoldt, DroneShield ausgeschlossen); keine Rüstungswerte als Ideen vorschlagen, auch nicht aus Screener oder YouTube. Palantir bleibt (gehalten, ausdrücklich gewünscht). Porsche AG verkauft (aus portfolio.csv entfernt, bis zum nächsten Depot-Export).
+  - 15.10.2026: **Autowerte aktuell eher nicht interessant**; ausgeschlossen sind VW, Porsche Holding, Ferrari, Daimler Truck, Hella, Tesla, BYD. **BMW, Mercedes und Porsche AG bleiben** auf Wunsch in der Beobachtung (Abstauberliste Europa). Keine weiteren Autowerte als Ideen vorschlagen. **XPeng** (im Depot, 24 Stück) sieht der Nutzer als **Roboteraktie** (humanoide Robotik), nicht als Autowert → Watchlist `beobachtung`; bei Robotik-Themen mit einordnen.
+  - 19.10.2026: Netflix (im Depot) unter Abstauber-Limit 2; Nutzer wartet die Q3-Zahlen am 20.10. (nach US-Börsenschluss) ab. Im nächsten Lauf danach Zahlen und Kursreaktion einordnen.
   - argenx: Teilkauf 200 € am 08.10.2026; These = Stammgeschäft Vyvgart, Zöliakie (FB102) als Option. Keine Kaufzone gewünscht, Nutzer wartet die nächsten Wochen ab.
 
 ## Aufbau
@@ -66,6 +68,16 @@ Der Nutzer will wenige Nachrichten, nur bei Wichtigem. Wichtig ist: Index näher
 - TLS-Inspektion auf diesem Rechner: yfinance nutzt `curl_cffi`, dort hilft `truststore` nicht. `monitor.py` baut deshalb bei jedem Lauf `ca-bundle.pem` aus certifi plus Windows-Zertifikatsspeicher und übergibt es der Session.
 - yfinance liefert `dividendYield` und `fiveYearAvgDividendYield` bereits in Prozent.
 - Londoner Titel (.L) notieren in Pence (GBp).
+
+## Betrieb
+
+**Aktuell (seit 20.10.2026): Windows-Aufgabenplanung auf dem Laptop ist der Läufer**, Ordner `\Aktienresearch\`: "Aktienresearch schnell" (Mo–Fr 8:00–22:45 alle 15 Min.), "Aktienresearch voll" (Mo–Fr 8:30/15:45/22:30), "Aktienresearch youtube" (täglich 7:00). Startdateien `lauf_*.cmd` (setzen `AKTIEN_LAEUFER=1`), Logs in `logs/`. Unsichtbar über `conhost.exe --headless`, verpasste Läufe werden nachgeholt (StartWhenAvailable). **Sobald GitHub Actions läuft, diese drei Aufgaben deaktivieren**, sonst kommen Meldungen doppelt.
+
+### Geplant: GitHub Actions
+
+- **Monitor läuft in GitHub Actions** (`.github/workflows/monitor.yml`, privates Repo): Schnellprüfung Mo–Fr alle 15 Min. 8:00–22:45 Uhr (Sommerzeit), volle Läufe 8:30/15:45/22:30. Einziger "Läufer" (`AKTIEN_LAEUFER=1`): nur er sendet Telegram und schreibt `state.json`, `kurs_cache.json`, `dashboard.html`, `reports/daten.json`, `reports/latest*.json`, `reports/fear_greed.json`, `reports/20*.md` und committet sie. Telegram-Token/Chat-ID als GitHub-Secrets.
+- **Laptop (Hauptrechner) und Büro-PC**: `git pull` für den aktuellen Stand; YouTube, Transkript-Auswertung, Screener, Erholung, Recherche-Berichte, Config-Änderungen lokal, danach commit + push. Lokale Monitor-Läufe schreiben nur `state_lokal.json`, `reports_lokal/`, `dashboard_lokal.html` (gitignored) und senden nie Telegram.
+- GitHub-Freiminuten (privat, 2.000/Monat): geschätzt ca. 1.400 bei 15-Minuten-Takt.
 
 ## Offen
 

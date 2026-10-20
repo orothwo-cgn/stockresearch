@@ -1,0 +1,11 @@
+# Große Schuldenfalle in den USA?!
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 14.10.2026
+- Link: https://www.youtube.com/watch?v=Tk-fRp179dY
+- Ausgewertet: ja
+
+## Transkript
+
+Die USA stecken gerade in einer Schuldenfalle in einem immensen Ausmaß. Einen Ausweg ist nicht in Sicht und es wird immer schlimmer und trotzdem stehen die Aktienmärkte auf Alzeit hoch. Die Frage, die man sich jetzt stellen muss, ist wie lange kann das eigentlich noch gut gehen? Derzeit zahlt die USA jeden einzelnen Tag fast 3 Milliarden US-Dollar an Zinsen. Auf das Gesamtjahr gerechnet ist das mittlerweile sogar mehr, als man für das eigene Verteidigungsbudget aufwendet. Dafür gibt es im Prinzip genau zwei Gründe. Erstens, die Zinsen steigen immer weiter und auch die Renditen von den Staatsanleihen werden immer höher. Das heißt, Schulden werden immer teurer. Zweitens, die Schulden explodieren förmlich. Wir haben jetzt 40 Billionen US-Dollar an Schulden in den USA. Das ist ungefähr doppelt so viel wie noch vor 10 Jahren. Und besser wird das Ganze auch nicht, denn allein in diesem Jahr soll noch mal 2 Billionen US-Dollar An Schulden oben drauf kommen. Somit übersteigen die Zinszahlung der USA dieses Jahr das erste Mal die Billion US-Dollar Marke, was übrigens vier mal so viel ist wie noch im Jahr 2016. Gleich schauen wir uns noch an, was das für den Aktienmarkt bedeutet. Aber sollte Trump tatsächlich sein Versprechen einlösen und jedem US-Bürger 5000 US-Dollar geben, wenn die Republikaner die Midterms gewinnen, dann wären das mal ebenso noch mal 1,2 Billionen US-Dollar an Schulden on top. Die Inflation würde angeheizt werden und die Zinsen könnten noch höher steigen. Gleichzeitig stehen die Aktienmärkte wie gesagt auf allzeit hoch und die letzte große Korrektur war hier im Jahr 2022. Die ist also auch schon einige Jahre her. Nichtsdestotrotz gibt es derzeit noch keinerlei Umkehrsignale. Der Aktienmarkt befindet sich im Aufwärtstrend und erst wenn eine S&P 500 die 7500 Punkte unterbieten sollte, wird eine größere Korrektur wahrscheinlich. Nichtsdestotrotz ist es auffällig und nicht gerade gesund, dass der breite Aktienmarkt sich zuletzt bereits in der Korrektur befindet, während viele große Aktien sich hingegen auf Allzeithochniveau halten können. In der Vergangenheit hat sowas meist lange angehalten.

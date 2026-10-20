@@ -80,6 +80,14 @@ ausschluss:
   - RHM.DE     # Rheinmetall: Rüstung passt nicht (09.10.2026)
   - HAG.DE     # Hensoldt: Rüstung
   - DRO.AX     # DroneShield: Rüstung
+  # Autowerte: aktuell nicht interessant (15.10.2026); BMW, Mercedes, Porsche AG bleiben auf Wunsch drin
+  - VOW3.DE    # VW Vz.
+  - PAH3.DE    # Porsche Holding
+  - RACE.MI    # Ferrari
+  - DTG.DE     # Daimler Truck
+  - HLE.DE     # Hella (Zulieferer)
+  - TSLA       # Tesla
+  - BYD        # BYD (Google-Beobachtungsliste)
 
 # Watchlist: Titel, die du beobachtest oder hältst.
 # kaufzone (optional): Kurs in Handelswährung, ab dem du zugreifen würdest.
@@ -99,7 +107,7 @@ watchlist:
     NET: { name: Cloudflare }
     DDOG: { name: Datadog }   # aufgenommen 11.10.2026
     FTNT: { name: Fortinet }
-    VRT: { name: Vertiv }
+    VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170] }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €)
   wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
     # Kaufzonen: 5 % bzw. 15 % unter der 200-Tage-Linie, Stand 08.10.2026 (200T wandert mit, gelegentlich neu setzen)
     KLAC: { name: KLA, kaufzonen_eur: [152, 136] }
@@ -107,8 +115,10 @@ watchlist:
     Q: { name: Qnity Electronics, kaufzonen_eur: [107, 96] }
     TER: { name: Teradyne, kaufzonen_eur: [287, 257] }
     ALAB: { name: Astera Labs, kaufzonen_eur: [209, 187] }   # aufgenommen 09.10.2026, Zonen nach derselben Regel
+    MRVL: { name: Marvell Technology, fruehwarnung: true, fruehwarnung_90t: true, kaufzonen_eur: [198, 170] }   # 15.10.2026, Zonen ca. −30 % / −40 % vom 52-W-Hoch (282 €), im Depot
   beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
+    XPEV: { name: XPeng (Robotik) }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
     BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
@@ -124,4 +134,5 @@ watchlist:
     PEP: { name: PepsiCo }
     NEE: { name: NextEra Energy }
     BIP: { name: Brookfield Infrastructure }   # aufgenommen 12.10.2026, ca. 4,9 % Dividende
+    JNJ: { name: Johnson & Johnson, kaufzonen_eur: [182, 163] }   # 15.10.2026, im Depot; Zonen = Dividendenrendite 2,7 % (5J-Schnitt) bzw. 3,0 %
     O: { name: Realty Income, kaufzonen_eur: [44.80, 42.10] }   # 12.10.2026; Zonen = ca. 50 $ / 47 $, Unterstützung laut InvestIngenieur ~52 $

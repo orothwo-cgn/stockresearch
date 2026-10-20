@@ -635,6 +635,43 @@ def main(schnell=False):
         "portfolio_einstand_eur": round(pf_einstand, 2),
     }, indent=1, ensure_ascii=False), encoding="utf-8")
 
+    # Kurzfassung (reports/kurz.md): das Wichtigste in 15-20 Zeilen, zum schnellen Lesen am Laptop
+    kz = [f"# Kurzfassung {jetzt:%d.%m.%Y %H:%M}", ""]
+    markt_teile = []
+    for sym, name in cfg["indizes"].items():
+        m = k.get(sym)
+        if m:
+            markt_teile.append(f"{name} {fmt(m['tag'], prozent=True, vorzeichen=True)} (200T {fmt(m['abstand200'], prozent=True, vorzeichen=True)})")
+    kz.append("**Markt:** " + ", ".join(markt_teile))
+    stimmung = [f"Crash-Muster {panik['stufe']} ({panik['score']}/100)" if panik else None,
+                f"Fear & Greed {fmt(fg['score'], 0)} ({fg['rating']}, Vorwoche {fmt(fg['vorwoche'], 0)})" if fg else None,
+                f"VIX {fmt(vix['kurs'])}" if vix else None]
+    kz.append("**Stimmung:** " + ", ".join(x for x in stimmung if x))
+    mit_tag = [p for p in positionen if p["m"] and p["m"]["tag"] is not None and p["wert"]]
+    veraenderung = sum(p["wert"] - p["wert"] / (1 + p["m"]["tag"] / 100) for p in mit_tag)
+    if pf_wert:
+        kz.append(f"**Depot:** {fmt(pf_wert, 0)} € ({fmt(veraenderung, 0, vorzeichen=True)} € heute), seit Kauf {fmt((pf_wert / pf_einstand - 1) * 100, prozent=True, vorzeichen=True)}")
+        sortiert = sorted(mit_tag, key=lambda p: p["m"]["tag"])
+        kz.append("**Schwächste:** " + ", ".join(f"{p['name'][:22].strip()} {fmt(p['m']['tag'], prozent=True, vorzeichen=True)}" for p in sortiert[:4]))
+        kz.append("**Stärkste:** " + ", ".join(f"{p['name'][:22].strip()} {fmt(p['m']['tag'], prozent=True, vorzeichen=True)}" for p in sortiert[::-1][:4]))
+    # Alle wichtigen Meldungen, die heute zum ersten Mal kamen (nicht nur seit dem letzten Lauf)
+    heute = jetzt.strftime("%Y-%m-%d")
+    heute_wichtig = [t for sl, t, wi in h.liste if wi and str(aktiv.get(sl, "")).startswith(heute)]
+    heute_wichtig += [t for t in neu_wichtig if t not in heute_wichtig]
+    kz += ["", "**Wichtig heute:**"] + ([f"- {t}" for t in heute_wichtig] or ["- nichts"])
+    nah = []
+    for ticker, w in watch.items():
+        m = k.get(ticker)
+        if not w.get("kaufzonen_eur") or not m:
+            continue
+        kurs_eur = in_eur(m["kurs"], info_waehrung(ticker))
+        zone = max(w["kaufzonen_eur"])
+        if kurs_eur and kurs_eur <= zone * 1.08:
+            nah.append(f"- {w['name']}: {fmt(kurs_eur, 2)} €, Zone {fmt(zone, 2)} € ({fmt((kurs_eur / zone - 1) * 100, prozent=True, vorzeichen=True)})")
+    kz += ["", "**Nahe an deinen Kaufzonen (bis 8 %):**"] + (nah or ["- keine"])
+    kz += ["", f"Weitere Hinweise: {len(neu_weitere)} neu, {len(h.liste)} aktiv. Vollständig: {REPORTS.name}/{jetzt:%Y-%m-%d_%H%M}.md", ""]
+    (REPORTS / "kurz.md").write_text("\n".join(kz), encoding="utf-8")
+
     seite = dashboard.schreibe(
         jetzt=jetzt, cfg=cfg, k=k, kurse=kurse, watch=watch, infos=infos, positionen=positionen, pf_wert=pf_wert,
         pf_einstand=pf_einstand, mitglied=mitglied, listen=listen, abstauber_zeilen=abstauber_zeilen, rotation=rotation,
