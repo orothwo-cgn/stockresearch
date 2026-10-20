@@ -71,9 +71,13 @@ Der Nutzer will wenige Nachrichten, nur bei Wichtigem. Wichtig ist: Index näher
 
 ## Betrieb
 
-**Aktuell (seit 20.10.2026): Windows-Aufgabenplanung auf dem Laptop ist der Läufer**, Ordner `\Aktienresearch\`: "Aktienresearch schnell" (Mo–Fr 8:00–22:45 alle 15 Min.), "Aktienresearch voll" (Mo–Fr 8:30/15:45/22:30), "Aktienresearch youtube" (täglich 7:00). Startdateien `lauf_*.cmd` (setzen `AKTIEN_LAEUFER=1`), Logs in `logs/`. Unsichtbar über `conhost.exe --headless`, verpasste Läufe werden nachgeholt (StartWhenAvailable). **Sobald GitHub Actions läuft, diese drei Aufgaben deaktivieren**, sonst kommen Meldungen doppelt.
+**Aktuell (seit 20.10.2026, 9:27 Uhr): GitHub Actions ist der Läufer**, Repo `orothwo-cgn/stockresearch` (privat). Secrets `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID` sind eingetragen. Manuell: Actions → Monitor → Run workflow (schnell / voll / telegramtest).
 
-### Geplant: GitHub Actions
+Windows-Aufgabenplanung auf dem Laptop, Ordner `\Aktienresearch\`: "Aktienresearch schnell" und "Aktienresearch voll" sind **deaktiviert** (nur Reserve, falls GitHub ausfällt; dann wieder aktivieren und GitHub-Workflow pausieren). "Aktienresearch youtube" (täglich 7:00) läuft weiter lokal. Startdateien `lauf_*.cmd`, Logs in `logs/`.
+
+Vor jeder Arbeit am Laptop/Büro-PC `git pull` (GitHub schreibt alle 15 Min. state.json, dashboard.html, reports/ zurück).
+
+### GitHub Actions
 
 - **Monitor läuft in GitHub Actions** (`.github/workflows/monitor.yml`, privates Repo): Schnellprüfung Mo–Fr alle 15 Min. 8:00–22:45 Uhr (Sommerzeit), volle Läufe 8:30/15:45/22:30. Einziger "Läufer" (`AKTIEN_LAEUFER=1`): nur er sendet Telegram und schreibt `state.json`, `kurs_cache.json`, `dashboard.html`, `reports/daten.json`, `reports/latest*.json`, `reports/fear_greed.json`, `reports/20*.md` und committet sie. Telegram-Token/Chat-ID als GitHub-Secrets.
 - **Laptop (Hauptrechner) und Büro-PC**: `git pull` für den aktuellen Stand; YouTube, Transkript-Auswertung, Screener, Erholung, Recherche-Berichte, Config-Änderungen lokal, danach commit + push. Lokale Monitor-Läufe schreiben nur `state_lokal.json`, `reports_lokal/`, `dashboard_lokal.html` (gitignored) und senden nie Telegram.
