@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   lauf:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     env:
       AKTIEN_LAEUFER: "1"
@@ -35,9 +35,9 @@ jobs:
       TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -59,11 +59,11 @@ jobs:
         run: |
           git config user.name "aktien-monitor"
           git config user.email "aktien-monitor@users.noreply.github.com"
-          git add state.json kurs_cache.json dashboard.html reports/daten.json reports/latest.json reports/latest_schnell.json reports/fear_greed.json reports/20*.md 2>/dev/null || true
+          git add state.json kurs_cache.json dashboard.html reports/daten.json reports/latest.json reports/latest_schnell.json reports/fear_greed.json reports/kurz.md reports/20*.md 2>/dev/null || true
           if git diff --cached --quiet; then echo "nichts zu speichern"; exit 0; fi
           git commit -q -m "Monitor-Lauf $(date '+%d.%m.%Y %H:%M')"
           for i in 1 2 3; do
-            git pull -q --rebase && git push -q && exit 0
+            git pull -q --rebase --autostash && git push -q && exit 0
             sleep 5
           done
           echo "Push fehlgeschlagen"; exit 1
