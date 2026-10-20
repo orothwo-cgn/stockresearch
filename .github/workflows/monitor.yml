@@ -16,7 +16,7 @@ on:
         required: true
         default: "voll"
         type: choice
-        options: [schnell, voll]
+        options: [schnell, voll, telegramtest]
 
 concurrency:
   group: monitor
@@ -53,6 +53,7 @@ jobs:
             "30 6 * * 1-5"|"45 13 * * 1-5"|"30 20 * * 1-5") MODUS="voll" ;;
           esac
           echo "Modus: $MODUS"
+          if [ "$MODUS" = "telegramtest" ]; then python telegram.py "Test von GitHub Actions: Der Monitor kann dir Nachrichten schicken."; exit 0; fi
           if [ "$MODUS" = "voll" ]; then python monitor.py --telegram; else python monitor.py --schnell --telegram; fi
 
       - name: Stand speichern
