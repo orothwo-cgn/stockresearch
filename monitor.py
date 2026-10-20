@@ -247,6 +247,17 @@ def main(schnell=False):
         list(cfg["indizes"]) + [cfg["vix"], "SPY"] + ([] if schnell else list(cfg["sektoren"])) + list(watch) + list(portfolio) + list(mitglied) + fx
     ))
     daten = yf.download(symbole, period="2y", auto_adjust=True, actions=True, progress=False, session=s)
+    # Zweiter Versuch für Titel ohne Daten (yfinance-Zwischenspeicher meldet bei vielen parallelen Abrufen
+    # gelegentlich "database is locked"); diesmal nacheinander
+    fehlend = [sym for sym in symbole if sym not in daten["Close"] or daten["Close"][sym].dropna().empty]
+    if fehlend:
+        nach = yf.download(fehlend, period="2y", auto_adjust=True, actions=True, progress=False, session=s, threads=False)
+        for feld in ("Close", "Stock Splits"):
+            if feld in nach and feld in daten:
+                for sym in fehlend:
+                    if sym in nach[feld] and nach[feld][sym].notna().any():
+                        daten[(feld, sym)] = nach[feld][sym].reindex(daten.index.union(nach.index))
+        daten = daten.sort_index(axis=1)
     kurse = fuelle_luecken(daten["Close"], s)
     splits = daten["Stock Splits"] if "Stock Splits" in daten else pd.DataFrame()
     k = {sym: kennzahlen(kurse[sym]) for sym in symbole if sym in kurse}

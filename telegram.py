@@ -46,7 +46,7 @@ def senden(text):
     env = lade_env()
     token = env.get("TELEGRAM_TOKEN")
     if not token:
-        raise RuntimeError("TELEGRAM_TOKEN fehlt in .env")
+        raise RuntimeError("TELEGRAM_TOKEN fehlt (GitHub: Settings > Secrets and variables > Actions > Repository secret TELEGRAM_TOKEN; lokal: .env)")
     s = session()
     ziel = chat_id(s, token, env)
     teile = [text[i:i + MAX_LAENGE] for i in range(0, len(text), MAX_LAENGE)] or [""]
