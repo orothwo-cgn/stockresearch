@@ -118,6 +118,7 @@ watchlist:
     MRVL: { name: Marvell Technology, fruehwarnung: true, fruehwarnung_90t: true, kaufzonen_eur: [198, 170] }   # 15.10.2026, Zonen ca. −30 % / −40 % vom 52-W-Hoch (282 €), im Depot
   beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
+    JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
     XPEV: { name: XPeng (Robotik) }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
     BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
