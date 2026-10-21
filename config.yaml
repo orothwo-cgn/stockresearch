@@ -130,6 +130,7 @@ watchlist:
     SU.PA: { name: Schneider Electric, kaufzonen_eur: [228, 210] }   # 1 Stück zu 244 € nachgekauft (21.10.2026), jetzt 2 Stück; Zonen −8 % / −15 % vom Kurs
     V: { name: Visa, kaufzonen_eur: [328, 310] }   # nur bei Rücksetzer: −10 % / −15 % vom 52-W-Hoch (364 €)
     ADP: { name: Automatic Data Processing, kaufzonen_eur: [237, 224] }   # −10 % / −15 % vom 52-W-Hoch (263 €)
+    ABT: { name: Abbott Laboratories, kaufzonen_eur: [78, 72] }   # 21.10.2026: Kurs ca. 85 € (−21 % vom Hoch), Zonen −8 % / −15 % vom Kurs; ggf. Tausch aus GSK
   dividende:
     HSBA.L: { name: HSBC, kaufzonen_eur: [15.10, 14.15] }   # Nachkauf-Tranchen: −20 % / −25 % vom 52-W-Hoch (18,84 €), Stand 08.10.2026
     ALV.DE: { name: Allianz }
