@@ -455,6 +455,15 @@ def main(schnell=False):
                       + (f" (nächste Zone {fmt(zonen[nr], 2)} €)." if nr < len(zonen) else "."), True)
             elif nr == 0 and kurs_eur is not None and kurs_eur <= zonen[0] * (1 + sw["kaufzone_nah_prozent"] / 100):
                 h.add(f"{ticker}:kaufzone_eur:nah", f"{name} nähert sich Kaufzone 1: {fmt(kurs_eur, 2)} €, Zone {fmt(zonen[0], 2)} €.")
+        # Dynamisches Kursziel: X % unter dem aktuellen 52-Wochen-Hoch (wandert mit dem Hoch mit)
+        if w.get("ziel_unter_hoch"):
+            p = w["ziel_unter_hoch"]
+            hoch = m["kurs"] / (1 + m["drawdown"] / 100)
+            ziel = hoch * (1 - p / 100)
+            ziel_eur = in_eur(ziel, info_waehrung(ticker))
+            if zone_neu_erreicht(f"{ticker}:ziel_hoch", 1 if -m["drawdown"] >= p else 0, -m["drawdown"] < p - 10):
+                h.add(f"{ticker}:ziel_hoch:{m['datum']}", f"{name} hat dein Kursziel erreicht: {fmt(-m['drawdown'], prozent=True)} unter dem 52-Wochen-Hoch "
+                      f"({fmt(hoch, 2)}), Ziel −{p} % = {fmt(ziel, 2)}" + (f" ≈ {fmt(ziel_eur, 2)} €" if ziel_eur else "") + f", Kurs {fmt(m['kurs'], 2)}.", True)
         info = infos.get(ticker, {})
         rendite, schnitt = info.get("dividendYield"), info.get("fiveYearAvgDividendYield")
         if rendite and schnitt and rendite >= sw["dividende_min_rendite"] and rendite >= schnitt * (1 + sw["dividende_ueber_schnitt"] / 100):
@@ -673,12 +682,17 @@ def main(schnell=False):
     nah = []
     for ticker, w in watch.items():
         m = k.get(ticker)
-        if not w.get("kaufzonen_eur") or not m:
+        if not m:
             continue
         kurs_eur = in_eur(m["kurs"], info_waehrung(ticker))
-        zone = max(w["kaufzonen_eur"])
-        if kurs_eur and kurs_eur <= zone * 1.08:
-            nah.append(f"- {w['name']}: {fmt(kurs_eur, 2)} €, Zone {fmt(zone, 2)} € ({fmt((kurs_eur / zone - 1) * 100, prozent=True, vorzeichen=True)})")
+        if w.get("kaufzonen_eur"):
+            zone = max(w["kaufzonen_eur"])
+            if kurs_eur and kurs_eur <= zone * 1.08:
+                nah.append(f"- {w['name']}: {fmt(kurs_eur, 2)} €, Zone {fmt(zone, 2)} € ({fmt((kurs_eur / zone - 1) * 100, prozent=True, vorzeichen=True)})")
+        if w.get("ziel_unter_hoch"):
+            ziel = m["kurs"] / (1 + m["drawdown"] / 100) * (1 - w["ziel_unter_hoch"] / 100)
+            if m["kurs"] <= ziel * 1.08:
+                nah.append(f"- {w['name']}: Kursziel −{w['ziel_unter_hoch']} % vom Hoch = {fmt(ziel, 2)}, Kurs {fmt(m['kurs'], 2)} ({fmt((m['kurs'] / ziel - 1) * 100, prozent=True, vorzeichen=True)})")
     kz += ["", "**Nahe an deinen Kaufzonen (bis 8 %):**"] + (nah or ["- keine"])
     kz += ["", f"Weitere Hinweise: {len(neu_weitere)} neu, {len(h.liste)} aktiv. Vollständig: {REPORTS.name}/{jetzt:%Y-%m-%d_%H%M}.md", ""]
     (REPORTS / "kurz.md").write_text("\n".join(kz), encoding="utf-8")
