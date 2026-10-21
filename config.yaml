@@ -126,8 +126,8 @@ watchlist:
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
   dividendenwachstum:   # 21.10.2026: Wachstum + steigende Dividende, kleine Positionen aufstocken (Ziel je ~1 % Depot)
-    AVGO: { name: Broadcom, kaufzonen_eur: [275, 254] }   # 1. Tranche gekauft ~299 €; Zonen −8 % / −15 % vom Kurs
-    SU.PA: { name: Schneider Electric, kaufzonen_eur: [228, 210] }   # 1. Tranche gekauft ~248 €; Zonen −8 % / −15 % vom Kurs
+    AVGO: { name: Broadcom, kaufzonen_eur: [275, 254] }   # noch nicht aufgestockt (wartet, 21.10.2026); Zonen −8 % / −15 % vom Kurs (299 €)
+    SU.PA: { name: Schneider Electric, kaufzonen_eur: [228, 210] }   # 1 Stück zu 244 € nachgekauft (21.10.2026), jetzt 2 Stück; Zonen −8 % / −15 % vom Kurs
     V: { name: Visa, kaufzonen_eur: [328, 310] }   # nur bei Rücksetzer: −10 % / −15 % vom 52-W-Hoch (364 €)
     ADP: { name: Automatic Data Processing, kaufzonen_eur: [237, 224] }   # −10 % / −15 % vom 52-W-Hoch (263 €)
   dividende:
