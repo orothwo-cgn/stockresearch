@@ -46,6 +46,7 @@ schwellen:
     stufen: [10, 15, 20, 25, 30, 40]   # % unter dem 52-Wochen-Hoch
     rel_schwaeche_1m: 10        # Prozentpunkte schlechter als Nasdaq 100 über einen Monat
     phase_ende_prozent: 5       # Phase endet, wenn wieder weniger als so viel % unter dem Hoch
+  ziel_unter_hoch_standard: 40  # Kursziel für alle Watchlist-Titel: X % unter dem 52-Wochen-Hoch (einzeln überschreibbar mit ziel_unter_hoch)
   kaufzone_nah_prozent: 3       # Hinweis (nur Bericht), wenn der Kurs höchstens so viel % über der ersten Kaufzone liegt
   abstauber_nah_prozent: 5      # Hinweis, wenn der Kurs höchstens so viel % über Abstauber-Limit 1 liegt
   dividende_ueber_schnitt: 20   # Rendite liegt so viel % über dem 5-Jahres-Schnitt
@@ -100,7 +101,7 @@ watchlist:
     AAPL: { name: Apple }
     META: { name: Meta Platforms }
     MSFT: { name: Microsoft }
-    ORCL: { name: Oracle }
+    ORCL: { name: Oracle, ziel_unter_hoch: 50 }
     GOOGL: { name: Alphabet }
   wachstum:
     PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026)
@@ -108,19 +109,19 @@ watchlist:
     NET: { name: Cloudflare }
     DDOG: { name: Datadog }   # aufgenommen 11.10.2026
     FTNT: { name: Fortinet }
-    VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170] }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €)
+    VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170], ziel_unter_hoch: 50 }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €)
   wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
     # Kaufzonen: 5 % bzw. 15 % unter der 200-Tage-Linie, Stand 08.10.2026 (200T wandert mit, gelegentlich neu setzen)
-    KLAC: { name: KLA, kaufzonen_eur: [152, 136] }
-    ONTO: { name: Onto Innovation, kaufzonen_eur: [217, 195] }
+    KLAC: { name: KLA, kaufzonen_eur: [152, 136], ziel_unter_hoch: 50 }
+    ONTO: { name: Onto Innovation, kaufzonen_eur: [217, 195], ziel_unter_hoch: 50 }
     Q: { name: Qnity Electronics, kaufzonen_eur: [107, 96] }
     TER: { name: Teradyne, kaufzonen_eur: [287, 257] }
-    ALAB: { name: Astera Labs, kaufzonen_eur: [209, 187] }   # aufgenommen 09.10.2026, Zonen nach derselben Regel
+    ALAB: { name: Astera Labs, kaufzonen_eur: [209, 187], ziel_unter_hoch: 50 }   # aufgenommen 09.10.2026, Zonen nach derselben Regel
     MRVL: { name: Marvell Technology, fruehwarnung: true, fruehwarnung_90t: true, kaufzonen_eur: [198, 170] }   # 15.10.2026, Zonen ca. −30 % / −40 % vom 52-W-Hoch (282 €), im Depot
   beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
-    JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144], ziel_unter_hoch: 40 }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
-    XPEV: { name: XPeng (Robotik) }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
+    JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
+    XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 50 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
     BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
