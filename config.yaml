@@ -101,7 +101,7 @@ watchlist:
     AAPL: { name: Apple }
     META: { name: Meta Platforms }
     MSFT: { name: Microsoft }
-    ORCL: { name: Oracle, ziel_unter_hoch: 50 }
+    ORCL: { name: Oracle, ziel_unter_hoch: 60 }   # 21.10.2026: −50 % schon unterschritten, nächste Stufe −60 % (ca. 112 $)
     GOOGL: { name: Alphabet }
   wachstum:
     PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026)
@@ -121,7 +121,7 @@ watchlist:
   beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
     JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
-    XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 50 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
+    XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 70 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
     BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
