@@ -1,32 +1,32 @@
-# Kurzfassung 23.10.2026 13:59
+# Kurzfassung 23.10.2026 19:58
 
-**Markt:** Nasdaq 100 -2,9 % (200T +4,1 %), S&P 500 -1,2 % (200T +5,2 %), DAX -0,7 % (200T +1,3 %)
-**Stimmung:** Crash-Muster Ruhe (0/100), Fear & Greed 27 (Angst, Vorwoche 22), VIX 19,6
-**Depot:** 331.849 € (-4.672 € heute), seit Kauf +58,3 %
-**Schwächste:** Applied Optoelectronic -12,0 %, Lam Research Corp. -11,8 %, Onto Innovation Inc. -10,6 %, Qnity Electronics Inc. -9,5 %
-**Stärkste:** BLACKSTONE INC. DL-,00 +8,4 %, PAYCHEX INC. DL-,01 +5,6 %, Procter & Gamble Co., +5,6 %, Kingsoft Cloud Holding +5,3 %
+**Markt:** Nasdaq 100 +0,3 % (200T +4,3 %), S&P 500 -0,3 % (200T +4,8 %), DAX -0,7 % (200T +1,2 %)
+**Stimmung:** Crash-Muster Ruhe (5/100), Fear & Greed 20 (extreme Angst, Vorwoche 22), VIX 20,1
+**Depot:** 334.461 € (+1.280 € heute), seit Kauf +59,5 %
+**Schwächste:** Kingsoft Cloud Holding -6,3 %, Alibaba Group Holding -6,1 %, JD.com Inc. -4,3 %, HERMES INTERNATIONAL O -4,0 %
+**Stärkste:** SailPoint Inc. +8,7 %, Trend Micro Inc. +8,7 %, CLOUDFLARE INC. A DL-, +7,9 %, CROWDSTRIKE HLD. DL-,0 +6,7 %
 
 **Wichtig heute:**
-- Kering (KER.PA) fällt heute um -13,3 %.
+- Frühwarnung Meta Platforms (META): relative Schwäche, 1 Monat -16,8 % gegen Nasdaq 100 -4,7 %.
+- Hermès (RMS.PA) hat Kaufzone 1 von 1 erreicht: 1.238,50 € ≤ 1.250,00 €.
+- Kering (KER.PA) fällt heute um -16,6 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Vertiv: 174,76 €, Zone 185,00 € (-5,5 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 195,59 (+4,0 %)
-- KLA: 132,09 €, Zone 152,00 € (-13,1 %)
-- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 147,83 (-1,9 %)
-- Onto Innovation: 177,51 €, Zone 217,00 € (-18,2 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 198,67 (+5,0 %)
-- Qnity Electronics: 97,19 €, Zone 107,00 € (-9,2 %)
-- Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 108,78 (+3,3 %)
-- Teradyne: 275,87 €, Zone 287,00 € (-3,9 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 308,75 (+6,4 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 257,82 (+6,8 %)
-- Marvell Technology: 199,67 €, Zone 198,00 € (+0,8 %)
-- Hermès: 1.254,00 €, Zone 1.250,00 € (+0,3 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.254,00 (-5,8 %)
-- XPeng (Robotik): Kursziel −70 % vom Hoch = 8,42, Kurs 9,07 (+7,7 %)
-- Broadcom: 288,81 €, Zone 275,00 € (+5,0 %)
-- Schneider Electric: 232,30 €, Zone 228,00 € (+1,9 %)
-- HSBC: 16,15 €, Zone 15,10 € (+7,0 %)
+- Vertiv: 175,05 €, Zone 185,00 € (-5,4 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 195,98 (+4,2 %)
+- KLA: 131,71 €, Zone 152,00 € (-13,3 %)
+- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 147,46 (-2,1 %)
+- Onto Innovation: 178,24 €, Zone 217,00 € (-17,9 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 199,55 (+5,5 %)
+- Qnity Electronics: 98,08 €, Zone 107,00 € (-8,3 %)
+- Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 109,81 (+4,3 %)
+- Teradyne: 280,24 €, Zone 287,00 € (-2,4 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 260,54 (+7,9 %)
+- Marvell Technology: 204,63 €, Zone 198,00 € (+3,3 %)
+- Hermès: 1.238,50 €, Zone 1.250,00 € (-0,9 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.238,50 (-6,9 %)
+- Broadcom: 290,58 €, Zone 275,00 € (+5,7 %)
+- Schneider Electric: 231,40 €, Zone 228,00 € (+1,5 %)
+- HSBC: 16,15 €, Zone 15,10 € (+6,9 %)
 
-Weitere Hinweise: 12 neu, 316 aktiv. Vollständig: reports/2026-10-23_1359.md
+Weitere Hinweise: 25 neu, 293 aktiv. Vollständig: reports/2026-10-23_1958.md
