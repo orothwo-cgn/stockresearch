@@ -244,7 +244,7 @@ def main(schnell=False):
     fx = sorted({f"EUR{basis.get(wa, wa)}=X" for wa in waehrungen if wa and basis.get(wa, wa) != "EUR"})
 
     symbole = list(dict.fromkeys(
-        list(cfg["indizes"]) + [cfg["vix"], "SPY"] + ([] if schnell else list(cfg["sektoren"])) + list(watch) + list(portfolio) + list(mitglied) + fx
+        list(cfg["indizes"]) + [cfg["vix"], "SPY"] + list(cfg.get("zinsen") or {}) + ([] if schnell else list(cfg["sektoren"])) + list(watch) + list(portfolio) + list(mitglied) + fx
     ))
     daten = yf.download(symbole, period="2y", auto_adjust=True, actions=True, progress=False, session=s)
     # Zweiter Versuch für Titel ohne Daten (yfinance-Zwischenspeicher meldet bei vielen parallelen Abrufen
@@ -394,6 +394,42 @@ def main(schnell=False):
         if fg["score"] >= 80:
             h.add("fg:gier", f"Fear & Greed bei {fmt(fg['score'], 0)} (extreme Gier): viel Optimismus eingepreist.")
 
+    # Zinsen (US-Staatsanleihen, Rendite in Prozent): Warnung bei neuen Hochstufen der 10-jährigen, Startsignal bei
+    # Fall unter den 90-Tage-Schnitt (Zinswende). Je Phase einmal; beim ersten Lauf nur merken.
+    zw = sw.get("zins", {})
+    zins = {}
+    for sym, name in (cfg.get("zinsen") or {}).items():
+        c = kurse[sym].dropna() if sym in kurse else pd.Series(dtype=float)
+        if len(c) >= 252:
+            zins[sym] = {"name": name, "rendite": float(c.iloc[-1]), "tag": float(c.iloc[-1] - c.iloc[-2]),
+                         "sma90": float(c.tail(90).mean()), "sma200": float(c.tail(200).mean()),
+                         "hoch": float(c.tail(252).max()), "tief": float(c.tail(252).min()),
+                         "vor1m": float(c.iloc[-22]), "vor3m": float(c.iloc[-64])}
+    zins_stand = dict(alt.get("_zins", {"stufe": 0, "wende": False, "neu": True}))
+    leit = zins.get(cfg.get("zins_leit", "^TNX"))
+    if leit:
+        r, erst = leit["rendite"], zins_stand.pop("neu", False)
+        stufe = hoechste_stufe(r, zw.get("stufen", [])) or 0
+        if stufe > zins_stand["stufe"]:
+            if not erst:
+                h.add(f"zins:hoch:{stufe}:{jetzt:%Y-%m-%d}", f"Zinswarnung: {leit['name']} bei {fmt(r, 2)} % (Stufe {fmt(stufe, 2)} %), "
+                      f"vor einem Monat {fmt(leit['vor1m'], 2)} %. Druck auf Versorger, Infrastruktur, Solar und Wachstumswerte.", True)
+            zins_stand["stufe"] = stufe
+        elif zins_stand["stufe"] and r < zins_stand["stufe"] - zw.get("stufe_reset", 0.25):
+            zins_stand["stufe"] = stufe
+        if r < leit["sma90"] - zw.get("wende_marge", 0.05):
+            if not zins_stand["wende"] and not erst:
+                h.add(f"zins:wende:{jetzt:%Y-%m-%d}", f"Mögliche Zinswende: {leit['name']} bei {fmt(r, 2)} %, unter dem 90-Tage-Schnitt "
+                      f"({fmt(leit['sma90'], 2)} %), Hoch der letzten 12 Monate {fmt(leit['hoch'], 2)} %. "
+                      "Startsignal für Versorger, Infrastruktur und Solar (NextEra, Brookfield, First Solar).", True)
+            zins_stand["wende"] = True
+        elif r > leit["sma90"] + zw.get("wende_reset", 0.10):
+            zins_stand["wende"] = False
+        kurz_z, lang_z = zins.get("^IRX"), zins.get("^TNX")
+        if kurz_z and lang_z and lang_z["rendite"] < kurz_z["rendite"]:
+            h.add("zins:kurve:invers", f"Zinskurve invers: 10 Jahre {fmt(lang_z['rendite'], 2)} % unter 3 Monaten {fmt(kurz_z['rendite'], 2)} %. "
+                  "Das ging in der Vergangenheit oft einer Abschwächung der Wirtschaft voraus.")
+
     bp_alt = alt.get("_bigplayer", {})
     bp_neu = {}
     index_1m = (k.get(cfg["crash_index"]) or {}).get("perf1m")
@@ -433,6 +469,8 @@ def main(schnell=False):
         if not m:
             h.add(f"{ticker}:keinedaten", f"{name}: keine Kursdaten von Yahoo.")
             continue
+        if w["gruppe"] == "anleihen":
+            continue  # Anleihen-ETFs nur im Bericht; gemeldet wird über die Zinsen
         if w["gruppe"] == "zurueckgestellt":
             pruefe_titel(ticker, name, m)  # still: 200T-Bruch und Rücksetzer nur im Bericht
             continue
@@ -546,13 +584,14 @@ def main(schnell=False):
     aktiv = {sl: alt.get(sl, jetzt.isoformat(timespec="minutes")) for sl, _, _ in h.liste}
     neu = [(sl, t, wi) for sl, t, wi in h.liste if sl not in alt]
     aktiv["_fg"] = fg_stand
+    aktiv["_zins"] = zins_stand
     if "crash:erholung" in aktiv:
         aktiv["_letzte_erholung"] = jetzt.isoformat(timespec="minutes")
     elif alt.get("_letzte_erholung"):
         aktiv["_letzte_erholung"] = alt["_letzte_erholung"]
     if schnell:
         # Nur Marktschlüssel wurden geprüft; alles andere aus dem letzten vollen Lauf behalten
-        markt = tuple(f"{sym}:" for sym in cfg["indizes"]) + ("VIX:", "crash:", "fg:")
+        markt = tuple(f"{sym}:" for sym in cfg["indizes"]) + ("VIX:", "crash:", "fg:", "zins:")
         aktiv.update({sl: w for sl, w in alt.items() if not sl.startswith(markt) and sl not in aktiv})
     else:
         aktiv["_bigplayer"] = bp_neu
@@ -593,6 +632,15 @@ def main(schnell=False):
     if fg:
         z += ["", f"Fear & Greed (CNN): {fmt(fg['score'], 0)} ({fg['rating']}), Vorwoche {fmt(fg['vorwoche'], 0)}, Vormonat {fmt(fg['vormonat'], 0)}"
                   + (" – letzter verfügbarer Stand" if fg.get("aus_cache") else "")]
+    if zins:
+        z += ["", "## Zinsen (Rendite US-Staatsanleihen)", "", "| Laufzeit | Rendite | Tag | 90T-Schnitt | 200T-Schnitt | vor 1 M | vor 3 M | Hoch 12 M | Tief 12 M |",
+              "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
+        for zz in zins.values():
+            z.append(f"| {zz['name']} | {fmt(zz['rendite'], 2)} % | {fmt(zz['tag'], 2, vorzeichen=True)} | {fmt(zz['sma90'], 2)} % | {fmt(zz['sma200'], 2)} % | "
+                     f"{fmt(zz['vor1m'], 2)} % | {fmt(zz['vor3m'], 2)} % | {fmt(zz['hoch'], 2)} % | {fmt(zz['tief'], 2)} % |")
+        if "^IRX" in zins and "^TNX" in zins:
+            z += ["", f"Zinskurve 10 Jahre minus 3 Monate: {fmt(zins['^TNX']['rendite'] - zins['^IRX']['rendite'], 2, vorzeichen=True)} Prozentpunkte "
+                  "(negativ = invers). Tagesveränderung in Prozentpunkten."]
 
     for gruppe in cfg["watchlist"]:
         z += ["", f"## Watchlist: {gruppe.replace('_', ' ').title()}", "",
@@ -668,6 +716,10 @@ def main(schnell=False):
                 f"Fear & Greed {fmt(fg['score'], 0)} ({fg['rating']}, Vorwoche {fmt(fg['vorwoche'], 0)})" if fg else None,
                 f"VIX {fmt(vix['kurs'])}" if vix else None]
     kz.append("**Stimmung:** " + ", ".join(x for x in stimmung if x))
+    if leit:
+        kz.append(f"**Zinsen:** {leit['name']} {fmt(leit['rendite'], 2)} % (90T {fmt(leit['sma90'], 2)} %, 200T {fmt(leit['sma200'], 2)} %, Hoch 12 M {fmt(leit['hoch'], 2)} %)"
+                  + (f", 30 Jahre {fmt(zins['^TYX']['rendite'], 2)} %" if "^TYX" in zins else "")
+                  + (f", Kurve 10J−3M {fmt(zins['^TNX']['rendite'] - zins['^IRX']['rendite'], 2, vorzeichen=True)}" if "^IRX" in zins and "^TNX" in zins else ""))
     mit_tag = [p for p in positionen if p["m"] and p["m"]["tag"] is not None and p["wert"]]
     veraenderung = sum(p["wert"] - p["wert"] / (1 + p["m"]["tag"] / 100) for p in mit_tag)
     if pf_wert:

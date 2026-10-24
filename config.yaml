@@ -10,6 +10,16 @@ indizes:
 # Angstbarometer
 vix: "^VIX"
 
+# Zinsen: Rendite von US-Staatsanleihen in Prozent (Yahoo). Ausgewertet wird die 10-jährige (zins_leit).
+# Hohe Renditen drücken Versorger, Infrastruktur, Solar und Wachstumswerte; ein Fall unter den 90-Tage-Schnitt
+# ist ein erstes Zeichen für eine Zinswende (aufgenommen 24.10.2026).
+zinsen:
+  "^IRX": US 3 Monate
+  "^FVX": US 5 Jahre
+  "^TNX": US 10 Jahre
+  "^TYX": US 30 Jahre
+zins_leit: "^TNX"
+
 # Index für das Crash-Muster (crash.py)
 crash_index: "^NDX"
 
@@ -51,6 +61,11 @@ schwellen:
   abstauber_nah_prozent: 5      # Hinweis, wenn der Kurs höchstens so viel % über Abstauber-Limit 1 liegt
   dividende_ueber_schnitt: 20   # Rendite liegt so viel % über dem 5-Jahres-Schnitt
   dividende_min_rendite: 1.5    # erst ab dieser Rendite (%) prüfen
+  zins:                         # 10-jährige US-Rendite (zins_leit), Werte in Prozentpunkten
+    stufen: [5.0, 5.25, 5.5, 5.75]   # Warnung bei Erreichen, je Stufe einmal
+    stufe_reset: 0.25           # Stufe wieder scharf, wenn die Rendite so weit darunter gefallen ist
+    wende_marge: 0.05           # Zinswende: Rendite mindestens so weit unter dem 90-Tage-Schnitt
+    wende_reset: 0.10           # wieder scharf, wenn die Rendite so weit über dem 90-Tage-Schnitt liegt
 
 # Screener für neue Ideen (screener.py)
 screener:
@@ -132,6 +147,10 @@ watchlist:
     V: { name: Visa, kaufzonen_eur: [328, 310] }   # nur bei Rücksetzer: −10 % / −15 % vom 52-W-Hoch (364 €)
     ADP: { name: Automatic Data Processing, kaufzonen_eur: [237, 224] }   # −10 % / −15 % vom 52-W-Hoch (263 €)
     ABT: { name: Abbott Laboratories, kaufzonen_eur: [78, 72] }   # 21.10.2026: Kurs ca. 85 € (−21 % vom Hoch), Zonen −8 % / −15 % vom Kurs; ggf. Tausch aus GSK
+  anleihen:   # US-Staatsanleihen-ETFs (in USD), nur Bericht: Kurse steigen, wenn die Zinsen fallen (24.10.2026)
+    SHY: { name: US-Staatsanleihen 1-3 Jahre (iShares SHY) }
+    IEF: { name: US-Staatsanleihen 7-10 Jahre (iShares IEF) }
+    TLT: { name: US-Staatsanleihen 20+ Jahre (iShares TLT) }
   dividende:
     HSBA.L: { name: HSBC, kaufzonen_eur: [15.10, 14.15] }   # Nachkauf-Tranchen: −20 % / −25 % vom 52-W-Hoch (18,84 €), Stand 08.10.2026
     ALV.DE: { name: Allianz }
