@@ -122,7 +122,8 @@ watchlist:
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
     JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
     XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 70 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
-    BN: { name: Brookfield Corporation }   # Holding, Idee von Thomas Rappold (11.10.2026), aufgenommen 12.10.2026
+    BN: { name: Brookfield Corporation, kaufzonen_eur: [32, 29.5] }   # Holding, Idee von Thomas Rappold (11.10.2026); 24.10.2026: Zonen −5 % / −13 % vom Kurs 33,89 € (antizyklisch)
+    FSLR: { name: First Solar, kaufzonen_eur: [141, 130] }   # 24.10.2026: am 52-W-Tief (−46 %), zinsgetrieben (10J-Treasury >5 %); Zonen −8 % / −15 % vom Kurs 153,50 €
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
   dividendenwachstum:   # 21.10.2026: Wachstum + steigende Dividende, kleine Positionen aufstocken (Ziel je ~1 % Depot)
@@ -141,7 +142,7 @@ watchlist:
     MCD: { name: McDonald's, kaufzonen_eur: [200, 185] }   # 21.10.2026: 1 Stück zu 218 € gekauft (jetzt 4,3); Tranchen 2/3 = −8 % / −15 %; Ziel ~3.000 €
     KO: { name: Coca-Cola }
     PEP: { name: PepsiCo, kaufzonen_eur: [110, 102] }   # 21.10.2026: 1 Stück zu 120 € gekauft (jetzt 9); Tranchen 2/3 = −8 % / −15 %; Ziel ~3.000 €, Basiskonsum aufstocken
-    NEE: { name: NextEra Energy }
-    BIP: { name: Brookfield Infrastructure }   # aufgenommen 12.10.2026, ca. 4,9 % Dividende
+    NEE: { name: NextEra Energy, kaufzonen_eur: [68, 62] }   # 24.10.2026: Kurs 73,27 €; Zonen = Dividendenrendite ca. 3,3 % / 3,6 % (5J-Schnitt 2,5 %)
+    BIP: { name: Brookfield Infrastructure, kaufzonen_eur: [30.5, 28.5] }   # aufgenommen 12.10.2026; 24.10.2026: Kurs 33,06 €, Zonen = Dividendenrendite ca. 5,3 % / 5,7 %
     JNJ: { name: Johnson & Johnson, kaufzonen_eur: [182, 163] }   # 15.10.2026, im Depot; Zonen = Dividendenrendite 2,7 % (5J-Schnitt) bzw. 3,0 %
     O: { name: Realty Income, kaufzonen_eur: [44.80, 42.10] }   # 12.10.2026; Zonen = ca. 50 $ / 47 $, Unterstützung laut InvestIngenieur ~52 $
