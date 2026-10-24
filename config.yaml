@@ -112,11 +112,11 @@ watchlist:
     VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170], ziel_unter_hoch: 50 }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €); 23.10.2026: 2 Stück zu 171 € nachgekauft (jetzt 41)
   wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
     # Kaufzonen: 5 % bzw. 15 % unter der 200-Tage-Linie, Stand 08.10.2026 (200T wandert mit, gelegentlich neu setzen)
-    KLAC: { name: KLA, kaufzonen_eur: [152, 136], ziel_unter_hoch: 50 }
-    ONTO: { name: Onto Innovation, kaufzonen_eur: [217, 195], ziel_unter_hoch: 50 }
+    KLAC: { name: KLA, kaufzonen_eur: [152, 136, 123.5, 119.6], ziel_unter_hoch: 50 }   # 24.10.2026: Zonen 3/4 = −5 % / −8 % vom Kurs 129,96 € (Nutzer wartet ab)
+    ONTO: { name: Onto Innovation, kaufzonen_eur: [217, 195, 168.5, 163], ziel_unter_hoch: 50 }   # 24.10.2026: Zonen 3/4 = −5 % / −8 % vom Kurs 177,32 €
     Q: { name: Qnity Electronics, kaufzonen_eur: [107, 96] }
     TER: { name: Teradyne, kaufzonen_eur: [287, 257] }
-    ALAB: { name: Astera Labs, kaufzonen_eur: [209, 187], ziel_unter_hoch: 50 }   # aufgenommen 09.10.2026, Zonen nach derselben Regel
+    ALAB: { name: Astera Labs, kaufzonen_eur: [218, 211, 187], ziel_unter_hoch: 50 }   # aufgenommen 09.10.2026; 24.10.2026: Zonen −5 % / −8 % vom Kurs 229,52 €, alte Zone 2 (187 €) bleibt
     MRVL: { name: Marvell Technology, fruehwarnung: true, fruehwarnung_90t: true, kaufzonen_eur: [198, 170] }   # 15.10.2026, Zonen ca. −30 % / −40 % vom 52-W-Hoch (282 €), im Depot
   beobachtung:   # Einzelwerte mit Kaufzone, die in keinen Korb passen
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
