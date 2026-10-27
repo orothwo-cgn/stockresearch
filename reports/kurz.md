@@ -1,35 +1,28 @@
-# Kurzfassung 27.10.2026 13:37
+# Kurzfassung 27.10.2026 20:00
 
-**Markt:** Nasdaq 100 +1,1 % (200T +5,1 %), S&P 500 +0,7 % (200T +5,2 %), DAX +0,3 % (200T +2,5 %)
-**Stimmung:** Crash-Muster Ruhe (0/100), Fear & Greed 29 (Angst, Vorwoche 30), VIX 17,7
-**Zinsen:** US 10 Jahre 4,98 % (90T 4,81 %, 200T 4,53 %, Hoch 12 M 5,31 %), 30 Jahre 5,29 %, Kurve 10J−3M +0,94
-**Depot:** 336.481 € (-364 € heute), seit Kauf +60,2 %
-**Schwächste:** Nu Holdings Ltd. -17,0 %, PETROLEO BRASILEIRO AD -14,0 %, MERCADOLIBRE INC. DL-, -7,8 %, CIRCLE INT.GRP A DL-,0 -7,1 %
-**Stärkste:** Applied Optoelectronic +6,6 %, SENTINELONE INC.A -,00 +6,2 %, FRONTLINE PLC DL 1 +4,3 %, DATADOG INC. A DL-,000 +3,9 %
+**Markt:** Nasdaq 100 +1,3 % (200T +6,4 %), S&P 500 +0,6 % (200T +5,8 %), DAX +0,7 % (200T +2,9 %)
+**Stimmung:** Crash-Muster Ruhe (0/100), Fear & Greed 32 (Angst, Vorwoche 30), VIX 17,7
+**Zinsen:** US 10 Jahre 4,99 % (90T 4,81 %, 200T 4,53 %, Hoch 12 M 5,31 %), 30 Jahre 5,31 %, Kurve 10J−3M +0,95
+**Depot:** 340.181 € (+1.593 € heute), seit Kauf +61,5 %
+**Schwächste:** PAYCHEX INC. DL-,01 -5,5 %, HSBC HLDGS PLC DL-,50 -5,4 %, TWILIO INC. -3,3 %, Automatic Data Process -3,0 %
+**Stärkste:** Generate Biomedicines +7,9 %, IonQ Inc. +7,7 %, Applied Optoelectronic +6,9 %, LUMEN TECHNOLOGIES DL +6,5 %
 
 **Wichtig heute:**
-- nichts
+- Booking Holdings, Limits split-bereinigt 1:25 (BKNG) unter Abstauber-Kauflimit 2: 135,23 € ≤ 136,00 € (Ziel 208 €, Liste Stand 2025).
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Vertiv: 179,14 €, Zone 185,00 € (-3,2 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 199,78 (+6,2 %)
-- KLA: 133,80 €, Zone 152,00 € (-12,0 %)
-- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 149,21 (-1,0 %)
-- Onto Innovation: 182,51 €, Zone 217,00 € (-15,9 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 203,53 (+7,6 %)
-- Qnity Electronics: 102,29 €, Zone 107,00 € (-4,4 %)
-- Teradyne: 277,08 €, Zone 287,00 € (-3,5 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 309,00 (+6,5 %)
-- Astera Labs: 232,70 €, Zone 218,00 € (+6,7 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 259,51 (+7,5 %)
-- Marvell Technology: 209,63 €, Zone 198,00 € (+5,9 %)
-- Hermès: 1.268,00 €, Zone 1.250,00 € (+1,4 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.268,00 (-4,7 %)
-- Brookfield Corporation: 34,03 €, Zone 32,00 € (+6,3 %)
-- First Solar: 150,78 €, Zone 141,00 € (+6,9 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 168,15 (-11,9 %)
-- Broadcom: 295,17 €, Zone 275,00 € (+7,3 %)
-- Schneider Electric: 241,20 €, Zone 228,00 € (+5,8 %)
-- HSBC: 15,20 €, Zone 15,10 € (+0,7 %)
+- Vertiv: 188,67 €, Zone 185,00 € (+2,0 %)
+- KLA: 137,59 €, Zone 152,00 € (-9,5 %)
+- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 153,23 (+1,7 %)
+- Onto Innovation: 192,86 €, Zone 217,00 € (-11,1 %)
+- Qnity Electronics: 106,10 €, Zone 107,00 € (-0,8 %)
+- Teradyne: 293,58 €, Zone 287,00 € (+2,3 %)
+- Hermès: 1.268,50 €, Zone 1.250,00 € (+1,5 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.268,50 (-4,7 %)
+- Brookfield Corporation: 34,17 €, Zone 32,00 € (+6,8 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 176,31 (-7,7 %)
+- Schneider Electric: 242,70 €, Zone 228,00 € (+6,4 %)
+- HSBC: 15,44 €, Zone 15,10 € (+2,3 %)
+- Brookfield Infrastructure: 32,81 €, Zone 30,50 € (+7,6 %)
 
-Weitere Hinweise: 8 neu, 291 aktiv. Vollständig: reports/2026-10-27_1337.md
+Weitere Hinweise: 27 neu, 280 aktiv. Vollständig: reports/2026-10-27_2000.md
