@@ -462,7 +462,8 @@ def main(schnell=False):
             z["rel"] = True
         bp_neu[ticker] = z
 
-    # Watchlist
+    # Watchlist (Depotgewicht zählt auch hier: große Positionen melden schon den normalen Tagesverlust, z. B. HSBC −6,9 % am 27.10.2026)
+    gewicht = {pos["ticker"]: pos["gewicht"] for pos in positionen}
     for ticker, w in watch.items():
         m = k.get(ticker)
         name = f"{w['name']} ({ticker})"
@@ -472,13 +473,13 @@ def main(schnell=False):
         if w["gruppe"] == "anleihen":
             continue  # Anleihen-ETFs nur im Bericht; gemeldet wird über die Zinsen
         if w["gruppe"] == "zurueckgestellt":
-            pruefe_titel(ticker, name, m)  # still: 200T-Bruch und Rücksetzer nur im Bericht
+            pruefe_titel(ticker, name, m, gewicht.get(ticker))  # still: 200T-Bruch und Rücksetzer nur im Bericht
             continue
         if w["gruppe"] == "big_player" or w.get("fruehwarnung"):
-            pruefe_titel(ticker, name, m)  # 200T-Bruch kommt hier über die Frühwarnung, nicht doppelt
+            pruefe_titel(ticker, name, m, gewicht.get(ticker))  # 200T-Bruch kommt hier über die Frühwarnung, nicht doppelt
             fruehwarnung(ticker, name, m, mit_90t=w.get("fruehwarnung_90t", False))
         else:
-            pruefe_titel(ticker, name, m, kern=True)
+            pruefe_titel(ticker, name, m, gewicht.get(ticker), kern=True)
         if m["rsi"] <= sw["rsi_ueberverkauft"]:
             h.add(f"{ticker}:rsi", f"{name} ist überverkauft (RSI {fmt(m['rsi'], 0)}).")
         if w.get("kaufzone") and m["kurs"] <= w["kaufzone"]:

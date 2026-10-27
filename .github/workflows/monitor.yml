@@ -1,14 +1,19 @@
 # Aktienresearch-Monitor in GitHub Actions: einziger "Läufer" (Telegram, gemeinsamer Meldestand).
-# Zeiten in UTC. Sommerzeit (bis 25.10.2026): Schnellprüfung 8:00-22:45 Uhr, volle Läufe 8:30 / 15:45 / 22:30 Uhr.
-# Winterzeit: jeweils eine Stunde früher.
+# Takt kommt seit 28.10.2026 von außen (cron-job.org ruft workflow_dispatch auf), weil GitHub die eigenen
+# Zeitpläne stark verzögert oder auslässt (z. B. 6 statt 60 Läufe am 27.10.2026). Plan bei cron-job.org,
+# immer Modus voll (dauert nur ca. 1 Minute und prüft auch Kaufzonen und Einzelwerte), Mo-Fr:
+#   Job "US-Start":   9:40 Uhr America/New_York (10 Min. nach Börsenstart)
+#   Job "US-Handel":  10:10 bis 16:40 Uhr America/New_York, Minute 10 und 40 (alle 30 Min., letzter nach Schluss)
+#   Job "Europa":     9:30, 11:30 und 13:30 Uhr Europe/Berlin
+# Zeitzone je Job bei cron-job.org einstellen, dann stimmt die Sommerzeit von selbst.
+# Die Zeitpläne unten sind nur noch Absicherung, falls cron-job.org ausfällt (UTC, Winterzeit-Werte).
 name: Monitor
 
 on:
   schedule:
-    - cron: "*/15 6-20 * * 1-5"   # Schnellprüfung: Indizes, VIX, Crash-Muster, Fear & Greed
-    - cron: "30 6 * * 1-5"        # voller Lauf morgens
-    - cron: "45 13 * * 1-5"       # voller Lauf nach US-Börsenstart
-    - cron: "30 20 * * 1-5"       # voller Lauf abends
+    - cron: "45 7 * * 1-5"        # Absicherung: voller Lauf morgens (8:45 Uhr Winterzeit)
+    - cron: "5 15 * * 1-5"        # Absicherung: voller Lauf nach US-Börsenstart
+    - cron: "40 21 * * 1-5"       # Absicherung: voller Lauf nach US-Börsenschluss
   workflow_dispatch:
     inputs:
       modus:
@@ -50,7 +55,7 @@ jobs:
           MODUS="schnell"
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then MODUS="${{ inputs.modus }}"; fi
           case "${{ github.event.schedule }}" in
-            "30 6 * * 1-5"|"45 13 * * 1-5"|"30 20 * * 1-5") MODUS="voll" ;;
+            "45 7 * * 1-5"|"5 15 * * 1-5"|"40 21 * * 1-5") MODUS="voll" ;;
           esac
           echo "Modus: $MODUS"
           if [ "$MODUS" = "telegramtest" ]; then python telegram.py "Test von GitHub Actions: Der Monitor kann dir Nachrichten schicken."; exit 0; fi
