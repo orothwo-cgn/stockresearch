@@ -1,0 +1,11 @@
+# Der größte DENKFEHLER an der Börse!🤯
+
+- Kanal: Beating Beta
+- Quelle: Beating Beta
+- Datum: 15.10.2026
+- Link: https://www.youtube.com/watch?v=ZrGkadRMpvY
+- Ausgewertet: ja
+
+## Transkript
+
+Ich verrate dir jetzt einen der größten Denkfehler an der Börse, denn nicht immer kommt es einfach nur auf die Zahlen an der Börse an, die wir sehen, wie Gewinne, KGV oder so. Ganz, ganz, ganz viel ist Psychologie und das hier, das ist der beste Tipp. Hallo, mein Name ist Mario Kopo, stellvertretender Chefredakteur bei Beating Beta und ich lege seit mehr als 10 Jahren selbst erfolgreich an der Börse an und der Kopf, der spielt immer ziemlich stark mit an der Börse. Langfristig ist es schon so, dass die Gewinne die Börse treiben, aber wir gehen jetzt auf die Berichtsaison zu, also Unternehmen werden ihre Quartalszahlen [musik] präsentieren und die Erwartungen, die waren selten so hoch wie aktuell und das könnte eben eine Gefahr werden, denn ja, schauen wir uns diese Grafik an. Wir haben so viel Erwartungen an die Gewinne [musik] wie fast nie, ja? Sie sollen um 29,6% im S&P 500 durchschnittlich steigen. Noch vor wenigen Wochen waren wir bei 26,7% und der Durchschnitt der letzten 10 Jahre, [musik] der liegt sogar nur bei 12,6, also die Messlatte, die liegt enorm hoch. Das Problem ist nun, sollte ein Unternehmen selbst gute Gewinne abliefern und z.B. sagen wir jetzt mal, wenn 30% erwartet werden, 20% [musik] Gewinnwachstum melden, was sicherlich gut ist, dann könnte die Aktie trotzdem auf Talfahrt geschickt werden, weil sie eben diese [musik] hohen Erwartungen nicht matchen konnte und das ist jetzt für die nächsten Wochen eine riesen Gefahr. Worauf solltest du also achten? Schau, ob die Zahlen bei deinen Aktien über den Erwartungen [musik] am Ende liegen oder nicht. Außerdem, wie sieht es mit den Margen aus? Also, wie viel Gewinn bleibt sozusagen bei den Umsätzen im Unternehmen und was sagt [musik] das Unternehmen zum Ausblick? Diese drei Dinge sind essentiell, ob eine Aktie dann [musik] nach den Quartalszahlen steigt oder nicht. Es kommt eben schon natürlich auf die Zahlen an, aber vor allem auf die [musik] Erwartung. Die Erwartungen sind, wie gesagt, so hoch wie selten. Schreib mir jetzt mal in die Kommentare, bei welcher Aktie du ganz genau hinschauen würdest und welche dein Favorit für die nächsten Quartalszahlen sind.
