@@ -76,6 +76,8 @@ Der Nutzer will wenige Nachrichten, nur bei Wichtigem. Wichtig ist: Index näher
 
 Windows-Aufgabenplanung auf dem Laptop, Ordner `\Aktienresearch\`: "Aktienresearch schnell" und "Aktienresearch voll" sind **deaktiviert** (nur Reserve, falls GitHub ausfällt; dann wieder aktivieren und GitHub-Workflow pausieren). "Aktienresearch youtube" (täglich 7:00) läuft weiter lokal. Startdateien `lauf_*.cmd`, Logs in `logs/`.
 
+**Tägliche Video-Auswertung (seit 28.10.2026):** geplante Aufgabe der Claude-Desktop-App `aktien-videoauswertung-taeglich` (täglich ca. 7:40, läuft nur bei geöffneter App, sonst beim nächsten Start). Wertet neue Transkripte aus, schreibt `recherche/<Datum>_videos.md`, schickt immer eine Telegram-Kurzfassung (falls neue Videos) und pusht. Der Takt des Monitors kommt seit 28.10.2026 von cron-job.org (siehe Kopf von `.github/workflows/monitor.yml`).
+
 Vor jeder Arbeit am Laptop/Büro-PC `git pull` (GitHub schreibt alle 15 Min. state.json, dashboard.html, reports/ zurück).
 
 ### GitHub Actions
