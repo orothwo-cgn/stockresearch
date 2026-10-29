@@ -117,13 +117,14 @@ watchlist:
     META: { name: Meta Platforms }
     MSFT: { name: Microsoft }
     ORCL: { name: Oracle, ziel_unter_hoch: 60 }   # 21.10.2026: −50 % schon unterschritten, nächste Stufe −60 % (ca. 112 $)
-    GOOGL: { name: Alphabet }
+    GOOGL: { name: Alphabet, kaufzonen_eur: [240, 223] }   # 29.10.2026: Q3 verfehlt, vorbörslich 262,50 € (−28 % vom 52-W-Hoch 366 €); Zone 1 = 52-W-Tief, Zone 2 = −15 % vom Kurs
   wachstum:
     PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026)
     CRWD: { name: CrowdStrike }
     NET: { name: Cloudflare }
     DDOG: { name: Datadog }   # aufgenommen 11.10.2026
-    FTNT: { name: Fortinet }
+    FTNT: { name: Fortinet, kaufzonen_eur: [107, 99] }   # 29.10.2026: Q3-Marge verfehlt, vorbörslich 116 € (−34 % vom Hoch, knapp über 200T 115 €); Zonen −8 % / −15 % vom Kurs
+    NOW: { name: ServiceNow, kaufzonen_eur: [101.5, 94] }   # aufgenommen 29.10.2026, im Depot; Q3 knapp verfehlt, vorbörslich 110 € (−36 % vom Hoch, 200T 103 €); Zonen −8 % / −15 % vom Kurs
     VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170], ziel_unter_hoch: 50 }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €); 23.10.2026: 2 Stück zu 171 € nachgekauft (jetzt 41)
   wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
     # Kaufzonen: 5 % bzw. 15 % unter der 200-Tage-Linie, Stand 08.10.2026 (200T wandert mit, gelegentlich neu setzen)
@@ -138,7 +139,8 @@ watchlist:
     JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
     XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 70 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
     BN: { name: Brookfield Corporation, kaufzonen_eur: [32, 29.5] }   # Holding, Idee von Thomas Rappold (11.10.2026); 24.10.2026: Zonen −5 % / −13 % vom Kurs 33,89 € (antizyklisch)
-    FSLR: { name: First Solar, kaufzonen_eur: [141, 130] }   # 24.10.2026: am 52-W-Tief (−46 %), zinsgetrieben (10J-Treasury >5 %); Zonen −8 % / −15 % vom Kurs 153,50 €
+    FSLR: { name: First Solar, kaufzonen_eur: [141, 130] }
+    ENPH: { name: Enphase Energy, kaufzonen_eur: [20.5, 19] }   # aufgenommen 29.10.2026, im Depot; 22,37 € am 52-W-Tief (−66 % vom Hoch), Solar/zinsgetrieben wie FSLR; Zonen −8 % / −15 % vom Kurs   # 24.10.2026: am 52-W-Tief (−46 %), zinsgetrieben (10J-Treasury >5 %); Zonen −8 % / −15 % vom Kurs 153,50 €
   zurueckgestellt:   # still mitbeobachten: nur Bericht, Push nur bei Tagesverlust ab 10 %; nicht aktiv vorschlagen
     SYK: { name: Stryker }   # "erst einmal nicht, aber nicht völlig ignorieren" (11.10.2026)
   dividendenwachstum:   # 21.10.2026: Wachstum + steigende Dividende, kleine Positionen aufstocken (Ziel je ~1 % Depot)
