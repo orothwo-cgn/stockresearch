@@ -112,7 +112,7 @@ ausschluss:
 # fruehwarnung (optional): Frühwarnung wie bei den Big Playern; fruehwarnung_90t: zusätzlich Bruch der 90-Tage-Linie.
 watchlist:
   big_player:   # Frühwarnung bei Abwärtstrend (schwellen → bigplayer)
-    AMZN: { name: Amazon }
+    AMZN: { name: Amazon, kaufzonen_eur: [186, 175] }   # 30.10.2026: Q3 verfehlt, vorbörslich 202 € (−21 % vom 52-W-Hoch 257 €, unter 200T 218 €); Zone 1 = −8 % vom Kurs, Zone 2 = 52-W-Tief
     AAPL: { name: Apple }
     META: { name: Meta Platforms }
     MSFT: { name: Microsoft }
@@ -124,6 +124,7 @@ watchlist:
     NET: { name: Cloudflare }
     DDOG: { name: Datadog }   # aufgenommen 11.10.2026
     FTNT: { name: Fortinet, kaufzonen_eur: [107, 99] }   # 29.10.2026: Q3-Marge verfehlt, vorbörslich 116 € (−34 % vom Hoch, knapp über 200T 115 €); Zonen −8 % / −15 % vom Kurs
+    TWLO: { name: Twilio, kaufzonen_eur: [165, 153] }   # aufgenommen 30.10.2026, im Depot; schwacher Ausblick, vorbörslich 180 € (−35 % vom Hoch, 200T 168 €); Zonen −8 % / −15 % vom Kurs
     NOW: { name: ServiceNow, kaufzonen_eur: [101.5, 94] }   # aufgenommen 29.10.2026, im Depot; Q3 knapp verfehlt, vorbörslich 110 € (−36 % vom Hoch, 200T 103 €); Zonen −8 % / −15 % vom Kurs
     VRT: { name: Vertiv, fruehwarnung: true, kaufzonen_eur: [185, 170], ziel_unter_hoch: 50 }   # 14.10.2026: Zonen ca. −45 % / −50 % vom 52-W-Hoch (337,85 €); 23.10.2026: 2 Stück zu 171 € nachgekauft (jetzt 41)
   wartebank:   # interessant, aber aktuell zu teuer: auf Rücksetzer warten (Halbleiter-Ausrüstung/-Test)
