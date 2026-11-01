@@ -3,8 +3,11 @@
 # Zeitpläne stark verzögert oder auslässt (z. B. 6 statt 60 Läufe am 27.10.2026). Plan bei cron-job.org,
 # immer Modus voll (dauert nur ca. 1 Minute und prüft auch Kaufzonen und Einzelwerte), Mo-Fr:
 #   Job "US-Start":   9:40 Uhr America/New_York (10 Min. nach Börsenstart)
-#   Job "US-Handel":  10:10 bis 16:40 Uhr America/New_York, Minute 10 und 40 (alle 30 Min., letzter nach Schluss)
-#   Job "Europa":     9:30, 11:30 und 13:30 Uhr Europe/Berlin
+#   Job "US-Handel":  10:10 bis 18:40 Uhr America/New_York, Minute 10 und 40 (alle 30 Min., inkl. 2 Std. nachbörslich)
+#                     crontab "10,40 10-18 * * 1-5"
+#   Job "Europa":     9:30, 11:30 und 13:30 Uhr Europe/Berlin, crontab "30 9,11,13 * * 1-5"
+# Eingerichtet und aktiv seit 01.11.2026 (Testlauf 204). Aufruf: POST .../actions/workflows/monitor.yml/dispatches,
+# Header Accept + Authorization: Bearer <Fine-grained Token, nur dieses Repo, Actions: Read and write>.
 # Zeitzone je Job bei cron-job.org einstellen, dann stimmt die Sommerzeit von selbst.
 # Die Zeitpläne unten sind nur noch Absicherung, falls cron-job.org ausfällt (UTC, Winterzeit-Werte).
 name: Monitor
