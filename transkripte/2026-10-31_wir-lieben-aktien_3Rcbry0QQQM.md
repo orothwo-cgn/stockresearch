@@ -1,0 +1,11 @@
+# Auswirkungen von KI auf die Börse
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 31.10.2026
+- Link: https://www.youtube.com/watch?v=3Rcbry0QQQM
+- Ausgewertet: ja
+
+## Transkript
+
+KI ist die größte Revolution unserer Zeit. Keiner zweifelt daran und genau das hat massive Auswirkungen auf dein Aktiendepot. Dabei gibt es ein klares Muster, das vor ungefähr einem Jahr begonnen hat. Halbleiter, KI, Energieaktien gewinnen und Softwareaktien fallen ins Bodenlose, denn deren Geschäftsmodelle haben einfach keine Zukunft mehr. Das ist zumindest das, was alle sagen, aber die Börse übertreibt gerne mal, deswegen pass auf, ich sag dir, wie es wirklich läuft. Und bleib unbedingt bis zum Ende dran, dann verrate ich dir noch drei Aktien, die von dieser Situation profitieren können. In Wirklichkeit ist zwar das passiert, was ich eben gesagt habe, Softwareaktien wurden abgestraft und Halbleiteraktien haben gewonnen, aber genau das ist seit Monaten vorbei. Mittlerweile gehören Softwareaktien wieder zu den großen Gewinnern und Halbleiteraktien werden abgestraft. Der Grund dafür ist recht einfach und zwar übertreibt die Börse gerne mal und zwar in beide Richtungen. Einerseits haben wir hier die Halbleiteraktien, die normalerweise mit dieser Geschwindigkeit laufen und auf einmal so eine riesige Explosion gesehen haben. Hier wurde also extrem viel Positives vorweggenommen und Softwareaktien, die jahrelang eigentlich einfach nur durchliefen, hatten auf einmal einen riesigen Crash. Hier wurde vielmehr Negatives eingepreist, als tatsächlich wahr ist. Deshalb habe ich jetzt noch drei Softwareaktien für dich, die noch auf spannenden Niveau sind und die du dir jetzt ansehen solltest. Aktie Nummer eins ist Adobe, hat gerade eine schöne Bodenbildung, braucht noch den Ausbruch über 296 Dollar, um den Boden zu vollenden. Aktie Nummer zwei ist dieser deutsche Dauerläufer hier, Atoss Software, gerade in einer riesigen Korrektur, aber auch hier wurde der Abwärtstrend zuletzt gebrochen und die Aktie sollte im nächsten Schritt über 104 Euro ausbrechen, um den Turnaround weiter fortzusetzen. Aktie Nummer drei, Salesforce, die nach diesem großen Kursrutsch schon den Turnaround eingeleitet hat. Falls wir noch mal runter korrigieren sollten in Richtung 200, 210 Dollar, dann wird es auch hier noch mal für Nachkäufe
