@@ -1,31 +1,31 @@
 {
- "stand": "02.11.2026 21:11",
+ "stand": "02.11.2026 21:41",
  "depot": {
-  "wert": 325968.32,
+  "wert": 324862.98,
   "einstand": 210628.24
  },
  "markt": [
   {
    "t": "^NDX",
    "name": "Nasdaq 100",
-   "kurs": 28154.0,
-   "tag": -0.813,
-   "a90": -4.63,
-   "a200": 0.765,
-   "dd": -9.83,
-   "p1m": -8.61,
-   "ytd": 11.5
+   "kurs": 27984.0,
+   "tag": -1.41,
+   "a90": -5.2,
+   "a200": 0.158,
+   "dd": -10.4,
+   "p1m": -9.17,
+   "ytd": 10.8
   },
   {
    "t": "^GSPC",
    "name": "S&P 500",
-   "kurs": 7571.6,
-   "tag": -0.112,
-   "a90": -0.872,
-   "a200": 3.54,
-   "dd": -3.16,
-   "p1m": -1.96,
-   "ytd": 10.6
+   "kurs": 7545.9,
+   "tag": -0.451,
+   "a90": -1.21,
+   "a200": 3.19,
+   "dd": -3.49,
+   "p1m": -2.29,
+   "ytd": 10.2
   },
   {
    "t": "^GDAXI",
@@ -41,18 +41,18 @@
   {
    "t": "^VIX",
    "name": "VIX",
-   "kurs": 21.24,
-   "tag": 9.37,
-   "a90": 29.9,
-   "a200": 16.3,
-   "dd": -31.6,
-   "p1m": 38.7,
-   "ytd": 42.1
+   "kurs": 20.9,
+   "tag": 7.62,
+   "a90": 27.9,
+   "a200": 14.4,
+   "dd": -32.7,
+   "p1m": 36.5,
+   "ytd": 39.8
   }
  ],
  "panik": {
-  "score": 20,
-  "stufe": "Ruhe",
+  "score": 45,
+  "stufe": "Korrektur",
   "episoden": [
    {
     "von": "27.03.2026",
@@ -69,72 +69,89 @@
     "stufe": "Korrektur",
     "dd": -11.3,
     "vix": 20.7
+   },
+   {
+    "von": "02.11.2026",
+    "bis": "02.11.2026",
+    "max": 45,
+    "stufe": "Korrektur",
+    "dd": -10.4,
+    "vix": 20.9
    }
   ]
  },
  "fear_greed": {
-  "score": 23.0,
+  "score": 23.3,
   "rating": "extreme Angst",
   "vorwoche": 29.8,
   "vormonat": 38.2,
-  "stand": "2026-11-02T21:11",
+  "stand": "2026-11-02T21:41",
   "aus_cache": false
  },
- "neu_wichtig": [],
+ "neu_wichtig": [
+  "Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -4,4 % in 5 Tagen, 10,4 % unter Hoch, VIX 20,9 (+14 % in 5 Tagen).",
+  "Jazz Pharmaceuticals (JAZZ) notiert unter der 200-Tage-Linie (-0,3 %)."
+ ],
  "neu_weitere": [
-  "Fortinet (FTNT) fällt heute um -6,3 %.",
-  "Jazz Pharmaceuticals (JAZZ) nähert sich der 200-Tage-Linie: 0,4 % darüber.",
-  "Hercules Capital Inc. (HTGC) nähert sich der 90-Tage-Linie: 0,1 % darüber.",
-  "RAYONIER INC. (RYN) liegt 15,1 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
-  "UNITEDHEALTH GROUP DL-,01 (UNH) nähert sich der 90-Tage-Linie: 0,4 % darüber."
+  "Generate Biomedicines Inc. (GENB) liegt 35,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+  "IonQ Inc. (IONQ) fällt heute um -7,0 %.",
+  "Qualcomm (QCOM) liegt 35,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+  "SpaceX (SPCX) liegt 35,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+  "Sarepta Therapeutics (SRPT) liegt 25,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+  "Nutanix (NTNX) nähert sich Abstauber-Kauflimit 1: 57,69 €, Limit 55,00 € (+4,9 %).",
+  "Sektorrotation: Die stärksten Sektoren (1 Monat) sind jetzt Basiskonsum, Gesundheit, Versorger."
  ],
  "aktiv": [
   {
-   "text": "Nasdaq 100 nähert sich der 200-Tage-Linie: nur noch 0,8 % darüber.",
+   "text": "Nasdaq 100 nähert sich der 200-Tage-Linie: nur noch 0,2 % darüber.",
    "wichtig": true
   },
   {
-   "text": "Nasdaq 100 notiert unter der 90-Tage-Linie (-4,6 %).",
+   "text": "Nasdaq 100 notiert unter der 90-Tage-Linie (-5,2 %).",
    "wichtig": false
   },
   {
-   "text": "S&P 500 notiert unter der 90-Tage-Linie (-0,9 %).",
+   "text": "S&P 500 notiert unter der 90-Tage-Linie (-1,2 %).",
    "wichtig": false
   },
   {
-   "text": "Amazon (AMZN) nähert sich der 200-Tage-Linie: 2,0 % darüber.",
+   "text": "Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -4,4 % in 5 Tagen, 10,4 % unter Hoch, VIX 20,9 (+14 % in 5 Tagen).",
+   "wichtig": true
+  },
+  {
+   "text": "Amazon (AMZN) nähert sich der 200-Tage-Linie: 1,2 % darüber.",
    "wichtig": false
   },
   {
-   "text": "Amazon (AMZN) notiert unter der 90-Tage-Linie (-2,0 %).",
+   "text": "Amazon (AMZN) notiert unter der 90-Tage-Linie (-2,7 %).",
    "wichtig": false
   },
   {
-   "text": "Meta Platforms (META) liegt 21,4 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Meta Platforms (META) liegt 21,7 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Meta Platforms (META) notiert unter der 200-Tage-Linie (-3,2 %).",
+   "text": "Meta Platforms (META) notiert unter der 200-Tage-Linie (-3,6 %).",
    "wichtig": false
   },
   {
-   "text": "Meta Platforms (META) notiert unter der 90-Tage-Linie (-4,4 %).",
+   "text": "Meta Platforms (META) notiert unter der 90-Tage-Linie (-4,7 %).",
    "wichtig": false
   },
   {
-   "text": "Oracle (ORCL) fällt heute um -8,8 %.",
+   "text": "Oracle (ORCL) fällt heute um -9,0 %.",
    "wichtig": false
   },
   {
-   "text": "Oracle (ORCL) liegt 54,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Oracle (ORCL) liegt 54,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Oracle (ORCL) notiert unter der 200-Tage-Linie (-23,4 %).",
+   "text": "Oracle (ORCL) notiert unter der 200-Tage-Linie (-23,6 %).",
    "wichtig": false
   },
   {
-   "text": "Oracle (ORCL) notiert unter der 90-Tage-Linie (-14,3 %).",
+   "text": "Oracle (ORCL) notiert unter der 90-Tage-Linie (-14,6 %).",
    "wichtig": false
   },
   {
@@ -142,55 +159,55 @@
    "wichtig": false
   },
   {
-   "text": "Alphabet (GOOGL) liegt 29,7 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Alphabet (GOOGL) liegt 30,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Alphabet (GOOGL) notiert unter der 200-Tage-Linie (-16,9 %).",
+   "text": "Alphabet (GOOGL) notiert unter der 200-Tage-Linie (-17,5 %).",
    "wichtig": true
   },
   {
-   "text": "Alphabet (GOOGL) notiert unter der 90-Tage-Linie (-17,7 %).",
+   "text": "Alphabet (GOOGL) notiert unter der 90-Tage-Linie (-18,3 %).",
    "wichtig": false
   },
   {
-   "text": "Alphabet (GOOGL) ist überverkauft (RSI 24).",
+   "text": "Alphabet (GOOGL) ist überverkauft (RSI 22).",
    "wichtig": false
   },
   {
-   "text": "Cloudflare (NET) liegt 25,8 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Cloudflare (NET) liegt 26,7 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Cloudflare (NET) notiert unter der 90-Tage-Linie (-11,2 %).",
+   "text": "Cloudflare (NET) notiert unter der 90-Tage-Linie (-12,2 %).",
    "wichtig": false
   },
   {
-   "text": "Datadog (DDOG) fällt heute um -6,8 %.",
+   "text": "Datadog (DDOG) fällt heute um -7,7 %.",
    "wichtig": false
   },
   {
-   "text": "Datadog (DDOG) liegt 25,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Datadog (DDOG) liegt 26,0 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Datadog (DDOG) notiert unter der 90-Tage-Linie (-13,3 %).",
+   "text": "Datadog (DDOG) notiert unter der 90-Tage-Linie (-14,1 %).",
    "wichtig": false
   },
   {
-   "text": "Fortinet (FTNT) fällt heute um -6,3 %.",
+   "text": "Fortinet (FTNT) fällt heute um -7,0 %.",
    "wichtig": false
   },
   {
-   "text": "Fortinet (FTNT) liegt 34,5 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Fortinet (FTNT) liegt 35,0 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Fortinet (FTNT) notiert unter der 200-Tage-Linie (-0,9 %).",
+   "text": "Fortinet (FTNT) notiert unter der 200-Tage-Linie (-1,6 %).",
    "wichtig": true
   },
   {
-   "text": "Fortinet (FTNT) notiert unter der 90-Tage-Linie (-22,9 %).",
+   "text": "Fortinet (FTNT) notiert unter der 90-Tage-Linie (-23,4 %).",
    "wichtig": false
   },
   {
@@ -198,23 +215,23 @@
    "wichtig": false
   },
   {
-   "text": "Twilio (TWLO) liegt 30,1 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Twilio (TWLO) liegt 31,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Twilio (TWLO) notiert unter der 90-Tage-Linie (-11,0 %).",
+   "text": "Twilio (TWLO) notiert unter der 90-Tage-Linie (-12,5 %).",
    "wichtig": false
   },
   {
-   "text": "ServiceNow (NOW) liegt 42,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "ServiceNow (NOW) liegt 42,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "ServiceNow (NOW) notiert unter der 200-Tage-Linie (-7,2 %).",
+   "text": "ServiceNow (NOW) notiert unter der 200-Tage-Linie (-7,8 %).",
    "wichtig": true
   },
   {
-   "text": "ServiceNow (NOW) notiert unter der 90-Tage-Linie (-15,8 %).",
+   "text": "ServiceNow (NOW) notiert unter der 90-Tage-Linie (-16,3 %).",
    "wichtig": false
   },
   {
@@ -222,103 +239,103 @@
    "wichtig": false
   },
   {
-   "text": "Vertiv (VRT) liegt 40,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Vertiv (VRT) liegt 40,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Vertiv (VRT) notiert unter der 200-Tage-Linie (-16,6 %).",
+   "text": "Vertiv (VRT) notiert unter der 200-Tage-Linie (-16,9 %).",
    "wichtig": false
   },
   {
-   "text": "Vertiv (VRT) notiert unter der 90-Tage-Linie (-14,0 %).",
+   "text": "Vertiv (VRT) notiert unter der 90-Tage-Linie (-14,3 %).",
    "wichtig": false
   },
   {
-   "text": "KLA (KLAC) liegt 48,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "KLA (KLAC) liegt 49,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "KLA (KLAC) notiert unter der 200-Tage-Linie (-14,9 %).",
+   "text": "KLA (KLAC) notiert unter der 200-Tage-Linie (-15,7 %).",
    "wichtig": true
   },
   {
-   "text": "KLA (KLAC) notiert unter der 90-Tage-Linie (-20,0 %).",
+   "text": "KLA (KLAC) notiert unter der 90-Tage-Linie (-20,7 %).",
    "wichtig": false
   },
   {
-   "text": "Onto Innovation (ONTO) liegt 48,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Onto Innovation (ONTO) liegt 49,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Onto Innovation (ONTO) notiert unter der 200-Tage-Linie (-25,9 %).",
+   "text": "Onto Innovation (ONTO) notiert unter der 200-Tage-Linie (-27,0 %).",
    "wichtig": true
   },
   {
-   "text": "Onto Innovation (ONTO) notiert unter der 90-Tage-Linie (-30,7 %).",
+   "text": "Onto Innovation (ONTO) notiert unter der 90-Tage-Linie (-31,7 %).",
    "wichtig": false
   },
   {
-   "text": "Qnity Electronics (Q) liegt 33,6 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Qnity Electronics (Q) liegt 34,1 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Qnity Electronics (Q) notiert unter der 200-Tage-Linie (-9,9 %).",
+   "text": "Qnity Electronics (Q) notiert unter der 200-Tage-Linie (-10,5 %).",
    "wichtig": true
   },
   {
-   "text": "Qnity Electronics (Q) notiert unter der 90-Tage-Linie (-10,0 %).",
+   "text": "Qnity Electronics (Q) notiert unter der 90-Tage-Linie (-10,6 %).",
    "wichtig": false
   },
   {
-   "text": "Teradyne (TER) liegt 46,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Teradyne (TER) liegt 46,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Teradyne (TER) notiert unter der 200-Tage-Linie (-25,4 %).",
+   "text": "Teradyne (TER) notiert unter der 200-Tage-Linie (-25,9 %).",
    "wichtig": true
   },
   {
-   "text": "Teradyne (TER) notiert unter der 90-Tage-Linie (-29,1 %).",
+   "text": "Teradyne (TER) notiert unter der 90-Tage-Linie (-29,7 %).",
    "wichtig": false
   },
   {
-   "text": "Teradyne (TER) ist überverkauft (RSI 27).",
+   "text": "Teradyne (TER) ist überverkauft (RSI 26).",
    "wichtig": false
   },
   {
-   "text": "Astera Labs (ALAB) fällt heute um -10,7 %.",
+   "text": "Astera Labs (ALAB) fällt heute um -12,5 %.",
    "wichtig": true
   },
   {
-   "text": "Astera Labs (ALAB) liegt 52,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Astera Labs (ALAB) liegt 53,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Astera Labs (ALAB) notiert unter der 200-Tage-Linie (-9,6 %).",
+   "text": "Astera Labs (ALAB) notiert unter der 200-Tage-Linie (-11,4 %).",
    "wichtig": true
   },
   {
-   "text": "Astera Labs (ALAB) notiert unter der 90-Tage-Linie (-28,3 %).",
+   "text": "Astera Labs (ALAB) notiert unter der 90-Tage-Linie (-29,7 %).",
    "wichtig": false
   },
   {
-   "text": "Marvell Technology (MRVL) fällt heute um -13,5 %.",
+   "text": "Marvell Technology (MRVL) fällt heute um -13,9 %.",
    "wichtig": true
   },
   {
-   "text": "Marvell Technology (MRVL) liegt 46,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Marvell Technology (MRVL) liegt 46,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Marvell Technology (MRVL) notiert unter der 200-Tage-Linie (-7,5 %).",
+   "text": "Marvell Technology (MRVL) notiert unter der 200-Tage-Linie (-7,9 %).",
    "wichtig": false
   },
   {
-   "text": "Marvell Technology (MRVL) notiert unter der 90-Tage-Linie (-26,7 %).",
+   "text": "Marvell Technology (MRVL) notiert unter der 90-Tage-Linie (-27,1 %).",
    "wichtig": false
   },
   {
-   "text": "Marvell Technology (MRVL) ist überverkauft (RSI 29).",
+   "text": "Marvell Technology (MRVL) ist überverkauft (RSI 28).",
    "wichtig": false
   },
   {
@@ -334,83 +351,83 @@
    "wichtig": false
   },
   {
-   "text": "Jazz Pharmaceuticals (JAZZ) liegt 16,8 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Jazz Pharmaceuticals (JAZZ) liegt 17,3 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Jazz Pharmaceuticals (JAZZ) nähert sich der 200-Tage-Linie: 0,4 % darüber.",
-   "wichtig": false
-  },
-  {
-   "text": "Jazz Pharmaceuticals (JAZZ) notiert unter der 90-Tage-Linie (-8,9 %).",
-   "wichtig": false
-  },
-  {
-   "text": "XPeng (Robotik) (XPEV) liegt 65,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
-   "wichtig": false
-  },
-  {
-   "text": "XPeng (Robotik) (XPEV) notiert unter der 200-Tage-Linie (-33,2 %).",
+   "text": "Jazz Pharmaceuticals (JAZZ) notiert unter der 200-Tage-Linie (-0,3 %).",
    "wichtig": true
   },
   {
-   "text": "XPeng (Robotik) (XPEV) notiert unter der 90-Tage-Linie (-14,3 %).",
+   "text": "Jazz Pharmaceuticals (JAZZ) notiert unter der 90-Tage-Linie (-9,5 %).",
    "wichtig": false
   },
   {
-   "text": "Brookfield Corporation (BN) liegt 15,4 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "XPeng (Robotik) (XPEV) liegt 65,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Brookfield Corporation (BN) notiert unter der 200-Tage-Linie (-2,4 %).",
+   "text": "XPeng (Robotik) (XPEV) notiert unter der 200-Tage-Linie (-33,4 %).",
    "wichtig": true
   },
   {
-   "text": "First Solar (FSLR) liegt 42,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "XPeng (Robotik) (XPEV) notiert unter der 90-Tage-Linie (-14,6 %).",
    "wichtig": false
   },
   {
-   "text": "First Solar (FSLR) notiert unter der 200-Tage-Linie (-15,3 %).",
+   "text": "Brookfield Corporation (BN) liegt 15,3 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Brookfield Corporation (BN) notiert unter der 200-Tage-Linie (-2,3 %).",
    "wichtig": true
   },
   {
-   "text": "First Solar (FSLR) notiert unter der 90-Tage-Linie (-10,2 %).",
+   "text": "First Solar (FSLR) liegt 42,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Enphase Energy (ENPH) liegt 61,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
-   "wichtig": false
-  },
-  {
-   "text": "Enphase Energy (ENPH) notiert unter der 200-Tage-Linie (-31,4 %).",
+   "text": "First Solar (FSLR) notiert unter der 200-Tage-Linie (-15,4 %).",
    "wichtig": true
   },
   {
-   "text": "Enphase Energy (ENPH) notiert unter der 90-Tage-Linie (-23,9 %).",
+   "text": "First Solar (FSLR) notiert unter der 90-Tage-Linie (-10,3 %).",
    "wichtig": false
   },
   {
-   "text": "Stryker (SYK) liegt 20,4 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Enphase Energy (ENPH) liegt 61,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Stryker (SYK) notiert unter der 200-Tage-Linie (-5,0 %).",
-   "wichtig": false
-  },
-  {
-   "text": "Stryker (SYK) notiert unter der 90-Tage-Linie (-1,0 %).",
-   "wichtig": false
-  },
-  {
-   "text": "Broadcom (AVGO) liegt 32,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
-   "wichtig": false
-  },
-  {
-   "text": "Broadcom (AVGO) notiert unter der 200-Tage-Linie (-11,2 %).",
+   "text": "Enphase Energy (ENPH) notiert unter der 200-Tage-Linie (-31,1 %).",
    "wichtig": true
   },
   {
-   "text": "Broadcom (AVGO) notiert unter der 90-Tage-Linie (-11,6 %).",
+   "text": "Enphase Energy (ENPH) notiert unter der 90-Tage-Linie (-23,6 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Stryker (SYK) liegt 19,9 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Stryker (SYK) notiert unter der 200-Tage-Linie (-4,5 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Stryker (SYK) notiert unter der 90-Tage-Linie (-0,4 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Broadcom (AVGO) liegt 32,8 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Broadcom (AVGO) notiert unter der 200-Tage-Linie (-12,0 %).",
+   "wichtig": true
+  },
+  {
+   "text": "Broadcom (AVGO) notiert unter der 90-Tage-Linie (-12,3 %).",
    "wichtig": false
   },
   {
@@ -454,11 +471,11 @@
    "wichtig": false
   },
   {
-   "text": "McDonald's (MCD) liegt 20,9 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "McDonald's (MCD) liegt 20,7 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "McDonald's (MCD) notiert unter der 200-Tage-Linie (-5,5 %).",
+   "text": "McDonald's (MCD) notiert unter der 200-Tage-Linie (-5,4 %).",
    "wichtig": true
   },
   {
@@ -470,7 +487,7 @@
    "wichtig": false
   },
   {
-   "text": "PepsiCo (PEP) notiert unter der 200-Tage-Linie (-2,3 %).",
+   "text": "PepsiCo (PEP) notiert unter der 200-Tage-Linie (-2,4 %).",
    "wichtig": true
   },
   {
@@ -478,15 +495,15 @@
    "wichtig": false
   },
   {
-   "text": "NextEra Energy (NEE) notiert unter der 200-Tage-Linie (-1,4 %).",
+   "text": "NextEra Energy (NEE) notiert unter der 200-Tage-Linie (-1,2 %).",
    "wichtig": true
   },
   {
-   "text": "Realty Income (O) notiert unter der 200-Tage-Linie (-4,3 %).",
+   "text": "Realty Income (O) notiert unter der 200-Tage-Linie (-4,2 %).",
    "wichtig": true
   },
   {
-   "text": "Realty Income (O) notiert unter der 90-Tage-Linie (-3,0 %).",
+   "text": "Realty Income (O) notiert unter der 90-Tage-Linie (-2,9 %).",
    "wichtig": false
   },
   {
@@ -514,31 +531,31 @@
    "wichtig": false
   },
   {
-   "text": "Alibaba Group Holding Ltd. (BABA) liegt 41,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Alibaba Group Holding Ltd. (BABA) liegt 42,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Alibaba Group Holding Ltd. (BABA) notiert unter der 200-Tage-Linie (-18,4 %).",
+   "text": "Alibaba Group Holding Ltd. (BABA) notiert unter der 200-Tage-Linie (-18,8 %).",
    "wichtig": false
   },
   {
-   "text": "Alibaba Group Holding Ltd. (BABA) notiert unter der 90-Tage-Linie (-9,1 %).",
+   "text": "Alibaba Group Holding Ltd. (BABA) notiert unter der 90-Tage-Linie (-9,5 %).",
    "wichtig": false
   },
   {
-   "text": "Applied Optoelectronics Inc. (AAOI) fällt heute um -8,0 %.",
+   "text": "Applied Optoelectronics Inc. (AAOI) fällt heute um -10,2 %.",
+   "wichtig": true
+  },
+  {
+   "text": "Applied Optoelectronics Inc. (AAOI) liegt 72,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Applied Optoelectronics Inc. (AAOI) liegt 71,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Applied Optoelectronics Inc. (AAOI) notiert unter der 200-Tage-Linie (-45,8 %).",
    "wichtig": false
   },
   {
-   "text": "Applied Optoelectronics Inc. (AAOI) notiert unter der 200-Tage-Linie (-44,4 %).",
-   "wichtig": false
-  },
-  {
-   "text": "Applied Optoelectronics Inc. (AAOI) notiert unter der 90-Tage-Linie (-40,9 %).",
+   "text": "Applied Optoelectronics Inc. (AAOI) notiert unter der 90-Tage-Linie (-42,4 %).",
    "wichtig": false
   },
   {
@@ -546,15 +563,15 @@
    "wichtig": false
   },
   {
-   "text": "Arista Networks Inc. (ANET) liegt 24,0 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Arista Networks Inc. (ANET) liegt 24,5 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Arista Networks Inc. (ANET) notiert unter der 200-Tage-Linie (-0,4 %).",
+   "text": "Arista Networks Inc. (ANET) notiert unter der 200-Tage-Linie (-1,0 %).",
    "wichtig": false
   },
   {
-   "text": "Arista Networks Inc. (ANET) notiert unter der 90-Tage-Linie (-12,5 %).",
+   "text": "Arista Networks Inc. (ANET) notiert unter der 90-Tage-Linie (-13,1 %).",
    "wichtig": false
   },
   {
@@ -570,7 +587,7 @@
    "wichtig": false
   },
   {
-   "text": "Atlassian Corp. (TEAM) liegt 17,3 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Atlassian Corp. (TEAM) liegt 18,2 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
@@ -582,7 +599,7 @@
    "wichtig": false
   },
   {
-   "text": "BioNTech SE (BNTX) notiert unter der 90-Tage-Linie (-8,2 %).",
+   "text": "BioNTech SE (BNTX) notiert unter der 90-Tage-Linie (-8,1 %).",
    "wichtig": false
   },
   {
@@ -590,7 +607,7 @@
    "wichtig": false
   },
   {
-   "text": "BLACKSTONE INC. DL-,00001 (BX) notiert unter der 200-Tage-Linie (-1,8 %).",
+   "text": "BLACKSTONE INC. DL-,00001 (BX) notiert unter der 200-Tage-Linie (-1,9 %).",
    "wichtig": false
   },
   {
@@ -610,43 +627,43 @@
    "wichtig": false
   },
   {
-   "text": "Bristol-Myers Squibb Co. (BMY) nähert sich der 90-Tage-Linie: 1,6 % darüber.",
+   "text": "Bristol-Myers Squibb Co. (BMY) nähert sich der 90-Tage-Linie: 1,8 % darüber.",
    "wichtig": false
   },
   {
-   "text": "CAL-MAINE FOODS DL-,01 (CALM) liegt 30,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "CAL-MAINE FOODS DL-,01 (CALM) liegt 29,6 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "CAL-MAINE FOODS DL-,01 (CALM) notiert unter der 200-Tage-Linie (-16,6 %).",
+   "text": "CAL-MAINE FOODS DL-,01 (CALM) notiert unter der 200-Tage-Linie (-15,9 %).",
    "wichtig": false
   },
   {
-   "text": "CAL-MAINE FOODS DL-,01 (CALM) notiert unter der 90-Tage-Linie (-14,6 %).",
+   "text": "CAL-MAINE FOODS DL-,01 (CALM) notiert unter der 90-Tage-Linie (-13,9 %).",
    "wichtig": false
   },
   {
-   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) liegt 45,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) liegt 45,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) notiert unter der 200-Tage-Linie (-15,5 %).",
+   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) notiert unter der 200-Tage-Linie (-16,3 %).",
    "wichtig": false
   },
   {
-   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) notiert unter der 90-Tage-Linie (-7,0 %).",
+   "text": "CIRCLE INT.GRP A DL-,0001 (CRCL) notiert unter der 90-Tage-Linie (-7,9 %).",
    "wichtig": false
   },
   {
-   "text": "Coinbase Global Inc. (COIN) liegt 60,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Coinbase Global Inc. (COIN) liegt 60,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Coinbase Global Inc. (COIN) notiert unter der 200-Tage-Linie (-23,4 %).",
+   "text": "Coinbase Global Inc. (COIN) notiert unter der 200-Tage-Linie (-23,3 %).",
    "wichtig": false
   },
   {
-   "text": "Coinbase Global Inc. (COIN) notiert unter der 90-Tage-Linie (-19,7 %).",
+   "text": "Coinbase Global Inc. (COIN) notiert unter der 90-Tage-Linie (-19,6 %).",
    "wichtig": false
   },
   {
@@ -662,23 +679,23 @@
    "wichtig": false
   },
   {
-   "text": "FRANKLIN TEMPLETON DL-,10 (BEN) notiert unter der 90-Tage-Linie (-2,7 %).",
+   "text": "FRANKLIN TEMPLETON DL-,10 (BEN) notiert unter der 90-Tage-Linie (-2,8 %).",
    "wichtig": false
   },
   {
-   "text": "FRONTLINE PLC DL 1 (FRO) fällt heute um -7,3 %.",
+   "text": "FRONTLINE PLC DL 1 (FRO) fällt heute um -8,0 %.",
    "wichtig": false
   },
   {
-   "text": "Generate Biomedicines Inc. (GENB) fällt heute um -7,1 %.",
+   "text": "Generate Biomedicines Inc. (GENB) fällt heute um -8,7 %.",
    "wichtig": false
   },
   {
-   "text": "Generate Biomedicines Inc. (GENB) liegt 34,1 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Generate Biomedicines Inc. (GENB) liegt 35,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Generate Biomedicines Inc. (GENB) notiert unter der 90-Tage-Linie (-10,1 %).",
+   "text": "Generate Biomedicines Inc. (GENB) notiert unter der 90-Tage-Linie (-11,6 %).",
    "wichtig": false
   },
   {
@@ -702,51 +719,51 @@
    "wichtig": false
   },
   {
-   "text": "Hercules Capital Inc. (HTGC) nähert sich der 90-Tage-Linie: 0,1 % darüber.",
+   "text": "Hercules Capital Inc. (HTGC) nähert sich der 90-Tage-Linie: 0,3 % darüber.",
    "wichtig": false
   },
   {
-   "text": "Hewlett Packard Enterprise Co. (HPE) fällt heute um -6,3 %.",
+   "text": "Hewlett Packard Enterprise Co. (HPE) fällt heute um -7,7 %.",
    "wichtig": false
   },
   {
-   "text": "Hewlett Packard Enterprise Co. (HPE) liegt 29,7 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Hewlett Packard Enterprise Co. (HPE) liegt 30,7 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Hewlett Packard Enterprise Co. (HPE) notiert unter der 90-Tage-Linie (-6,1 %).",
+   "text": "Hewlett Packard Enterprise Co. (HPE) notiert unter der 90-Tage-Linie (-7,4 %).",
    "wichtig": false
   },
   {
-   "text": "Honeywell Aerospace Inc. (HONA) liegt 41,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Honeywell Aerospace Inc. (HONA) liegt 41,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Honeywell Aerospace Inc. (HONA) notiert unter der 90-Tage-Linie (-10,6 %).",
+   "text": "Honeywell Aerospace Inc. (HONA) notiert unter der 90-Tage-Linie (-10,8 %).",
    "wichtig": false
   },
   {
-   "text": "Honeywell International Inc. (HON) notiert unter der 200-Tage-Linie (-2,5 %).",
+   "text": "Honeywell International Inc. (HON) notiert unter der 200-Tage-Linie (-2,6 %).",
    "wichtig": false
   },
   {
-   "text": "Honeywell International Inc. (HON) nähert sich der 90-Tage-Linie: 1,3 % darüber.",
+   "text": "Honeywell International Inc. (HON) nähert sich der 90-Tage-Linie: 1,2 % darüber.",
    "wichtig": false
   },
   {
-   "text": "IES HLDGS INC. DL-,01 (IESC) liegt 50,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "IES HLDGS INC. DL-,01 (IESC) liegt 51,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "IES HLDGS INC. DL-,01 (IESC) notiert unter der 200-Tage-Linie (-33,5 %).",
+   "text": "IES HLDGS INC. DL-,01 (IESC) notiert unter der 200-Tage-Linie (-34,2 %).",
    "wichtig": false
   },
   {
-   "text": "IES HLDGS INC. DL-,01 (IESC) notiert unter der 90-Tage-Linie (-37,4 %).",
+   "text": "IES HLDGS INC. DL-,01 (IESC) notiert unter der 90-Tage-Linie (-38,1 %).",
    "wichtig": false
   },
   {
-   "text": "Incyte Corp. (INCY) nähert sich der 90-Tage-Linie: 0,5 % darüber.",
+   "text": "Incyte Corp. (INCY) nähert sich der 90-Tage-Linie: 0,7 % darüber.",
    "wichtig": false
   },
   {
@@ -754,31 +771,35 @@
    "wichtig": false
   },
   {
-   "text": "Intl Business Machines Corp. (IBM) liegt 22,4 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Intl Business Machines Corp. (IBM) liegt 22,5 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Intl Business Machines Corp. (IBM) nähert sich der 200-Tage-Linie: 2,8 % darüber.",
+   "text": "Intl Business Machines Corp. (IBM) nähert sich der 200-Tage-Linie: 2,6 % darüber.",
    "wichtig": false
   },
   {
-   "text": "INTUITIVE SURGIC. DL-,001 (ISRG) liegt 26,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "INTUITIVE SURGIC. DL-,001 (ISRG) liegt 26,3 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "INTUITIVE SURGIC. DL-,001 (ISRG) nähert sich der 200-Tage-Linie: 1,2 % darüber.",
+   "text": "INTUITIVE SURGIC. DL-,001 (ISRG) nähert sich der 200-Tage-Linie: 1,0 % darüber.",
    "wichtig": false
   },
   {
-   "text": "IonQ Inc. (IONQ) liegt 60,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "IonQ Inc. (IONQ) fällt heute um -7,0 %.",
    "wichtig": false
   },
   {
-   "text": "IonQ Inc. (IONQ) notiert unter der 200-Tage-Linie (-32,4 %).",
+   "text": "IonQ Inc. (IONQ) liegt 61,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "IonQ Inc. (IONQ) notiert unter der 90-Tage-Linie (-28,2 %).",
+   "text": "IonQ Inc. (IONQ) notiert unter der 200-Tage-Linie (-33,4 %).",
+   "wichtig": false
+  },
+  {
+   "text": "IonQ Inc. (IONQ) notiert unter der 90-Tage-Linie (-29,3 %).",
    "wichtig": false
   },
   {
@@ -794,15 +815,15 @@
    "wichtig": false
   },
   {
-   "text": "JD.com Inc. (JD) liegt 21,7 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "JD.com Inc. (JD) liegt 21,9 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "JD.com Inc. (JD) notiert unter der 200-Tage-Linie (-6,6 %).",
+   "text": "JD.com Inc. (JD) notiert unter der 200-Tage-Linie (-6,8 %).",
    "wichtig": false
   },
   {
-   "text": "JD.com Inc. (JD) notiert unter der 90-Tage-Linie (-6,2 %).",
+   "text": "JD.com Inc. (JD) notiert unter der 90-Tage-Linie (-6,4 %).",
    "wichtig": false
   },
   {
@@ -818,27 +839,27 @@
    "wichtig": false
   },
   {
-   "text": "Lam Research Corp. (LRCX) liegt 47,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Lam Research Corp. (LRCX) liegt 48,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Lam Research Corp. (LRCX) notiert unter der 200-Tage-Linie (-20,1 %).",
+   "text": "Lam Research Corp. (LRCX) notiert unter der 200-Tage-Linie (-20,7 %).",
    "wichtig": false
   },
   {
-   "text": "Lam Research Corp. (LRCX) notiert unter der 90-Tage-Linie (-26,3 %).",
+   "text": "Lam Research Corp. (LRCX) notiert unter der 90-Tage-Linie (-26,8 %).",
    "wichtig": false
   },
   {
-   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) liegt 59,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) liegt 59,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) notiert unter der 200-Tage-Linie (-32,9 %).",
+   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) notiert unter der 200-Tage-Linie (-33,1 %).",
    "wichtig": false
   },
   {
-   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) notiert unter der 90-Tage-Linie (-20,0 %).",
+   "text": "LUMEN TECHNOLOGIES DL 1 (LUMN) notiert unter der 90-Tage-Linie (-20,3 %).",
    "wichtig": false
   },
   {
@@ -854,27 +875,27 @@
    "wichtig": false
   },
   {
-   "text": "MERCADOLIBRE INC. DL-,001 (MELI) liegt 27,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "MERCADOLIBRE INC. DL-,001 (MELI) liegt 27,6 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "MERCADOLIBRE INC. DL-,001 (MELI) notiert unter der 200-Tage-Linie (-6,8 %).",
+   "text": "MERCADOLIBRE INC. DL-,001 (MELI) notiert unter der 200-Tage-Linie (-7,0 %).",
    "wichtig": false
   },
   {
-   "text": "MERCADOLIBRE INC. DL-,001 (MELI) notiert unter der 90-Tage-Linie (-7,9 %).",
+   "text": "MERCADOLIBRE INC. DL-,001 (MELI) notiert unter der 90-Tage-Linie (-8,1 %).",
    "wichtig": false
   },
   {
-   "text": "MONOLITHIC POWER DL-,001 (MPWR) liegt 25,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "MONOLITHIC POWER DL-,001 (MPWR) liegt 26,0 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "MONOLITHIC POWER DL-,001 (MPWR) notiert unter der 200-Tage-Linie (-4,1 %).",
+   "text": "MONOLITHIC POWER DL-,001 (MPWR) notiert unter der 200-Tage-Linie (-5,1 %).",
    "wichtig": false
   },
   {
-   "text": "MONOLITHIC POWER DL-,001 (MPWR) notiert unter der 90-Tage-Linie (-3,3 %).",
+   "text": "MONOLITHIC POWER DL-,001 (MPWR) notiert unter der 90-Tage-Linie (-4,4 %).",
    "wichtig": false
   },
   {
@@ -882,27 +903,27 @@
    "wichtig": false
   },
   {
-   "text": "Netflix Inc. (NFLX) liegt 46,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Netflix Inc. (NFLX) liegt 46,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Netflix Inc. (NFLX) notiert unter der 200-Tage-Linie (-23,3 %).",
+   "text": "Netflix Inc. (NFLX) notiert unter der 200-Tage-Linie (-23,6 %).",
    "wichtig": false
   },
   {
-   "text": "Netflix Inc. (NFLX) notiert unter der 90-Tage-Linie (-14,5 %).",
+   "text": "Netflix Inc. (NFLX) notiert unter der 90-Tage-Linie (-14,8 %).",
    "wichtig": false
   },
   {
-   "text": "NIKE Inc. (NKE) liegt 40,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "NIKE Inc. (NKE) liegt 40,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "NIKE Inc. (NKE) notiert unter der 200-Tage-Linie (-13,4 %).",
+   "text": "NIKE Inc. (NKE) notiert unter der 200-Tage-Linie (-13,6 %).",
    "wichtig": false
   },
   {
-   "text": "NIKE Inc. (NKE) nähert sich der 90-Tage-Linie: 0,4 % darüber.",
+   "text": "NIKE Inc. (NKE) nähert sich der 90-Tage-Linie: 0,2 % darüber.",
    "wichtig": false
   },
   {
@@ -918,39 +939,39 @@
    "wichtig": false
   },
   {
-   "text": "Nu Holdings Ltd. (NU) liegt 37,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Nu Holdings Ltd. (NU) liegt 38,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Nu Holdings Ltd. (NU) notiert unter der 200-Tage-Linie (-18,8 %).",
+   "text": "Nu Holdings Ltd. (NU) notiert unter der 200-Tage-Linie (-19,6 %).",
    "wichtig": false
   },
   {
-   "text": "Nu Holdings Ltd. (NU) notiert unter der 90-Tage-Linie (-17,2 %).",
+   "text": "Nu Holdings Ltd. (NU) notiert unter der 90-Tage-Linie (-18,1 %).",
    "wichtig": false
   },
   {
-   "text": "Nutanix Inc. (NTNX) nähert sich der 90-Tage-Linie: 0,9 % darüber.",
+   "text": "Nutanix Inc. (NTNX) nähert sich der 90-Tage-Linie: 0,2 % darüber.",
    "wichtig": false
   },
   {
-   "text": "Okta Inc. (OKTA) fällt heute um -9,3 %.",
+   "text": "Okta Inc. (OKTA) fällt heute um -10,8 %.",
+   "wichtig": true
+  },
+  {
+   "text": "Okta Inc. (OKTA) liegt 20,0 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Okta Inc. (OKTA) liegt 18,6 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Palo Alto Networks Inc. (PANW) liegt 16,4 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "Palo Alto Networks Inc. (PANW) liegt 15,8 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "Palo Alto Networks Inc. (PANW) notiert unter der 90-Tage-Linie (-2,9 %).",
    "wichtig": false
   },
   {
-   "text": "Palo Alto Networks Inc. (PANW) notiert unter der 90-Tage-Linie (-2,2 %).",
-   "wichtig": false
-  },
-  {
-   "text": "PETROLEO BRASILEIRO ADR/2 (PBR) liegt 19,1 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "PETROLEO BRASILEIRO ADR/2 (PBR) liegt 19,7 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
@@ -966,47 +987,43 @@
    "wichtig": false
   },
   {
-   "text": "QUANTA SVCS DL-,00001 (PWR) liegt 20,8 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "QUANTA SVCS DL-,00001 (PWR) liegt 21,2 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "QUANTA SVCS DL-,00001 (PWR) notiert unter der 200-Tage-Linie (-0,9 %).",
+   "text": "QUANTA SVCS DL-,00001 (PWR) notiert unter der 200-Tage-Linie (-1,3 %).",
    "wichtig": false
   },
   {
-   "text": "QUANTA SVCS DL-,00001 (PWR) notiert unter der 90-Tage-Linie (-3,7 %).",
+   "text": "QUANTA SVCS DL-,00001 (PWR) notiert unter der 90-Tage-Linie (-4,1 %).",
    "wichtig": false
   },
   {
-   "text": "RAYONIER INC. (RYN) liegt 15,1 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "RAYONIER INC. (RYN) notiert unter der 200-Tage-Linie (-1,6 %).",
    "wichtig": false
   },
   {
-   "text": "RAYONIER INC. (RYN) notiert unter der 200-Tage-Linie (-1,8 %).",
+   "text": "RAYONIER INC. (RYN) notiert unter der 90-Tage-Linie (-0,2 %).",
    "wichtig": false
   },
   {
-   "text": "RAYONIER INC. (RYN) notiert unter der 90-Tage-Linie (-0,4 %).",
+   "text": "ROCKWELL AU. DL 1 (ROK) notiert unter der 90-Tage-Linie (-0,9 %).",
    "wichtig": false
   },
   {
-   "text": "ROCKWELL AU. DL 1 (ROK) notiert unter der 90-Tage-Linie (-0,7 %).",
+   "text": "SailPoint Inc. (SAIL) fällt heute um -9,0 %.",
    "wichtig": false
   },
   {
-   "text": "SailPoint Inc. (SAIL) fällt heute um -7,7 %.",
+   "text": "SENTINELONE INC.A -,0001 (S) fällt heute um -8,1 %.",
    "wichtig": false
   },
   {
-   "text": "SENTINELONE INC.A -,0001 (S) fällt heute um -7,0 %.",
+   "text": "SNOWFLAKE INC. DL-,0001 (SNOW) liegt 21,9 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
-   "text": "SNOWFLAKE INC. DL-,0001 (SNOW) liegt 21,0 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
-   "wichtig": false
-  },
-  {
-   "text": "SNOWFLAKE INC. DL-,0001 (SNOW) notiert unter der 90-Tage-Linie (-6,9 %).",
+   "text": "SNOWFLAKE INC. DL-,0001 (SNOW) notiert unter der 90-Tage-Linie (-7,9 %).",
    "wichtig": false
   },
   {
@@ -1026,7 +1043,7 @@
    "wichtig": false
   },
   {
-   "text": "SONY GROUP CORP.ADR/1O.N. (SONY) liegt 15,7 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
+   "text": "SONY GROUP CORP.ADR/1O.N. (SONY) liegt 15,8 % unter dem 52-Wochen-Hoch (Stufe 15 %).",
    "wichtig": false
   },
   {
@@ -1046,7 +1063,7 @@
    "wichtig": false
   },
   {
-   "text": "Trinity Capital Inc. (TRIN) notiert unter der 90-Tage-Linie (-0,9 %).",
+   "text": "Trinity Capital Inc. (TRIN) notiert unter der 90-Tage-Linie (-0,7 %).",
    "wichtig": false
   },
   {
@@ -1062,11 +1079,11 @@
    "wichtig": false
   },
   {
-   "text": "UNITEDHEALTH GROUP DL-,01 (UNH) nähert sich der 90-Tage-Linie: 0,4 % darüber.",
+   "text": "UNITEDHEALTH GROUP DL-,01 (UNH) nähert sich der 90-Tage-Linie: 0,3 % darüber.",
    "wichtig": false
   },
   {
-   "text": "Zscaler Inc. (ZS) liegt 32,6 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Zscaler Inc. (ZS) liegt 33,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
@@ -1122,55 +1139,55 @@
    "wichtig": false
   },
   {
-   "text": "AMD (AMD) liegt 27,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "AMD (AMD) liegt 28,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "AppLovin (APP) liegt 68,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "AppLovin (APP) liegt 68,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Arm Holdings (ARM) liegt 54,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Arm Holdings (ARM) liegt 55,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Caterpillar (CAT) liegt 42,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Caterpillar (CAT) liegt 42,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Dell (DELL) liegt 32,1 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Dell (DELL) liegt 33,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Intel (INTC) liegt 57,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Intel (INTC) liegt 57,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Lululemon (LULU) liegt 50,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Lululemon (LULU) liegt 50,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Micron Techn. (MU) liegt 30,9 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Micron Techn. (MU) liegt 31,5 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Qualcomm (QCOM) liegt 34,1 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Qualcomm (QCOM) liegt 35,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Figma Inc (FIG) liegt 54,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Figma Inc (FIG) liegt 55,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Viking Therapeutics Inc (VKTX) liegt 36,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Viking Therapeutics Inc (VKTX) liegt 36,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Quantum eMotion Corp (QNC.V) liegt 77,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Quantum eMotion Corp (QNC.V) liegt 77,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Mp Materials Corp (MP) liegt 47,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Mp Materials Corp (MP) liegt 47,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1178,7 +1195,7 @@
    "wichtig": false
   },
   {
-   "text": "A10 Networks Inc (ATEN) liegt 37,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "A10 Networks Inc (ATEN) liegt 38,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1190,15 +1207,15 @@
    "wichtig": false
   },
   {
-   "text": "Comfort Systems USA Inc (FIX) liegt 41,7 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Comfort Systems USA Inc (FIX) liegt 42,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Bullish (BLSH) liegt 55,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Bullish (BLSH) liegt 55,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Boston Scientific (BSX) liegt 58,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Boston Scientific (BSX) liegt 57,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1206,39 +1223,39 @@
    "wichtig": false
   },
   {
-   "text": "Credo Technology Group Holding Ltd (CRDO) liegt 53,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Credo Technology Group Holding Ltd (CRDO) liegt 53,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "CoreWeave (CRWV) liegt 63,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "CoreWeave (CRWV) liegt 64,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Deckers Outdoor Corporation (DECK) liegt 29,9 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Deckers Outdoor Corporation (DECK) liegt 29,8 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Constellation Energy (CEG) liegt 31,5 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Constellation Energy (CEG) liegt 31,6 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Fabrinet (FN) liegt 57,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Fabrinet (FN) liegt 58,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Fiserv (FISV) liegt 26,0 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Fiserv (FISV) liegt 25,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Alphabet Inc. (GOOG) liegt 29,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "Alphabet Inc. (GOOG) liegt 29,9 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Grab (GRAB) liegt 52,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Grab (GRAB) liegt 52,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Robinhood (HOOD) liegt 42,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Robinhood (HOOD) liegt 43,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1250,7 +1267,7 @@
    "wichtig": false
   },
   {
-   "text": "M/A-Com Technology Solutions Holdings Inc. (MTSI) liegt 45,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "M/A-Com Technology Solutions Holdings Inc. (MTSI) liegt 45,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1258,47 +1275,51 @@
    "wichtig": false
   },
   {
-   "text": "POET Technologies Inc (POET) liegt 76,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "POET Technologies Inc (POET) liegt 76,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "RBC Bearings Inc (RBC) liegt 26,9 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "RBC Bearings Inc (RBC) liegt 27,5 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Serve Robotics Inc (SERV) liegt 83,8 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Serve Robotics Inc (SERV) liegt 83,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Super Micro Computer (SMCI) liegt 40,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Super Micro Computer (SMCI) liegt 41,6 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Summit Therapeutics Inc (SMMT) liegt 43,4 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Summit Therapeutics Inc (SMMT) liegt 43,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Nuscale Power Corp (SMR) liegt 88,0 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Nuscale Power Corp (SMR) liegt 88,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "SpaceX (SPCX) liegt 34,7 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "SpaceX (SPCX) liegt 35,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Sterling Infrastructure Inc (STRL) liegt 66,2 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Sarepta Therapeutics (SRPT) liegt 25,4 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
-   "text": "Vicor Corporation (VICR) liegt 53,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Sterling Infrastructure Inc (STRL) liegt 66,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Terawulf Inc (WULF) liegt 61,9 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Vicor Corporation (VICR) liegt 54,1 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
-   "text": "Zoetis (ZTS) liegt 41,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "text": "Terawulf Inc (WULF) liegt 62,5 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Zoetis (ZTS) liegt 41,3 % unter dem 52-Wochen-Hoch (Stufe 35 %).",
    "wichtig": false
   },
   {
@@ -1306,19 +1327,23 @@
    "wichtig": false
   },
   {
-   "text": "AppLovin (APP) nähert sich Abstauber-Kauflimit 1: 204,75 €, Limit 201,00 € (+1,9 %).",
+   "text": "AppLovin (APP) nähert sich Abstauber-Kauflimit 1: 203,89 €, Limit 201,00 € (+1,4 %).",
    "wichtig": false
   },
   {
-   "text": "Home Depot (HD) nähert sich Abstauber-Kauflimit 1: 303,44 €, Limit 300,00 € (+1,1 %).",
+   "text": "Home Depot (HD) nähert sich Abstauber-Kauflimit 1: 304,00 €, Limit 300,00 € (+1,3 %).",
    "wichtig": false
   },
   {
-   "text": "Meta (META) nähert sich Abstauber-Kauflimit 1: 545,48 €, Limit 525,00 € (+3,9 %).",
+   "text": "Meta (META) nähert sich Abstauber-Kauflimit 1: 543,49 €, Limit 525,00 € (+3,5 %).",
    "wichtig": false
   },
   {
-   "text": "Procter & Gamble (PG) nähert sich Abstauber-Kauflimit 1: 146,64 €, Limit 146,00 € (+0,4 %).",
+   "text": "Nutanix (NTNX) nähert sich Abstauber-Kauflimit 1: 57,69 €, Limit 55,00 € (+4,9 %).",
+   "wichtig": false
+  },
+  {
+   "text": "Procter & Gamble (PG) nähert sich Abstauber-Kauflimit 1: 146,62 €, Limit 146,00 € (+0,4 %).",
    "wichtig": false
   }
  ],
@@ -1327,14 +1352,14 @@
    "t": "AMZN",
    "name": "Amazon",
    "wa": "USD",
-   "kurs": 248.41,
-   "tag": 3.36,
-   "dd": -12.5,
-   "a90": -1.98,
-   "a200": 2.04,
-   "rsi": 46.4,
-   "p3m": -10.5,
-   "ytd": 7.62,
+   "kurs": 246.45,
+   "tag": 2.54,
+   "dd": -13.2,
+   "a90": -2.74,
+   "a200": 1.24,
+   "rsi": 44.6,
+   "p3m": -11.2,
+   "ytd": 6.77,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1342,17 +1367,17 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 8651.549,
-    "gew": 2.65,
-    "erg": 38.89,
+    "wert": 8583.114,
+    "gew": 2.64,
+    "erg": 37.79,
     "stueck": 39.0
    },
    "ab": {
     "l1": 171.0,
     "l2": 151.0,
     "ziel": 250.0,
-    "keur": 221.83,
-    "abst": 29.7,
+    "keur": 220.08,
+    "abst": 28.7,
     "split": false
    }
   },
@@ -1360,14 +1385,14 @@
    "t": "AAPL",
    "name": "Apple",
    "wa": "USD",
-   "kurs": 338.71,
-   "tag": -1.72,
-   "dd": -2.92,
-   "a90": 4.23,
-   "a200": 14.2,
-   "rsi": 48.3,
-   "p3m": 9.58,
-   "ytd": 24.9,
+   "kurs": 338.09,
+   "tag": -1.9,
+   "dd": -3.1,
+   "a90": 4.04,
+   "a200": 14.0,
+   "rsi": 47.6,
+   "p3m": 9.37,
+   "ytd": 24.7,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1375,17 +1400,17 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 1209.89,
-    "gew": 0.371,
-    "erg": 55.25,
+    "wert": 1207.657,
+    "gew": 0.372,
+    "erg": 54.97,
     "stueck": 4.0
    },
    "ab": {
     "l1": 198.0,
     "l2": 176.0,
     "ziel": 260.0,
-    "keur": 302.47,
-    "abst": 52.8,
+    "keur": 301.91,
+    "abst": 52.5,
     "split": false
    }
   },
@@ -1393,14 +1418,14 @@
    "t": "META",
    "name": "Meta Platforms",
    "wa": "USD",
-   "kurs": 610.84,
-   "tag": -0.675,
-   "dd": -21.4,
-   "a90": -4.36,
-   "a200": -3.23,
-   "rsi": 32.5,
-   "p3m": 3.98,
-   "ytd": -7.22,
+   "kurs": 608.61,
+   "tag": -1.04,
+   "dd": -21.7,
+   "a90": -4.7,
+   "a200": -3.58,
+   "rsi": 32.1,
+   "p3m": 3.6,
+   "ytd": -7.56,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1408,17 +1433,17 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 6094.104,
+    "wert": 6071.906,
     "gew": 1.87,
-    "erg": 10.97,
+    "erg": 10.56,
     "stueck": 11.172
    },
    "ab": {
     "l1": 525.0,
     "l2": 461.0,
     "ziel": 800.0,
-    "keur": 545.48,
-    "abst": 3.9,
+    "keur": 543.49,
+    "abst": 3.52,
     "split": false
    }
   },
@@ -1426,14 +1451,14 @@
    "t": "MSFT",
    "name": "Microsoft",
    "wa": "USD",
-   "kurs": 513.66,
-   "tag": -1.58,
-   "dd": -5.48,
-   "a90": 7.9,
-   "a200": 17.5,
-   "rsi": 43.6,
-   "p3m": 4.43,
-   "ytd": 6.89,
+   "kurs": 508.31,
+   "tag": -2.61,
+   "dd": -6.47,
+   "a90": 6.79,
+   "a200": 16.3,
+   "rsi": 40.7,
+   "p3m": 3.34,
+   "ytd": 5.77,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1441,17 +1466,17 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 5278.752,
-    "gew": 1.62,
-    "erg": 31.47,
+    "wert": 5223.72,
+    "gew": 1.61,
+    "erg": 30.1,
     "stueck": 11.508
    },
    "ab": {
     "l1": 320.0,
     "l2": 292.0,
     "ziel": 450.0,
-    "keur": 458.7,
-    "abst": 43.3,
+    "keur": 453.92,
+    "abst": 41.9,
     "split": false
    }
   },
@@ -1459,14 +1484,14 @@
    "t": "ORCL",
    "name": "Oracle",
    "wa": "USD",
-   "kurs": 119.22,
-   "tag": -8.76,
-   "dd": -54.0,
-   "a90": -14.3,
-   "a200": -23.4,
-   "rsi": 38.5,
-   "p3m": -17.9,
-   "ytd": -38.0,
+   "kurs": 118.85,
+   "tag": -9.05,
+   "dd": -54.1,
+   "a90": -14.6,
+   "a200": -23.6,
+   "rsi": 38.3,
+   "p3m": -18.1,
+   "ytd": -38.2,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -1474,9 +1499,9 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 2661.698,
+    "wert": 2653.326,
     "gew": 0.817,
-    "erg": -24.69,
+    "erg": -24.93,
     "stueck": 25.0
    }
   },
@@ -1484,14 +1509,14 @@
    "t": "GOOGL",
    "name": "Alphabet",
    "wa": "USD",
-   "kurs": 282.63,
-   "tag": 0.997,
-   "dd": -29.7,
-   "a90": -17.7,
-   "a200": -16.9,
-   "rsi": 23.8,
-   "p3m": -25.1,
-   "ytd": -9.53,
+   "kurs": 280.56,
+   "tag": 0.257,
+   "dd": -30.2,
+   "a90": -18.3,
+   "a200": -17.5,
+   "rsi": 22.0,
+   "p3m": -25.7,
+   "ytd": -10.2,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1499,17 +1524,17 @@
    "gruppe": "big_player",
    "aus": false,
    "depot": {
-    "wert": 12871.82,
-    "gew": 3.95,
-    "erg": 66.32,
+    "wert": 12777.54,
+    "gew": 3.93,
+    "erg": 65.1,
     "stueck": 51.0
    },
    "ab": {
     "l1": 141.0,
     "l2": 126.0,
     "ziel": 250.0,
-    "keur": 252.39,
-    "abst": 79.0,
+    "keur": 250.54,
+    "abst": 77.7,
     "split": false
    }
   },
@@ -1517,14 +1542,14 @@
    "t": "PLTR",
    "name": "Palantir",
    "wa": "USD",
-   "kurs": 181.02,
-   "tag": -1.68,
-   "dd": -13.4,
-   "a90": 8.25,
-   "a200": 17.9,
-   "rsi": 39.5,
-   "p3m": 11.3,
-   "ytd": 1.84,
+   "kurs": 178.95,
+   "tag": -2.8,
+   "dd": -14.4,
+   "a90": 7.03,
+   "a200": 16.5,
+   "rsi": 38.1,
+   "p3m": 10.0,
+   "ytd": 0.675,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1532,17 +1557,17 @@
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 8082.543,
-    "gew": 2.48,
-    "erg": 428.8,
+    "wert": 7990.117,
+    "gew": 2.46,
+    "erg": 422.8,
     "stueck": 50.0
    },
    "ab": {
     "l1": 61.0,
     "l2": 51.0,
     "ziel": 120.0,
-    "keur": 161.65,
-    "abst": 165.0,
+    "keur": 159.8,
+    "abst": 162.0,
     "split": false
    }
   },
@@ -1550,14 +1575,14 @@
    "t": "CRWD",
    "name": "CrowdStrike",
    "wa": "USD",
-   "kurs": 242.61,
-   "tag": -3.12,
-   "dd": -13.0,
-   "a90": 9.09,
-   "a200": 44.5,
-   "rsi": 45.9,
-   "p3m": 14.9,
-   "ytd": 107.0,
+   "kurs": 241.0,
+   "tag": -3.77,
+   "dd": -13.6,
+   "a90": 8.38,
+   "a200": 43.6,
+   "rsi": 45.2,
+   "p3m": 14.1,
+   "ytd": 106.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1565,17 +1590,17 @@
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 5441.4,
-    "gew": 1.67,
-    "erg": 169.3,
+    "wert": 5405.267,
+    "gew": 1.66,
+    "erg": 167.5,
     "stueck": 25.116
    },
    "ab": {
     "l1": 66.25,
     "l2": 53.75,
     "ziel": 100.0,
-    "keur": 216.65,
-    "abst": 227.0,
+    "keur": 215.21,
+    "abst": 225.0,
     "split": true
    }
   },
@@ -1583,23 +1608,23 @@
    "t": "NET",
    "name": "Cloudflare",
    "wa": "USD",
-   "kurs": 267.88,
-   "tag": -4.57,
-   "dd": -25.8,
-   "a90": -11.2,
-   "a200": 7.79,
-   "rsi": 32.6,
-   "p3m": -11.1,
-   "ytd": 35.9,
+   "kurs": 264.65,
+   "tag": -5.72,
+   "dd": -26.7,
+   "a90": -12.2,
+   "a200": 6.5,
+   "rsi": 32.0,
+   "p3m": -12.2,
+   "ytd": 34.2,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 3588.253,
-    "gew": 1.1,
-    "erg": 76.08,
+    "wert": 3545.0,
+    "gew": 1.09,
+    "erg": 73.95,
     "stueck": 15.0
    }
   },
@@ -1607,23 +1632,23 @@
    "t": "DDOG",
    "name": "Datadog",
    "wa": "USD",
-   "kurs": 219.25,
-   "tag": -6.81,
-   "dd": -25.2,
-   "a90": -13.3,
-   "a200": 10.3,
-   "rsi": 34.3,
-   "p3m": -23.9,
-   "ytd": 61.2,
+   "kurs": 217.08,
+   "tag": -7.73,
+   "dd": -26.0,
+   "a90": -14.1,
+   "a200": 9.18,
+   "rsi": 33.8,
+   "p3m": -24.7,
+   "ytd": 59.6,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 978.9512,
-    "gew": 0.3,
-    "erg": 94.77,
+    "wert": 969.2622,
+    "gew": 0.298,
+    "erg": 92.84,
     "stueck": 5.0
    }
   },
@@ -1631,14 +1656,14 @@
    "t": "FTNT",
    "name": "Fortinet",
    "wa": "USD",
-   "kurs": 127.48,
-   "tag": -6.32,
-   "dd": -34.5,
-   "a90": -22.9,
-   "a200": -0.902,
-   "rsi": 24.0,
-   "p3m": -24.2,
-   "ytd": 60.5,
+   "kurs": 126.61,
+   "tag": -6.96,
+   "dd": -35.0,
+   "a90": -23.4,
+   "a200": -1.57,
+   "rsi": 23.7,
+   "p3m": -24.8,
+   "ytd": 59.4,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1646,17 +1671,17 @@
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 4325.906,
-    "gew": 1.33,
-    "erg": 40.39,
+    "wert": 4296.438,
+    "gew": 1.32,
+    "erg": 39.44,
     "stueck": 38.0
    },
    "ab": {
     "l1": 81.0,
     "l2": 66.0,
     "ziel": 125.0,
-    "keur": 113.84,
-    "abst": 40.5,
+    "keur": 113.06,
+    "abst": 39.6,
     "split": false
    }
   },
@@ -1664,23 +1689,23 @@
    "t": "TWLO",
    "name": "Twilio",
    "wa": "USD",
-   "kurs": 210.46,
-   "tag": 2.65,
-   "dd": -30.1,
-   "a90": -11.0,
-   "a200": 11.2,
-   "rsi": 32.9,
-   "p3m": 8.46,
-   "ytd": 48.0,
+   "kurs": 206.78,
+   "tag": 0.854,
+   "dd": -31.4,
+   "a90": -12.5,
+   "a200": 9.29,
+   "rsi": 31.1,
+   "p3m": 6.56,
+   "ytd": 45.4,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 1879.408,
-    "gew": 0.577,
-    "erg": 80.29,
+    "wert": 1846.545,
+    "gew": 0.568,
+    "erg": 77.13,
     "stueck": 10.0
    }
   },
@@ -1688,14 +1713,14 @@
    "t": "NOW",
    "name": "ServiceNow",
    "wa": "USD",
-   "kurs": 106.55,
-   "tag": 1.36,
-   "dd": -42.0,
-   "a90": -15.8,
-   "a200": -7.24,
-   "rsi": 28.2,
-   "p3m": -9.81,
-   "ytd": -30.4,
+   "kurs": 105.91,
+   "tag": 0.752,
+   "dd": -42.4,
+   "a90": -16.3,
+   "a200": -7.79,
+   "rsi": 27.6,
+   "p3m": -10.4,
+   "ytd": -30.9,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1703,17 +1728,17 @@
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 2188.431,
-    "gew": 0.671,
-    "erg": 1.955,
+    "wert": 2175.286,
+    "gew": 0.67,
+    "erg": 1.342,
     "stueck": 23.0
    },
    "ab": {
     "l1": 140.0,
     "l2": 125.0,
     "ziel": 220.0,
-    "keur": 95.149,
-    "abst": -32.0,
+    "keur": 94.578,
+    "abst": -32.4,
     "split": true
    }
   },
@@ -1721,23 +1746,23 @@
    "t": "VRT",
    "name": "Vertiv",
    "wa": "USD",
-   "kurs": 225.65,
-   "tag": -2.95,
-   "dd": -40.0,
-   "a90": -14.0,
-   "a200": -16.6,
-   "rsi": 48.4,
-   "p3m": -16.4,
-   "ytd": 39.4,
+   "kurs": 224.83,
+   "tag": -3.3,
+   "dd": -40.2,
+   "a90": -14.3,
+   "a200": -16.9,
+   "rsi": 48.0,
+   "p3m": -16.7,
+   "ytd": 38.9,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "wachstum",
    "aus": false,
    "depot": {
-    "wert": 8261.665,
+    "wert": 8231.701,
     "gew": 2.53,
-    "erg": 84.54,
+    "erg": 83.87,
     "stueck": 41.0
    }
   },
@@ -1745,14 +1770,14 @@
    "t": "KLAC",
    "name": "KLA",
    "wa": "USD",
-   "kurs": 154.68,
-   "tag": -2.05,
-   "dd": -48.7,
-   "a90": -20.0,
-   "a200": -14.9,
-   "rsi": 38.1,
-   "p3m": -20.8,
-   "ytd": 27.8,
+   "kurs": 153.33,
+   "tag": -2.9,
+   "dd": -49.1,
+   "a90": -20.7,
+   "a200": -15.7,
+   "rsi": 37.4,
+   "p3m": -21.5,
+   "ytd": 26.7,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -1764,14 +1789,14 @@
    "t": "ONTO",
    "name": "Onto Innovation",
    "wa": "USD",
-   "kurs": 193.39,
-   "tag": -4.06,
-   "dd": -48.9,
-   "a90": -30.7,
-   "a200": -25.9,
-   "rsi": 31.2,
-   "p3m": -32.8,
-   "ytd": 22.5,
+   "kurs": 190.34,
+   "tag": -5.57,
+   "dd": -49.7,
+   "a90": -31.7,
+   "a200": -27.0,
+   "rsi": 30.5,
+   "p3m": -33.8,
+   "ytd": 20.6,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live",
@@ -1780,9 +1805,9 @@
    "gruppe": "wartebank",
    "aus": false,
    "depot": {
-    "wert": 172.6973,
-    "gew": 0.053,
-    "erg": -13.22,
+    "wert": 169.9736,
+    "gew": 0.0523,
+    "erg": -14.59,
     "stueck": 1.0
    }
   },
@@ -1790,14 +1815,14 @@
    "t": "Q",
    "name": "Qnity Electronics",
    "wa": "USD",
-   "kurs": 116.56,
-   "tag": -0.0943,
-   "dd": -33.6,
-   "a90": -9.96,
-   "a200": -9.88,
-   "rsi": 44.7,
-   "p3m": -17.7,
-   "ytd": 43.0,
+   "kurs": 115.71,
+   "tag": -0.823,
+   "dd": -34.1,
+   "a90": -10.6,
+   "a200": -10.5,
+   "rsi": 43.7,
+   "p3m": -18.3,
+   "ytd": 42.0,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -1805,9 +1830,9 @@
    "gruppe": "wartebank",
    "aus": false,
    "depot": {
-    "wert": 747.6647,
-    "gew": 0.229,
-    "erg": -14.34,
+    "wert": 742.2124,
+    "gew": 0.228,
+    "erg": -14.97,
     "stueck": 7.183
    }
   },
@@ -1815,14 +1840,14 @@
    "t": "TER",
    "name": "Teradyne",
    "wa": "USD",
-   "kurs": 260.89,
-   "tag": -4.91,
-   "dd": -46.1,
-   "a90": -29.1,
-   "a200": -25.4,
-   "rsi": 26.7,
-   "p3m": -35.3,
-   "ytd": 34.9,
+   "kurs": 258.82,
+   "tag": -5.67,
+   "dd": -46.5,
+   "a90": -29.7,
+   "a200": -25.9,
+   "rsi": 26.4,
+   "p3m": -35.8,
+   "ytd": 33.9,
    "listen": [],
    "gruppe": "wartebank",
    "aus": false
@@ -1831,14 +1856,14 @@
    "t": "ALAB",
    "name": "Astera Labs",
    "wa": "USD",
-   "kurs": 230.93,
-   "tag": -10.7,
-   "dd": -52.2,
-   "a90": -28.3,
-   "a200": -9.62,
-   "rsi": 32.2,
-   "p3m": -36.2,
-   "ytd": 38.8,
+   "kurs": 226.47,
+   "tag": -12.5,
+   "dd": -53.1,
+   "a90": -29.7,
+   "a200": -11.4,
+   "rsi": 31.5,
+   "p3m": -37.4,
+   "ytd": 36.1,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live",
@@ -1851,14 +1876,14 @@
    "t": "MRVL",
    "name": "Marvell Technology",
    "wa": "USD",
-   "kurs": 169.79,
-   "tag": -13.5,
-   "dd": -46.3,
-   "a90": -26.7,
-   "a200": -7.51,
-   "rsi": 28.5,
-   "p3m": -22.3,
-   "ytd": 100.0,
+   "kurs": 169.03,
+   "tag": -13.9,
+   "dd": -46.6,
+   "a90": -27.1,
+   "a200": -7.92,
+   "rsi": 28.4,
+   "p3m": -22.7,
+   "ytd": 99.2,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -1866,17 +1891,17 @@
    "gruppe": "wartebank",
    "aus": false,
    "depot": {
-    "wert": 3184.072,
-    "gew": 0.977,
-    "erg": 140.6,
+    "wert": 3169.82,
+    "gew": 0.976,
+    "erg": 139.5,
     "stueck": 21.0
    },
    "ab": {
     "l1": 56.0,
     "l2": 51.0,
     "ziel": 120.0,
-    "keur": 151.62,
-    "abst": 171.0,
+    "keur": 150.94,
+    "abst": 170.0,
     "split": false
    }
   },
@@ -1916,14 +1941,14 @@
    "t": "JAZZ",
    "name": "Jazz Pharmaceuticals",
    "wa": "USD",
-   "kurs": 217.76,
-   "tag": 0.826,
-   "dd": -16.8,
-   "a90": -8.89,
-   "a200": 0.416,
-   "rsi": 48.5,
-   "p3m": -16.8,
-   "ytd": 28.1,
+   "kurs": 216.26,
+   "tag": 0.13,
+   "dd": -17.3,
+   "a90": -9.51,
+   "a200": -0.275,
+   "rsi": 46.7,
+   "p3m": -17.3,
+   "ytd": 27.2,
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false
@@ -1932,21 +1957,21 @@
    "t": "XPEV",
    "name": "XPeng (Robotik)",
    "wa": "USD",
-   "kurs": 9.635,
-   "tag": 6.58,
-   "dd": -65.7,
-   "a90": -14.3,
-   "a200": -33.2,
-   "rsi": 50.5,
-   "p3m": -20.0,
-   "ytd": -52.5,
+   "kurs": 9.605,
+   "tag": 6.25,
+   "dd": -65.8,
+   "a90": -14.6,
+   "a200": -33.4,
+   "rsi": 50.0,
+   "p3m": -20.3,
+   "ytd": -52.6,
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false,
    "depot": {
-    "wert": 206.4973,
-    "gew": 0.0633,
-    "erg": -38.86,
+    "wert": 205.8543,
+    "gew": 0.0634,
+    "erg": -39.05,
     "stueck": 24.0
    }
   },
@@ -1954,14 +1979,14 @@
    "t": "BN",
    "name": "Brookfield Corporation",
    "wa": "USD",
-   "kurs": 41.38,
-   "tag": 5.35,
-   "dd": -15.4,
-   "a90": 2.6,
-   "a200": -2.43,
-   "rsi": 74.2,
-   "p3m": -7.09,
-   "ytd": -9.36,
+   "kurs": 41.42,
+   "tag": 5.45,
+   "dd": -15.3,
+   "a90": 2.7,
+   "a200": -2.34,
+   "rsi": 74.4,
+   "p3m": -7.0,
+   "ytd": -9.27,
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false
@@ -1970,13 +1995,13 @@
    "t": "FSLR",
    "name": "First Solar",
    "wa": "USD",
-   "kurs": 182.71,
-   "tag": 4.76,
-   "dd": -42.6,
-   "a90": -10.2,
-   "a200": -15.3,
-   "rsi": 53.1,
-   "p3m": -25.0,
+   "kurs": 182.48,
+   "tag": 4.63,
+   "dd": -42.7,
+   "a90": -10.3,
+   "a200": -15.4,
+   "rsi": 52.9,
+   "p3m": -25.1,
    "ytd": -30.1,
    "listen": [
     "abstauber_usa"
@@ -1987,8 +2012,8 @@
     "l1": 105.0,
     "l2": 85.0,
     "ziel": 225.0,
-    "keur": 163.16,
-    "abst": 55.4,
+    "keur": 162.95,
+    "abst": 55.2,
     "split": false
    }
   },
@@ -1996,14 +2021,14 @@
    "t": "ENPH",
    "name": "Enphase Energy",
    "wa": "USD",
-   "kurs": 28.06,
-   "tag": 9.4,
-   "dd": -61.2,
-   "a90": -23.9,
-   "a200": -31.4,
-   "rsi": 40.1,
-   "p3m": -32.8,
-   "ytd": -12.4,
+   "kurs": 28.19,
+   "tag": 9.9,
+   "dd": -61.0,
+   "a90": -23.6,
+   "a200": -31.1,
+   "rsi": 40.7,
+   "p3m": -32.5,
+   "ytd": -12.0,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -2011,9 +2036,9 @@
    "gruppe": "beobachtung",
    "aus": false,
    "depot": {
-    "wert": 626.4395,
-    "gew": 0.192,
-    "erg": -19.47,
+    "wert": 629.3418,
+    "gew": 0.194,
+    "erg": -19.1,
     "stueck": 25.0
    }
   },
@@ -2021,14 +2046,14 @@
    "t": "SYK",
    "name": "Stryker",
    "wa": "USD",
-   "kurs": 305.63,
-   "tag": 4.72,
-   "dd": -20.4,
-   "a90": -0.998,
-   "a200": -5.05,
-   "rsi": 56.6,
-   "p3m": -8.74,
-   "ytd": -12.3,
+   "kurs": 307.55,
+   "tag": 5.38,
+   "dd": -19.9,
+   "a90": -0.383,
+   "a200": -4.46,
+   "rsi": 57.6,
+   "p3m": -8.17,
+   "ytd": -11.7,
    "listen": [],
    "gruppe": "zurueckgestellt",
    "aus": false
@@ -2037,14 +2062,14 @@
    "t": "AVGO",
    "name": "Broadcom",
    "wa": "USD",
-   "kurs": 325.34,
-   "tag": -0.227,
-   "dd": -32.2,
-   "a90": -11.6,
-   "a200": -11.2,
-   "rsi": 40.5,
-   "p3m": -22.1,
-   "ytd": -5.48,
+   "kurs": 322.4,
+   "tag": -1.13,
+   "dd": -32.8,
+   "a90": -12.3,
+   "a200": -12.0,
+   "rsi": 39.4,
+   "p3m": -22.8,
+   "ytd": -6.33,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -2053,17 +2078,17 @@
    "gruppe": "dividendenwachstum",
    "aus": false,
    "depot": {
-    "wert": 290.5287,
-    "gew": 0.0891,
-    "erg": -16.0,
+    "wert": 287.9032,
+    "gew": 0.0886,
+    "erg": -16.75,
     "stueck": 1.0
    },
    "ab": {
     "l1": 152.0,
     "l2": 125.0,
     "ziel": 225.0,
-    "keur": 290.53,
-    "abst": 91.1,
+    "keur": 287.9,
+    "abst": 89.4,
     "split": false
    }
   },
@@ -2093,14 +2118,14 @@
    "t": "V",
    "name": "Visa",
    "wa": "USD",
-   "kurs": 425.73,
-   "tag": 2.94,
+   "kurs": 425.39,
+   "tag": 2.85,
    "dd": 0.0,
-   "a90": 14.5,
-   "a200": 24.5,
-   "rsi": 75.2,
-   "p3m": 15.4,
-   "ytd": 22.1,
+   "a90": 14.4,
+   "a200": 24.4,
+   "rsi": 75.1,
+   "p3m": 15.3,
+   "ytd": 22.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -2108,17 +2133,17 @@
    "gruppe": "dividendenwachstum",
    "aus": false,
    "depot": {
-    "wert": 2806.879,
-    "gew": 0.861,
-    "erg": 31.73,
+    "wert": 2804.604,
+    "gew": 0.863,
+    "erg": 31.62,
     "stueck": 7.383
    },
    "ab": {
     "l1": 275.0,
     "l2": 251.0,
     "ziel": 350.0,
-    "keur": 380.18,
-    "abst": 38.2,
+    "keur": 379.87,
+    "abst": 38.1,
     "split": false
    }
   },
@@ -2126,21 +2151,21 @@
    "t": "ADP",
    "name": "Automatic Data Processing",
    "wa": "USD",
-   "kurs": 298.98,
-   "tag": 1.75,
-   "dd": -2.91,
-   "a90": 11.8,
-   "a200": 25.5,
-   "rsi": 62.7,
-   "p3m": 11.2,
-   "ytd": 18.8,
+   "kurs": 299.85,
+   "tag": 2.05,
+   "dd": -2.63,
+   "a90": 12.2,
+   "a200": 25.9,
+   "rsi": 63.2,
+   "p3m": 11.5,
+   "ytd": 19.2,
    "listen": [],
    "gruppe": "dividendenwachstum",
    "aus": false,
    "depot": {
-    "wert": 533.9872,
-    "gew": 0.164,
-    "erg": 17.76,
+    "wert": 535.5321,
+    "gew": 0.165,
+    "erg": 18.1,
     "stueck": 2.0
    }
   },
@@ -2148,23 +2173,23 @@
    "t": "ABT",
    "name": "Abbott Laboratories",
    "wa": "USD",
-   "kurs": 109.8,
-   "tag": 3.39,
-   "dd": -13.8,
-   "a90": 6.78,
-   "a200": 9.34,
-   "rsi": 67.2,
-   "p3m": 4.76,
-   "ytd": -10.2,
+   "kurs": 110.2,
+   "tag": 3.77,
+   "dd": -13.5,
+   "a90": 7.17,
+   "a200": 9.74,
+   "rsi": 67.8,
+   "p3m": 5.14,
+   "ytd": -9.86,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "dividendenwachstum",
    "aus": false,
    "depot": {
-    "wert": 392.2056,
-    "gew": 0.12,
-    "erg": 29.2,
+    "wert": 393.6344,
+    "gew": 0.121,
+    "erg": 29.67,
     "stueck": 4.0
    }
   },
@@ -2188,14 +2213,14 @@
    "t": "IEF",
    "name": "US-Staatsanleihen 7-10 Jahre (iShares IEF)",
    "wa": "USD",
-   "kurs": 91.505,
-   "tag": -0.278,
-   "dd": -4.1,
-   "a90": 0.0113,
-   "a200": -1.08,
-   "rsi": 63.0,
-   "p3m": -1.18,
-   "ytd": -1.96,
+   "kurs": 91.525,
+   "tag": -0.256,
+   "dd": -4.08,
+   "a90": 0.033,
+   "a200": -1.06,
+   "rsi": 63.4,
+   "p3m": -1.16,
+   "ytd": -1.93,
    "listen": [],
    "gruppe": "anleihen",
    "aus": false
@@ -2204,14 +2229,14 @@
    "t": "TLT",
    "name": "US-Staatsanleihen 20+ Jahre (iShares TLT)",
    "wa": "USD",
-   "kurs": 81.72,
-   "tag": -0.147,
+   "kurs": 81.715,
+   "tag": -0.153,
    "dd": -7.24,
-   "a90": 0.433,
+   "a90": 0.427,
    "a200": -1.79,
-   "rsi": 62.4,
-   "p3m": -0.551,
-   "ytd": -2.97,
+   "rsi": 62.3,
+   "p3m": -0.557,
+   "ytd": -2.98,
    "listen": [],
    "gruppe": "anleihen",
    "aus": false
@@ -2234,9 +2259,9 @@
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 17777.16,
-    "gew": 5.45,
-    "erg": 140.9,
+    "wert": 17773.96,
+    "gew": 5.47,
+    "erg": 140.8,
     "stueck": 1156.0
    }
   },
@@ -2293,7 +2318,7 @@
    "aus": false,
    "depot": {
     "wert": 3051.864,
-    "gew": 0.936,
+    "gew": 0.939,
     "erg": 17.96,
     "stueck": 5.373
    },
@@ -2322,9 +2347,9 @@
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 3233.632,
-    "gew": 0.992,
-    "erg": 61.14,
+    "wert": 3233.051,
+    "gew": 0.995,
+    "erg": 61.11,
     "stueck": 59.0
    }
   },
@@ -2332,23 +2357,23 @@
    "t": "MO",
    "name": "Altria",
    "wa": "USD",
-   "kurs": 77.19,
-   "tag": -1.08,
-   "dd": -1.08,
-   "a90": 10.7,
-   "a200": 14.6,
-   "rsi": 66.0,
-   "p3m": 15.2,
-   "ytd": 40.4,
+   "kurs": 77.265,
+   "tag": -0.98,
+   "dd": -0.98,
+   "a90": 10.8,
+   "a200": 14.8,
+   "rsi": 66.3,
+   "p3m": 15.3,
+   "ytd": 40.5,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 206.792,
-    "gew": 0.0634,
-    "erg": 19.94,
+    "wert": 206.9929,
+    "gew": 0.0637,
+    "erg": 20.06,
     "stueck": 3.0
    }
   },
@@ -2356,9 +2381,9 @@
    "t": "PG",
    "name": "Procter & Gamble",
    "wa": "USD",
-   "kurs": 164.21,
-   "tag": 1.63,
-   "dd": -0.176,
+   "kurs": 164.18,
+   "tag": 1.62,
+   "dd": -0.192,
    "a90": 11.1,
    "a200": 11.7,
    "rsi": 67.9,
@@ -2370,17 +2395,17 @@
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 2052.967,
-    "gew": 0.63,
-    "erg": 20.48,
+    "wert": 2052.641,
+    "gew": 0.632,
+    "erg": 20.46,
     "stueck": 14.0
    },
    "ab": {
     "l1": 146.0,
     "l2": 135.0,
     "ziel": 200.0,
-    "keur": 146.64,
-    "abst": 0.439,
+    "keur": 146.62,
+    "abst": 0.423,
     "split": false
    }
   },
@@ -2388,31 +2413,31 @@
    "t": "MCD",
    "name": "McDonald's",
    "wa": "USD",
-   "kurs": 264.62,
-   "tag": 2.52,
-   "dd": -20.9,
-   "a90": 2.83,
-   "a200": -5.53,
-   "rsi": 73.6,
-   "p3m": -0.683,
-   "ytd": -11.7,
+   "kurs": 265.14,
+   "tag": 2.72,
+   "dd": -20.7,
+   "a90": 3.03,
+   "a200": -5.35,
+   "rsi": 74.0,
+   "p3m": -0.49,
+   "ytd": -11.5,
    "listen": [
     "abstauber_usa"
    ],
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 1015.425,
-    "gew": 0.312,
-    "erg": 12.72,
+    "wert": 1017.401,
+    "gew": 0.313,
+    "erg": 12.94,
     "stueck": 4.297
    },
    "ab": {
     "l1": 261.0,
     "l2": 235.0,
     "ziel": 330.0,
-    "keur": 236.31,
-    "abst": -9.46,
+    "keur": 236.77,
+    "abst": -9.28,
     "split": false
    }
   },
@@ -2420,14 +2445,14 @@
    "t": "KO",
    "name": "Coca-Cola",
    "wa": "USD",
-   "kurs": 96.125,
-   "tag": 2.17,
+   "kurs": 96.209,
+   "tag": 2.26,
    "dd": 0.0,
-   "a90": 10.1,
-   "a200": 17.9,
-   "rsi": 67.9,
-   "p3m": 11.7,
-   "ytd": 40.2,
+   "a90": 10.2,
+   "a200": 18.0,
+   "rsi": 68.1,
+   "p3m": 11.8,
+   "ytd": 40.3,
    "listen": [
     "abstauber_usa"
    ],
@@ -2437,8 +2462,8 @@
     "l1": 61.0,
     "l2": 56.0,
     "ziel": 80.0,
-    "keur": 85.84,
-    "abst": 40.7,
+    "keur": 85.915,
+    "abst": 40.8,
     "split": false
    }
   },
@@ -2446,14 +2471,14 @@
    "t": "PEP",
    "name": "PepsiCo",
    "wa": "USD",
-   "kurs": 140.34,
-   "tag": 2.18,
+   "kurs": 140.23,
+   "tag": 2.1,
    "dd": -15.2,
-   "a90": 3.76,
-   "a200": -2.34,
-   "rsi": 66.1,
-   "p3m": 1.97,
-   "ytd": 0.761,
+   "a90": 3.68,
+   "a200": -2.41,
+   "rsi": 65.9,
+   "p3m": 1.89,
+   "ytd": 0.682,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -2462,17 +2487,17 @@
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 1127.913,
-    "gew": 0.346,
-    "erg": 4.981,
+    "wert": 1127.028,
+    "gew": 0.347,
+    "erg": 4.898,
     "stueck": 9.0
    },
    "ab": {
     "l1": 131.0,
     "l2": 121.0,
     "ziel": 200.0,
-    "keur": 125.32,
-    "abst": -4.33,
+    "keur": 125.23,
+    "abst": -4.41,
     "split": false
    }
   },
@@ -2480,14 +2505,14 @@
    "t": "NEE",
    "name": "NextEra Energy",
    "wa": "USD",
-   "kurs": 85.225,
-   "tag": 1.81,
-   "dd": -11.6,
-   "a90": 2.56,
-   "a200": -1.38,
-   "rsi": 69.3,
-   "p3m": -1.53,
-   "ytd": 8.48,
+   "kurs": 85.42,
+   "tag": 2.04,
+   "dd": -11.4,
+   "a90": 2.79,
+   "a200": -1.15,
+   "rsi": 69.8,
+   "p3m": -1.3,
+   "ytd": 8.72,
    "listen": [],
    "gruppe": "dividende",
    "aus": false
@@ -2496,14 +2521,14 @@
    "t": "BIP",
    "name": "Brookfield Infrastructure",
    "wa": "USD",
-   "kurs": 38.4,
-   "tag": 2.89,
-   "dd": -8.81,
-   "a90": 2.4,
-   "a200": 4.08,
-   "rsi": 63.6,
-   "p3m": -2.62,
-   "ytd": 14.5,
+   "kurs": 38.31,
+   "tag": 2.65,
+   "dd": -9.03,
+   "a90": 2.17,
+   "a200": 3.84,
+   "rsi": 63.0,
+   "p3m": -2.85,
+   "ytd": 14.2,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -2514,14 +2539,14 @@
    "t": "JNJ",
    "name": "Johnson & Johnson",
    "wa": "USD",
-   "kurs": 271.27,
-   "tag": -0.706,
-   "dd": -2.57,
-   "a90": 3.44,
-   "a200": 10.4,
-   "rsi": 57.8,
-   "p3m": 6.93,
-   "ytd": 33.2,
+   "kurs": 271.5,
+   "tag": -0.622,
+   "dd": -2.49,
+   "a90": 3.53,
+   "a200": 10.5,
+   "rsi": 58.1,
+   "p3m": 7.03,
+   "ytd": 33.3,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -2531,17 +2556,17 @@
    "gruppe": "dividende",
    "aus": false,
    "depot": {
-    "wert": 1211.221,
-    "gew": 0.372,
-    "erg": 82.59,
+    "wert": 1212.247,
+    "gew": 0.373,
+    "erg": 82.75,
     "stueck": 5.0
    },
    "ab": {
     "l1": 140.0,
     "l2": 134.0,
     "ziel": 200.0,
-    "keur": 242.24,
-    "abst": 73.0,
+    "keur": 242.45,
+    "abst": 73.2,
     "split": false
    }
   },
@@ -2549,14 +2574,14 @@
    "t": "O",
    "name": "Realty Income",
    "wa": "USD",
-   "kurs": 57.625,
-   "tag": 1.22,
-   "dd": -11.6,
-   "a90": -3.04,
-   "a200": -4.26,
-   "rsi": 60.3,
-   "p3m": -7.09,
-   "ytd": 6.85,
+   "kurs": 57.69,
+   "tag": 1.33,
+   "dd": -11.5,
+   "a90": -2.93,
+   "a200": -4.15,
+   "rsi": 60.6,
+   "p3m": -6.98,
+   "ytd": 6.97,
    "listen": [],
    "gruppe": "dividende",
    "aus": false
@@ -2580,7 +2605,7 @@
    "aus": false,
    "depot": {
     "wert": 864.25,
-    "gew": 0.265,
+    "gew": 0.266,
     "erg": 5.146,
     "stueck": 5.0
    },
@@ -2611,9 +2636,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1303.898,
-    "gew": 0.4,
-    "erg": -13.8,
+    "wert": 1303.523,
+    "gew": 0.401,
+    "erg": -13.83,
     "stueck": 382.0
    }
   },
@@ -2633,9 +2658,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 132.5909,
-    "gew": 0.0407,
-    "erg": -21.38,
+    "wert": 132.5811,
+    "gew": 0.0408,
+    "erg": -21.39,
     "stueck": 12.0
    }
   },
@@ -2643,21 +2668,21 @@
    "t": "BABA",
    "name": "Alibaba Group Holding Ltd.",
    "wa": "USD",
-   "kurs": 102.22,
-   "tag": 4.26,
-   "dd": -41.8,
-   "a90": -9.07,
-   "a200": -18.4,
-   "rsi": 42.1,
-   "p3m": -20.8,
-   "ytd": -29.6,
+   "kurs": 101.74,
+   "tag": 3.77,
+   "dd": -42.1,
+   "a90": -9.5,
+   "a200": -18.8,
+   "rsi": 40.8,
+   "p3m": -21.1,
+   "ytd": -30.0,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 932.4503,
+    "wert": 928.0262,
     "gew": 0.286,
-    "erg": -26.75,
+    "erg": -27.1,
     "stueck": 10.215
    }
   },
@@ -2665,14 +2690,14 @@
    "t": "AAOI",
    "name": "Applied Optoelectronics Inc",
    "wa": "USD",
-   "kurs": 63.554,
-   "tag": -7.96,
-   "dd": -71.5,
-   "a90": -40.9,
-   "a200": -44.4,
-   "rsi": 33.5,
-   "p3m": -51.7,
-   "ytd": 82.3,
+   "kurs": 62.005,
+   "tag": -10.2,
+   "dd": -72.2,
+   "a90": -42.4,
+   "a200": -45.8,
+   "rsi": 32.8,
+   "p3m": -52.9,
+   "ytd": 77.9,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -2680,9 +2705,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 56.75399,
-    "gew": 0.0174,
-    "erg": -33.95,
+    "wert": 55.37047,
+    "gew": 0.017,
+    "erg": -35.56,
     "stueck": 1.0
    }
   },
@@ -2690,23 +2715,23 @@
    "t": "ARCC",
    "name": "Ares Capital Corporation",
    "wa": "USD",
-   "kurs": 19.41,
-   "tag": 1.57,
-   "dd": -1.47,
-   "a90": 2.77,
-   "a200": 6.05,
-   "rsi": 62.2,
-   "p3m": 1.23,
-   "ytd": 3.6,
+   "kurs": 19.425,
+   "tag": 1.65,
+   "dd": -1.4,
+   "a90": 2.85,
+   "a200": 6.13,
+   "rsi": 62.5,
+   "p3m": 1.31,
+   "ytd": 3.68,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1715.98,
-    "gew": 0.526,
-    "erg": 7.691,
+    "wert": 1717.306,
+    "gew": 0.529,
+    "erg": 7.774,
     "stueck": 99.0
    }
   },
@@ -2739,31 +2764,31 @@
    "t": "ANET",
    "name": "Arista Networks",
    "wa": "USD",
-   "kurs": 164.74,
-   "tag": -2.44,
-   "dd": -24.0,
-   "a90": -12.5,
-   "a200": -0.359,
-   "rsi": 33.7,
-   "p3m": -13.5,
-   "ytd": 25.7,
+   "kurs": 163.71,
+   "tag": -3.05,
+   "dd": -24.5,
+   "a90": -13.1,
+   "a200": -0.982,
+   "rsi": 33.3,
+   "p3m": -14.1,
+   "ytd": 24.9,
    "listen": [
     "abstauber_usa"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 4560.636,
+    "wert": 4531.984,
     "gew": 1.4,
-    "erg": 60.83,
+    "erg": 59.82,
     "stueck": 31.0
    },
    "ab": {
     "l1": 65.0,
     "l2": 55.0,
     "ziel": 120.0,
-    "keur": 147.12,
-    "abst": 126.0,
+    "keur": 146.19,
+    "abst": 125.0,
     "split": false
    }
   },
@@ -2786,7 +2811,7 @@
    "aus": false,
    "depot": {
     "wert": 5351.808,
-    "gew": 1.64,
+    "gew": 1.65,
     "erg": 122.8,
     "stueck": 3.801
    },
@@ -2803,14 +2828,14 @@
    "t": "TEAM",
    "name": "Atlassian",
    "wa": "USD",
-   "kurs": 188.12,
-   "tag": -1.88,
-   "dd": -17.3,
-   "a90": 18.9,
-   "a200": 59.3,
-   "rsi": 39.5,
-   "p3m": 70.5,
-   "ytd": 16.0,
+   "kurs": 186.26,
+   "tag": -2.85,
+   "dd": -18.2,
+   "a90": 17.7,
+   "a200": 57.7,
+   "rsi": 38.6,
+   "p3m": 68.8,
+   "ytd": 14.9,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -2818,9 +2843,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1679.956,
-    "gew": 0.515,
-    "erg": 148.7,
+    "wert": 1663.28,
+    "gew": 0.512,
+    "erg": 146.3,
     "stueck": 10.0
    }
   },
@@ -2844,7 +2869,7 @@
    "aus": false,
    "depot": {
     "wert": 642.6,
-    "gew": 0.197,
+    "gew": 0.198,
     "erg": 27.83,
     "stueck": 12.0
    },
@@ -2861,14 +2886,14 @@
    "t": "BNTX",
    "name": "Biontech",
    "wa": "USD",
-   "kurs": 87.67,
-   "tag": -0.567,
+   "kurs": 87.7,
+   "tag": -0.533,
    "dd": -26.5,
-   "a90": -8.16,
-   "a200": -9.62,
-   "rsi": 39.6,
-   "p3m": -4.03,
-   "ytd": -7.91,
+   "a90": -8.13,
+   "a200": -9.59,
+   "rsi": 39.7,
+   "p3m": -4.0,
+   "ytd": -7.88,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -2876,9 +2901,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3366.44,
-    "gew": 1.03,
-    "erg": -6.606,
+    "wert": 3367.592,
+    "gew": 1.04,
+    "erg": -6.574,
     "stueck": 43.0
    }
   },
@@ -2886,21 +2911,21 @@
    "t": "BLK",
    "name": "BLACKROCK INC. O.N.",
    "wa": "USD",
-   "kurs": 1166.5,
-   "tag": 1.65,
-   "dd": -0.878,
-   "a90": 7.09,
+   "kurs": 1166.2,
+   "tag": 1.62,
+   "dd": -0.904,
+   "a90": 7.06,
    "a200": 10.5,
-   "rsi": 62.0,
-   "p3m": 3.65,
-   "ytd": 10.8,
+   "rsi": 61.9,
+   "p3m": 3.63,
+   "ytd": 10.7,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 871.8675,
-    "gew": 0.267,
-    "erg": 20.81,
+    "wert": 871.6358,
+    "gew": 0.268,
+    "erg": 20.77,
     "stueck": 0.837
    }
   },
@@ -2908,12 +2933,12 @@
    "t": "BX",
    "name": "Blackstone Group",
    "wa": "USD",
-   "kurs": 120.33,
-   "tag": 1.54,
+   "kurs": 120.27,
+   "tag": 1.49,
    "dd": -24.1,
-   "a90": -4.17,
-   "a200": -1.83,
-   "rsi": 56.0,
+   "a90": -4.21,
+   "a200": -1.88,
+   "rsi": 55.9,
    "p3m": -12.3,
    "ytd": -19.5,
    "listen": [
@@ -2922,9 +2947,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 537.2735,
+    "wert": 537.0055,
     "gew": 0.165,
-    "erg": 4.817,
+    "erg": 4.765,
     "stueck": 5.0
    }
   },
@@ -2932,7 +2957,7 @@
    "t": "BKNG",
    "name": "Booking Holdings",
    "wa": "USD",
-   "kurs": 154.34,
+   "kurs": 154.33,
    "tag": 4.19,
    "dd": -29.2,
    "a90": -14.1,
@@ -2946,16 +2971,16 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 137.8256,
-    "gew": 0.0423,
-    "erg": -7.063,
+    "wert": 137.8167,
+    "gew": 0.0424,
+    "erg": -7.069,
     "stueck": 1.0
    },
    "ab": {
     "l1": 154.0,
     "l2": 136.0,
     "ziel": 208.0,
-    "keur": 137.83,
+    "keur": 137.82,
     "abst": -10.5,
     "split": true
    }
@@ -2964,14 +2989,14 @@
    "t": "BMY",
    "name": "Bristol-Myers Squibb",
    "wa": "USD",
-   "kurs": 62.78,
-   "tag": 0.48,
-   "dd": -6.84,
-   "a90": 1.59,
-   "a200": 6.56,
-   "rsi": 56.3,
-   "p3m": -3.73,
-   "ytd": 21.6,
+   "kurs": 62.89,
+   "tag": 0.656,
+   "dd": -6.68,
+   "a90": 1.77,
+   "a200": 6.75,
+   "rsi": 56.7,
+   "p3m": -3.56,
+   "ytd": 21.8,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -2979,9 +3004,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 672.7505,
-    "gew": 0.206,
-    "erg": 17.78,
+    "wert": 673.9292,
+    "gew": 0.207,
+    "erg": 17.99,
     "stueck": 12.0
    }
   },
@@ -2989,23 +3014,23 @@
    "t": "BTI",
    "name": "British American Tobacco",
    "wa": "USD",
-   "kurs": 61.825,
-   "tag": 0.496,
-   "dd": -4.52,
-   "a90": 7.96,
-   "a200": 7.25,
-   "rsi": 71.0,
-   "p3m": 6.24,
-   "ytd": 14.1,
+   "kurs": 61.91,
+   "tag": 0.634,
+   "dd": -4.39,
+   "a90": 8.1,
+   "a200": 7.39,
+   "rsi": 71.3,
+   "p3m": 6.39,
+   "ytd": 14.3,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 441.6778,
-    "gew": 0.135,
-    "erg": 16.54,
+    "wert": 442.285,
+    "gew": 0.136,
+    "erg": 16.7,
     "stueck": 8.0
    }
   },
@@ -3013,23 +3038,23 @@
    "t": "CALM",
    "name": "Cal-Maine",
    "wa": "USD",
-   "kurs": 65.25,
-   "tag": 2.66,
-   "dd": -30.2,
-   "a90": -14.6,
-   "a200": -16.6,
-   "rsi": 50.7,
-   "p3m": -23.0,
-   "ytd": -16.9,
+   "kurs": 65.79,
+   "tag": 3.51,
+   "dd": -29.6,
+   "a90": -13.9,
+   "a200": -15.9,
+   "rsi": 52.4,
+   "p3m": -22.4,
+   "ytd": -16.2,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1602.144,
-    "gew": 0.492,
-    "erg": -18.77,
+    "wert": 1615.403,
+    "gew": 0.497,
+    "erg": -18.1,
     "stueck": 27.496
    }
   },
@@ -3037,14 +3062,14 @@
    "t": "CRCL",
    "name": "Circle Internet Group Inc",
    "wa": "USD",
-   "kurs": 72.73,
-   "tag": 0.262,
-   "dd": -45.2,
-   "a90": -7.05,
-   "a200": -15.5,
-   "rsi": 37.2,
-   "p3m": 15.0,
-   "ytd": -8.28,
+   "kurs": 72.05,
+   "tag": -0.675,
+   "dd": -45.8,
+   "a90": -7.91,
+   "a200": -16.3,
+   "rsi": 36.5,
+   "p3m": 13.9,
+   "ytd": -9.14,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -3052,9 +3077,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 259.7916,
-    "gew": 0.0797,
-    "erg": -4.348,
+    "wert": 257.3626,
+    "gew": 0.0792,
+    "erg": -5.242,
     "stueck": 4.0
    }
   },
@@ -3062,14 +3087,14 @@
    "t": "COIN",
    "name": "Coinbase",
    "wa": "USD",
-   "kurs": 136.08,
-   "tag": -5.2,
-   "dd": -60.4,
-   "a90": -19.7,
-   "a200": -23.4,
-   "rsi": 29.1,
-   "p3m": -9.72,
-   "ytd": -39.8,
+   "kurs": 136.38,
+   "tag": -4.99,
+   "dd": -60.3,
+   "a90": -19.6,
+   "a200": -23.3,
+   "rsi": 29.2,
+   "p3m": -9.52,
+   "ytd": -39.7,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -3077,9 +3102,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 607.5816,
-    "gew": 0.186,
-    "erg": -24.68,
+    "wert": 608.9144,
+    "gew": 0.187,
+    "erg": -24.52,
     "stueck": 5.0
    }
   },
@@ -3099,9 +3124,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 2390.134,
-    "gew": 0.733,
-    "erg": 107.2,
+    "wert": 2389.238,
+    "gew": 0.735,
+    "erg": 107.1,
     "stueck": 19.0
    }
   },
@@ -3124,7 +3149,7 @@
    "aus": false,
    "depot": {
     "wert": 1289.0,
-    "gew": 0.395,
+    "gew": 0.397,
     "erg": -9.756,
     "stueck": 20.0
    }
@@ -3145,9 +3170,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 674.8278,
-    "gew": 0.207,
-    "erg": 5.663,
+    "wert": 674.6333,
+    "gew": 0.208,
+    "erg": 5.633,
     "stueck": 22.0
    }
   },
@@ -3155,14 +3180,14 @@
    "t": "DBX",
    "name": "Dropbox",
    "wa": "USD",
-   "kurs": 35.77,
-   "tag": -1.32,
-   "dd": -5.45,
-   "a90": 6.64,
-   "a200": 23.1,
-   "rsi": 50.1,
-   "p3m": 3.65,
-   "ytd": 28.7,
+   "kurs": 35.685,
+   "tag": -1.56,
+   "dd": -5.67,
+   "a90": 6.39,
+   "a200": 22.8,
+   "rsi": 49.5,
+   "p3m": 3.4,
+   "ytd": 28.4,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -3170,17 +3195,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 606.9096,
+    "wert": 605.4674,
     "gew": 0.186,
-    "erg": 31.06,
+    "erg": 30.75,
     "stueck": 19.0
    },
    "ab": {
     "l1": 22.0,
     "l2": 20.0,
     "ziel": 40.0,
-    "keur": 31.943,
-    "abst": 45.2,
+    "keur": 31.867,
+    "abst": 44.8,
     "split": false
    }
   },
@@ -3188,8 +3213,8 @@
    "t": "LLY",
    "name": "Eli Lilly and Company",
    "wa": "USD",
-   "kurs": 1419.4,
-   "tag": 0.135,
+   "kurs": 1419.7,
+   "tag": 0.152,
    "dd": 0.0,
    "a90": 18.6,
    "a200": 30.1,
@@ -3203,9 +3228,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3890.169,
-    "gew": 1.19,
-    "erg": 72.29,
+    "wert": 3890.826,
+    "gew": 1.2,
+    "erg": 72.32,
     "stueck": 3.069
    }
   },
@@ -3229,7 +3254,7 @@
    "aus": false,
    "depot": {
     "wert": 655.8321,
-    "gew": 0.201,
+    "gew": 0.202,
     "erg": 5.536,
     "stueck": 3.509
    },
@@ -3246,23 +3271,23 @@
    "t": "EXEL",
    "name": "Exelixis Inc.",
    "wa": "USD",
-   "kurs": 71.285,
-   "tag": 2.73,
+   "kurs": 70.97,
+   "tag": 2.28,
    "dd": 0.0,
-   "a90": 24.0,
-   "a200": 39.7,
-   "rsi": 84.3,
-   "p3m": 27.3,
-   "ytd": 62.6,
+   "a90": 23.5,
+   "a200": 39.0,
+   "rsi": 84.0,
+   "p3m": 26.7,
+   "ytd": 61.9,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1657.451,
+    "wert": 1650.126,
     "gew": 0.508,
-    "erg": 94.54,
+    "erg": 93.68,
     "stueck": 26.037
    }
   },
@@ -3270,21 +3295,21 @@
    "t": "XOM",
    "name": "Exxonmobil Holdings Corp.",
    "wa": "USD",
-   "kurs": 180.45,
-   "tag": -3.63,
-   "dd": -3.63,
-   "a90": 12.7,
-   "a200": 17.4,
-   "rsi": 58.4,
-   "p3m": 18.0,
-   "ytd": 53.0,
+   "kurs": 180.73,
+   "tag": -3.48,
+   "dd": -3.48,
+   "a90": 12.9,
+   "a200": 17.6,
+   "rsi": 58.9,
+   "p3m": 18.1,
+   "ytd": 53.2,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 483.4122,
-    "gew": 0.148,
-    "erg": 38.22,
+    "wert": 484.1623,
+    "gew": 0.149,
+    "erg": 38.43,
     "stueck": 3.0
    }
   },
@@ -3292,21 +3317,21 @@
    "t": "BEN",
    "name": "FRANKLIN TEMPLETON DL-,10",
    "wa": "USD",
-   "kurs": 31.97,
-   "tag": 1.04,
-   "dd": -9.71,
-   "a90": -2.69,
-   "a200": 7.44,
-   "rsi": 51.1,
-   "p3m": -9.71,
-   "ytd": 38.5,
+   "kurs": 31.93,
+   "tag": 0.917,
+   "dd": -9.82,
+   "a90": -2.81,
+   "a200": 7.3,
+   "rsi": 50.7,
+   "p3m": -9.82,
+   "ytd": 38.4,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 770.8287,
-    "gew": 0.236,
-    "erg": 55.16,
+    "wert": 769.8642,
+    "gew": 0.237,
+    "erg": 54.97,
     "stueck": 27.0
    }
   },
@@ -3314,21 +3339,21 @@
    "t": "FRO",
    "name": "FRONTLINE PLC DL 1",
    "wa": "USD",
-   "kurs": 52.725,
-   "tag": -7.34,
-   "dd": -10.9,
-   "a90": 21.0,
-   "a200": 44.2,
-   "rsi": 50.3,
-   "p3m": 44.4,
-   "ytd": 178.0,
+   "kurs": 52.32,
+   "tag": -8.05,
+   "dd": -11.6,
+   "a90": 20.0,
+   "a200": 43.1,
+   "rsi": 49.3,
+   "p3m": 43.3,
+   "ytd": 176.0,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 4724.492,
-    "gew": 1.45,
-    "erg": 203.4,
+    "wert": 4688.202,
+    "gew": 1.44,
+    "erg": 201.0,
     "stueck": 100.343
    }
   },
@@ -3336,13 +3361,13 @@
    "t": "GENB",
    "name": "Generate Biomedicines Inc",
    "wa": "USD",
-   "kurs": 13.43,
-   "tag": -7.12,
-   "dd": -34.1,
-   "a90": -10.1,
+   "kurs": 13.2,
+   "tag": -8.71,
+   "dd": -35.2,
+   "a90": -11.6,
    "a200": null,
-   "rsi": 46.9,
-   "p3m": -5.95,
+   "rsi": 45.8,
+   "p3m": -7.56,
    "ytd": null,
    "listen": [
     "google_beobachtungsliste",
@@ -3351,9 +3376,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 215.8738,
-    "gew": 0.0662,
-    "erg": 2.497,
+    "wert": 212.1768,
+    "gew": 0.0653,
+    "erg": 0.742,
     "stueck": 18.0
    }
   },
@@ -3361,14 +3386,14 @@
    "t": "GILD",
    "name": "Gilead Sciences",
    "wa": "USD",
-   "kurs": 171.1,
-   "tag": 0.249,
+   "kurs": 170.71,
+   "tag": 0.0176,
    "dd": 0.0,
-   "a90": 19.7,
-   "a200": 23.2,
-   "rsi": 74.7,
-   "p3m": 27.2,
-   "ytd": 41.9,
+   "a90": 19.4,
+   "a200": 22.9,
+   "rsi": 74.4,
+   "p3m": 26.9,
+   "ytd": 41.6,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -3378,17 +3403,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 2750.342,
-    "gew": 0.844,
-    "erg": 136.3,
+    "wert": 2743.993,
+    "gew": 0.845,
+    "erg": 135.8,
     "stueck": 18.0
    },
    "ab": {
     "l1": 92.0,
     "l2": 82.0,
     "ziel": 125.0,
-    "keur": 152.8,
-    "abst": 66.1,
+    "keur": 152.44,
+    "abst": 65.7,
     "split": false
    }
   },
@@ -3408,9 +3433,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 612.5573,
-    "gew": 0.188,
-    "erg": 9.73,
+    "wert": 612.3808,
+    "gew": 0.189,
+    "erg": 9.698,
     "stueck": 24.0
    }
   },
@@ -3430,9 +3455,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 524.6837,
+    "wert": 524.5894,
     "gew": 0.161,
-    "erg": 29.15,
+    "erg": 29.13,
     "stueck": 24.0
    }
   },
@@ -3440,23 +3465,23 @@
    "t": "HTGC",
    "name": "Hercules Capital Inc",
    "wa": "USD",
-   "kurs": 16.554,
-   "tag": -0.217,
-   "dd": -6.79,
-   "a90": 0.0948,
-   "a200": 6.18,
-   "rsi": 48.1,
-   "p3m": 0.829,
-   "ytd": -3.8,
+   "kurs": 16.595,
+   "tag": 0.0301,
+   "dd": -6.56,
+   "a90": 0.34,
+   "a200": 6.44,
+   "rsi": 49.1,
+   "p3m": 1.08,
+   "ytd": -3.56,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1005.225,
-    "gew": 0.308,
-    "erg": 11.05,
+    "wert": 1007.715,
+    "gew": 0.31,
+    "erg": 11.33,
     "stueck": 68.0
    }
   },
@@ -3464,14 +3489,14 @@
    "t": "HPE",
    "name": "Hewlett Packard Ent.",
    "wa": "USD",
-   "kurs": 51.64,
-   "tag": -6.26,
-   "dd": -29.7,
-   "a90": -6.07,
-   "a200": 26.6,
-   "rsi": 35.9,
-   "p3m": -1.18,
-   "ytd": 118.0,
+   "kurs": 50.875,
+   "tag": -7.65,
+   "dd": -30.7,
+   "a90": -7.44,
+   "a200": 24.8,
+   "rsi": 35.0,
+   "p3m": -2.65,
+   "ytd": 114.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -3479,17 +3504,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3596.933,
-    "gew": 1.1,
-    "erg": 150.4,
+    "wert": 3543.647,
+    "gew": 1.09,
+    "erg": 146.7,
     "stueck": 78.0
    },
    "ab": {
     "l1": 13.8,
     "l2": 12.0,
     "ziel": 25.0,
-    "keur": 46.115,
-    "abst": 234.0,
+    "keur": 45.431,
+    "abst": 229.0,
     "split": false
    }
   },
@@ -3509,9 +3534,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 12443.71,
-    "gew": 3.82,
-    "erg": 81.1,
+    "wert": 12440.13,
+    "gew": 3.83,
+    "erg": 81.05,
     "stueck": 719.0
    }
   },
@@ -3519,21 +3544,21 @@
    "t": "HONA",
    "name": "Honeywell Aerospace Inc.",
    "wa": "USD",
-   "kurs": 158.88,
-   "tag": 3.07,
-   "dd": -41.1,
-   "a90": -10.6,
+   "kurs": 158.5,
+   "tag": 2.82,
+   "dd": -41.3,
+   "a90": -10.8,
    "a200": null,
-   "rsi": 48.0,
-   "p3m": -26.6,
+   "rsi": 47.7,
+   "p3m": -26.8,
    "ytd": null,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 70.93992,
+    "wert": 70.77025,
     "gew": 0.0218,
-    "erg": 12.98,
+    "erg": 12.71,
     "stueck": 0.5
    }
   },
@@ -3541,21 +3566,21 @@
    "t": "HON",
    "name": "Honeywell International Inc.",
    "wa": "USD",
-   "kurs": 223.79,
-   "tag": 2.5,
-   "dd": -13.2,
-   "a90": 1.33,
-   "a200": -2.5,
-   "rsi": 64.3,
-   "p3m": -9.78,
-   "ytd": 10.9,
+   "kurs": 223.57,
+   "tag": 2.4,
+   "dd": -13.3,
+   "a90": 1.24,
+   "a200": -2.59,
+   "rsi": 64.1,
+   "p3m": -9.87,
+   "ytd": 10.7,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 199.84,
-    "gew": 0.0613,
-    "erg": -15.73,
+    "wert": 199.648,
+    "gew": 0.0615,
+    "erg": -15.81,
     "stueck": 1.0
    }
   },
@@ -3563,14 +3588,14 @@
    "t": "IESC",
    "name": "IES Holdings Inc",
    "wa": "USD",
-   "kurs": 196.83,
-   "tag": -4.43,
-   "dd": -50.4,
-   "a90": -37.4,
-   "a200": -33.5,
-   "rsi": 21.0,
-   "p3m": -48.2,
-   "ytd": 1.19,
+   "kurs": 194.59,
+   "tag": -5.52,
+   "dd": -51.0,
+   "a90": -38.1,
+   "a200": -34.2,
+   "rsi": 20.6,
+   "p3m": -48.8,
+   "ytd": 0.0386,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -3578,9 +3603,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 520.6283,
-    "gew": 0.16,
-    "erg": 26.39,
+    "wert": 514.6902,
+    "gew": 0.158,
+    "erg": 24.95,
     "stueck": 2.962
    }
   },
@@ -3588,23 +3613,23 @@
    "t": "INCY",
    "name": "Incyte",
    "wa": "USD",
-   "kurs": 120.49,
-   "tag": 0.0789,
-   "dd": -7.27,
-   "a90": 0.519,
-   "a200": 11.4,
-   "rsi": 57.7,
-   "p3m": -0.0954,
-   "ytd": 22.0,
+   "kurs": 120.68,
+   "tag": 0.241,
+   "dd": -7.12,
+   "a90": 0.68,
+   "a200": 11.6,
+   "rsi": 58.0,
+   "p3m": 0.0663,
+   "ytd": 22.2,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1506.303,
-    "gew": 0.462,
-    "erg": 59.07,
+    "wert": 1508.741,
+    "gew": 0.464,
+    "erg": 59.32,
     "stueck": 14.0
    }
   },
@@ -3625,7 +3650,7 @@
    "aus": false,
    "depot": {
     "wert": 590.835,
-    "gew": 0.181,
+    "gew": 0.182,
     "erg": -10.3,
     "stueck": 21.0
    }
@@ -3634,31 +3659,31 @@
    "t": "IBM",
    "name": "IBM",
    "wa": "USD",
-   "kurs": 253.8,
-   "tag": -1.56,
-   "dd": -22.4,
-   "a90": 6.46,
-   "a200": 2.83,
-   "rsi": 64.5,
-   "p3m": 8.71,
-   "ytd": -12.6,
+   "kurs": 253.25,
+   "tag": -1.77,
+   "dd": -22.5,
+   "a90": 6.24,
+   "a200": 2.6,
+   "rsi": 63.7,
+   "p3m": 8.47,
+   "ytd": -12.8,
    "listen": [
     "abstauber_usa"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 453.2868,
+    "wert": 452.3045,
     "gew": 0.139,
-    "erg": 20.82,
+    "erg": 20.56,
     "stueck": 2.0
    },
    "ab": {
     "l1": 215.0,
     "l2": 190.0,
     "ziel": 280.0,
-    "keur": 226.64,
-    "abst": 5.42,
+    "keur": 226.15,
+    "abst": 5.19,
     "split": false
    }
   },
@@ -3666,14 +3691,14 @@
    "t": "ISRG",
    "name": "Intuitive Surgical",
    "wa": "USD",
-   "kurs": 437.71,
-   "tag": 1.32,
-   "dd": -26.2,
-   "a90": 11.0,
-   "a200": 1.19,
-   "rsi": 57.0,
-   "p3m": 18.9,
-   "ytd": -22.7,
+   "kurs": 437.06,
+   "tag": 1.17,
+   "dd": -26.3,
+   "a90": 10.9,
+   "a200": 1.05,
+   "rsi": 56.7,
+   "p3m": 18.7,
+   "ytd": -22.8,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -3681,9 +3706,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1945.776,
-    "gew": 0.597,
-    "erg": -6.401,
+    "wert": 1942.886,
+    "gew": 0.598,
+    "erg": -6.54,
     "stueck": 4.978
    }
   },
@@ -3691,23 +3716,23 @@
    "t": "IONQ",
    "name": "IonQ",
    "wa": "USD",
-   "kurs": 28.355,
-   "tag": -5.61,
-   "dd": -60.7,
-   "a90": -28.2,
-   "a200": -32.4,
-   "rsi": 31.5,
-   "p3m": -32.0,
-   "ytd": -36.8,
+   "kurs": 27.941,
+   "tag": -6.99,
+   "dd": -61.2,
+   "a90": -29.3,
+   "a200": -33.4,
+   "rsi": 30.8,
+   "p3m": -33.0,
+   "ytd": -37.7,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 455.7783,
-    "gew": 0.14,
-    "erg": -49.37,
+    "wert": 449.1301,
+    "gew": 0.138,
+    "erg": -50.11,
     "stueck": 18.0
    }
   },
@@ -3715,14 +3740,14 @@
    "t": "IQV",
    "name": "Iqvia Holdings Inc",
    "wa": "USD",
-   "kurs": 260.11,
-   "tag": -2.7,
-   "dd": -6.89,
-   "a90": 5.53,
-   "a200": 24.1,
-   "rsi": 43.0,
-   "p3m": 14.0,
-   "ytd": 15.4,
+   "kurs": 257.71,
+   "tag": -3.6,
+   "dd": -7.75,
+   "a90": 4.57,
+   "a200": 23.0,
+   "rsi": 41.3,
+   "p3m": 12.9,
+   "ytd": 14.3,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -3730,9 +3755,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1393.643,
-    "gew": 0.428,
-    "erg": 82.1,
+    "wert": 1380.81,
+    "gew": 0.425,
+    "erg": 80.43,
     "stueck": 6.0
    }
   },
@@ -3752,9 +3777,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 742.9916,
-    "gew": 0.228,
-    "erg": -30.78,
+    "wert": 742.9367,
+    "gew": 0.229,
+    "erg": -30.79,
     "stueck": 65.0
    }
   },
@@ -3762,21 +3787,21 @@
    "t": "JD",
    "name": "JD.com Inc.",
    "wa": "USD",
-   "kurs": 26.43,
-   "tag": 2.92,
-   "dd": -21.7,
-   "a90": -6.23,
-   "a200": -6.62,
-   "rsi": 50.6,
-   "p3m": -19.8,
-   "ytd": -4.63,
+   "kurs": 26.37,
+   "tag": 2.69,
+   "dd": -21.9,
+   "a90": -6.44,
+   "a200": -6.83,
+   "rsi": 49.9,
+   "p3m": -20.0,
+   "ytd": -4.84,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 70.80597,
+    "wert": 70.64523,
     "gew": 0.0217,
-    "erg": -3.006,
+    "erg": -3.226,
     "stueck": 3.0
    }
   },
@@ -3798,9 +3823,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 200.2912,
-    "gew": 0.0614,
-    "erg": -40.49,
+    "wert": 200.2764,
+    "gew": 0.0616,
+    "erg": -40.5,
     "stueck": 427.0
    }
   },
@@ -3808,23 +3833,23 @@
    "t": "LRCX",
    "name": "Lam Research",
    "wa": "USD",
-   "kurs": 226.75,
-   "tag": -5.17,
-   "dd": -47.6,
-   "a90": -26.3,
-   "a200": -20.1,
-   "rsi": 30.5,
-   "p3m": -28.6,
-   "ytd": 32.9,
+   "kurs": 225.09,
+   "tag": -5.87,
+   "dd": -48.0,
+   "a90": -26.8,
+   "a200": -20.7,
+   "rsi": 30.1,
+   "p3m": -29.1,
+   "ytd": 31.9,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1619.902,
-    "gew": 0.497,
-    "erg": 107.4,
+    "wert": 1608.007,
+    "gew": 0.495,
+    "erg": 105.9,
     "stueck": 8.0
    }
   },
@@ -3832,21 +3857,21 @@
    "t": "LIN",
    "name": "Linde plc",
    "wa": "USD",
-   "kurs": 522.41,
-   "tag": 1.59,
-   "dd": -4.12,
-   "a90": 6.03,
-   "a200": 6.38,
-   "rsi": 73.7,
-   "p3m": 8.15,
-   "ytd": 23.7,
+   "kurs": 520.5,
+   "tag": 1.22,
+   "dd": -4.47,
+   "a90": 5.65,
+   "a200": 6.0,
+   "rsi": 72.8,
+   "p3m": 7.75,
+   "ytd": 23.3,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 466.5077,
+    "wert": 464.8065,
     "gew": 0.143,
-    "erg": 38.84,
+    "erg": 38.34,
     "stueck": 1.0
    }
   },
@@ -3854,21 +3879,21 @@
    "t": "LUMN",
    "name": "LUMEN TECHNOLOGIES DL 1",
    "wa": "USD",
-   "kurs": 4.855,
-   "tag": -0.512,
-   "dd": -59.0,
-   "a90": -20.0,
-   "a200": -32.9,
-   "rsi": 43.2,
-   "p3m": -27.6,
-   "ytd": -37.5,
+   "kurs": 4.8397,
+   "tag": -0.826,
+   "dd": -59.1,
+   "a90": -20.3,
+   "a200": -33.1,
+   "rsi": 42.8,
+   "p3m": -27.9,
+   "ytd": -37.7,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 4.335515,
+    "wert": 4.321852,
     "gew": 0.00133,
-    "erg": 249.6,
+    "erg": 248.5,
     "stueck": 1.0
    }
   },
@@ -3892,7 +3917,7 @@
    "aus": false,
    "depot": {
     "wert": 1809.215,
-    "gew": 0.555,
+    "gew": 0.557,
     "erg": -22.73,
     "stueck": 4.596
    },
@@ -3909,21 +3934,21 @@
    "t": "MAIN",
    "name": "Main Street Capital Corp.",
    "wa": "USD",
-   "kurs": 56.27,
-   "tag": 1.83,
-   "dd": -7.58,
-   "a90": 2.85,
-   "a200": 4.56,
-   "rsi": 61.3,
-   "p3m": 0.403,
-   "ytd": -0.715,
+   "kurs": 56.355,
+   "tag": 1.98,
+   "dd": -7.44,
+   "a90": 3.01,
+   "a200": 4.72,
+   "rsi": 61.7,
+   "p3m": 0.555,
+   "ytd": -0.565,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3668.185,
+    "wert": 3673.726,
     "gew": 1.13,
-    "erg": 7.053,
+    "erg": 7.214,
     "stueck": 73.0
    }
   },
@@ -3931,21 +3956,21 @@
    "t": "MELI",
    "name": "MERCADOLIBRE INC. DL-,001",
    "wa": "USD",
-   "kurs": 1688.8,
-   "tag": 3.96,
-   "dd": -27.4,
-   "a90": -7.89,
-   "a200": -6.76,
-   "rsi": 39.7,
-   "p3m": -10.6,
-   "ytd": -16.2,
+   "kurs": 1684.5,
+   "tag": 3.69,
+   "dd": -27.6,
+   "a90": -8.12,
+   "a200": -7.0,
+   "rsi": 39.2,
+   "p3m": -10.8,
+   "ytd": -16.4,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1508.121,
+    "wert": 1504.25,
     "gew": 0.463,
-    "erg": 5.952,
+    "erg": 5.68,
     "stueck": 1.0
    }
   },
@@ -3953,23 +3978,23 @@
    "t": "MPWR",
    "name": "Monolithic Power Systems",
    "wa": "USD",
-   "kurs": 1260.6,
-   "tag": 4.04,
-   "dd": -25.2,
-   "a90": -3.33,
-   "a200": -4.07,
-   "rsi": 50.1,
-   "p3m": -5.44,
-   "ytd": 39.8,
+   "kurs": 1247.0,
+   "tag": 2.92,
+   "dd": -26.0,
+   "a90": -4.36,
+   "a200": -5.1,
+   "rsi": 48.6,
+   "p3m": -6.46,
+   "ytd": 38.3,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3684.409,
-    "gew": 1.13,
-    "erg": 96.2,
+    "wert": 3644.645,
+    "gew": 1.12,
+    "erg": 94.09,
     "stueck": 3.273
    }
   },
@@ -4009,14 +4034,14 @@
    "t": "NFLX",
    "name": "Netflix",
    "wa": "USD",
-   "kurs": 62.47,
-   "tag": 0.628,
-   "dd": -46.0,
-   "a90": -14.5,
-   "a200": -23.3,
-   "rsi": 32.4,
-   "p3m": -15.1,
-   "ytd": -33.4,
+   "kurs": 62.25,
+   "tag": 0.274,
+   "dd": -46.2,
+   "a90": -14.8,
+   "a200": -23.6,
+   "rsi": 31.4,
+   "p3m": -15.4,
+   "ytd": -33.6,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -4025,17 +4050,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1004.143,
+    "wert": 1000.606,
     "gew": 0.308,
-    "erg": -23.04,
+    "erg": -23.31,
     "stueck": 18.0
    },
    "ab": {
     "l1": 71.0,
     "l2": 62.5,
     "ziel": 110.0,
-    "keur": 55.786,
-    "abst": -21.4,
+    "keur": 55.589,
+    "abst": -21.7,
     "split": true
    }
   },
@@ -4043,14 +4068,14 @@
    "t": "NKE",
    "name": "Nike",
    "wa": "USD",
-   "kurs": 39.185,
-   "tag": 1.33,
-   "dd": -40.7,
-   "a90": 0.436,
-   "a200": -13.4,
-   "rsi": 64.5,
-   "p3m": -4.65,
-   "ytd": -36.9,
+   "kurs": 39.11,
+   "tag": 1.14,
+   "dd": -40.8,
+   "a90": 0.246,
+   "a200": -13.6,
+   "rsi": 64.2,
+   "p3m": -4.83,
+   "ytd": -37.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -4058,17 +4083,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1644.634,
+    "wert": 1641.486,
     "gew": 0.505,
-    "erg": -38.8,
+    "erg": -38.92,
     "stueck": 47.0
    },
    "ab": {
     "l1": 65.0,
     "l2": 61.0,
     "ziel": 120.0,
-    "keur": 34.992,
-    "abst": -46.2,
+    "keur": 34.925,
+    "abst": -46.3,
     "split": false
    }
   },
@@ -4088,7 +4113,7 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 4845.002,
+    "wert": 4844.937,
     "gew": 1.49,
     "erg": -31.58,
     "stueck": 134.005
@@ -4098,23 +4123,23 @@
    "t": "NU",
    "name": "Nubank",
    "wa": "USD",
-   "kurs": 11.725,
-   "tag": 0.991,
-   "dd": -37.5,
-   "a90": -17.2,
-   "a200": -18.8,
-   "rsi": 32.1,
-   "p3m": -18.2,
-   "ytd": -30.0,
+   "kurs": 11.601,
+   "tag": -0.0818,
+   "dd": -38.2,
+   "a90": -18.1,
+   "a200": -19.6,
+   "rsi": 30.7,
+   "p3m": -19.0,
+   "ytd": -30.7,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 2188.319,
-    "gew": 0.671,
-    "erg": -11.58,
+    "wert": 2165.083,
+    "gew": 0.666,
+    "erg": -12.51,
     "stueck": 209.0
    }
   },
@@ -4122,14 +4147,14 @@
    "t": "NTNX",
    "name": "Nutanix",
    "wa": "USD",
-   "kurs": 65.045,
-   "tag": -3.22,
-   "dd": -12.8,
-   "a90": 0.876,
-   "a200": 23.8,
-   "rsi": 35.5,
-   "p3m": 5.76,
-   "ytd": 25.8,
+   "kurs": 64.6,
+   "tag": -3.88,
+   "dd": -13.4,
+   "a90": 0.194,
+   "a200": 23.0,
+   "rsi": 34.6,
+   "p3m": 5.04,
+   "ytd": 25.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -4139,17 +4164,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1219.789,
-    "gew": 0.374,
-    "erg": 49.89,
+    "wert": 1211.444,
+    "gew": 0.373,
+    "erg": 48.86,
     "stueck": 21.0
    },
    "ab": {
     "l1": 55.0,
     "l2": 48.0,
     "ziel": 100.0,
-    "keur": 58.085,
-    "abst": 5.61,
+    "keur": 57.688,
+    "abst": 4.89,
     "split": false
    }
   },
@@ -4157,14 +4182,14 @@
    "t": "OKTA",
    "name": "Okta",
    "wa": "USD",
-   "kurs": 188.88,
-   "tag": -9.3,
-   "dd": -18.6,
-   "a90": 10.3,
-   "a200": 51.1,
-   "rsi": 41.5,
-   "p3m": 27.8,
-   "ytd": 118.0,
+   "kurs": 185.67,
+   "tag": -10.8,
+   "dd": -20.0,
+   "a90": 8.45,
+   "a200": 48.6,
+   "rsi": 40.3,
+   "p3m": 25.6,
+   "ytd": 115.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -4172,17 +4197,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 8096.152,
-    "gew": 2.48,
-    "erg": 109.1,
+    "wert": 7958.559,
+    "gew": 2.45,
+    "erg": 105.6,
     "stueck": 48.0
    },
    "ab": {
     "l1": 91.0,
     "l2": 91.0,
     "ziel": 150.0,
-    "keur": 168.67,
-    "abst": 85.4,
+    "keur": 165.8,
+    "abst": 82.2,
     "split": false
    }
   },
@@ -4190,14 +4215,14 @@
    "t": "PANW",
    "name": "Palo Alto Networks",
    "wa": "USD",
-   "kurs": 353.57,
-   "tag": -3.36,
-   "dd": -15.8,
-   "a90": -2.23,
-   "a200": 30.6,
-   "rsi": 42.7,
-   "p3m": -3.49,
-   "ytd": 91.9,
+   "kurs": 351.09,
+   "tag": -4.04,
+   "dd": -16.4,
+   "a90": -2.9,
+   "a200": 29.7,
+   "rsi": 42.0,
+   "p3m": -4.16,
+   "ytd": 90.6,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -4205,17 +4230,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 8209.072,
-    "gew": 2.52,
-    "erg": 106.7,
+    "wert": 8151.608,
+    "gew": 2.51,
+    "erg": 105.2,
     "stueck": 26.0
    },
    "ab": {
     "l1": 151.0,
     "l2": 131.0,
     "ziel": 250.0,
-    "keur": 315.73,
-    "abst": 109.0,
+    "keur": 313.52,
+    "abst": 108.0,
     "split": false
    }
   },
@@ -4223,21 +4248,21 @@
    "t": "PAYX",
    "name": "PAYCHEX INC. DL-,01",
    "wa": "USD",
-   "kurs": 115.36,
-   "tag": 2.89,
-   "dd": -8.49,
-   "a90": 3.02,
-   "a200": 13.9,
-   "rsi": 60.0,
-   "p3m": -1.79,
-   "ytd": 7.42,
+   "kurs": 115.65,
+   "tag": 3.15,
+   "dd": -8.26,
+   "a90": 3.28,
+   "a200": 14.2,
+   "rsi": 60.4,
+   "p3m": -1.54,
+   "ytd": 7.69,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 309.0393,
-    "gew": 0.0948,
-    "erg": 30.41,
+    "wert": 309.8264,
+    "gew": 0.0954,
+    "erg": 30.74,
     "stueck": 3.0
    }
   },
@@ -4257,9 +4282,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1962.142,
-    "gew": 0.602,
-    "erg": 75.76,
+    "wert": 1962.561,
+    "gew": 0.604,
+    "erg": 75.8,
     "stueck": 199.0
    }
   },
@@ -4267,21 +4292,21 @@
    "t": "PBR",
    "name": "PETROLEO BRASILEIRO ADR/2",
    "wa": "USD",
-   "kurs": 21.16,
-   "tag": -4.04,
-   "dd": -19.1,
-   "a90": 5.98,
-   "a200": 13.2,
-   "rsi": 36.1,
-   "p3m": 16.4,
-   "ytd": 86.3,
+   "kurs": 21.015,
+   "tag": -4.69,
+   "dd": -19.7,
+   "a90": 5.26,
+   "a200": 12.4,
+   "rsi": 35.4,
+   "p3m": 15.6,
+   "ytd": 85.0,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 944.7985,
-    "gew": 0.29,
-    "erg": 82.04,
+    "wert": 938.3197,
+    "gew": 0.289,
+    "erg": 80.79,
     "stueck": 50.0
    }
   },
@@ -4289,14 +4314,14 @@
    "t": "PFE",
    "name": "Pfizer",
    "wa": "USD",
-   "kurs": 30.955,
-   "tag": 1.43,
+   "kurs": 30.965,
+   "tag": 1.46,
    "dd": 0.0,
    "a90": 14.3,
-   "a200": 17.4,
-   "rsi": 69.7,
-   "p3m": 21.8,
-   "ytd": 30.7,
+   "a200": 17.5,
+   "rsi": 69.8,
+   "p3m": 21.9,
+   "ytd": 30.8,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -4304,9 +4329,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 5640.627,
-    "gew": 1.73,
-    "erg": 14.77,
+    "wert": 5642.449,
+    "gew": 1.74,
+    "erg": 14.81,
     "stueck": 204.054
    }
   },
@@ -4329,7 +4354,7 @@
    "aus": false,
    "depot": {
     "wert": 1112.5,
-    "gew": 0.341,
+    "gew": 0.342,
     "erg": 79.46,
     "stueck": 10.0
    }
@@ -4338,23 +4363,23 @@
    "t": "PWR",
    "name": "Quanta Services",
    "wa": "USD",
-   "kurs": 621.4,
-   "tag": 0.108,
-   "dd": -20.8,
-   "a90": -3.72,
-   "a200": -0.882,
-   "rsi": 49.1,
-   "p3m": -10.3,
-   "ytd": 47.3,
+   "kurs": 618.64,
+   "tag": -0.337,
+   "dd": -21.2,
+   "a90": -4.15,
+   "a200": -1.32,
+   "rsi": 48.5,
+   "p3m": -10.7,
+   "ytd": 46.7,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1109.82,
+    "wert": 1104.891,
     "gew": 0.34,
-    "erg": 124.4,
+    "erg": 123.4,
     "stueck": 2.0
    }
   },
@@ -4362,21 +4387,21 @@
    "t": "RYN",
    "name": "RAYONIER INC.",
    "wa": "USD",
-   "kurs": 20.15,
-   "tag": 3.97,
-   "dd": -15.1,
-   "a90": -0.396,
-   "a200": -1.79,
-   "rsi": 64.2,
-   "p3m": -6.93,
-   "ytd": -3.34,
+   "kurs": 20.185,
+   "tag": 4.15,
+   "dd": -15.0,
+   "a90": -0.225,
+   "a200": -1.62,
+   "rsi": 64.5,
+   "p3m": -6.77,
+   "ytd": -3.17,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 791.7378,
-    "gew": 0.243,
-    "erg": -8.863,
+    "wert": 793.109,
+    "gew": 0.244,
+    "erg": -8.705,
     "stueck": 44.0
    }
   },
@@ -4399,9 +4424,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1423.157,
-    "gew": 0.437,
-    "erg": 71.52,
+    "wert": 1423.204,
+    "gew": 0.438,
+    "erg": 71.53,
     "stueck": 3.281
    }
   },
@@ -4409,21 +4434,21 @@
    "t": "ROK",
    "name": "ROCKWELL AU. DL 1",
    "wa": "USD",
-   "kurs": 440.17,
-   "tag": 0.909,
-   "dd": -10.8,
-   "a90": -0.721,
-   "a200": 3.44,
-   "rsi": 53.5,
-   "p3m": -0.833,
-   "ytd": 14.2,
+   "kurs": 439.32,
+   "tag": 0.714,
+   "dd": -11.0,
+   "a90": -0.911,
+   "a200": 3.24,
+   "rsi": 53.0,
+   "p3m": -1.02,
+   "ytd": 14.0,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 672.1452,
-    "gew": 0.206,
-    "erg": 7.187,
+    "wert": 670.8496,
+    "gew": 0.207,
+    "erg": 6.98,
     "stueck": 1.71
    }
   },
@@ -4431,14 +4456,14 @@
    "t": "SAIL",
    "name": "Sailpoint Inc",
    "wa": "USD",
-   "kurs": 19.43,
-   "tag": -7.74,
-   "dd": -13.2,
-   "a90": 5.79,
-   "a200": 20.9,
-   "rsi": 43.9,
-   "p3m": 11.7,
-   "ytd": -3.95,
+   "kurs": 19.16,
+   "tag": -9.02,
+   "dd": -14.4,
+   "a90": 4.34,
+   "a200": 19.2,
+   "rsi": 42.5,
+   "p3m": 10.1,
+   "ytd": -5.29,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -4446,9 +4471,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 260.2649,
-    "gew": 0.0798,
-    "erg": -0.3522,
+    "wert": 256.6482,
+    "gew": 0.079,
+    "erg": -1.737,
     "stueck": 15.0
    }
   },
@@ -4456,14 +4481,14 @@
    "t": "CRM",
    "name": "Salesforce",
    "wa": "USD",
-   "kurs": 226.51,
-   "tag": -1.16,
-   "dd": -14.3,
-   "a90": 6.73,
-   "a200": 14.6,
-   "rsi": 40.4,
-   "p3m": 18.8,
-   "ytd": -13.9,
+   "kurs": 225.5,
+   "tag": -1.6,
+   "dd": -14.7,
+   "a90": 6.26,
+   "a200": 14.1,
+   "rsi": 39.7,
+   "p3m": 18.3,
+   "ytd": -14.3,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -4472,17 +4497,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 2629.497,
-    "gew": 0.807,
-    "erg": 14.91,
+    "wert": 2617.829,
+    "gew": 0.806,
+    "erg": 14.4,
     "stueck": 13.0
    },
    "ab": {
     "l1": 226.0,
     "l2": 201.0,
     "ziel": 325.0,
-    "keur": 202.27,
-    "abst": -10.5,
+    "keur": 201.37,
+    "abst": -10.9,
     "split": false
    }
   },
@@ -4505,7 +4530,7 @@
    "aus": false,
    "depot": {
     "wert": 2105.0,
-    "gew": 0.646,
+    "gew": 0.648,
     "erg": 40.57,
     "stueck": 10.0
    },
@@ -4522,23 +4547,23 @@
    "t": "S",
    "name": "SentinelOne",
    "wa": "USD",
-   "kurs": 23.39,
-   "tag": -7.0,
-   "dd": -11.0,
-   "a90": 8.97,
-   "a200": 32.3,
-   "rsi": 47.3,
-   "p3m": 11.5,
-   "ytd": 55.9,
+   "kurs": 23.115,
+   "tag": -8.09,
+   "dd": -12.0,
+   "a90": 7.7,
+   "a200": 30.8,
+   "rsi": 46.0,
+   "p3m": 10.2,
+   "ytd": 54.1,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 459.5199,
-    "gew": 0.141,
-    "erg": 63.79,
+    "wert": 454.1173,
+    "gew": 0.14,
+    "erg": 61.86,
     "stueck": 22.0
    }
   },
@@ -4546,23 +4571,23 @@
    "t": "SNOW",
    "name": "Snowflake Inc.",
    "wa": "USD",
-   "kurs": 291.42,
-   "tag": -4.79,
-   "dd": -21.0,
-   "a90": -6.87,
-   "a200": 21.6,
-   "rsi": 35.2,
-   "p3m": -8.0,
-   "ytd": 32.9,
+   "kurs": 288.27,
+   "tag": -5.82,
+   "dd": -21.9,
+   "a90": -7.87,
+   "a200": 20.3,
+   "rsi": 34.4,
+   "p3m": -9.0,
+   "ytd": 31.4,
    "listen": [
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 2993.258,
-    "gew": 0.918,
-    "erg": 98.47,
+    "wert": 2960.955,
+    "gew": 0.911,
+    "erg": 96.33,
     "stueck": 11.502
    }
   },
@@ -4582,7 +4607,7 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 39.70238,
+    "wert": 39.69968,
     "gew": 0.0122,
     "erg": null,
     "stueck": 49.0
@@ -4604,9 +4629,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1657.238,
-    "gew": 0.508,
-    "erg": 19.27,
+    "wert": 1657.126,
+    "gew": 0.51,
+    "erg": 19.26,
     "stueck": 74.0
    }
   },
@@ -4614,21 +4639,21 @@
    "t": "SONY",
    "name": "SONY GROUP CORP.ADR/1O.N.",
    "wa": "USD",
-   "kurs": 25.505,
-   "tag": 0.81,
-   "dd": -15.7,
-   "a90": 9.49,
-   "a200": 14.4,
-   "rsi": 59.8,
+   "kurs": 25.491,
+   "tag": 0.755,
+   "dd": -15.8,
+   "a90": 9.43,
+   "a200": 14.3,
+   "rsi": 59.7,
    "p3m": 14.1,
-   "ytd": -0.371,
+   "ytd": -0.426,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1024.918,
-    "gew": 0.314,
-    "erg": 1.688,
+    "wert": 1024.356,
+    "gew": 0.315,
+    "erg": 1.633,
     "stueck": 45.0
    }
   },
@@ -4650,9 +4675,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 957.1208,
-    "gew": 0.294,
-    "erg": 42.75,
+    "wert": 956.8449,
+    "gew": 0.295,
+    "erg": 42.71,
     "stueck": 30.0
    }
   },
@@ -4660,21 +4685,21 @@
    "t": "TTD",
    "name": "The Trade Desk Inc.",
    "wa": "USD",
-   "kurs": 12.58,
-   "tag": 2.36,
+   "kurs": 12.565,
+   "tag": 2.24,
    "dd": -75.0,
-   "a90": -15.8,
-   "a200": -36.9,
-   "rsi": 47.7,
+   "a90": -15.9,
+   "a200": -37.0,
+   "rsi": 47.5,
    "p3m": -35.0,
    "ytd": -66.9,
    "listen": [],
    "gruppe": null,
    "aus": true,
    "depot": {
-    "wert": 89.87152,
+    "wert": 89.76436,
     "gew": 0.0276,
-    "erg": -68.38,
+    "erg": -68.42,
     "stueck": 8.0
    }
   },
@@ -4696,9 +4721,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 979.8957,
-    "gew": 0.301,
-    "erg": -23.73,
+    "wert": 979.6132,
+    "gew": 0.302,
+    "erg": -23.75,
     "stueck": 103.0
    }
   },
@@ -4721,7 +4746,7 @@
    "aus": false,
    "depot": {
     "wert": 1086.93,
-    "gew": 0.333,
+    "gew": 0.335,
     "erg": 19.93,
     "stueck": 13.0
    },
@@ -4753,9 +4778,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 455.0372,
+    "wert": 455.0063,
     "gew": 0.14,
-    "erg": -8.923,
+    "erg": -8.93,
     "stueck": 11.0
    }
   },
@@ -4763,21 +4788,21 @@
    "t": "TRIN",
    "name": "Trinity Capital Inc.",
    "wa": "USD",
-   "kurs": 17.12,
-   "tag": 0.825,
-   "dd": -6.78,
-   "a90": -0.934,
-   "a200": 7.08,
-   "rsi": 54.9,
-   "p3m": -2.96,
-   "ytd": 29.5,
+   "kurs": 17.16,
+   "tag": 1.06,
+   "dd": -6.56,
+   "a90": -0.705,
+   "a200": 7.33,
+   "rsi": 55.6,
+   "p3m": -2.73,
+   "ytd": 29.8,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 565.6619,
-    "gew": 0.174,
-    "erg": 8.015,
+    "wert": 566.9836,
+    "gew": 0.175,
+    "erg": 8.267,
     "stueck": 37.0
    }
   },
@@ -4785,21 +4810,21 @@
    "t": "UBER",
    "name": "UBER TECH. DL-,00001",
    "wa": "USD",
-   "kurs": 66.58,
-   "tag": 2.04,
+   "kurs": 66.59,
+   "tag": 2.05,
    "dd": -33.2,
-   "a90": -7.53,
-   "a200": -9.1,
+   "a90": -7.51,
+   "a200": -9.09,
    "rsi": 42.2,
-   "p3m": -7.51,
+   "p3m": -7.5,
    "ytd": -18.5,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 475.6475,
+    "wert": 475.7182,
     "gew": 0.146,
-    "erg": -3.469,
+    "erg": -3.455,
     "stueck": 8.0
    }
   },
@@ -4829,13 +4854,13 @@
    "t": "UNH",
    "name": "UnitedHealth",
    "wa": "USD",
-   "kurs": 401.55,
-   "tag": -1.33,
-   "dd": -7.41,
-   "a90": 0.373,
-   "a200": 11.6,
-   "rsi": 51.9,
-   "p3m": -0.867,
+   "kurs": 401.29,
+   "tag": -1.4,
+   "dd": -7.47,
+   "a90": 0.31,
+   "a200": 11.5,
+   "rsi": 51.7,
+   "p3m": -0.93,
    "ytd": 24.0,
    "listen": [
     "google_beobachtungsliste",
@@ -4844,9 +4869,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 1792.898,
-    "gew": 0.55,
-    "erg": 36.78,
+    "wert": 1791.76,
+    "gew": 0.552,
+    "erg": 36.7,
     "stueck": 5.0
    }
   },
@@ -4854,14 +4879,14 @@
    "t": "UTHR",
    "name": "United Therapeutics",
    "wa": "USD",
-   "kurs": 597.47,
-   "tag": -0.209,
-   "dd": -0.209,
+   "kurs": 597.85,
+   "tag": -0.144,
+   "dd": -0.144,
    "a90": 12.9,
    "a200": 12.3,
-   "rsi": 69.3,
-   "p3m": 15.2,
-   "ytd": 22.6,
+   "rsi": 69.6,
+   "p3m": 15.3,
+   "ytd": 22.7,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -4869,9 +4894,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3734.785,
+    "wert": 3737.191,
     "gew": 1.15,
-    "erg": 95.75,
+    "erg": 95.88,
     "stueck": 7.0
    }
   },
@@ -4893,9 +4918,9 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 4461.728,
+    "wert": 4460.442,
     "gew": 1.37,
-    "erg": 75.96,
+    "erg": 75.91,
     "stueck": 818.0
    }
   },
@@ -4903,14 +4928,14 @@
    "t": "VRTX",
    "name": "Vertex Pharmac.",
    "wa": "USD",
-   "kurs": 546.15,
-   "tag": -2.28,
-   "dd": -2.28,
-   "a90": 6.61,
-   "a200": 13.8,
-   "rsi": 60.6,
-   "p3m": 14.1,
-   "ytd": 20.5,
+   "kurs": 547.0,
+   "tag": -2.13,
+   "dd": -2.13,
+   "a90": 6.77,
+   "a200": 14.0,
+   "rsi": 61.0,
+   "p3m": 14.3,
+   "ytd": 20.7,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -4919,17 +4944,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 5655.508,
-    "gew": 1.73,
-    "erg": 24.07,
+    "wert": 5664.31,
+    "gew": 1.74,
+    "erg": 24.26,
     "stueck": 11.596
    },
    "ab": {
     "l1": 420.0,
     "l2": 385.0,
     "ziel": 550.0,
-    "keur": 487.71,
-    "abst": 16.1,
+    "keur": 488.47,
+    "abst": 16.3,
     "split": false
    }
   },
@@ -4937,21 +4962,21 @@
    "t": "WM",
    "name": "WASTE MANAGEMENT",
    "wa": "USD",
-   "kurs": 237.11,
-   "tag": 1.57,
-   "dd": -2.58,
-   "a90": 6.37,
-   "a200": 5.92,
-   "rsi": 63.8,
-   "p3m": 5.73,
-   "ytd": 9.3,
+   "kurs": 237.76,
+   "tag": 1.85,
+   "dd": -2.31,
+   "a90": 6.66,
+   "a200": 6.21,
+   "rsi": 64.3,
+   "p3m": 6.02,
+   "ytd": 9.6,
    "listen": [],
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 423.4785,
-    "gew": 0.13,
-    "erg": 21.12,
+    "wert": 424.6483,
+    "gew": 0.131,
+    "erg": 21.45,
     "stueck": 2.0
    }
   },
@@ -4959,14 +4984,14 @@
    "t": "ZS",
    "name": "Zscaler",
    "wa": "USD",
-   "kurs": 226.79,
-   "tag": -4.64,
-   "dd": -32.6,
-   "a90": 23.5,
-   "a200": 35.8,
-   "rsi": 50.8,
-   "p3m": 38.9,
-   "ytd": 0.831,
+   "kurs": 224.48,
+   "tag": -5.62,
+   "dd": -33.2,
+   "a90": 22.2,
+   "a200": 34.5,
+   "rsi": 49.6,
+   "p3m": 37.5,
+   "ytd": -0.198,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -4974,17 +4999,17 @@
    "gruppe": null,
    "aus": false,
    "depot": {
-    "wert": 3346.498,
-    "gew": 1.03,
-    "erg": 24.23,
+    "wert": 3312.338,
+    "gew": 1.02,
+    "erg": 22.96,
     "stueck": 16.524
    },
    "ab": {
     "l1": 171.0,
     "l2": 151.0,
     "ziel": 250.0,
-    "keur": 202.52,
-    "abst": 18.4,
+    "keur": 200.46,
+    "abst": 17.2,
     "split": false
    }
   },
@@ -6084,13 +6109,13 @@
    "t": "ADBE",
    "name": "Adobe",
    "wa": null,
-   "kurs": 251.3,
-   "tag": 0.428,
+   "kurs": 251.17,
+   "tag": 0.376,
    "dd": -29.7,
-   "a90": 1.32,
-   "a200": 0.451,
-   "rsi": 51.1,
-   "p3m": -2.4,
+   "a90": 1.27,
+   "a200": 0.399,
+   "rsi": 51.0,
+   "p3m": -2.45,
    "ytd": -28.2,
    "listen": [
     "abstauber_usa"
@@ -6101,7 +6126,7 @@
     "l1": 381.0,
     "l2": 351.0,
     "ziel": 600.0,
-    "keur": 224.41,
+    "keur": 224.29,
     "abst": -41.1,
     "split": false
    }
@@ -6110,14 +6135,14 @@
    "t": "AMD",
    "name": "AMD",
    "wa": null,
-   "kurs": 472.67,
-   "tag": -6.37,
-   "dd": -27.2,
-   "a90": -10.8,
-   "a200": 14.8,
-   "rsi": 35.3,
-   "p3m": -8.85,
-   "ytd": 121.0,
+   "kurs": 466.4,
+   "tag": -7.61,
+   "dd": -28.2,
+   "a90": -12.0,
+   "a200": 13.3,
+   "rsi": 34.6,
+   "p3m": -10.1,
+   "ytd": 118.0,
    "listen": [
     "abstauber_usa"
    ],
@@ -6127,8 +6152,8 @@
     "l1": 85.0,
     "l2": 62.0,
     "ziel": 160.0,
-    "keur": 422.09,
-    "abst": 397.0,
+    "keur": 416.5,
+    "abst": 390.0,
     "split": false
    }
   },
@@ -6136,14 +6161,14 @@
    "t": "AXP",
    "name": "American Express",
    "wa": null,
-   "kurs": 329.2,
-   "tag": 3.16,
+   "kurs": 329.33,
+   "tag": 3.2,
    "dd": -13.5,
-   "a90": 0.334,
-   "a200": 1.53,
-   "rsi": 62.4,
-   "p3m": -4.76,
-   "ytd": -10.0,
+   "a90": 0.374,
+   "a200": 1.57,
+   "rsi": 62.5,
+   "p3m": -4.72,
+   "ytd": -9.98,
    "listen": [
     "abstauber_usa"
    ],
@@ -6153,7 +6178,7 @@
     "l1": 225.0,
     "l2": 201.0,
     "ziel": 300.0,
-    "keur": 293.98,
+    "keur": 294.1,
     "abst": 30.7,
     "split": false
    }
@@ -6162,14 +6187,14 @@
    "t": "AMGN",
    "name": "Amgen",
    "wa": null,
-   "kurs": 467.91,
-   "tag": 0.408,
+   "kurs": 467.34,
+   "tag": 0.285,
    "dd": 0.0,
-   "a90": 15.7,
-   "a200": 25.6,
-   "rsi": 72.1,
-   "p3m": 20.7,
-   "ytd": 45.9,
+   "a90": 15.5,
+   "a200": 25.4,
+   "rsi": 71.9,
+   "p3m": 20.5,
+   "ytd": 45.7,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6180,8 +6205,8 @@
     "l1": 271.0,
     "l2": 251.0,
     "ziel": 350.0,
-    "keur": 417.84,
-    "abst": 54.2,
+    "keur": 417.33,
+    "abst": 54.0,
     "split": false
    }
   },
@@ -6189,14 +6214,14 @@
    "t": "APP",
    "name": "AppLovin",
    "wa": null,
-   "kurs": 229.28,
-   "tag": 0.341,
-   "dd": -68.7,
-   "a90": -33.8,
-   "a200": -44.6,
-   "rsi": 25.7,
-   "p3m": -45.4,
-   "ytd": -66.0,
+   "kurs": 228.32,
+   "tag": -0.0788,
+   "dd": -68.9,
+   "a90": -34.1,
+   "a200": -44.8,
+   "rsi": 25.0,
+   "p3m": -45.6,
+   "ytd": -66.1,
    "listen": [
     "abstauber_usa"
    ],
@@ -6206,8 +6231,8 @@
     "l1": 201.0,
     "l2": 152.0,
     "ziel": 300.0,
-    "keur": 204.75,
-    "abst": 1.86,
+    "keur": 203.89,
+    "abst": 1.44,
     "split": false
    }
   },
@@ -6215,14 +6240,14 @@
    "t": "ARM",
    "name": "Arm Holdings",
    "wa": null,
-   "kurs": 199.58,
-   "tag": -3.1,
-   "dd": -54.6,
-   "a90": -25.6,
-   "a200": -13.0,
-   "rsi": 33.2,
-   "p3m": -28.9,
-   "ytd": 82.6,
+   "kurs": 196.73,
+   "tag": -4.49,
+   "dd": -55.2,
+   "a90": -26.6,
+   "a200": -14.2,
+   "rsi": 32.5,
+   "p3m": -29.9,
+   "ytd": 80.0,
    "listen": [
     "abstauber_usa"
    ],
@@ -6232,8 +6257,8 @@
     "l1": 96.0,
     "l2": 82.0,
     "ziel": 160.0,
-    "keur": 178.22,
-    "abst": 85.7,
+    "keur": 175.68,
+    "abst": 83.0,
     "split": false
    }
   },
@@ -6241,14 +6266,14 @@
    "t": "ASML",
    "name": "ASML",
    "wa": null,
-   "kurs": 1536.8,
-   "tag": -1.86,
-   "dd": -22.6,
-   "a90": -10.9,
-   "a200": -3.57,
-   "rsi": 36.4,
-   "p3m": -10.1,
-   "ytd": 44.5,
+   "kurs": 1520.9,
+   "tag": -2.87,
+   "dd": -23.4,
+   "a90": -11.8,
+   "a200": -4.56,
+   "rsi": 35.3,
+   "p3m": -11.0,
+   "ytd": 43.0,
    "listen": [
     "abstauber_usa"
    ],
@@ -6258,8 +6283,8 @@
     "l1": 601.0,
     "l2": 550.0,
     "ziel": 1000.0,
-    "keur": 1372.3,
-    "abst": 128.0,
+    "keur": 1358.2,
+    "abst": 126.0,
     "split": false
    }
   },
@@ -6267,14 +6292,14 @@
    "t": "BRK-B",
    "name": "Berkshire Hathaway",
    "wa": null,
-   "kurs": 555.78,
-   "tag": 2.45,
+   "kurs": 554.31,
+   "tag": 2.18,
    "dd": 0.0,
-   "a90": 8.92,
-   "a200": 12.0,
-   "rsi": 74.5,
-   "p3m": 7.45,
-   "ytd": 10.6,
+   "a90": 8.63,
+   "a200": 11.7,
+   "rsi": 73.9,
+   "p3m": 7.17,
+   "ytd": 10.3,
    "listen": [
     "abstauber_usa"
    ],
@@ -6284,8 +6309,8 @@
     "l1": 435.0,
     "l2": 401.0,
     "ziel": 550.0,
-    "keur": 496.31,
-    "abst": 14.1,
+    "keur": 495.0,
+    "abst": 13.8,
     "split": false
    }
   },
@@ -6293,14 +6318,14 @@
    "t": "XYZ",
    "name": "Block Inc.",
    "wa": null,
-   "kurs": 77.48,
-   "tag": 1.65,
-   "dd": -8.69,
-   "a90": -1.61,
-   "a200": 8.82,
-   "rsi": 52.1,
-   "p3m": -8.46,
-   "ytd": 19.0,
+   "kurs": 77.12,
+   "tag": 1.18,
+   "dd": -9.11,
+   "a90": -2.06,
+   "a200": 8.31,
+   "rsi": 51.0,
+   "p3m": -8.88,
+   "ytd": 18.5,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6311,8 +6336,8 @@
     "l1": 46.0,
     "l2": 41.0,
     "ziel": 80.0,
-    "keur": 69.19,
-    "abst": 50.4,
+    "keur": 68.868,
+    "abst": 49.7,
     "split": false
    }
   },
@@ -6320,14 +6345,14 @@
    "t": "CDNS",
    "name": "Cadence Design",
    "wa": null,
-   "kurs": 330.96,
-   "tag": 0.938,
-   "dd": -20.5,
-   "a90": -0.358,
-   "a200": 1.03,
-   "rsi": 51.0,
-   "p3m": -2.83,
-   "ytd": 5.88,
+   "kurs": 328.15,
+   "tag": 0.0793,
+   "dd": -21.2,
+   "a90": -1.2,
+   "a200": 0.175,
+   "rsi": 49.6,
+   "p3m": -3.66,
+   "ytd": 4.98,
    "listen": [
     "abstauber_usa"
    ],
@@ -6337,8 +6362,8 @@
     "l1": 201.0,
     "l2": 172.0,
     "ziel": 300.0,
-    "keur": 295.55,
-    "abst": 47.0,
+    "keur": 293.04,
+    "abst": 45.8,
     "split": false
    }
   },
@@ -6346,14 +6371,14 @@
    "t": "CAT",
    "name": "Caterpillar",
    "wa": null,
-   "kurs": 612.42,
-   "tag": -1.66,
-   "dd": -42.2,
-   "a90": -25.9,
-   "a200": -24.1,
-   "rsi": 22.9,
-   "p3m": -30.0,
-   "ytd": 7.81,
+   "kurs": 611.01,
+   "tag": -1.88,
+   "dd": -42.4,
+   "a90": -26.0,
+   "a200": -24.2,
+   "rsi": 22.8,
+   "p3m": -30.1,
+   "ytd": 7.57,
    "listen": [
     "abstauber_usa"
    ],
@@ -6363,8 +6388,8 @@
     "l1": 301.0,
     "l2": 265.0,
     "ziel": 400.0,
-    "keur": 546.9,
-    "abst": 81.7,
+    "keur": 545.64,
+    "abst": 81.3,
     "split": false
    }
   },
@@ -6372,14 +6397,14 @@
    "t": "CSCO",
    "name": "Cisco Systems",
    "wa": null,
-   "kurs": 102.42,
-   "tag": -2.0,
-   "dd": -20.6,
-   "a90": -8.47,
-   "a200": 1.74,
-   "rsi": 36.6,
-   "p3m": -15.5,
-   "ytd": 35.4,
+   "kurs": 101.94,
+   "tag": -2.46,
+   "dd": -21.0,
+   "a90": -8.89,
+   "a200": 1.27,
+   "rsi": 36.0,
+   "p3m": -15.9,
+   "ytd": 34.8,
    "listen": [
     "abstauber_usa"
    ],
@@ -6389,8 +6414,8 @@
     "l1": 54.0,
     "l2": 46.0,
     "ziel": 75.0,
-    "keur": 91.461,
-    "abst": 69.4,
+    "keur": 91.032,
+    "abst": 68.6,
     "split": false
    }
   },
@@ -6398,14 +6423,14 @@
    "t": "DHR",
    "name": "Danaher",
    "wa": null,
-   "kurs": 229.37,
-   "tag": -1.23,
-   "dd": -4.67,
-   "a90": 9.32,
-   "a200": 14.4,
-   "rsi": 54.4,
-   "p3m": 18.0,
-   "ytd": 0.797,
+   "kurs": 227.91,
+   "tag": -1.86,
+   "dd": -5.28,
+   "a90": 8.64,
+   "a200": 13.7,
+   "rsi": 52.7,
+   "p3m": 17.2,
+   "ytd": 0.157,
    "listen": [
     "abstauber_usa"
    ],
@@ -6415,8 +6440,8 @@
     "l1": 176.0,
     "l2": 162.0,
     "ziel": 250.0,
-    "keur": 204.83,
-    "abst": 16.4,
+    "keur": 203.53,
+    "abst": 15.6,
     "split": false
    }
   },
@@ -6424,14 +6449,14 @@
    "t": "DE",
    "name": "Deere & Co.",
    "wa": null,
-   "kurs": 663.83,
-   "tag": -1.72,
-   "dd": -6.21,
-   "a90": 3.98,
-   "a200": 10.1,
-   "rsi": 54.2,
-   "p3m": 7.78,
-   "ytd": 43.7,
+   "kurs": 664.85,
+   "tag": -1.57,
+   "dd": -6.07,
+   "a90": 4.13,
+   "a200": 10.2,
+   "rsi": 54.7,
+   "p3m": 7.95,
+   "ytd": 43.9,
    "listen": [
     "abstauber_usa"
    ],
@@ -6441,8 +6466,8 @@
     "l1": 422.0,
     "l2": 385.0,
     "ziel": 520.0,
-    "keur": 592.8,
-    "abst": 40.5,
+    "keur": 593.71,
+    "abst": 40.7,
     "split": false
    }
   },
@@ -6450,14 +6475,14 @@
    "t": "DELL",
    "name": "Dell",
    "wa": null,
-   "kurs": 398.91,
-   "tag": -5.98,
-   "dd": -32.1,
-   "a90": -16.3,
-   "a200": 20.2,
-   "rsi": 32.5,
-   "p3m": -14.5,
-   "ytd": 220.0,
+   "kurs": 392.38,
+   "tag": -7.52,
+   "dd": -33.2,
+   "a90": -17.6,
+   "a200": 18.3,
+   "rsi": 31.8,
+   "p3m": -15.9,
+   "ytd": 215.0,
    "listen": [
     "abstauber_usa"
    ],
@@ -6467,8 +6492,8 @@
     "l1": 76.0,
     "l2": 62.0,
     "ziel": 130.0,
-    "keur": 356.23,
-    "abst": 369.0,
+    "keur": 350.39,
+    "abst": 361.0,
     "split": false
    }
   },
@@ -6476,14 +6501,14 @@
    "t": "GS",
    "name": "Goldman Sachs",
    "wa": null,
-   "kurs": 900.36,
-   "tag": 0.65,
-   "dd": -21.5,
-   "a90": -8.82,
-   "a200": -5.35,
-   "rsi": 46.8,
-   "p3m": -14.1,
-   "ytd": 3.93,
+   "kurs": 898.93,
+   "tag": 0.49,
+   "dd": -21.6,
+   "a90": -8.97,
+   "a200": -5.5,
+   "rsi": 46.4,
+   "p3m": -14.2,
+   "ytd": 3.76,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6494,8 +6519,8 @@
     "l1": 475.0,
     "l2": 451.0,
     "ziel": 650.0,
-    "keur": 804.03,
-    "abst": 69.3,
+    "keur": 802.74,
+    "abst": 69.0,
     "split": false
    }
   },
@@ -6503,14 +6528,14 @@
    "t": "HD",
    "name": "Home Depot",
    "wa": null,
-   "kurs": 339.8,
-   "tag": 3.22,
-   "dd": -11.2,
-   "a90": 5.5,
-   "a200": 2.83,
-   "rsi": 73.2,
-   "p3m": -1.7,
-   "ytd": 0.894,
+   "kurs": 340.43,
+   "tag": 3.41,
+   "dd": -11.1,
+   "a90": 5.7,
+   "a200": 3.02,
+   "rsi": 73.5,
+   "p3m": -1.52,
+   "ytd": 1.08,
    "listen": [
     "abstauber_usa"
    ],
@@ -6520,8 +6545,8 @@
     "l1": 300.0,
     "l2": 270.0,
     "ziel": 380.0,
-    "keur": 303.44,
-    "abst": 1.15,
+    "keur": 304.0,
+    "abst": 1.33,
     "split": false
    }
   },
@@ -6529,14 +6554,14 @@
    "t": "INTC",
    "name": "Intel",
    "wa": null,
-   "kurs": 60.045,
-   "tag": -8.69,
-   "dd": -57.4,
-   "a90": -41.0,
-   "a200": -30.9,
-   "rsi": 23.0,
-   "p3m": -40.5,
-   "ytd": 62.7,
+   "kurs": 59.482,
+   "tag": -9.55,
+   "dd": -57.8,
+   "a90": -41.5,
+   "a200": -31.6,
+   "rsi": 22.8,
+   "p3m": -41.0,
+   "ytd": 61.2,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6547,8 +6572,8 @@
     "l1": 16.0,
     "l2": 14.0,
     "ziel": 30.0,
-    "keur": 53.62,
-    "abst": 235.0,
+    "keur": 53.117,
+    "abst": 232.0,
     "split": false
    }
   },
@@ -6556,14 +6581,14 @@
    "t": "JPM",
    "name": "JPMorgan",
    "wa": null,
-   "kurs": 341.31,
-   "tag": 1.27,
-   "dd": -6.07,
-   "a90": -0.734,
-   "a200": 6.5,
-   "rsi": 54.6,
-   "p3m": -4.06,
-   "ytd": 7.96,
+   "kurs": 341.21,
+   "tag": 1.24,
+   "dd": -6.1,
+   "a90": -0.763,
+   "a200": 6.47,
+   "rsi": 54.5,
+   "p3m": -4.09,
+   "ytd": 7.93,
    "listen": [
     "abstauber_usa"
    ],
@@ -6573,7 +6598,7 @@
     "l1": 195.0,
     "l2": 181.0,
     "ziel": 250.0,
-    "keur": 304.79,
+    "keur": 304.7,
     "abst": 56.3,
     "split": false
    }
@@ -6582,14 +6607,14 @@
    "t": "LULU",
    "name": "Lululemon",
    "wa": null,
-   "kurs": 107.42,
-   "tag": 0.163,
-   "dd": -50.2,
-   "a90": -2.2,
-   "a200": -19.4,
-   "rsi": 59.1,
-   "p3m": -12.7,
-   "ytd": -48.3,
+   "kurs": 107.82,
+   "tag": 0.546,
+   "dd": -50.1,
+   "a90": -1.83,
+   "a200": -19.1,
+   "rsi": 59.6,
+   "p3m": -12.4,
+   "ytd": -48.1,
    "listen": [
     "abstauber_usa",
     "google_golden_eye"
@@ -6600,8 +6625,8 @@
     "l1": 275.0,
     "l2": 251.0,
     "ziel": 400.0,
-    "keur": 95.922,
-    "abst": -65.1,
+    "keur": 96.288,
+    "abst": -65.0,
     "split": false
    }
   },
@@ -6609,14 +6634,14 @@
    "t": "MU",
    "name": "Micron Techn.",
    "wa": null,
-   "kurs": 838.06,
-   "tag": -5.28,
-   "dd": -30.9,
-   "a90": -12.5,
-   "a200": 11.9,
-   "rsi": 37.8,
-   "p3m": -6.1,
-   "ytd": 194.0,
+   "kurs": 830.88,
+   "tag": -6.09,
+   "dd": -31.5,
+   "a90": -13.3,
+   "a200": 10.9,
+   "rsi": 37.2,
+   "p3m": -6.91,
+   "ytd": 191.0,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6627,8 +6652,8 @@
     "l1": 78.0,
     "l2": 65.0,
     "ziel": 120.0,
-    "keur": 748.39,
-    "abst": 859.0,
+    "keur": 741.97,
+    "abst": 851.0,
     "split": false
    }
   },
@@ -6636,14 +6661,14 @@
    "t": "MRNA",
    "name": "Moderna",
    "wa": null,
-   "kurs": 221.97,
-   "tag": 0.113,
-   "dd": -9.7,
-   "a90": 66.4,
-   "a200": 154.0,
-   "rsi": 57.4,
-   "p3m": 289.0,
-   "ytd": 653.0,
+   "kurs": 218.01,
+   "tag": -1.67,
+   "dd": -11.3,
+   "a90": 63.5,
+   "a200": 149.0,
+   "rsi": 55.6,
+   "p3m": 283.0,
+   "ytd": 639.0,
    "listen": [
     "abstauber_usa"
    ],
@@ -6653,8 +6678,8 @@
     "l1": 30.0,
     "l2": 26.0,
     "ziel": 60.0,
-    "keur": 198.22,
-    "abst": 561.0,
+    "keur": 194.68,
+    "abst": 549.0,
     "split": false
    }
   },
@@ -6662,14 +6687,14 @@
    "t": "NVDA",
    "name": "Nvidia",
    "wa": null,
-   "kurs": 204.01,
-   "tag": -0.308,
-   "dd": -14.7,
-   "a90": -5.33,
-   "a200": -0.0828,
-   "rsi": 34.6,
-   "p3m": -3.63,
-   "ytd": 9.64,
+   "kurs": 201.87,
+   "tag": -1.35,
+   "dd": -15.6,
+   "a90": -6.31,
+   "a200": -1.13,
+   "rsi": 33.2,
+   "p3m": -4.64,
+   "ytd": 8.49,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste",
@@ -6681,8 +6706,8 @@
     "l1": 95.0,
     "l2": 81.0,
     "ziel": 150.0,
-    "keur": 182.18,
-    "abst": 91.8,
+    "keur": 180.27,
+    "abst": 89.8,
     "split": false
    }
   },
@@ -6690,14 +6715,14 @@
    "t": "PYPL",
    "name": "PayPal",
    "wa": null,
-   "kurs": 58.59,
-   "tag": 2.77,
-   "dd": -14.5,
-   "a90": 6.8,
-   "a200": 17.7,
-   "rsi": 64.1,
-   "p3m": 0.333,
-   "ytd": 1.24,
+   "kurs": 58.89,
+   "tag": 3.3,
+   "dd": -14.0,
+   "a90": 7.34,
+   "a200": 18.3,
+   "rsi": 65.2,
+   "p3m": 0.846,
+   "ytd": 1.76,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6708,8 +6733,8 @@
     "l1": 60.0,
     "l2": 56.0,
     "ziel": 100.0,
-    "keur": 52.321,
-    "abst": -12.8,
+    "keur": 52.589,
+    "abst": -12.4,
     "split": false
    }
   },
@@ -6717,14 +6742,14 @@
    "t": "QCOM",
    "name": "Qualcomm",
    "wa": null,
-   "kurs": 163.88,
-   "tag": -0.552,
-   "dd": -34.1,
-   "a90": -5.82,
-   "a200": -2.68,
-   "rsi": 38.3,
-   "p3m": 1.29,
-   "ytd": -2.69,
+   "kurs": 161.67,
+   "tag": -1.89,
+   "dd": -35.0,
+   "a90": -7.07,
+   "a200": -3.99,
+   "rsi": 36.9,
+   "p3m": -0.0738,
+   "ytd": -4.01,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6735,8 +6760,8 @@
     "l1": 125.0,
     "l2": 105.0,
     "ziel": 180.0,
-    "keur": 146.34,
-    "abst": 17.1,
+    "keur": 144.37,
+    "abst": 15.5,
     "split": false
    }
   },
@@ -6744,14 +6769,14 @@
    "t": "WMT",
    "name": "Walmart Stores",
    "wa": null,
-   "kurs": 127.33,
-   "tag": 3.09,
-   "dd": -4.89,
-   "a90": 14.4,
-   "a200": 7.74,
-   "rsi": 77.6,
-   "p3m": 14.4,
-   "ytd": 15.0,
+   "kurs": 127.65,
+   "tag": 3.35,
+   "dd": -4.65,
+   "a90": 14.7,
+   "a200": 8.0,
+   "rsi": 77.9,
+   "p3m": 14.7,
+   "ytd": 15.3,
    "listen": [
     "abstauber_usa"
    ],
@@ -6761,8 +6786,8 @@
     "l1": 70.0,
     "l2": 62.0,
     "ziel": 100.0,
-    "keur": 113.71,
-    "abst": 62.4,
+    "keur": 113.99,
+    "abst": 62.8,
     "split": false
    }
   },
@@ -6770,14 +6795,14 @@
    "t": "DIS",
    "name": "Walt Disney",
    "wa": null,
-   "kurs": 113.1,
-   "tag": 1.95,
-   "dd": -1.65,
-   "a90": 8.85,
-   "a200": 9.79,
-   "rsi": 63.8,
+   "kurs": 113.14,
+   "tag": 1.98,
+   "dd": -1.62,
+   "a90": 8.88,
+   "a200": 9.82,
+   "rsi": 63.9,
    "p3m": 15.2,
-   "ytd": 0.173,
+   "ytd": 0.204,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
@@ -6788,8 +6813,8 @@
     "l1": 85.0,
     "l2": 81.0,
     "ziel": 150.0,
-    "keur": 101.0,
-    "abst": 18.8,
+    "keur": 101.03,
+    "abst": 18.9,
     "split": false
    }
   },
@@ -6797,14 +6822,14 @@
    "t": "PEN",
    "name": "Penumbra",
    "wa": null,
-   "kurs": 320.99,
-   "tag": 0.64,
-   "dd": -10.7,
-   "a90": 0.125,
-   "a200": -1.94,
-   "rsi": 49.8,
-   "p3m": -0.996,
-   "ytd": 3.24,
+   "kurs": 321.23,
+   "tag": 0.715,
+   "dd": -10.6,
+   "a90": 0.199,
+   "a200": -1.87,
+   "rsi": 50.3,
+   "p3m": -0.922,
+   "ytd": 3.32,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -6815,14 +6840,14 @@
    "t": "FIG",
    "name": "Figma Inc",
    "wa": null,
-   "kurs": 22.501,
-   "tag": 3.93,
-   "dd": -54.9,
-   "a90": -3.6,
-   "a200": -2.34,
-   "rsi": 49.1,
-   "p3m": -17.0,
-   "ytd": -39.8,
+   "kurs": 22.235,
+   "tag": 2.7,
+   "dd": -55.4,
+   "a90": -4.73,
+   "a200": -3.49,
+   "rsi": 47.6,
+   "p3m": -18.0,
+   "ytd": -40.5,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -6834,14 +6859,14 @@
    "t": "VKTX",
    "name": "Viking Therapeutics Inc",
    "wa": null,
-   "kurs": 26.84,
-   "tag": -1.61,
-   "dd": -36.3,
-   "a90": -18.2,
-   "a200": -17.1,
-   "rsi": 46.4,
-   "p3m": -18.5,
-   "ytd": -23.7,
+   "kurs": 26.57,
+   "tag": -2.6,
+   "dd": -36.9,
+   "a90": -19.0,
+   "a200": -17.9,
+   "rsi": 45.6,
+   "p3m": -19.3,
+   "ytd": -24.5,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -6852,14 +6877,14 @@
    "t": "QNC.V",
    "name": "Quantum eMotion Corp",
    "wa": null,
-   "kurs": 1.37,
-   "tag": -1.44,
-   "dd": -77.5,
-   "a90": -50.8,
-   "a200": -61.6,
-   "rsi": 28.7,
-   "p3m": -52.8,
-   "ytd": -72.7,
+   "kurs": 1.38,
+   "tag": -0.719,
+   "dd": -77.3,
+   "a90": -50.5,
+   "a200": -61.3,
+   "rsi": 28.9,
+   "p3m": -52.4,
+   "ytd": -72.5,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -6871,14 +6896,14 @@
    "t": "ABBV",
    "name": "Abbvie",
    "wa": null,
-   "kurs": 289.67,
-   "tag": -1.77,
-   "dd": -1.77,
-   "a90": 11.1,
-   "a200": 23.4,
-   "rsi": 63.9,
-   "p3m": 19.5,
-   "ytd": 30.6,
+   "kurs": 289.04,
+   "tag": -1.98,
+   "dd": -1.98,
+   "a90": 10.8,
+   "a200": 23.2,
+   "rsi": 63.0,
+   "p3m": 19.3,
+   "ytd": 30.3,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -6889,14 +6914,14 @@
    "t": "MP",
    "name": "Mp Materials Corp",
    "wa": null,
-   "kurs": 38.5,
-   "tag": -2.7,
-   "dd": -47.0,
-   "a90": -20.9,
-   "a200": -30.1,
-   "rsi": 36.9,
-   "p3m": -18.9,
-   "ytd": -23.8,
+   "kurs": 38.16,
+   "tag": -3.56,
+   "dd": -47.5,
+   "a90": -21.6,
+   "a200": -30.7,
+   "rsi": 36.1,
+   "p3m": -19.6,
+   "ytd": -24.5,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -6926,14 +6951,14 @@
    "t": "ATEN",
    "name": "A10 Networks Inc",
    "wa": null,
-   "kurs": 23.705,
-   "tag": -3.17,
-   "dd": -37.7,
-   "a90": -17.9,
-   "a200": -10.5,
-   "rsi": 37.0,
-   "p3m": -22.6,
-   "ytd": 35.0,
+   "kurs": 23.59,
+   "tag": -3.64,
+   "dd": -38.0,
+   "a90": -18.2,
+   "a200": -10.9,
+   "rsi": 36.6,
+   "p3m": -23.0,
+   "ytd": 34.3,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -6944,14 +6969,14 @@
    "t": "GTLB",
    "name": "GitLab Inc.",
    "wa": null,
-   "kurs": 52.09,
-   "tag": -3.7,
-   "dd": -10.1,
-   "a90": 19.5,
-   "a200": 52.6,
-   "rsi": 47.1,
-   "p3m": 42.8,
-   "ytd": 38.8,
+   "kurs": 51.77,
+   "tag": -4.29,
+   "dd": -10.7,
+   "a90": 18.8,
+   "a200": 51.6,
+   "rsi": 46.3,
+   "p3m": 41.9,
+   "ytd": 37.9,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7000,14 +7025,14 @@
    "t": "FIX",
    "name": "Comfort Systems USA Inc",
    "wa": null,
-   "kurs": 1203.9,
-   "tag": -2.33,
-   "dd": -41.7,
-   "a90": -26.5,
-   "a200": -25.0,
-   "rsi": 32.1,
-   "p3m": -32.2,
-   "ytd": 29.2,
+   "kurs": 1192.9,
+   "tag": -3.23,
+   "dd": -42.2,
+   "a90": -27.1,
+   "a200": -25.7,
+   "rsi": 31.6,
+   "p3m": -32.8,
+   "ytd": 28.0,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7018,14 +7043,14 @@
    "t": "AEE",
    "name": "Ameren",
    "wa": null,
-   "kurs": 111.43,
-   "tag": 0.805,
-   "dd": -5.16,
-   "a90": 4.14,
-   "a200": 3.82,
-   "rsi": 71.1,
-   "p3m": 2.54,
-   "ytd": 13.9,
+   "kurs": 111.73,
+   "tag": 1.08,
+   "dd": -4.9,
+   "a90": 4.42,
+   "a200": 4.1,
+   "rsi": 71.7,
+   "p3m": 2.82,
+   "ytd": 14.2,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7036,14 +7061,14 @@
    "t": "AER",
    "name": "AerCap",
    "wa": null,
-   "kurs": 164.58,
-   "tag": 3.82,
+   "kurs": 164.18,
+   "tag": 3.57,
    "dd": 0.0,
-   "a90": 11.5,
-   "a200": 14.1,
-   "rsi": 76.5,
-   "p3m": 6.41,
-   "ytd": 15.4,
+   "a90": 11.2,
+   "a200": 13.9,
+   "rsi": 76.2,
+   "p3m": 6.15,
+   "ytd": 15.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7054,14 +7079,14 @@
    "t": "APH",
    "name": "Amphenol",
    "wa": null,
-   "kurs": 80.0,
-   "tag": 0.883,
-   "dd": -9.73,
-   "a90": -1.19,
-   "a200": 6.31,
-   "rsi": 48.4,
-   "p3m": -6.47,
-   "ytd": 19.0,
+   "kurs": 79.555,
+   "tag": 0.322,
+   "dd": -10.2,
+   "a90": -1.74,
+   "a200": 5.72,
+   "rsi": 47.4,
+   "p3m": -6.99,
+   "ytd": 18.3,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live",
@@ -7075,14 +7100,14 @@
    "t": "APO",
    "name": "Apollo Global Management",
    "wa": null,
-   "kurs": 119.72,
-   "tag": 3.35,
-   "dd": -20.6,
-   "a90": -2.86,
-   "a200": -2.37,
-   "rsi": 55.8,
-   "p3m": -9.74,
-   "ytd": -16.3,
+   "kurs": 119.1,
+   "tag": 2.81,
+   "dd": -21.0,
+   "a90": -3.36,
+   "a200": -2.88,
+   "rsi": 54.7,
+   "p3m": -10.2,
+   "ytd": -16.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7093,14 +7118,14 @@
    "t": "CRBG",
    "name": "Corebridge Financial",
    "wa": null,
-   "kurs": 34.995,
-   "tag": 0.531,
-   "dd": -1.67,
-   "a90": 6.3,
-   "a200": 18.7,
-   "rsi": 53.8,
-   "p3m": 11.5,
-   "ytd": 19.1,
+   "kurs": 35.165,
+   "tag": 1.02,
+   "dd": -1.19,
+   "a90": 6.81,
+   "a200": 19.2,
+   "rsi": 55.2,
+   "p3m": 12.1,
+   "ytd": 19.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7183,14 +7208,14 @@
    "t": "BLSH",
    "name": "Bullish",
    "wa": null,
-   "kurs": 22.7,
-   "tag": -5.02,
-   "dd": -55.1,
-   "a90": -22.1,
-   "a200": -29.6,
-   "rsi": 28.3,
-   "p3m": -4.62,
-   "ytd": -40.1,
+   "kurs": 22.54,
+   "tag": -5.69,
+   "dd": -55.4,
+   "a90": -22.7,
+   "a200": -30.1,
+   "rsi": 28.0,
+   "p3m": -5.29,
+   "ytd": -40.5,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7202,14 +7227,14 @@
    "t": "BSX",
    "name": "Boston Scientific",
    "wa": null,
-   "kurs": 43.81,
-   "tag": 4.36,
-   "dd": -58.3,
-   "a90": -3.77,
-   "a200": -22.2,
-   "rsi": 48.7,
-   "p3m": -10.8,
-   "ytd": -54.1,
+   "kurs": 44.185,
+   "tag": 5.25,
+   "dd": -57.9,
+   "a90": -2.96,
+   "a200": -21.5,
+   "rsi": 50.3,
+   "p3m": -9.99,
+   "ytd": -53.7,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -7221,14 +7246,14 @@
    "t": "LNG",
    "name": "Cheniere Energy",
    "wa": null,
-   "kurs": 312.6,
-   "tag": -5.37,
-   "dd": -5.37,
-   "a90": 14.6,
-   "a200": 21.9,
-   "rsi": 63.2,
-   "p3m": 21.8,
-   "ytd": 62.0,
+   "kurs": 312.38,
+   "tag": -5.43,
+   "dd": -5.43,
+   "a90": 14.5,
+   "a200": 21.8,
+   "rsi": 63.0,
+   "p3m": 21.7,
+   "ytd": 61.8,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7240,14 +7265,14 @@
    "t": "CIG",
    "name": "Companhia Energética de Minas Gerais",
    "wa": null,
-   "kurs": 1.821,
-   "tag": -0.492,
+   "kurs": 1.82,
+   "tag": -0.546,
    "dd": -30.4,
    "a90": -14.0,
-   "a200": -15.6,
+   "a200": -15.7,
    "rsi": 28.1,
    "p3m": -15.3,
-   "ytd": -3.24,
+   "ytd": -3.29,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7258,14 +7283,14 @@
    "t": "CRDO",
    "name": "Credo Technology Group Holding Ltd",
    "wa": null,
-   "kurs": 141.84,
-   "tag": -6.06,
-   "dd": -53.1,
-   "a90": -32.0,
-   "a200": -21.7,
-   "rsi": 35.5,
-   "p3m": -40.4,
-   "ytd": -1.43,
+   "kurs": 139.78,
+   "tag": -7.42,
+   "dd": -53.8,
+   "a90": -32.9,
+   "a200": -22.8,
+   "rsi": 34.9,
+   "p3m": -41.2,
+   "ytd": -2.86,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live"
@@ -7277,14 +7302,14 @@
    "t": "CRWV",
    "name": "CoreWeave",
    "wa": null,
-   "kurs": 50.24,
-   "tag": -8.44,
-   "dd": -63.6,
-   "a90": -38.6,
-   "a200": -44.9,
-   "rsi": 30.2,
-   "p3m": -45.3,
-   "ytd": -29.8,
+   "kurs": 49.611,
+   "tag": -9.59,
+   "dd": -64.0,
+   "a90": -39.3,
+   "a200": -45.6,
+   "rsi": 29.8,
+   "p3m": -46.0,
+   "ytd": -30.7,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7296,14 +7321,14 @@
    "t": "CSL",
    "name": "Carlisle Companies",
    "wa": null,
-   "kurs": 389.74,
-   "tag": 3.57,
-   "dd": -6.03,
-   "a90": 12.7,
-   "a200": 11.0,
-   "rsi": 75.6,
-   "p3m": 1.21,
-   "ytd": 23.0,
+   "kurs": 391.07,
+   "tag": 3.92,
+   "dd": -5.71,
+   "a90": 13.1,
+   "a200": 11.4,
+   "rsi": 75.9,
+   "p3m": 1.56,
+   "ytd": 23.4,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7314,14 +7339,14 @@
    "t": "CMCSA",
    "name": "Comcast",
    "wa": null,
-   "kurs": 23.658,
-   "tag": 1.89,
-   "dd": -24.1,
-   "a90": 0.728,
-   "a200": -6.83,
-   "rsi": 63.4,
-   "p3m": -3.63,
-   "ytd": -11.0,
+   "kurs": 23.725,
+   "tag": 2.17,
+   "dd": -23.9,
+   "a90": 1.01,
+   "a200": -6.57,
+   "rsi": 63.8,
+   "p3m": -3.35,
+   "ytd": -10.8,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7351,14 +7376,14 @@
    "t": "DECK",
    "name": "Deckers Outdoor Corporation",
    "wa": null,
-   "kurs": 84.74,
-   "tag": 3.35,
-   "dd": -29.9,
-   "a90": -6.02,
-   "a200": -14.6,
-   "rsi": 55.1,
-   "p3m": -15.1,
-   "ytd": -18.3,
+   "kurs": 84.95,
+   "tag": 3.61,
+   "dd": -29.8,
+   "a90": -5.79,
+   "a200": -14.3,
+   "rsi": 55.6,
+   "p3m": -14.9,
+   "ytd": -18.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7369,14 +7394,14 @@
    "t": "DOW",
    "name": "Dow, Inc.",
    "wa": null,
-   "kurs": 34.13,
-   "tag": -1.64,
-   "dd": -16.7,
-   "a90": 14.8,
-   "a200": 6.16,
-   "rsi": 70.2,
-   "p3m": 13.8,
-   "ytd": 50.9,
+   "kurs": 33.93,
+   "tag": -2.22,
+   "dd": -17.2,
+   "a90": 14.1,
+   "a200": 5.54,
+   "rsi": 68.4,
+   "p3m": 13.2,
+   "ytd": 50.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7387,14 +7412,14 @@
    "t": "CEG",
    "name": "Constellation Energy",
    "wa": null,
-   "kurs": 258.34,
-   "tag": -1.54,
-   "dd": -31.5,
-   "a90": -3.54,
-   "a200": -7.42,
-   "rsi": 44.4,
-   "p3m": -3.19,
-   "ytd": -26.5,
+   "kurs": 257.81,
+   "tag": -1.74,
+   "dd": -31.6,
+   "a90": -3.74,
+   "a200": -7.61,
+   "rsi": 44.1,
+   "p3m": -3.38,
+   "ytd": -26.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7423,14 +7448,14 @@
    "t": "EQIX",
    "name": "Equinix",
    "wa": null,
-   "kurs": 987.93,
-   "tag": -2.54,
-   "dd": -11.0,
-   "a90": -4.02,
-   "a200": -1.75,
-   "rsi": 45.9,
-   "p3m": -5.6,
-   "ytd": 30.9,
+   "kurs": 986.37,
+   "tag": -2.7,
+   "dd": -11.2,
+   "a90": -4.17,
+   "a200": -1.9,
+   "rsi": 45.6,
+   "p3m": -5.75,
+   "ytd": 30.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7441,14 +7466,14 @@
    "t": "EQT",
    "name": "EQT Corporation",
    "wa": null,
-   "kurs": 54.85,
-   "tag": -0.957,
-   "dd": -18.8,
-   "a90": 4.11,
-   "a200": -0.987,
-   "rsi": 54.7,
-   "p3m": 4.27,
-   "ytd": 3.23,
+   "kurs": 55.08,
+   "tag": -0.542,
+   "dd": -18.4,
+   "a90": 4.54,
+   "a200": -0.574,
+   "rsi": 55.9,
+   "p3m": 4.7,
+   "ytd": 3.67,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7459,14 +7484,14 @@
    "t": "ESTC",
    "name": "Elastic",
    "wa": null,
-   "kurs": 91.895,
-   "tag": -5.54,
-   "dd": -13.8,
-   "a90": 13.0,
-   "a200": 36.5,
-   "rsi": 44.1,
-   "p3m": 29.3,
-   "ytd": 21.8,
+   "kurs": 91.39,
+   "tag": -6.05,
+   "dd": -14.3,
+   "a90": 12.4,
+   "a200": 35.7,
+   "rsi": 43.6,
+   "p3m": 28.6,
+   "ytd": 21.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7477,14 +7502,14 @@
    "t": "EW",
    "name": "Edwards Lifesciences Corporation",
    "wa": null,
-   "kurs": 92.43,
-   "tag": 0.456,
-   "dd": -2.89,
-   "a90": 4.15,
-   "a200": 8.15,
-   "rsi": 60.9,
-   "p3m": 3.16,
-   "ytd": 8.42,
+   "kurs": 93.16,
+   "tag": 1.25,
+   "dd": -2.12,
+   "a90": 4.96,
+   "a200": 9.0,
+   "rsi": 62.5,
+   "p3m": 3.97,
+   "ytd": 9.28,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7495,14 +7520,14 @@
    "t": "EXC",
    "name": "Exelon",
    "wa": null,
-   "kurs": 46.545,
-   "tag": 0.834,
-   "dd": -5.69,
-   "a90": 5.44,
-   "a200": 3.41,
-   "rsi": 75.4,
-   "p3m": 2.5,
-   "ytd": 9.74,
+   "kurs": 46.585,
+   "tag": 0.921,
+   "dd": -5.61,
+   "a90": 5.53,
+   "a200": 3.5,
+   "rsi": 75.6,
+   "p3m": 2.59,
+   "ytd": 9.84,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7513,14 +7538,14 @@
    "t": "EXLS",
    "name": "ExlService Holdings Inc",
    "wa": null,
-   "kurs": 42.41,
-   "tag": 2.37,
-   "dd": -2.24,
-   "a90": 22.8,
-   "a200": 29.7,
-   "rsi": 70.7,
-   "p3m": 23.3,
-   "ytd": -0.0707,
+   "kurs": 42.555,
+   "tag": 2.72,
+   "dd": -1.9,
+   "a90": 23.2,
+   "a200": 30.2,
+   "rsi": 71.2,
+   "p3m": 23.7,
+   "ytd": 0.271,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7532,14 +7557,14 @@
    "t": "FN",
    "name": "Fabrinet",
    "wa": null,
-   "kurs": 315.1,
-   "tag": -3.72,
-   "dd": -57.8,
-   "a90": -29.2,
-   "a200": -39.8,
-   "rsi": 34.2,
-   "p3m": -40.7,
-   "ytd": -30.8,
+   "kurs": 313.17,
+   "tag": -4.31,
+   "dd": -58.0,
+   "a90": -29.7,
+   "a200": -40.2,
+   "rsi": 33.8,
+   "p3m": -41.0,
+   "ytd": -31.2,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7550,14 +7575,14 @@
    "t": "FISV",
    "name": "Fiserv",
    "wa": null,
-   "kurs": 51.7,
-   "tag": 3.36,
-   "dd": -26.0,
-   "a90": 3.1,
-   "a200": -5.37,
-   "rsi": 64.7,
-   "p3m": -7.31,
-   "ytd": -23.0,
+   "kurs": 52.12,
+   "tag": 4.2,
+   "dd": -25.4,
+   "a90": 3.93,
+   "a200": -4.6,
+   "rsi": 65.9,
+   "p3m": -6.56,
+   "ytd": -22.4,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7568,14 +7593,14 @@
    "t": "GWW",
    "name": "W. W. Grainger",
    "wa": null,
-   "kurs": 1380.4,
-   "tag": 1.56,
-   "dd": -1.35,
-   "a90": 4.51,
-   "a200": 11.7,
-   "rsi": 65.9,
-   "p3m": 6.35,
-   "ytd": 37.6,
+   "kurs": 1381.7,
+   "tag": 1.66,
+   "dd": -1.26,
+   "a90": 4.61,
+   "a200": 11.8,
+   "rsi": 66.2,
+   "p3m": 6.46,
+   "ytd": 37.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7586,14 +7611,14 @@
    "t": "GOOG",
    "name": "Alphabet Inc.",
    "wa": null,
-   "kurs": 281.29,
-   "tag": 1.1,
-   "dd": -29.4,
-   "a90": -17.4,
-   "a200": -16.8,
-   "rsi": 23.9,
-   "p3m": -25.0,
-   "ytd": -10.2,
+   "kurs": 279.39,
+   "tag": 0.421,
+   "dd": -29.9,
+   "a90": -18.0,
+   "a200": -17.4,
+   "rsi": 22.2,
+   "p3m": -25.5,
+   "ytd": -10.8,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7604,14 +7629,14 @@
    "t": "GRAB",
    "name": "Grab",
    "wa": null,
-   "kurs": 2.8917,
-   "tag": 6.7,
-   "dd": -52.4,
-   "a90": -13.3,
-   "a200": -20.2,
-   "rsi": 47.6,
-   "p3m": -22.3,
-   "ytd": -42.1,
+   "kurs": 2.8999,
+   "tag": 7.01,
+   "dd": -52.2,
+   "a90": -13.0,
+   "a200": -20.0,
+   "rsi": 48.1,
+   "p3m": -22.0,
+   "ytd": -41.9,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7622,9 +7647,9 @@
    "t": "DEO",
    "name": "Diageo",
    "wa": null,
-   "kurs": 97.44,
-   "tag": 4.28,
-   "dd": -2.39,
+   "kurs": 97.45,
+   "tag": 4.29,
+   "dd": -2.38,
    "a90": 11.3,
    "a200": 15.3,
    "rsi": 66.3,
@@ -7640,13 +7665,13 @@
    "t": "HSBC",
    "name": "HSBC",
    "wa": null,
-   "kurs": 85.985,
-   "tag": 0.661,
-   "dd": -19.9,
+   "kurs": 85.925,
+   "tag": 0.591,
+   "dd": -20.0,
    "a90": -13.5,
-   "a200": -7.01,
-   "rsi": 27.6,
-   "p3m": -18.5,
+   "a200": -7.08,
+   "rsi": 27.4,
+   "p3m": -18.6,
    "ytd": 13.5,
    "listen": [
     "google_beobachtungsliste"
@@ -7658,14 +7683,14 @@
    "t": "HOOD",
    "name": "Robinhood",
    "wa": null,
-   "kurs": 84.04,
-   "tag": -1.12,
-   "dd": -42.9,
-   "a90": -19.7,
-   "a200": -9.11,
-   "rsi": 28.6,
-   "p3m": -10.1,
-   "ytd": -25.7,
+   "kurs": 83.53,
+   "tag": -1.72,
+   "dd": -43.2,
+   "a90": -20.2,
+   "a200": -9.65,
+   "rsi": 28.3,
+   "p3m": -10.7,
+   "ytd": -26.1,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7677,14 +7702,14 @@
    "t": "HRL",
    "name": "Hormel Foods",
    "wa": null,
-   "kurs": 21.555,
-   "tag": 1.29,
-   "dd": -16.4,
-   "a90": -3.37,
-   "a200": -3.05,
-   "rsi": 64.6,
-   "p3m": -13.6,
-   "ytd": -4.0,
+   "kurs": 21.535,
+   "tag": 1.2,
+   "dd": -16.5,
+   "a90": -3.46,
+   "a200": -3.14,
+   "rsi": 64.4,
+   "p3m": -13.7,
+   "ytd": -4.09,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7695,14 +7720,14 @@
    "t": "IOT",
    "name": "Samsara Inc.",
    "wa": null,
-   "kurs": 41.825,
-   "tag": -0.582,
-   "dd": -7.51,
-   "a90": 7.11,
-   "a200": 21.9,
-   "rsi": 50.6,
-   "p3m": 8.35,
-   "ytd": 18.0,
+   "kurs": 41.7,
+   "tag": -0.879,
+   "dd": -7.78,
+   "a90": 6.79,
+   "a200": 21.6,
+   "rsi": 50.1,
+   "p3m": 8.03,
+   "ytd": 17.6,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7713,14 +7738,14 @@
    "t": "IRM",
    "name": "Iron Mountain Incorporated",
    "wa": null,
-   "kurs": 115.66,
-   "tag": -0.764,
-   "dd": -12.4,
-   "a90": -1.99,
-   "a200": 1.38,
-   "rsi": 53.0,
-   "p3m": -7.13,
-   "ytd": 42.6,
+   "kurs": 114.81,
+   "tag": -1.49,
+   "dd": -13.0,
+   "a90": -2.7,
+   "a200": 0.641,
+   "rsi": 51.2,
+   "p3m": -7.81,
+   "ytd": 41.6,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live"
@@ -7768,14 +7793,14 @@
    "t": "KKR",
    "name": "Kohlberg Kravis Roberts & Co.",
    "wa": null,
-   "kurs": 97.938,
-   "tag": 3.76,
+   "kurs": 97.915,
+   "tag": 3.73,
    "dd": -31.0,
-   "a90": -0.783,
-   "a200": -0.516,
+   "a90": -0.807,
+   "a200": -0.54,
    "rsi": 61.3,
-   "p3m": -9.32,
-   "ytd": -22.7,
+   "p3m": -9.34,
+   "ytd": -22.8,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7786,14 +7811,14 @@
    "t": "KMB",
    "name": "Kimberly-Clark",
    "wa": null,
-   "kurs": 108.57,
-   "tag": 0.584,
-   "dd": -4.66,
-   "a90": 3.15,
-   "a200": 7.27,
-   "rsi": 59.9,
-   "p3m": -1.52,
-   "ytd": 11.8,
+   "kurs": 108.66,
+   "tag": 0.667,
+   "dd": -4.58,
+   "a90": 3.23,
+   "a200": 7.36,
+   "rsi": 60.0,
+   "p3m": -1.44,
+   "ytd": 11.9,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7805,14 +7830,14 @@
    "t": "MTSI",
    "name": "M/A-Com Technology Solutions Holdings Inc.",
    "wa": null,
-   "kurs": 224.42,
-   "tag": -4.25,
-   "dd": -45.2,
-   "a90": -20.9,
-   "a200": -20.9,
-   "rsi": 35.6,
-   "p3m": -17.9,
-   "ytd": 31.0,
+   "kurs": 222.14,
+   "tag": -5.23,
+   "dd": -45.8,
+   "a90": -21.7,
+   "a200": -21.7,
+   "rsi": 35.2,
+   "p3m": -18.7,
+   "ytd": 29.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7823,13 +7848,13 @@
    "t": "NVO",
    "name": "Novo Nordisk",
    "wa": null,
-   "kurs": 40.56,
-   "tag": 1.4,
+   "kurs": 40.585,
+   "tag": 1.46,
    "dd": -33.4,
-   "a90": -7.87,
-   "a200": -6.33,
-   "rsi": 57.5,
-   "p3m": -7.23,
+   "a90": -7.82,
+   "a200": -6.28,
+   "rsi": 57.6,
+   "p3m": -7.17,
    "ytd": -16.3,
    "listen": [
     "google_beobachtungsliste",
@@ -7842,14 +7867,14 @@
    "t": "NXPI",
    "name": "NXP Semiconductors",
    "wa": null,
-   "kurs": 260.39,
-   "tag": 0.299,
-   "dd": -21.1,
-   "a90": 7.07,
-   "a200": 6.24,
-   "rsi": 64.2,
-   "p3m": 10.1,
-   "ytd": 21.5,
+   "kurs": 257.31,
+   "tag": -0.886,
+   "dd": -22.0,
+   "a90": 5.82,
+   "a200": 4.99,
+   "rsi": 61.8,
+   "p3m": 8.78,
+   "ytd": 20.1,
    "listen": [
     "google_beobachtungsliste",
     "google_bloch_live"
@@ -7861,14 +7886,14 @@
    "t": "ONC",
    "name": "BeOne Medicines",
    "wa": null,
-   "kurs": 365.24,
-   "tag": -1.37,
-   "dd": -5.49,
-   "a90": 5.48,
-   "a200": 12.4,
-   "rsi": 48.8,
-   "p3m": 13.1,
-   "ytd": 20.2,
+   "kurs": 362.99,
+   "tag": -1.98,
+   "dd": -6.07,
+   "a90": 4.84,
+   "a200": 11.7,
+   "rsi": 47.3,
+   "p3m": 12.4,
+   "ytd": 19.5,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7879,14 +7904,14 @@
    "t": "PH",
    "name": "Parker-Hannifin",
    "wa": null,
-   "kurs": 927.24,
-   "tag": 3.05,
+   "kurs": 926.9,
+   "tag": 3.01,
    "dd": -13.5,
-   "a90": -4.42,
-   "a200": -2.05,
-   "rsi": 47.4,
-   "p3m": -6.4,
-   "ytd": 6.14,
+   "a90": -4.46,
+   "a200": -2.08,
+   "rsi": 47.3,
+   "p3m": -6.44,
+   "ytd": 6.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7915,14 +7940,14 @@
    "t": "POET",
    "name": "POET Technologies Inc",
    "wa": null,
-   "kurs": 4.875,
-   "tag": -6.25,
-   "dd": -76.3,
-   "a90": -35.8,
-   "a200": -40.9,
-   "rsi": 29.7,
-   "p3m": -43.1,
-   "ytd": -23.0,
+   "kurs": 4.82,
+   "tag": -7.31,
+   "dd": -76.6,
+   "a90": -36.5,
+   "a200": -41.5,
+   "rsi": 29.2,
+   "p3m": -43.8,
+   "ytd": -23.9,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -7934,14 +7959,14 @@
    "t": "RBC",
    "name": "RBC Bearings Inc",
    "wa": null,
-   "kurs": 474.39,
-   "tag": 2.63,
-   "dd": -26.9,
-   "a90": -10.7,
-   "a200": -14.1,
-   "rsi": 42.5,
-   "p3m": -16.2,
-   "ytd": 5.79,
+   "kurs": 470.12,
+   "tag": 1.71,
+   "dd": -27.5,
+   "a90": -11.5,
+   "a200": -14.8,
+   "rsi": 40.5,
+   "p3m": -16.9,
+   "ytd": 4.84,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7952,14 +7977,14 @@
    "t": "RBRK",
    "name": "Rubrik",
    "wa": null,
-   "kurs": 116.25,
-   "tag": -6.36,
-   "dd": -14.5,
-   "a90": 17.2,
-   "a200": 51.2,
-   "rsi": 46.3,
-   "p3m": 43.5,
-   "ytd": 52.0,
+   "kurs": 114.36,
+   "tag": -7.88,
+   "dd": -15.9,
+   "a90": 15.3,
+   "a200": 48.8,
+   "rsi": 44.8,
+   "p3m": 41.2,
+   "ytd": 49.5,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -7988,14 +8013,14 @@
    "t": "SERV",
    "name": "Serve Robotics Inc",
    "wa": null,
-   "kurs": 2.495,
-   "tag": -4.04,
-   "dd": -83.8,
-   "a90": -46.7,
-   "a200": -65.4,
-   "rsi": 25.5,
-   "p3m": -56.2,
-   "ytd": -76.0,
+   "kurs": 2.485,
+   "tag": -4.42,
+   "dd": -83.9,
+   "a90": -47.0,
+   "a200": -65.5,
+   "rsi": 25.4,
+   "p3m": -56.3,
+   "ytd": -76.1,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -8007,14 +8032,14 @@
    "t": "SMCI",
    "name": "Super Micro Computer",
    "wa": null,
-   "kurs": 30.915,
-   "tag": -6.18,
-   "dd": -40.5,
-   "a90": -10.7,
-   "a200": -5.39,
-   "rsi": 36.2,
-   "p3m": -2.45,
-   "ytd": 5.62,
+   "kurs": 30.325,
+   "tag": -7.97,
+   "dd": -41.6,
+   "a90": -12.4,
+   "a200": -7.18,
+   "rsi": 35.2,
+   "p3m": -4.31,
+   "ytd": 3.6,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8025,14 +8050,14 @@
    "t": "SMMT",
    "name": "Summit Therapeutics Inc",
    "wa": null,
-   "kurs": 14.93,
-   "tag": -6.86,
-   "dd": -43.4,
-   "a90": -1.91,
-   "a200": -7.64,
-   "rsi": 43.5,
-   "p3m": 8.5,
-   "ytd": -14.6,
+   "kurs": 14.9,
+   "tag": -7.05,
+   "dd": -43.5,
+   "a90": -2.11,
+   "a200": -7.83,
+   "rsi": 43.3,
+   "p3m": 8.28,
+   "ytd": -14.8,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8043,14 +8068,14 @@
    "t": "SMR",
    "name": "Nuscale Power Corp",
    "wa": null,
-   "kurs": 5.3905,
-   "tag": -4.08,
-   "dd": -88.0,
-   "a90": -35.4,
-   "a200": -50.0,
-   "rsi": 32.8,
-   "p3m": -43.2,
-   "ytd": -62.0,
+   "kurs": 5.35,
+   "tag": -4.8,
+   "dd": -88.1,
+   "a90": -35.9,
+   "a200": -50.4,
+   "rsi": 32.4,
+   "p3m": -43.6,
+   "ytd": -62.2,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8061,14 +8086,14 @@
    "t": "SNPS",
    "name": "Synopsys",
    "wa": null,
-   "kurs": 469.35,
-   "tag": 0.372,
-   "dd": -12.2,
-   "a90": 10.1,
-   "a200": 5.88,
-   "rsi": 53.6,
-   "p3m": 16.2,
-   "ytd": -0.0788,
+   "kurs": 464.78,
+   "tag": -0.605,
+   "dd": -13.1,
+   "a90": 9.02,
+   "a200": 4.86,
+   "rsi": 52.1,
+   "p3m": 15.1,
+   "ytd": -1.05,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8079,13 +8104,13 @@
    "t": "SPCX",
    "name": "SpaceX",
    "wa": null,
-   "kurs": 138.12,
-   "tag": 2.52,
-   "dd": -34.7,
-   "a90": -3.33,
+   "kurs": 136.35,
+   "tag": 1.21,
+   "dd": -35.5,
+   "a90": -4.56,
    "a200": null,
-   "rsi": 41.0,
-   "p3m": 10.2,
+   "rsi": 39.2,
+   "p3m": 8.79,
    "ytd": null,
    "listen": [
     "google_beobachtungsliste",
@@ -8098,14 +8123,14 @@
    "t": "SRPT",
    "name": "Sarepta Therapeutics",
    "wa": null,
-   "kurs": 18.415,
-   "tag": -1.1,
-   "dd": -24.7,
-   "a90": -0.291,
-   "a200": -1.57,
-   "rsi": 49.8,
-   "p3m": 12.4,
-   "ytd": -14.4,
+   "kurs": 18.245,
+   "tag": -2.01,
+   "dd": -25.4,
+   "a90": -1.2,
+   "a200": -2.47,
+   "rsi": 48.6,
+   "p3m": 11.3,
+   "ytd": -15.2,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
@@ -8117,14 +8142,14 @@
    "t": "STRL",
    "name": "Sterling Infrastructure Inc",
    "wa": null,
-   "kurs": 335.92,
-   "tag": -2.89,
-   "dd": -66.2,
-   "a90": -37.8,
-   "a200": -39.1,
-   "rsi": 27.3,
-   "p3m": -38.0,
-   "ytd": 9.7,
+   "kurs": 333.35,
+   "tag": -3.63,
+   "dd": -66.5,
+   "a90": -38.3,
+   "a200": -39.6,
+   "rsi": 27.0,
+   "p3m": -38.5,
+   "ytd": 8.86,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye",
@@ -8137,14 +8162,14 @@
    "t": "TEM",
    "name": "Tempus AI Inc",
    "wa": null,
-   "kurs": 80.795,
-   "tag": 11.9,
-   "dd": -10.1,
-   "a90": 28.2,
-   "a200": 41.8,
-   "rsi": 60.6,
-   "p3m": 71.7,
-   "ytd": 36.8,
+   "kurs": 79.36,
+   "tag": 9.89,
+   "dd": -11.7,
+   "a90": 25.9,
+   "a200": 39.3,
+   "rsi": 59.4,
+   "p3m": 68.7,
+   "ytd": 34.4,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8175,14 +8200,14 @@
    "t": "TENB",
    "name": "Tenable Holdings Inc",
    "wa": null,
-   "kurs": 48.16,
-   "tag": -5.1,
-   "dd": -6.99,
-   "a90": 28.6,
-   "a200": 66.7,
-   "rsi": 64.4,
-   "p3m": 34.0,
-   "ytd": 105.0,
+   "kurs": 47.655,
+   "tag": -6.1,
+   "dd": -7.97,
+   "a90": 27.3,
+   "a200": 65.0,
+   "rsi": 62.9,
+   "p3m": 32.6,
+   "ytd": 103.0,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8193,14 +8218,14 @@
    "t": "TGT",
    "name": "Target Corporation",
    "wa": null,
-   "kurs": 158.73,
-   "tag": 2.82,
-   "dd": -6.57,
-   "a90": 5.62,
-   "a200": 19.3,
-   "rsi": 57.6,
-   "p3m": 7.99,
-   "ytd": 66.9,
+   "kurs": 158.91,
+   "tag": 2.93,
+   "dd": -6.46,
+   "a90": 5.74,
+   "a200": 19.4,
+   "rsi": 57.8,
+   "p3m": 8.12,
+   "ytd": 67.0,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -8230,12 +8255,12 @@
    "t": "VEEV",
    "name": "Veeva Systems",
    "wa": null,
-   "kurs": 308.32,
-   "tag": -1.48,
-   "dd": -4.56,
-   "a90": 23.1,
+   "kurs": 308.18,
+   "tag": -1.53,
+   "dd": -4.6,
+   "a90": 23.0,
    "a200": 47.0,
-   "rsi": 56.4,
+   "rsi": 56.2,
    "p3m": 45.5,
    "ytd": 38.1,
    "listen": [
@@ -8250,14 +8275,14 @@
    "t": "VICR",
    "name": "Vicor Corporation",
    "wa": null,
-   "kurs": 178.07,
-   "tag": -6.81,
-   "dd": -53.1,
-   "a90": -23.5,
-   "a200": -21.7,
-   "rsi": 37.4,
-   "p3m": -21.4,
-   "ytd": 62.5,
+   "kurs": 174.4,
+   "tag": -8.73,
+   "dd": -54.1,
+   "a90": -25.0,
+   "a200": -23.3,
+   "rsi": 36.6,
+   "p3m": -23.0,
+   "ytd": 59.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8268,14 +8293,14 @@
    "t": "VIR",
    "name": "Vir Biotechnology Inc",
    "wa": null,
-   "kurs": 11.23,
-   "tag": -0.619,
-   "dd": -5.87,
-   "a90": 9.29,
-   "a200": 17.6,
-   "rsi": 52.9,
-   "p3m": 22.5,
-   "ytd": 86.2,
+   "kurs": 11.13,
+   "tag": -1.5,
+   "dd": -6.71,
+   "a90": 8.33,
+   "a200": 16.6,
+   "rsi": 51.7,
+   "p3m": 21.4,
+   "ytd": 84.6,
    "listen": [
     "google_beobachtungsliste",
     "google_golden_eye"
@@ -8287,14 +8312,14 @@
    "t": "WFC",
    "name": "Wells Fargo",
    "wa": null,
-   "kurs": 85.625,
-   "tag": 2.67,
-   "dd": -9.71,
-   "a90": 0.502,
-   "a200": 3.13,
-   "rsi": 58.8,
-   "p3m": -2.57,
-   "ytd": -6.62,
+   "kurs": 85.855,
+   "tag": 2.94,
+   "dd": -9.46,
+   "a90": 0.769,
+   "a200": 3.41,
+   "rsi": 59.5,
+   "p3m": -2.31,
+   "ytd": -6.36,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8305,14 +8330,14 @@
    "t": "WULF",
    "name": "Terawulf Inc",
    "wa": null,
-   "kurs": 11.04,
-   "tag": -5.88,
-   "dd": -61.9,
-   "a90": -33.5,
-   "a200": -38.9,
-   "rsi": 37.6,
-   "p3m": -41.5,
-   "ytd": -3.91,
+   "kurs": 10.865,
+   "tag": -7.37,
+   "dd": -62.5,
+   "a90": -34.5,
+   "a200": -39.9,
+   "rsi": 36.9,
+   "p3m": -42.5,
+   "ytd": -5.44,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8323,14 +8348,14 @@
    "t": "ZTS",
    "name": "Zoetis",
    "wa": null,
-   "kurs": 82.55,
-   "tag": 3.55,
-   "dd": -41.5,
-   "a90": 10.6,
-   "a200": -10.3,
-   "rsi": 68.3,
-   "p3m": 9.3,
-   "ytd": -32.9,
+   "kurs": 82.86,
+   "tag": 3.94,
+   "dd": -41.3,
+   "a90": 11.0,
+   "a200": -10.0,
+   "rsi": 68.9,
+   "p3m": 9.71,
+   "ytd": -32.7,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -8341,14 +8366,14 @@
    "t": "TSN",
    "name": "Tyson Foods",
    "wa": null,
-   "kurs": 57.195,
-   "tag": 0.272,
-   "dd": -15.3,
-   "a90": 3.19,
-   "a200": -2.83,
-   "rsi": 66.0,
-   "p3m": -1.72,
-   "ytd": 0.113,
+   "kurs": 57.14,
+   "tag": 0.175,
+   "dd": -15.4,
+   "a90": 3.09,
+   "a200": -2.93,
+   "rsi": 65.8,
+   "p3m": -1.82,
+   "ytd": 0.0164,
    "listen": [
     "google_golden_eye"
    ],
@@ -8360,93 +8385,93 @@
   {
    "t": "XLP",
    "name": "Basiskonsum",
-   "rel1m": 14.7,
-   "rel3m": 8.93,
-   "a200": 8.56
+   "rel1m": 15.2,
+   "rel3m": 9.45,
+   "a200": 8.74
   },
   {
    "t": "XLV",
    "name": "Gesundheit",
-   "rel1m": 13.3,
-   "rel3m": 16.5,
+   "rel1m": 13.5,
+   "rel3m": 16.8,
    "a200": 17.2
-  },
-  {
-   "t": "XLB",
-   "name": "Grundstoffe",
-   "rel1m": 11.8,
-   "rel3m": 5.59,
-   "a200": 5.76
   },
   {
    "t": "XLU",
    "name": "Versorger",
-   "rel1m": 11.6,
-   "rel3m": 1.65,
-   "a200": -0.283
+   "rel1m": 12.1,
+   "rel3m": 2.16,
+   "a200": -0.111
+  },
+  {
+   "t": "XLB",
+   "name": "Grundstoffe",
+   "rel1m": 11.9,
+   "rel3m": 5.74,
+   "a200": 5.57
   },
   {
    "t": "XLF",
    "name": "Finanzen",
-   "rel1m": 9.46,
-   "rel3m": 1.63,
-   "a200": 7.67
+   "rel1m": 9.82,
+   "rel3m": 1.99,
+   "a200": 7.7
   },
   {
    "t": "XLE",
    "name": "Energie",
-   "rel1m": 9.45,
-   "rel3m": 18.0,
-   "a200": 16.0
+   "rel1m": 9.73,
+   "rel3m": 18.3,
+   "a200": 15.9
   },
   {
    "t": "XLY",
    "name": "Zykl. Konsum",
-   "rel1m": 9.34,
-   "rel3m": 2.04,
-   "a200": 2.66
+   "rel1m": 9.5,
+   "rel3m": 2.22,
+   "a200": 2.5
   },
   {
    "t": "XLRE",
    "name": "Immobilien",
-   "rel1m": 8.96,
-   "rel3m": -0.583,
-   "a200": 2.1
+   "rel1m": 9.29,
+   "rel3m": -0.26,
+   "a200": 2.09
   },
   {
    "t": "XLI",
    "name": "Industrie",
-   "rel1m": 1.77,
-   "rel3m": -6.82,
-   "a200": -1.68
+   "rel1m": 2.05,
+   "rel3m": -6.54,
+   "a200": -1.74
   },
   {
    "t": "CIBR",
    "name": "Cybersecurity",
-   "rel1m": -4.89,
-   "rel3m": 1.52,
-   "a200": 17.2
+   "rel1m": -5.29,
+   "rel3m": 1.07,
+   "a200": 16.3
   },
   {
    "t": "XLC",
    "name": "Kommunikation",
-   "rel1m": -6.96,
-   "rel3m": -8.09,
-   "a200": -10.5
+   "rel1m": -6.83,
+   "rel3m": -7.95,
+   "a200": -10.7
   },
   {
    "t": "XLK",
    "name": "Technologie",
-   "rel1m": -10.3,
-   "rel3m": -4.16,
-   "a200": 3.54
+   "rel1m": -10.6,
+   "rel3m": -4.55,
+   "a200": 2.74
   },
   {
    "t": "SMH",
    "name": "Halbleiter",
-   "rel1m": -16.8,
-   "rel3m": -9.13,
-   "a200": -1.5
+   "rel1m": -17.3,
+   "rel3m": -9.69,
+   "a200": -2.49
   }
  ],
  "listen": {
