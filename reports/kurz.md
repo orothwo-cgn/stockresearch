@@ -1,10 +1,10 @@
-# Kurzfassung 03.11.2026 22:41
+# Kurzfassung 03.11.2026 23:11
 
 **Markt:** Nasdaq 100 +0,7 % (200T +0,8 %), S&P 500 +0,4 % (200T +3,5 %), DAX -0,4 % (200T +3,8 %)
 **Stimmung:** Crash-Muster Ruhe (20/100), Fear & Greed 19 (extreme Angst, Vorwoche 33), VIX 20,8
 **Zinsen:** US 10 Jahre 4,95 % (90T 4,84 %, 200T 4,55 %, Hoch 12 M 5,31 %), 30 Jahre 5,32 %, Kurve 10J−3M +0,93
-**Depot:** 325.731 € (+1.006 € heute), seit Kauf +54,6 %
-**Schwächste:** CTS Eventim AG & Co. K -5,9 %, VAR ENERGI ASA -4,6 %, Vertex Pharmaceuticals -4,0 %, Nemetschek SE -3,5 %
+**Depot:** 325.786 € (+1.023 € heute), seit Kauf +54,7 %
+**Schwächste:** CTS Eventim AG & Co. K -5,9 %, VAR ENERGI ASA -4,6 %, Kingsoft Cloud Holding -4,4 %, Vertex Pharmaceuticals -4,0 %
 **Stärkste:** ENPHASE ENERGY INC.DL- +8,9 %, MONOLITHIC POWER DL-,0 +6,8 %, IonQ Inc. +6,5 %, Oracle Corp. +5,8 %
 
 **Wichtig heute:**
@@ -33,6 +33,6 @@
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 30,42 (-29,9 %)
 - Broadcom: 296,69 €, Zone 275,00 € (+7,9 %)
 - Schneider Electric: 239,75 €, Zone 228,00 € (+5,2 %)
-- HSBC: 15,08 €, Zone 15,10 € (-0,1 %)
+- HSBC: 15,09 €, Zone 15,10 € (-0,1 %)
 
-Weitere Hinweise: 0 neu, 297 aktiv. Vollständig: reports/2026-11-03_2241.md
+Weitere Hinweise: 0 neu, 297 aktiv. Vollständig: reports/2026-11-03_2311.md
