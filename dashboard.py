@@ -37,7 +37,7 @@ def zahl(x, stellen=5):
 
 def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_einstand,
              mitglied, listen, abstauber_zeilen, rotation, hinweise, neu_wichtig, neu_weitere, ausschluss, panik=None, fear_greed=None,
-             ziel_html=ZIEL, ziel_daten=BASIS / "reports" / "daten.json"):
+             ziel_html=ZIEL, ziel_daten=BASIS / "reports" / "daten.json", eur_faktor=None, stammdaten=None):
     namen = {}
     for liste in listen.values():
         for t, d in liste["titel"].items():
@@ -63,6 +63,20 @@ def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_eins
             "listen": mitglied.get(t, []), "gruppe": watch[t]["gruppe"] if t in watch else None,
             "aus": t in ausschluss,
         }
+        # Übersicht: 52-Wochen-Spanne, Euro-Kurs, Kaufzonen, Stammdaten
+        fx = (eur_faktor or {}).get(t)
+        if fx and m.get("kurs") is not None:
+            eintrag["keur"] = zahl(m["kurs"] * fx)
+            eintrag["fx"] = zahl(fx, 6)
+        eintrag["hoch52"] = zahl(m["kurs"] / (1 + m["drawdown"] / 100)) if m.get("kurs") is not None and m.get("drawdown") is not None else None
+        eintrag["tief52"] = zahl(m.get("tief52"))
+        eintrag["ma200"] = zahl(m.get("sma200"))
+        if t in watch and watch[t].get("kaufzonen_eur"):
+            eintrag["zonen"] = sorted(watch[t]["kaufzonen_eur"], reverse=True)
+        sd = (stammdaten or {}).get(t)
+        if sd:
+            eintrag["sd"] = {k_: (zahl(v, 4) if isinstance(v, (int, float)) else v)
+                             for k_, v in sd.items() if k_ != "abgerufen" and v is not None}
         if t in depot:
             p = depot[t]
             erg = (p["wert"] / p["einstand_eur"] - 1) * 100 if p["wert"] and p["einstand_eur"] else None

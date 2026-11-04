@@ -23,6 +23,10 @@
   --series-3: #1baf7a;
   --grid: #e9e8e4;
   --accent: #2a78d6;
+  --zone: #ba7517;
+  --ok-bg: #eaf3de; --ok-fg: #27500a;
+  --warn-bg: #faeeda; --warn-fg: #633806;
+  --info-bg: #f0efec; --info-fg: #52514e;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -41,6 +45,10 @@
     --series-3: #199e70;
     --grid: #2c2c29;
     --accent: #5598e7;
+  --zone: #ef9f27;
+  --ok-bg: #27500a; --ok-fg: #c0dd97;
+  --warn-bg: #633806; --warn-fg: #fac775;
+  --info-bg: #2c2c29; --info-fg: #c3c2b7;
   }
 }
 :root[data-theme="dark"] {
@@ -59,6 +67,10 @@
   --series-3: #199e70;
   --grid: #2c2c29;
   --accent: #5598e7;
+  --zone: #ef9f27;
+  --ok-bg: #27500a; --ok-fg: #c0dd97;
+  --warn-bg: #633806; --warn-fg: #fac775;
+  --info-bg: #2c2c29; --info-fg: #c3c2b7;
 }
 * { box-sizing: border-box; }
 body {
@@ -142,6 +154,46 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .kennzahlen { display: flex; flex-wrap: wrap; gap: 18px; padding: 0 16px 16px; font-size: 13px; }
 .kennzahlen div span { display: block; color: var(--text-secondary); font-size: 11px; }
 footer { color: var(--text-muted); font-size: 12px; margin-top: 24px; }
+/* Übersicht */
+.ue-steuer { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 12px; }
+.ue-steuer .filter { margin: 0; }
+.ue-steuer select, .ue-steuer input { font: inherit; padding: 5px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-1); color: var(--text-primary); }
+.ue-steuer label { color: var(--text-secondary); font-size: 12px; display: inline-flex; gap: 6px; align-items: center; }
+.sektoren-depot { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 4px 24px; margin: 4px 0 14px; }
+.sd-zeile { display: grid; grid-template-columns: 130px 1fr 48px; gap: 8px; align-items: center; font-size: 12px; cursor: pointer; padding: 2px 0; }
+.sd-zeile:hover .sd-name, .sd-zeile.an .sd-name { color: var(--text-primary); font-weight: 600; }
+.sd-name { color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sd-balken { height: 8px; border-radius: 4px; background: var(--surface-2); overflow: hidden; }
+.sd-balken i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.sd-wert { text-align: right; }
+.ue-legende { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--text-secondary); margin: 0 0 4px; }
+.ue-legende span { display: inline-flex; align-items: center; gap: 6px; }
+.ue-legende i { display: inline-block; }
+.ue-grp { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 13px; font-weight: 600; color: var(--text-secondary); margin: 18px 0 2px; padding-bottom: 4px; }
+.ue-grp .muted { font-weight: 400; }
+.ue-zeile { display: grid; grid-template-columns: minmax(150px, 1.3fr) 128px minmax(180px, 2fr) 150px 74px 92px; gap: 14px; align-items: center; padding: 9px 4px; border-top: 1px solid var(--border); font-size: 13px; cursor: pointer; }
+.ue-zeile:hover { background: var(--surface-2); }
+.ue-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ue-sub { color: var(--text-muted); font-size: 11px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ue-kurs { font-weight: 600; }
+.ue-r { text-align: right; }
+.spanne { position: relative; height: 8px; margin: 4px 7px 0; }
+.spanne .bahn { position: absolute; top: 0; height: 8px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; }
+.spanne .zn { position: absolute; top: -3px; width: 2px; height: 14px; margin-left: -1px; background: var(--zone); }
+.spanne .ma { position: absolute; top: -2px; width: 2px; height: 12px; margin-left: -1px; background: var(--text-muted); }
+.spanne .pkt { position: absolute; top: -4px; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%; background: var(--accent); border: 2px solid var(--surface-1); }
+.spanne-lbl { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+.st { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 6px; white-space: nowrap; margin: 1px 0; }
+.st.ok { background: var(--ok-bg); color: var(--ok-fg); }
+.st.warn { background: var(--warn-bg); color: var(--warn-fg); }
+.st.info { background: var(--info-bg); color: var(--info-fg); }
+@media (max-width: 860px) {
+  .ue-zeile { grid-template-columns: 1fr auto; gap: 6px 12px; }
+  .ue-zeile > .ue-spanne { grid-column: 1 / -1; order: 3; }
+  .ue-zeile > .ue-status { order: 4; }
+  .ue-zeile > .ue-div { order: 5; }
+  .ue-zeile > .ue-term { order: 6; grid-column: 1 / -1; text-align: left; }
+}
 </style>
 </head>
 <body>
@@ -165,6 +217,39 @@ footer { color: var(--text-muted); font-size: 12px; margin-top: 24px; }
       <p class="hinweis-text">Zeile anklicken für den Verlauf mit 90- und 200-Tage-Linie.</p>
     </section>
   </div>
+
+  <section class="card" id="uebersicht">
+    <h2>Übersicht: Depot und Watchlist</h2>
+    <div class="ue-steuer">
+      <div class="filter" id="ue-gruppe" role="toolbar" aria-label="Gruppierung">
+        <button type="button" data-v="korb" aria-pressed="true">nach Körben</button>
+        <button type="button" data-v="sektor" aria-pressed="false">nach Sektoren</button>
+      </div>
+      <div class="filter" id="ue-auswahl" role="toolbar" aria-label="Auswahl">
+        <button type="button" data-v="alle" aria-pressed="true">alle</button>
+        <button type="button" data-v="depot" aria-pressed="false">im Depot</button>
+        <button type="button" data-v="beob" aria-pressed="false">nur beobachtet</button>
+        <button type="button" data-v="zone" aria-pressed="false">Kaufzone erreicht oder nah</button>
+      </div>
+      <label>sortieren <select id="ue-sort">
+        <option value="dd">am weitesten unter Hoch</option>
+        <option value="zone">am nächsten an Kaufzone</option>
+        <option value="gew">Depotanteil</option>
+        <option value="div">Dividendenrendite</option>
+        <option value="name">Name</option>
+      </select></label>
+      <input type="search" id="ue-suche" placeholder="Name, Ticker oder Branche" aria-label="Übersicht durchsuchen">
+    </div>
+    <div class="sektoren-depot" id="ue-sektoren"></div>
+    <div class="ue-legende">
+      <span><i style="width:10px;height:10px;border-radius:50%;background:var(--accent)"></i>aktueller Kurs</span>
+      <span><i style="width:2px;height:12px;background:var(--zone)"></i>Kaufzone</span>
+      <span><i style="width:2px;height:12px;background:var(--text-muted)"></i>200-Tage-Linie</span>
+      <span>Balken = 52-Wochen-Tief bis -Hoch</span>
+    </div>
+    <div id="ue-liste"></div>
+    <p class="hinweis-text" id="ue-hinweis"></p>
+  </section>
 
   <section class="card">
     <div class="tabs" id="tabs" role="toolbar" aria-label="Liste wählen"></div>
@@ -511,6 +596,145 @@ function zeichneChart() {
   });
   fl.addEventListener("mouseleave", () => { tip.style.display = "none"; kreuz.setAttribute("visibility", "hidden"); });
 }
+
+// Übersicht: Depot und Watchlist nach Körben oder Sektoren
+(function uebersicht() {
+  const KORB = { big_player: "Big Player", wachstum: "Wachstum", dividende: "Dividende", beobachtung: "Beobachtung", anleihen: "Anleihen", zurueckgestellt: "Zurückgestellt" };
+  const KORB_REIHE = ["big_player", "wachstum", "dividende", "beobachtung", "anleihen", "zurueckgestellt"];
+  const OHNE = "Depot ohne Korb";
+  const heute = D.stand.split(" ")[0].split(".").reverse().join("-");
+  const alle = D.titel.filter((t) => (t.gruppe || t.depot) && t.kurs != null);
+  const st = { gruppe: "korb", auswahl: "alle", sort: "dd", q: "", sektor: null };
+
+  const zoneInfo = (t) => {
+    if (!t.zonen || t.keur == null) return null;
+    const n = t.zonen.filter((z) => t.keur <= z).length;
+    const abst = (t.zonen[0] / t.keur - 1) * 100;
+    if (n) return { cls: "ok", text: `Zone ${n} von ${t.zonen.length} erreicht`, rang: -100 + abst };
+    if (abst >= -8) return { cls: "warn", text: `nah an Zone 1: ${proz(abst)}`, rang: -abst };
+    return { cls: "info", text: `bis Zone 1: ${proz(abst)}`, rang: -abst };
+  };
+  const korbVon = (t) => t.gruppe ? (KORB[t.gruppe] || t.gruppe) : OHNE;
+  const sektorVon = (t) => t.sd?.sektor || "ohne Angabe";
+  const kurzDatum = (d) => d ? d.slice(8, 10) + "." + d.slice(5, 7) + "." : "";
+  const tageBis = (d) => (new Date(d) - new Date(heute)) / 864e5;
+
+  function spanne(t) {
+    const fx = t.fx || null;
+    const zonen = fx ? (t.zonen || []).map((z) => z / fx) : [];
+    const lo = t.tief52 ?? t.kurs, hi = Math.max(t.hoch52 ?? t.kurs, t.kurs);
+    const min = Math.min(lo, t.kurs, ...zonen), max = hi;
+    const pos = (v) => max > min ? ((v - min) / (max - min)) * 100 : 50;
+    let h = `<div class="spanne"><div class="bahn" style="left:${pos(lo)}%;right:0"></div>`;
+    if (t.ma200 != null && t.ma200 >= min && t.ma200 <= max) h += `<div class="ma" style="left:${pos(t.ma200)}%" title="200-Tage-Linie"></div>`;
+    for (const z of zonen) h += `<div class="zn" style="left:${pos(z)}%" title="Kaufzone ${zahl(z * fx)} €"></div>`;
+    h += `<div class="pkt" style="left:${pos(t.kurs)}%"></div></div>`;
+    const ueberTief = t.tief52 ? (t.kurs / t.tief52 - 1) * 100 : null;
+    h += `<div class="spanne-lbl"><span>Tief ${proz(ueberTief, 0)}</span><span>Hoch ${proz(t.dd, 0, false)}</span></div>`;
+    return h;
+  }
+
+  function zeile(t) {
+    const z = zoneInfo(t);
+    const sd = t.sd || {};
+    const sub = [t.t, sd.sektor, t.depot ? `${zahl(t.depot.gew, 1)} % vom Depot` : "beobachtet"].filter(Boolean).join(" · ");
+    const kursEur = t.keur != null ? `${zahl(t.keur)} €` : `${zahl(t.kurs)} ${esc(t.wa || "")}`;
+    const lokal = t.wa && t.wa !== "EUR" && t.keur != null ? `${zahl(t.kurs)} ${esc(t.wa)} · ` : "";
+    const statusTeile = [];
+    if (z) statusTeile.push(`<span class="st ${z.cls}">${z.text}</span>`);
+    if (t.a200 != null && t.a200 < 0) statusTeile.push(`<span class="st info">unter 200T</span>`);
+    if (t.depot?.erg != null) statusTeile.push(`<div class="ue-sub">seit Kauf <span class="${klasse(t.depot.erg)}">${proz(t.depot.erg, 0)}</span></div>`);
+    const div = sd.div != null && sd.div > 0
+      ? `<div class="${sd.div5j && sd.div >= sd.div5j * 1.2 ? "pos" : ""}">${zahl(sd.div, 1)} %</div><div class="ue-sub">${sd.div5j ? "Ø5J " + zahl(sd.div5j, 1) : "Dividende"}</div>`
+      : `<div class="muted">–</div>`;
+    const term = [];
+    if (sd.kgv) term.push(`KGV ${zahl(sd.kgv, 0)}`);
+    if (sd.zahlen && tageBis(sd.zahlen) >= 0 && tageBis(sd.zahlen) <= 45) term.push(`Zahlen ${kurzDatum(sd.zahlen)}`);
+    if (sd.exdiv && tageBis(sd.exdiv) >= 0 && tageBis(sd.exdiv) <= 30) term.push(`Ex-Div ${kurzDatum(sd.exdiv)}`);
+    return `<div class="ue-zeile" data-t="${esc(t.t)}">
+      <div><div class="ue-name" title="${esc(t.name)}">${esc(t.name)}</div><div class="ue-sub" title="${esc(sd.branche || "")}">${esc(sub)}</div></div>
+      <div><div class="ue-kurs">${kursEur}</div><div class="ue-sub">${lokal}<span class="${klasse(t.tag)}">${proz(t.tag)}</span></div></div>
+      <div class="ue-spanne">${spanne(t)}</div>
+      <div class="ue-status">${statusTeile.join(" ") || '<span class="muted">–</span>'}</div>
+      <div class="ue-div ue-r">${div}</div>
+      <div class="ue-term ue-r ue-sub">${term.map(esc).join("<br>")}</div>
+    </div>`;
+  }
+
+  const sortFn = {
+    dd: (a, b) => (a.dd ?? 0) - (b.dd ?? 0),
+    zone: (a, b) => (zoneInfo(a)?.rang ?? 999) - (zoneInfo(b)?.rang ?? 999),
+    gew: (a, b) => (b.depot?.gew ?? -1) - (a.depot?.gew ?? -1),
+    div: (a, b) => (b.sd?.div ?? -1) - (a.sd?.div ?? -1),
+    name: (a, b) => a.name.localeCompare(b.name, "de"),
+  };
+
+  function sektorenDepot() {
+    const summe = {};
+    for (const t of alle) if (t.depot?.gew) summe[sektorVon(t)] = (summe[sektorVon(t)] || 0) + t.depot.gew;
+    const reihe = Object.entries(summe).sort((a, b) => b[1] - a[1]);
+    const max = reihe.length ? reihe[0][1] : 1;
+    document.getElementById("ue-sektoren").innerHTML = reihe.map(([n, w]) =>
+      `<div class="sd-zeile${st.sektor === n ? " an" : ""}" data-s="${esc(n)}" title="Nur ${esc(n)} anzeigen"><span class="sd-name">${esc(n)}</span><span class="sd-balken"><i style="width:${(w / max) * 100}%"></i></span><span class="sd-wert">${zahl(w, 1)} %</span></div>`).join("");
+  }
+
+  function zeichne() {
+    const q = st.q.toLowerCase();
+    const liste = alle.filter((t) =>
+      (st.auswahl === "alle" || (st.auswahl === "depot" && t.depot) || (st.auswahl === "beob" && !t.depot) ||
+       (st.auswahl === "zone" && ["ok", "warn"].includes(zoneInfo(t)?.cls))) &&
+      (!st.sektor || sektorVon(t) === st.sektor) &&
+      (!q || t.name.toLowerCase().includes(q) || t.t.toLowerCase().includes(q) || (t.sd?.branche || "").toLowerCase().includes(q) || (t.sd?.sektor || "").toLowerCase().includes(q)));
+    const gruppen = new Map();
+    for (const t of liste) {
+      const g = st.gruppe === "korb" ? korbVon(t) : sektorVon(t);
+      if (!gruppen.has(g)) gruppen.set(g, []);
+      gruppen.get(g).push(t);
+    }
+    const gew = (ts) => ts.reduce((s, t) => s + (t.depot?.gew || 0), 0);
+    const namen = [...gruppen.keys()];
+    if (st.gruppe === "korb") {
+      const rang = (g) => { const i = KORB_REIHE.findIndex((k) => KORB[k] === g); return g === OHNE ? 99 : i < 0 ? 50 : i; };
+      namen.sort((a, b) => rang(a) - rang(b));
+    } else {
+      namen.sort((a, b) => gew(gruppen.get(b)) - gew(gruppen.get(a)) || a.localeCompare(b, "de"));
+    }
+    let html = "";
+    for (const g of namen) {
+      const ts = gruppen.get(g).sort(sortFn[st.sort]);
+      const divs = ts.map((t) => t.sd?.div).filter((v) => v > 0);
+      const imDepot = ts.filter((t) => t.depot).length;
+      const inZone = ts.filter((t) => zoneInfo(t)?.cls === "ok").length;
+      html += `<div class="ue-grp"><span>${esc(g)} <span class="muted">· ${ts.length} Titel · ${imDepot} im Depot · ${zahl(gew(ts), 1)} % vom Depot${inZone ? ` · ${inZone} in Kaufzone` : ""}</span></span>`
+        + `<span class="muted">${divs.length ? "Ø Dividende " + zahl(divs.reduce((a, b) => a + b, 0) / divs.length, 1) + " %" : ""}</span></div>`;
+      html += ts.map(zeile).join("");
+    }
+    document.getElementById("ue-liste").innerHTML = html || `<p class="leer">Keine Titel für diese Auswahl.</p>`;
+    const ohneSd = alle.filter((t) => !t.sd).length;
+    document.getElementById("ue-hinweis").textContent = `${liste.length} von ${alle.length} Titeln.`
+      + (st.sektor ? ` Gefiltert auf ${st.sektor}; Sektorbalken erneut anklicken zum Aufheben.` : " Sektorbalken anklicken filtert auf diesen Sektor.")
+      + " Kurse in Euro umgerechnet, Kaufzonen aus config.yaml, 52-Wochen-Werte aus dividendenbereinigten Schlusskursen."
+      + (ohneSd ? ` Für ${ohneSd} Titel fehlen Sektor und Dividende noch; sie werden in den nächsten Läufen nachgeladen.` : "");
+    sektorenDepot();
+  }
+
+  const knopf = (id, feld) => document.getElementById(id).addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-v]"); if (!b) return;
+    st[feld] = b.dataset.v;
+    for (const x of e.currentTarget.querySelectorAll("button")) x.setAttribute("aria-pressed", x === b);
+    zeichne();
+  });
+  knopf("ue-gruppe", "gruppe");
+  knopf("ue-auswahl", "auswahl");
+  document.getElementById("ue-sort").addEventListener("change", (e) => { st.sort = e.target.value; zeichne(); });
+  document.getElementById("ue-suche").addEventListener("input", (e) => { st.q = e.target.value.trim(); zeichne(); });
+  document.getElementById("ue-sektoren").addEventListener("click", (e) => {
+    const z = e.target.closest("[data-s]"); if (!z) return;
+    st.sektor = st.sektor === z.dataset.s ? null : z.dataset.s; zeichne();
+  });
+  document.getElementById("ue-liste").addEventListener("click", (e) => { const z = e.target.closest("[data-t]"); if (z) zeigeChart(z.dataset.t); });
+  zeichne();
+})();
 </script>
 </body>
 </html>

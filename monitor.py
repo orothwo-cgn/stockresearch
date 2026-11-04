@@ -37,6 +37,7 @@ from curl_cffi import requests as curl_requests
 import crash
 import dashboard
 import fear_greed
+import stammdaten
 
 BASIS = Path(__file__).parent
 CONFIG = BASIS / "config.yaml"
@@ -48,6 +49,7 @@ STATE = BASIS / ("state.json" if LAEUFER else "state_lokal.json")
 REPORTS = BASIS / ("reports" if LAEUFER else "reports_lokal")
 CA_BUNDLE = BASIS / "ca-bundle.pem"
 KURS_CACHE = BASIS / ("kurs_cache.json" if LAEUFER else "kurs_cache_lokal.json")
+STAMMDATEN = BASIS / ("stammdaten.json" if LAEUFER else "stammdaten_lokal.json")
 
 
 def session():
@@ -151,6 +153,7 @@ def kennzahlen(serie):
         "sma90": sma90,
         "abstand90": (letzter / sma90 - 1) * 100 if sma90 else None,
         "drawdown": (letzter / hoch52 - 1) * 100,
+        "tief52": s.iloc[-252:].min(),
         "rsi": rsi(s).iloc[-1],
         "perf1m": perf(21),
         "perf3m": perf(63),
@@ -752,7 +755,17 @@ def main(schnell=False):
     kz += ["", f"Weitere Hinweise: {len(neu_weitere)} neu, {len(h.liste)} aktiv. Vollständig: {REPORTS.name}/{jetzt:%Y-%m-%d_%H%M}.md", ""]
     (REPORTS / "kurz.md").write_text("\n".join(kz), encoding="utf-8")
 
+    # Übersicht im Dashboard: Umrechnung in Euro und Stammdaten (Sektor, Dividende, KGV, Termine)
+    uebersicht = list(dict.fromkeys(list(watch) + list(portfolio)))
+    eur_faktor = {t: in_eur(1.0, info_waehrung(t)) for t in uebersicht}
+    try:
+        stamm = stammdaten.lade(uebersicht, infos, s, STAMMDATEN)
+    except Exception as fehler:  # Stammdaten sind nur Beiwerk, der Lauf geht weiter
+        print(f"Stammdaten: {fehler}")
+        stamm = {}
+
     seite = dashboard.schreibe(
+        eur_faktor=eur_faktor, stammdaten=stamm,
         jetzt=jetzt, cfg=cfg, k=k, kurse=kurse, watch=watch, infos=infos, positionen=positionen, pf_wert=pf_wert,
         pf_einstand=pf_einstand, mitglied=mitglied, listen=listen, abstauber_zeilen=abstauber_zeilen, rotation=rotation,
         hinweise=h.liste, neu_wichtig=neu_wichtig, neu_weitere=neu_weitere, ausschluss=ausschluss, panik=panik, fear_greed=fg,

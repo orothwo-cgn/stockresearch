@@ -68,7 +68,7 @@ jobs:
         run: |
           git config user.name "aktien-monitor"
           git config user.email "aktien-monitor@users.noreply.github.com"
-          git add state.json kurs_cache.json dashboard.html reports/daten.json reports/latest.json reports/latest_schnell.json reports/fear_greed.json reports/kurz.md reports/20*.md 2>/dev/null || true
+          git add state.json kurs_cache.json dashboard.html reports/daten.json reports/latest.json reports/latest_schnell.json reports/fear_greed.json stammdaten.json reports/kurz.md reports/20*.md 2>/dev/null || true
           if git diff --cached --quiet; then echo "nichts zu speichern"; exit 0; fi
           git commit -q -m "Monitor-Lauf $(date '+%d.%m.%Y %H:%M')"
           for i in 1 2 3; do

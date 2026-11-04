@@ -45,6 +45,7 @@ Marktbeobachtung und Recherche für ein privates Langfrist-Depot. Das System gib
 - `screener.py` → `reports/screener.json`: ≥ 10 Mrd. $, ≥ 15 % unter Hoch, profitabel, nur Heimatbörsen USA/Europa (Kriterien in `config.yaml` → `screener`).
 - `anleitung_transkripte.md`: Format der Transkript-Auswertung (eine JSON-Datei je Gruppe in `auswertung/`).
 - `erwaehnungen.py` → `erwaehnungen.json` (alle Videos) und `reports/erwaehnungen_uebersicht.json` (je Ticker, letzte 30 Tage); markiert Transkripte als ausgewertet.
+- Dashboard-Abschnitt **Übersicht** (seit 04.11.2026): Depot + Watchlist nach Körben oder Sektoren, je Titel Kurs in €, 52-W-Spanne mit Kaufzonen und 200T, Status (Zone erreicht/nah), Dividende vs. Ø5J, KGV, Zahlen-/Ex-Div-Termine, Sektorgewichte des Depots. Sektor/Dividende/KGV/Termine aus `stammdaten.py` → `stammdaten.json` (Läufer) bzw. `stammdaten_lokal.json`; Depot-Titel ohne Watchlist werden höchstens alle 7 Tage neu abgefragt, max. 45 pro Lauf.
 - `reports/daten.json`: kompakte Monitor-Daten für den Agenten (schreibt `dashboard.py`).
 - Automatisch (Büro-PC, Aufgabenplanung), z. B. 1× täglich nach US-Börsenstart:
   `claude -p "Führe einen Recherche-Lauf nach dem Skill recherche aus." --permission-mode acceptEdits` im Ordner `Aktienresearch`; Websuche und Bash-Befehle müssen dafür in `.claude/settings.json` freigegeben sein.
