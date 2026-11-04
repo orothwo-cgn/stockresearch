@@ -1,9 +1,9 @@
-# Kurzfassung 05.11.2026 00:11
+# Kurzfassung 05.11.2026 00:41
 
 **Markt:** Nasdaq 100 +0,9 % (200T +1,7 %), S&P 500 +1,6 % (200T +5,0 %), DAX +2,4 % (200T +6,3 %)
 **Stimmung:** Crash-Muster Ruhe (15/100), Fear & Greed 27 (Angst, Vorwoche 34), VIX 16,6
 **Zinsen:** US 10 Jahre 4,89 % (90T 4,85 %, 200T 4,56 %, Hoch 12 M 5,31 %), 30 Jahre 5,28 %, Kurve 10J−3M +0,87
-**Depot:** 328.876 € (+3.971 € heute), seit Kauf +56,1 %
+**Depot:** 328.924 € (+4.027 € heute), seit Kauf +56,2 %
 **Schwächste:** IES HLDGS INC. DL-,01 -16,9 %, DATADOG INC. A DL-,000 -14,4 %, Vertiv Holdings Co. -12,9 %, QUANTA SVCS DL-,00001 -11,7 %
 **Stärkste:** Booking Holdings Inc. +9,8 %, INTUITIVE SURGIC. DL-, +9,4 %, Microsoft Corp. +6,7 %, MCDONALDS CORP. DL-,01 +6,5 %
 
@@ -35,4 +35,4 @@
 - Schneider Electric: 231,65 €, Zone 228,00 € (+1,6 %)
 - HSBC: 15,81 €, Zone 15,10 € (+4,7 %)
 
-Weitere Hinweise: 2 neu, 286 aktiv. Vollständig: reports/2026-11-05_0011.md
+Weitere Hinweise: 0 neu, 286 aktiv. Vollständig: reports/2026-11-05_0041.md
