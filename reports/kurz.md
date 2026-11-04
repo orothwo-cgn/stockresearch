@@ -1,22 +1,14 @@
-# Kurzfassung 04.11.2026 23:41
+# Kurzfassung 05.11.2026 00:11
 
-**Markt:** Nasdaq 100 +0,9 % (200T +1,7 %), S&P 500 +1,6 % (200T +5,0 %), DAX +2,2 % (200T +6,1 %)
+**Markt:** Nasdaq 100 +0,9 % (200T +1,7 %), S&P 500 +1,6 % (200T +5,0 %), DAX +2,4 % (200T +6,3 %)
 **Stimmung:** Crash-Muster Ruhe (15/100), Fear & Greed 27 (Angst, Vorwoche 34), VIX 16,6
 **Zinsen:** US 10 Jahre 4,89 % (90T 4,85 %, 200T 4,56 %, Hoch 12 M 5,31 %), 30 Jahre 5,28 %, Kurve 10J−3M +0,87
-**Depot:** 328.879 € (+3.917 € heute), seit Kauf +56,1 %
+**Depot:** 328.876 € (+3.971 € heute), seit Kauf +56,1 %
 **Schwächste:** IES HLDGS INC. DL-,01 -16,9 %, DATADOG INC. A DL-,000 -14,4 %, Vertiv Holdings Co. -12,9 %, QUANTA SVCS DL-,00001 -11,7 %
 **Stärkste:** Booking Holdings Inc. +9,8 %, INTUITIVE SURGIC. DL-, +9,4 %, Microsoft Corp. +6,7 %, MCDONALDS CORP. DL-,01 +6,5 %
 
 **Wichtig heute:**
-- Datadog (DDOG) fällt heute um -14,4 %.
-- Datadog (DDOG) notiert unter der 200-Tage-Linie (-5,5 %).
-- Vertiv (VRT) fällt heute um -12,9 %.
-- PepsiCo (PEP) notiert unter der 200-Tage-Linie (-0,9 %).
-- IES HLDGS INC. DL-,01 (IESC) fällt heute um -16,9 %.
-- QUANTA SVCS DL-,00001 (PWR) fällt heute um -11,7 %.
-- Comfort Systems USA Inc (FIX) fällt heute um -15,1 %.
-- Sterling Infrastructure Inc (STRL) fällt heute um -21,5 %.
-- Vicor Corporation (VICR) fällt heute um -11,1 %.
+- nichts
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Alphabet: 257,15 €, Zone 240,00 € (+7,1 %)
@@ -36,11 +28,11 @@
 - Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 223,27 (-7,6 %)
 - Marvell Technology: 142,22 €, Zone 198,00 € (-28,2 %)
 - Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 159,80 (-15,8 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.372,50 (+3,1 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.377,00 (+3,5 %)
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 194,51 (+1,9 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 31,55 (-27,3 %)
 - Broadcom: 289,68 €, Zone 275,00 € (+5,3 %)
-- Schneider Electric: 231,55 €, Zone 228,00 € (+1,6 %)
-- HSBC: 15,82 €, Zone 15,10 € (+4,8 %)
+- Schneider Electric: 231,65 €, Zone 228,00 € (+1,6 %)
+- HSBC: 15,81 €, Zone 15,10 € (+4,7 %)
 
-Weitere Hinweise: 0 neu, 286 aktiv. Vollständig: reports/2026-11-04_2341.md
+Weitere Hinweise: 2 neu, 286 aktiv. Vollständig: reports/2026-11-05_0011.md
