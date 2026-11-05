@@ -46,6 +46,9 @@ Marktbeobachtung und Recherche für ein privates Langfrist-Depot. Das System gib
 - `anleitung_transkripte.md`: Format der Transkript-Auswertung (eine JSON-Datei je Gruppe in `auswertung/`).
 - `erwaehnungen.py` → `erwaehnungen.json` (alle Videos) und `reports/erwaehnungen_uebersicht.json` (je Ticker, letzte 30 Tage); markiert Transkripte als ausgewertet.
 - Dashboard-Abschnitt **Übersicht** (seit 04.11.2026): Depot + Watchlist nach Körben oder Sektoren, je Titel Kurs in €, 52-W-Spanne mit Kaufzonen und 200T, Status (Zone erreicht/nah), Dividende vs. Ø5J, KGV, Zahlen-/Ex-Div-Termine, Sektorgewichte des Depots. Sektor/Dividende/KGV/Termine aus `stammdaten.py` → `stammdaten.json` (Läufer) bzw. `stammdaten_lokal.json`; Depot-Titel ohne Watchlist werden höchstens alle 7 Tage neu abgefragt, max. 45 pro Lauf.
+- Dashboard-Abschnitt **Dividenden** (05.11.2026): Schätzung brutto = Depotwert × Yahoo-Dividendenrendite (ohne Sonderdividenden), Top-Zahler und je Sektor.
+- `wochenuebersicht.py`: Telegram-Wochenübersicht freitags im ersten vollen Läufer-Lauf ab 22 Uhr Berlin, einmal je KW (`state.json` → `_wochenuebersicht`). Vorschau lokal: `.venv/Scripts/python wochenuebersicht.py`.
+- Kaufzonen-Regel für Titel ohne eigene Vorgabe (05.11.2026): Wachstum nahe Hoch −10 %/−20 %, bereits gefallen −8 %/52-W-Tief (sonst −15 %), Dividende = Kurs bei 5J-Schnittrendite (max. −20 %), Zone 2 −8 % darunter.
 - `reports/daten.json`: kompakte Monitor-Daten für den Agenten (schreibt `dashboard.py`).
 - Automatisch (Büro-PC, Aufgabenplanung), z. B. 1× täglich nach US-Börsenstart:
   `claude -p "Führe einen Recherche-Lauf nach dem Skill recherche aus." --permission-mode acceptEdits` im Ordner `Aktienresearch`; Websuche und Bash-Befehle müssen dafür in `.claude/settings.json` freigegeben sein.

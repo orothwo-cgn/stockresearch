@@ -593,6 +593,8 @@ def main(schnell=False):
         aktiv["_letzte_erholung"] = jetzt.isoformat(timespec="minutes")
     elif alt.get("_letzte_erholung"):
         aktiv["_letzte_erholung"] = alt["_letzte_erholung"]
+    if alt.get("_wochenuebersicht"):
+        aktiv["_wochenuebersicht"] = alt["_wochenuebersicht"]  # wochenuebersicht.py: zuletzt gesendete KW
     if schnell:
         # Nur Marktschlüssel wurden geprüft; alles andere aus dem letzten vollen Lauf behalten
         markt = tuple(f"{sym}:" for sym in cfg["indizes"]) + ("VIX:", "crash:", "fg:", "zins:")
@@ -791,3 +793,10 @@ if __name__ == "__main__":
         import telegram
         telegram.melde(wichtig)
         print("per Telegram gesendet")
+    if argumente.telegram and LAEUFER and not argumente.schnell:
+        import wochenuebersicht
+        try:
+            if wochenuebersicht.pruefe_und_sende(REPORTS / "daten.json", STATE):
+                print("Wochenübersicht per Telegram gesendet")
+        except Exception as fehler:  # darf den Lauf nicht scheitern lassen
+            print(f"Wochenübersicht: {fehler}")

@@ -35,6 +35,14 @@ def zahl(x, stellen=5):
     return float(f"{x:.{stellen}g}")
 
 
+def woche(kurse, t, tage=5):
+    """Veränderung über die letzten `tage` Handelstage in Prozent."""
+    if t not in kurse:
+        return None
+    r = kurse[t].dropna()
+    return zahl((r.iloc[-1] / r.iloc[-tage - 1] - 1) * 100, 3) if len(r) > tage else None
+
+
 def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_einstand,
              mitglied, listen, abstauber_zeilen, rotation, hinweise, neu_wichtig, neu_weitere, ausschluss, panik=None, fear_greed=None,
              ziel_html=ZIEL, ziel_daten=BASIS / "reports" / "daten.json", eur_faktor=None, stammdaten=None):
@@ -80,7 +88,12 @@ def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_eins
         if t in depot:
             p = depot[t]
             erg = (p["wert"] / p["einstand_eur"] - 1) * 100 if p["wert"] and p["einstand_eur"] else None
-            eintrag["depot"] = {"wert": zahl(p["wert"], 7), "gew": zahl(p["gewicht"], 3), "erg": zahl(erg, 4), "stueck": p["stueck"]}
+            eintrag["depot"] = {"wert": zahl(p["wert"], 7), "gew": zahl(p["gewicht"], 3), "erg": zahl(erg, 4), "stueck": p["stueck"],
+                                "einstand": zahl(p["einstand_eur"], 7)}
+            rendite = (sd or {}).get("div")
+            if p["wert"] and rendite:
+                eintrag["depot"]["div_eur"] = zahl(p["wert"] * rendite / 100, 5)  # brutto, ohne Sonderdividenden
+        eintrag["p1w"] = woche(kurse, t)
         if t in abst:
             r = abst[t]
             eintrag["ab"] = {"l1": zahl(r["limit1_eur"]), "l2": zahl(r["limit2_eur"]), "ziel": zahl(r["ziel_eur"]),
@@ -94,7 +107,8 @@ def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_eins
         if m:
             markt.append({"t": sym, "name": name, "kurs": zahl(m["kurs"]), "tag": zahl(m["tag"], 3),
                           "a90": zahl(m["abstand90"], 3), "a200": zahl(m["abstand200"], 3),
-                          "dd": zahl(m["drawdown"], 3), "p1m": zahl(m["perf1m"], 3), "ytd": zahl(m["ytd"], 3)})
+                          "dd": zahl(m["drawdown"], 3), "p1m": zahl(m["perf1m"], 3), "ytd": zahl(m["ytd"], 3),
+                          "p1w": woche(kurse, sym)})
 
     sektoren = [{"t": r["symbol"], "name": r["name"], "rel1m": zahl(r["rel1m"], 3), "rel3m": zahl(r["rel3m"], 3),
                  "a200": zahl(r["abstand200"], 3)} for r in rotation]

@@ -236,6 +236,8 @@ footer { color: var(--text-muted); font-size: 12px; margin-top: 24px; }
         <option value="zone">am nächsten an Kaufzone</option>
         <option value="gew">Depotanteil</option>
         <option value="div">Dividendenrendite</option>
+        <option value="diveur">Dividende in € (Depot)</option>
+        <option value="woche">Woche: größte Verlierer</option>
         <option value="name">Name</option>
       </select></label>
       <input type="search" id="ue-suche" placeholder="Name, Ticker oder Branche" aria-label="Übersicht durchsuchen">
@@ -249,6 +251,16 @@ footer { color: var(--text-muted); font-size: 12px; margin-top: 24px; }
     </div>
     <div id="ue-liste"></div>
     <p class="hinweis-text" id="ue-hinweis"></p>
+  </section>
+
+  <section class="card" id="dividenden">
+    <h2>Dividenden im Depot <span class="muted">(Schätzung, brutto)</span></h2>
+    <div class="tiles" id="div-kacheln" style="margin-bottom:12px"></div>
+    <div class="grid2">
+      <div><h2 style="font-size:13px;color:var(--text-secondary)">Größte Zahler</h2><div id="div-top"></div></div>
+      <div><h2 style="font-size:13px;color:var(--text-secondary)">nach Sektor</h2><div id="div-sektor"></div></div>
+    </div>
+    <p class="hinweis-text">Depotwert × aktuelle Dividendenrendite laut Yahoo, vor Quellen- und Abgeltungsteuer. Sonderdividenden (z. B. bei Main Street Capital) sind nicht enthalten, die tatsächliche Summe liegt daher eher höher.</p>
   </section>
 
   <section class="card">
@@ -645,7 +657,7 @@ function zeichneChart() {
     if (t.a200 != null && t.a200 < 0) statusTeile.push(`<span class="st info">unter 200T</span>`);
     if (t.depot?.erg != null) statusTeile.push(`<div class="ue-sub">seit Kauf <span class="${klasse(t.depot.erg)}">${proz(t.depot.erg, 0)}</span></div>`);
     const div = sd.div != null && sd.div > 0
-      ? `<div class="${sd.div5j && sd.div >= sd.div5j * 1.2 ? "pos" : ""}">${zahl(sd.div, 1)} %</div><div class="ue-sub">${sd.div5j ? "Ø5J " + zahl(sd.div5j, 1) : "Dividende"}</div>`
+      ? `<div class="${sd.div5j && sd.div >= sd.div5j * 1.2 ? "pos" : ""}">${zahl(sd.div, 1)} %</div><div class="ue-sub">${sd.div5j ? "Ø5J " + zahl(sd.div5j, 1) : "Dividende"}</div>${t.depot?.div_eur ? `<div class="ue-sub">≈ ${zahl(t.depot.div_eur, 0)} €/J</div>` : ""}`
       : `<div class="muted">–</div>`;
     const term = [];
     if (sd.kgv) term.push(`KGV ${zahl(sd.kgv, 0)}`);
@@ -653,7 +665,7 @@ function zeichneChart() {
     if (sd.exdiv && tageBis(sd.exdiv) >= 0 && tageBis(sd.exdiv) <= 30) term.push(`Ex-Div ${kurzDatum(sd.exdiv)}`);
     return `<div class="ue-zeile" data-t="${esc(t.t)}">
       <div><div class="ue-name" title="${esc(t.name)}">${esc(t.name)}</div><div class="ue-sub" title="${esc(sd.branche || "")}">${esc(sub)}</div></div>
-      <div><div class="ue-kurs">${kursEur}</div><div class="ue-sub">${lokal}<span class="${klasse(t.tag)}">${proz(t.tag)}</span></div></div>
+      <div><div class="ue-kurs">${kursEur}</div><div class="ue-sub">${lokal}<span class="${klasse(t.tag)}" title="heute">${proz(t.tag)}</span></div><div class="ue-sub">Woche <span class="${klasse(t.p1w)}">${proz(t.p1w)}</span></div></div>
       <div class="ue-spanne">${spanne(t)}</div>
       <div class="ue-status">${statusTeile.join(" ") || '<span class="muted">–</span>'}</div>
       <div class="ue-div ue-r">${div}</div>
@@ -667,6 +679,8 @@ function zeichneChart() {
     gew: (a, b) => (b.depot?.gew ?? -1) - (a.depot?.gew ?? -1),
     div: (a, b) => (b.sd?.div ?? -1) - (a.sd?.div ?? -1),
     name: (a, b) => a.name.localeCompare(b.name, "de"),
+    diveur: (a, b) => (b.depot?.div_eur ?? -1) - (a.depot?.div_eur ?? -1),
+    woche: (a, b) => (a.p1w ?? 0) - (b.p1w ?? 0),
   };
 
   function sektorenDepot() {
@@ -705,8 +719,9 @@ function zeichneChart() {
       const divs = ts.map((t) => t.sd?.div).filter((v) => v > 0);
       const imDepot = ts.filter((t) => t.depot).length;
       const inZone = ts.filter((t) => zoneInfo(t)?.cls === "ok").length;
+      const divEur = ts.reduce((s, t) => s + (t.depot?.div_eur || 0), 0);
       html += `<div class="ue-grp"><span>${esc(g)} <span class="muted">· ${ts.length} Titel · ${imDepot} im Depot · ${zahl(gew(ts), 1)} % vom Depot${inZone ? ` · ${inZone} in Kaufzone` : ""}</span></span>`
-        + `<span class="muted">${divs.length ? "Ø Dividende " + zahl(divs.reduce((a, b) => a + b, 0) / divs.length, 1) + " %" : ""}</span></div>`;
+        + `<span class="muted">${divs.length ? "Ø Dividende " + zahl(divs.reduce((a, b) => a + b, 0) / divs.length, 1) + " %" : ""}${divEur >= 1 ? ` · ≈ ${zahl(divEur, 0)} €/Jahr` : ""}</span></div>`;
       html += ts.map(zeile).join("");
     }
     document.getElementById("ue-liste").innerHTML = html || `<p class="leer">Keine Titel für diese Auswahl.</p>`;
@@ -734,6 +749,31 @@ function zeichneChart() {
   });
   document.getElementById("ue-liste").addEventListener("click", (e) => { const z = e.target.closest("[data-t]"); if (z) zeigeChart(z.dataset.t); });
   zeichne();
+})();
+
+// Dividenden-Schätzung
+(function dividenden() {
+  const pos = D.titel.filter((t) => t.depot?.div_eur);
+  const summe = pos.reduce((s, t) => s + t.depot.div_eur, 0);
+  const einstand = D.titel.reduce((s, t) => s + (t.depot?.einstand || 0), 0);
+  const kacheln = [
+    ["pro Jahr", zahl(summe, 0) + " €", `${pos.length} zahlende Positionen`],
+    ["pro Monat (Schnitt)", zahl(summe / 12, 0) + " €", "über das Jahr verteilt"],
+    ["Rendite aufs Depot", proz(D.depot.wert ? summe / D.depot.wert * 100 : null, 2, false), "bezogen auf den aktuellen Wert"],
+    ["Rendite auf Einstand", proz(einstand ? summe / einstand * 100 : null, 2, false), "bezogen auf den Kaufpreis"],
+  ];
+  document.getElementById("div-kacheln").innerHTML = kacheln.map(([l, w, s]) =>
+    `<div class="tile"><div class="label">${l}</div><div class="wert">${w}</div><div class="sub">${s}</div></div>`).join("");
+  const balken = (reihe, max) => reihe.map(([n, w, sub, t]) =>
+    `<div class="sd-zeile"${t ? ` data-t="${esc(t)}"` : ""} style="grid-template-columns: 170px 1fr 70px"><span class="sd-name" title="${esc(n)}">${esc(n)}${sub ? ` <span class="muted">${sub}</span>` : ""}</span><span class="sd-balken"><i style="width:${(w / max) * 100}%"></i></span><span class="sd-wert">${zahl(w, 0)} €</span></div>`).join("");
+  const top = pos.sort((a, b) => b.depot.div_eur - a.depot.div_eur).slice(0, 12)
+    .map((t) => [t.name, t.depot.div_eur, zahl(t.sd.div, 1) + " %", t.t]);
+  document.getElementById("div-top").innerHTML = balken(top, top[0]?.[1] || 1);
+  const jeSektor = {};
+  for (const t of pos) { const s = t.sd?.sektor || "ohne Angabe"; jeSektor[s] = (jeSektor[s] || 0) + t.depot.div_eur; }
+  const sek = Object.entries(jeSektor).sort((a, b) => b[1] - a[1]).map(([n, w]) => [n, w, proz(w / summe * 100, 0, false)]);
+  document.getElementById("div-sektor").innerHTML = balken(sek, sek[0]?.[1] || 1);
+  document.getElementById("div-top").addEventListener("click", (e) => { const z = e.target.closest("[data-t]"); if (z) zeigeChart(z.dataset.t); });
 })();
 </script>
 </body>

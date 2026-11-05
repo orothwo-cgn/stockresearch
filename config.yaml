@@ -113,16 +113,16 @@ ausschluss:
 watchlist:
   big_player:   # Frühwarnung bei Abwärtstrend (schwellen → bigplayer)
     AMZN: { name: Amazon, kaufzonen_eur: [186, 175] }   # 30.10.2026: Q3 verfehlt, vorbörslich 202 € (−21 % vom 52-W-Hoch 257 €, unter 200T 218 €); Zone 1 = −8 % vom Kurs, Zone 2 = 52-W-Tief
-    AAPL: { name: Apple }
-    META: { name: Meta Platforms }
-    MSFT: { name: Microsoft }
+    AAPL: { name: Apple, kaufzonen_eur: [282, 251] }   # Zonen 05.11.2026 nach Regel (−10 % / −20 %), Kurs 313,36 €
+    META: { name: Meta Platforms, kaufzonen_eur: [516, 467] }   # Zonen 05.11.2026 nach Regel (−8 % / 52-W-Tief), Kurs 560,45 €
+    MSFT: { name: Microsoft, kaufzonen_eur: [447, 398] }   # Zonen 05.11.2026 nach Regel (−10 % / −20 %), Kurs 496,9 €
     ORCL: { name: Oracle, ziel_unter_hoch: 60 }   # 21.10.2026: −50 % schon unterschritten, nächste Stufe −60 % (ca. 112 $)
     GOOGL: { name: Alphabet, kaufzonen_eur: [240, 223] }   # 29.10.2026: Q3 verfehlt, vorbörslich 262,50 € (−28 % vom 52-W-Hoch 366 €); Zone 1 = 52-W-Tief, Zone 2 = −15 % vom Kurs
   wachstum:
-    PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026)
-    CRWD: { name: CrowdStrike }
-    NET: { name: Cloudflare }
-    DDOG: { name: Datadog }   # aufgenommen 11.10.2026
+    PLTR: { name: Palantir, fruehwarnung: true, fruehwarnung_90t: true, kaufzonen_eur: [140, 130] }   # Frühwarnung wie Big Player + Bruch der 90T (11.10.2026); Zonen 05.11.2026 nach Regel (−8 % / −15 %), Kurs 152,66 €
+    CRWD: { name: CrowdStrike, kaufzonen_eur: [195, 174] }   # Zonen 05.11.2026 nach Regel (−10 % / −20 %), Kurs 217,12 €
+    NET: { name: Cloudflare, kaufzonen_eur: [217, 201] }   # Zonen 05.11.2026 nach Regel (−8 % / −15 %), Kurs 236,22 €
+    DDOG: { name: Datadog, kaufzonen_eur: [154, 142] }   # aufgenommen 11.10.2026; Zonen 05.11.2026 nach Regel (−8 % / −15 %), Kurs 167,52 €
     FTNT: { name: Fortinet, kaufzonen_eur: [107, 99] }   # 29.10.2026: Q3-Marge verfehlt, vorbörslich 116 € (−34 % vom Hoch, knapp über 200T 115 €); Zonen −8 % / −15 % vom Kurs
     TWLO: { name: Twilio, kaufzonen_eur: [165, 153] }   # aufgenommen 30.10.2026, im Depot; schwacher Ausblick, vorbörslich 180 € (−35 % vom Hoch, 200T 168 €); Zonen −8 % / −15 % vom Kurs
     NOW: { name: ServiceNow, kaufzonen_eur: [101.5, 94] }   # aufgenommen 29.10.2026, im Depot; Q3 knapp verfehlt, vorbörslich 110 € (−36 % vom Hoch, 200T 103 €); Zonen −8 % / −15 % vom Kurs
@@ -156,13 +156,13 @@ watchlist:
     TLT: { name: US-Staatsanleihen 20+ Jahre (iShares TLT) }
   dividende:
     HSBA.L: { name: HSBC, kaufzonen_eur: [15.10, 14.15] }   # Nachkauf-Tranchen: −20 % / −25 % vom 52-W-Hoch (18,84 €), Stand 08.10.2026; 27.10.2026: 40 Stück zu 15,24 € nachgekauft (jetzt 1.156)
-    ALV.DE: { name: Allianz }
-    MUV2.DE: { name: Münchener Rück }
-    BATS.L: { name: British American Tobacco }
-    MO: { name: Altria }
-    PG: { name: Procter & Gamble }
+    ALV.DE: { name: Allianz, kaufzonen_eur: [380, 350] }   # Zonen 05.11.2026 nach Regel (Rendite 3.9 % → Ø5J 4.68), Kurs 458,4 €
+    MUV2.DE: { name: Münchener Rück, kaufzonen_eur: [538, 495] }   # Zonen 05.11.2026 nach Regel (−8 %), Kurs 584,4 €
+    BATS.L: { name: British American Tobacco, kaufzonen_eur: [44.5, 41.0] }   # Zonen 05.11.2026 nach Regel (Rendite 5.4 % → Ø5J 7.03), Kurs 55,72 €
+    MO: { name: Altria, kaufzonen_eur: [56, 51] }   # Zonen 05.11.2026 nach Regel (Rendite 5.8 % → Ø5J 7.4), Kurs 69,45 €
+    PG: { name: Procter & Gamble, kaufzonen_eur: [137, 126] }   # Zonen 05.11.2026 nach Regel (−8 %), Kurs 149,16 €
     MCD: { name: McDonald's, kaufzonen_eur: [200, 185] }   # 21.10.2026: 1 Stück zu 218 € gekauft (jetzt 4,3); Tranchen 2/3 = −8 % / −15 %; Ziel ~3.000 €
-    KO: { name: Coca-Cola }
+    KO: { name: Coca-Cola, kaufzonen_eur: [69, 63] }   # Zonen 05.11.2026 nach Regel (Rendite 2.2 % → Ø5J 2.83), Kurs 85,71 €
     PEP: { name: PepsiCo, kaufzonen_eur: [110, 102] }   # 21.10.2026: 1 Stück zu 120 € gekauft (jetzt 9); Tranchen 2/3 = −8 % / −15 %; Ziel ~3.000 €, Basiskonsum aufstocken
     NEE: { name: NextEra Energy, kaufzonen_eur: [68, 62] }   # 24.10.2026: Kurs 73,27 €; Zonen = Dividendenrendite ca. 3,3 % / 3,6 % (5J-Schnitt 2,5 %)
     BIP: { name: Brookfield Infrastructure, kaufzonen_eur: [30.5, 28.5] }   # aufgenommen 12.10.2026; 24.10.2026: Kurs 33,06 €, Zonen = Dividendenrendite ca. 5,3 % / 5,7 %
