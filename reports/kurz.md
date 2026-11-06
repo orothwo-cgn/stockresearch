@@ -1,4 +1,4 @@
-# Kurzfassung 07.11.2026 00:11
+# Kurzfassung 07.11.2026 00:40
 
 **Markt:** Nasdaq 100 +1,4 % (200T -3,6 %), S&P 500 +0,3 % (200T +0,7 %), DAX -2,0 % (200T +3,5 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 22 (extreme Angst, Vorwoche 26), VIX 25,6
@@ -44,4 +44,4 @@
 - HSBC: 15,63 €, Zone 15,10 € (+3,5 %)
 - Münchener Rück: 570,00 €, Zone 538,00 € (+5,9 %)
 
-Weitere Hinweise: 2 neu, 317 aktiv. Vollständig: reports/2026-11-07_0011.md
+Weitere Hinweise: 0 neu, 317 aktiv. Vollständig: reports/2026-11-07_0040.md
