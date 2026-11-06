@@ -1,15 +1,14 @@
-# Kurzfassung 06.11.2026 22:11
+# Kurzfassung 06.11.2026 22:41
 
 **Markt:** Nasdaq 100 +1,4 % (200T -3,6 %), S&P 500 +0,3 % (200T +0,7 %), DAX -1,9 % (200T +3,6 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 22 (extreme Angst, Vorwoche 26), VIX 25,6
 **Zinsen:** US 10 Jahre 4,86 % (90T 4,86 %, 200T 4,56 %, Hoch 12 M 5,31 %), 30 Jahre 5,26 %, Kurve 10J−3M +0,86
-**Depot:** 317.260 € (-1.090 € heute), seit Kauf +50,6 %
-**Schwächste:** Atlassian Corp. -16,2 %, Nemetschek SE -4,8 %, Booking Holdings Inc. -4,8 %, MUENCH.RUECKVERS. NA O -4,3 %
-**Stärkste:** IonQ Inc. +23,2 %, Kingsoft Cloud Holding +12,8 %, Onto Innovation Inc. +11,1 %, CLOUDFLARE INC. A DL-, +9,9 %
+**Depot:** 317.181 € (-1.388 € heute), seit Kauf +50,6 %
+**Schwächste:** Atlassian Corp. -16,2 %, Trend Micro Inc. -8,5 %, Kingsoft Cloud Holding -6,0 %, Nemetschek SE -4,8 %
+**Stärkste:** IonQ Inc. +23,4 %, Onto Innovation Inc. +11,1 %, CLOUDFLARE INC. A DL-, +9,9 %, IES HLDGS INC. DL-,01 +8,8 %
 
 **Wichtig heute:**
 - Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -4,9 % in 5 Tagen, 13,6 % unter Hoch, VIX 25,6 (+32 % in 5 Tagen).
-- Fortinet (FTNT) hat Kaufzone 1 von 2 erreicht: 106,64 € ≤ 107,00 € (nächste Zone 99,00 €).
 - Atlassian Corp. (TEAM) fällt heute um -16,2 %.
 - Billington Holdings PLC (BILN.L) fällt heute um -19,0 %.
 
@@ -23,15 +22,15 @@
 - Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 179,04 (+1,8 %)
 - Fortinet: 106,64 €, Zone 107,00 € (-0,3 %)
 - Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 118,84 (+1,7 %)
-- ServiceNow: 91,49 €, Zone 101,50 € (-9,9 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 101,96 (-2,1 %)
-- Vertiv: 164,06 €, Zone 185,00 € (-11,3 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 182,84 (-2,8 %)
+- ServiceNow: 91,50 €, Zone 101,50 € (-9,9 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 101,97 (-2,0 %)
+- Vertiv: 164,08 €, Zone 185,00 € (-11,3 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 182,86 (-2,7 %)
 - KLA: 124,27 €, Zone 152,00 € (-18,2 %)
 - KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 138,49 (-8,1 %)
 - Onto Innovation: 155,48 €, Zone 217,00 € (-28,3 %)
 - Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 173,28 (-8,4 %)
-- Qnity Electronics: 104,86 €, Zone 107,00 € (-2,0 %)
+- Qnity Electronics: 104,98 €, Zone 107,00 € (-1,9 %)
 - Teradyne: 195,80 €, Zone 287,00 € (-31,8 %)
 - Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 218,21 (-24,8 %)
 - Astera Labs: 171,12 €, Zone 218,00 € (-21,5 %)
@@ -47,4 +46,4 @@
 - HSBC: 15,63 €, Zone 15,10 € (+3,5 %)
 - Münchener Rück: 569,20 €, Zone 538,00 € (+5,8 %)
 
-Weitere Hinweise: 7 neu, 314 aktiv. Vollständig: reports/2026-11-06_2211.md
+Weitere Hinweise: 5 neu, 317 aktiv. Vollständig: reports/2026-11-06_2241.md
