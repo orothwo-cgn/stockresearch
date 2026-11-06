@@ -1,16 +1,14 @@
-# Kurzfassung 06.11.2026 23:40
+# Kurzfassung 07.11.2026 00:11
 
-**Markt:** Nasdaq 100 +1,4 % (200T -3,6 %), S&P 500 +0,3 % (200T +0,7 %), DAX -1,9 % (200T +3,6 %)
+**Markt:** Nasdaq 100 +1,4 % (200T -3,6 %), S&P 500 +0,3 % (200T +0,7 %), DAX -2,0 % (200T +3,5 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 22 (extreme Angst, Vorwoche 26), VIX 25,6
 **Zinsen:** US 10 Jahre 4,86 % (90T 4,86 %, 200T 4,56 %, Hoch 12 M 5,31 %), 30 Jahre 5,26 %, Kurve 10J−3M +0,86
-**Depot:** 317.211 € (-1.388 € heute), seit Kauf +50,6 %
-**Schwächste:** Atlassian Corp. -16,2 %, Trend Micro Inc. -8,5 %, Kingsoft Cloud Holding -6,0 %, Nemetschek SE -4,8 %
+**Depot:** 316.989 € (-1.610 € heute), seit Kauf +50,5 %
+**Schwächste:** Atlassian Corp. -16,2 %, Trend Micro Inc. -8,5 %, Kingsoft Cloud Holding -6,0 %, Booking Holdings Inc. -4,8 %
 **Stärkste:** IonQ Inc. +23,4 %, Onto Innovation Inc. +11,1 %, CLOUDFLARE INC. A DL-, +9,9 %, IES HLDGS INC. DL-,01 +8,8 %
 
 **Wichtig heute:**
-- Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -4,9 % in 5 Tagen, 13,6 % unter Hoch, VIX 25,6 (+32 % in 5 Tagen).
-- Atlassian Corp. (TEAM) fällt heute um -16,2 %.
-- Billington Holdings PLC (BILN.L) fällt heute um -19,0 %.
+- nichts
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 547,55 €, Zone 516,00 € (+6,1 %)
@@ -37,13 +35,13 @@
 - Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 190,71 (-21,0 %)
 - Marvell Technology: 126,71 €, Zone 198,00 € (-36,0 %)
 - Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 141,20 (-25,6 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.362,50 (+2,4 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.354,50 (+1,8 %)
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 201,14 (+5,3 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 28,47 (-34,4 %)
 - Broadcom: 263,56 €, Zone 275,00 € (-4,2 %)
 - Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 293,69 (+2,0 %)
-- Schneider Electric: 228,65 €, Zone 228,00 € (+0,3 %)
+- Schneider Electric: 229,05 €, Zone 228,00 € (+0,5 %)
 - HSBC: 15,63 €, Zone 15,10 € (+3,5 %)
-- Münchener Rück: 569,20 €, Zone 538,00 € (+5,8 %)
+- Münchener Rück: 570,00 €, Zone 538,00 € (+5,9 %)
 
-Weitere Hinweise: 0 neu, 317 aktiv. Vollständig: reports/2026-11-06_2340.md
+Weitere Hinweise: 2 neu, 317 aktiv. Vollständig: reports/2026-11-07_0011.md
