@@ -139,6 +139,7 @@ watchlist:
     RMS.PA: { name: Hermès, kaufzonen_eur: [1250] }   # Wunsch 11.10.2026: melden, wenn Richtung 1.250 €
     JAZZ: { name: Jazz Pharmaceuticals, kaufzonen_eur: [160, 144] }   # 20.10.2026; Zonen = ca. 180 $ (Tief März 2026) / 162 $ (Tiefs Dez. 2025-Feb. 2026)
     XPEV: { name: XPeng (Robotik), ziel_unter_hoch: 70 }   # 15.10.2026: im Depot, für den Nutzer eher Roboter- als Autoaktie
+    FFIV: { name: F5 Networks, kaufzonen_eur: [255, 235] }   # aufgenommen 07.11.2026; Zonen nach Regel (−8 % / −15 %, 52-W-Tief 199 € zu weit), Kurs 276,84 € (310,84 $, −35 % vom Hoch 09.10.)
     BN: { name: Brookfield Corporation, kaufzonen_eur: [32, 29.5] }   # Holding, Idee von Thomas Rappold (11.10.2026); 24.10.2026: Zonen −5 % / −13 % vom Kurs 33,89 € (antizyklisch)
     FSLR: { name: First Solar, kaufzonen_eur: [141, 130] }
     ENPH: { name: Enphase Energy, kaufzonen_eur: [20.5, 19] }   # aufgenommen 29.10.2026, im Depot; 22,37 € am 52-W-Tief (−66 % vom Hoch), Solar/zinsgetrieben wie FSLR; Zonen −8 % / −15 % vom Kurs   # 24.10.2026: am 52-W-Tief (−46 %), zinsgetrieben (10J-Treasury >5 %); Zonen −8 % / −15 % vom Kurs 153,50 €
