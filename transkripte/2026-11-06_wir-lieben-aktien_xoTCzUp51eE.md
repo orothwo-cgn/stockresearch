@@ -1,0 +1,11 @@
+# Crash: Kaufen, halten oder verkaufen?
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 06.11.2026
+- Link: https://www.youtube.com/watch?v=xoTCzUp51eE
+- Ausgewertet: ja
+
+## Transkript
+
+Der NCK crasht über 6% diese Woche. Die Halleiteraktien stürzen komplett ab. Die Frage ist jetzt, was sollte man machen? Ich gebe dir ein Update. Also hören wir jetzt kurz eine Minute mal ganz in Ruhe zu. Schauen wir uns den NAG an, dann sind wir hier in einer völlig normalen und gesunden Korrektur. Die Korrektur ist, wenn man rauszoomt, vergleichbar mit der hier, mit der, wobei die noch etwas größer war. Und so eine große 2022er Korrektur in richtiger Bärenmarkt dauert tatsächlich noch länger. Wir können uns also schon darauf vorbereiten, dass wir vielleicht noch mal das ein bisschen ausweiten, aber hier haben wir dann auch schon die erste sehr sehr starke Unterstützungszone im Bereich 26 000 Punkte. Die ist nicht mehr weit weg. Wenn man sich z.B. den US1 anschaut, also den CFD, der gehandelt wird, dann haben wir die Hochs auch schon leicht angetestet. Das ist also die erste mögliche Stabilisierungszone. Der wichtigste Index, den ihr ansonsten noch kennen solltet, ist der Sox, der Semiconduakterindex, denn die Halbleiteraktien sind die, die gerade vor allem auch alles runterziehen. Und bei den Halbleiteraktien hatte ich euch immer wieder drauf hingewiesen, wenn ihr das verpasst habt, dann lasst jetzt unbedingt mal ein Abo da, dass die mal gesund in so eine Korrektur ja abtauchen können. Wir haben einen langfristigen Aufwärtstrend. Dazu gehören Nummer Korrekturen und gerade wenn die letzte Rally besonders stark war und das war hier der Fall mit über 300 % Kurs Plus, ja, da muss man eben auch damit leben, dass so eine Korrektur stattfinden kann. Das Problem ist nur, dass die meisten eben hier oben dumm immer viel zu spät einkaufen und sich nicht antizyklisch hier unten auf die Lauer legen. Jetzt wird's bald wieder für antizyklische Einstiege äh ja spannend. Das heißt, aber wir brauchen erstmal eine Stabilisierung, am besten hier auf dem Niveau, wo wir schon mal hier seitwärts gelaufen sind. Also noch ein bisschen Abwärtspotenzial und dann würde ich mir die Halbleiteraktien, die TEAktien und so weiter auf jeden Fall ansehen.
