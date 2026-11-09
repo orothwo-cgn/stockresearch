@@ -1,0 +1,11 @@
+# Markt crasht – doch DIESE Aktie steigt (GTA VI) 🚀
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 08.11.2026
+- Link: https://www.youtube.com/watch?v=KIXh5kti7WU
+- Ausgewertet: ja
+
+## Transkript
+
+Der Aktiema crasht gerade völlig, aber diese Aktie hier hat gerade ein Signal geliefert, auf das du unbedingt achten solltest. Deswegen hören wir jetzt 60 Sekunden zu. Ich erkläre dir ganz genau, um welche Aktie es geht und ob ich es jetzt kaufen würde. Schauen wir uns die Aktie mal an, geht es um eine Aktie, die von einem der größten Hypes weltweit profitieren kann und zwar GTA 6. Es geht um Take to Interactive. Die Aktie läuft hier in einer Seitwärtsphase und wenn wir jetzt mal genau hinsehen, dann sehen wir, dass sie letzte Woche hier ein schönes Bullish engulfing Pattern abgeliefert hat. bedeutet nichts anderes. Ich bin kein Freund davon, das jetzt so mystisch immer zu machen. Bedeutet nichts anderes, als dass die Vorwoche, diese schwarze Kerze völlig von dieser weißen Kerze umschlossen wurde, die Käufe also viel stärker zurückgekommen sind und anscheinend dieses Niveau hier verteidigen wollen. Das haben sie hier auch schon getan. Das haben sie hier auch schon getan. Das ist also ein Niveau, auf das der Markt immer wieder achtet. sind nämlich auch die alten Eilzeithochs, die wir hier drüben schon mal hatten. Auf was würde ich jetzt aber kurzfristig achten, denn ich würde nicht einfach so reingreifen. Ein Boden wurde ja noch nicht gebildet. Erstmal Take to meldet jetzt am Montag Zahlen. Das unbedingt abwarten, je nach Reaktion dann weiter agieren. Wenn wir jetzt hier kurzfristig runterlaufen und den Ausbruch auf neue Hochschaffen über 220$, dann haben wir eine kurzfristige Bodenbildung drin. Dann finde ich die Aktie für Käufe interessant. Brücken wir aber recht schnell zur Unterseite weg. Also wir haben nicht mehr dieses Aufwärtsmomentum, was vorherrschend ist. Dann ist die nächste Unterstützungszone, wenn wir die Tiefs unterschreiten, hier unten bei ungefähr 15 bis 170 $, dann würde ich mir die Aktie erst dort wieder ansehen. Also immer wenn dann Szenarien und ich halte euch dazu auf dem Laufenden, je nachdem, was mit der Aktie passiert. Deswegen folgt mir, um diese Videos nicht zu verpassen.
