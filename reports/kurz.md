@@ -1,9 +1,9 @@
-# Kurzfassung 10.11.2026 00:41
+# Kurzfassung 10.11.2026 00:43
 
 **Markt:** Nasdaq 100 +3,4 % (200T -0,3 %), S&P 500 +2,3 % (200T +3,0 %), DAX +1,7 % (200T +5,3 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 32 (Angst, Vorwoche 19), VIX 19,9
 **Zinsen:** US 10 Jahre 4,86 % (90T 4,86 %, 200T 4,57 %, Hoch 12 M 5,31 %), 30 Jahre 5,26 %, Kurve 10J−3M +0,83
-**Depot:** 324.264 € (+8.495 € heute), seit Kauf +54,0 %
+**Depot:** 324.268 € (+8.497 € heute), seit Kauf +54,0 %
 **Schwächste:** Dropbox Inc. -6,0 %, Alibaba Group Holding -3,7 %, JD.com Inc. -2,5 %, FRONTLINE PLC DL 1 -2,5 %
 **Stärkste:** MONOLITHIC POWER DL-,0 +16,6 %, The Trade Desk Inc. +15,5 %, Onto Innovation Inc. +12,0 %, Lam Research Corp. +10,4 %
 
@@ -41,4 +41,4 @@
 - HSBC: 16,02 €, Zone 15,10 € (+6,1 %)
 - Münchener Rück: 566,40 €, Zone 538,00 € (+5,3 %)
 
-Weitere Hinweise: 0 neu, 296 aktiv. Vollständig: reports/2026-11-10_0041.md
+Weitere Hinweise: 0 neu, 296 aktiv. Vollständig: reports/2026-11-10_0043.md
