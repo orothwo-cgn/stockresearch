@@ -1,7 +1,7 @@
 {
- "stand": "11.11.2026 00:10",
+ "stand": "11.11.2026 00:41",
  "depot": {
-  "wert": 325094.4,
+  "wert": 325089.29,
   "einstand": 210629.35
  },
  "markt": [
@@ -76,7 +76,7 @@
    },
    {
     "von": "02.11.2026",
-    "bis": "10.11.2026",
+    "bis": "11.11.2026",
     "max": 75,
     "stufe": "Panik",
     "dd": -14.7,
@@ -89,13 +89,11 @@
   "rating": "Angst",
   "vorwoche": 23.5,
   "vormonat": 43.5,
-  "stand": "2026-11-11T00:11",
+  "stand": "2026-11-11T00:41",
   "aus_cache": false
  },
  "neu_wichtig": [],
- "neu_weitere": [
-  "STOLT-NIELSEN DL 1 (SNI.OL) nähert sich der 200-Tage-Linie: 0,1 % darüber."
- ],
+ "neu_weitere": [],
  "aktiv": [
   {
    "text": "Nasdaq 100 notiert unter der 200-Tage-Linie (-0,9 %).",
@@ -114,7 +112,7 @@
    "wichtig": false
   },
   {
-   "text": "Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -1,6 % in 5 Tagen, 11,2 % unter Hoch, VIX 19,5 (-7 % in 5 Tagen).",
+   "text": "Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -2,4 % in 5 Tagen, 11,2 % unter Hoch, VIX 19,5 (+17 % in 5 Tagen).",
    "wichtig": true
   },
   {
@@ -1635,7 +1633,7 @@
     "land": "United States",
     "div": 0.0,
     "kgv": 118.9,
-    "kgv_fwd": 66.59,
+    "kgv_fwd": 66.5,
     "zahlen": "2027-02-01"
    },
    "depot": {
@@ -2295,7 +2293,6 @@
     "div5j": 0.64,
     "kgv": 31.29,
     "kgv_fwd": 28.05,
-    "zahlen": "2026-02-12",
     "exdiv": "2026-04-21"
    },
    "depot": {
@@ -2855,8 +2852,7 @@
    "ma200": 81.117,
    "sd": {
     "sektor": "ETF / Fonds",
-    "div": 3.61,
-    "kgv": 3696.0
+    "div": 3.61
    },
    "p1w": -0.0983
   },
@@ -2930,8 +2926,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 16.03,
-   "fx": 0.0119504,
+   "keur": 16.032,
+   "fx": 0.0119514,
    "hoch52": 1597.2,
    "tief52": 1040.9,
    "ma200": 1390.5,
@@ -2951,12 +2947,12 @@
     "exdiv": "2026-11-05"
    },
    "depot": {
-    "wert": 18531.03,
+    "wert": 18532.58,
     "gew": 5.7,
     "erg": 151.1,
     "stueck": 1156.0,
     "einstand": 7379.93,
-    "div_eur": 422.51
+    "div_eur": 422.54
    },
    "p1w": 6.64
   },
@@ -3087,8 +3083,8 @@
    "listen": [],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 54.267,
-   "fx": 0.0119504,
+   "keur": 54.271,
+   "fx": 0.0119514,
    "hoch52": 4960.6,
    "tief52": 3960.0,
    "ma200": 4405.4,
@@ -3108,12 +3104,12 @@
     "exdiv": "2026-12-24"
    },
    "depot": {
-    "wert": 3201.747,
+    "wert": 3202.015,
     "gew": 0.985,
-    "erg": 59.55,
+    "erg": 59.57,
     "stueck": 59.0,
     "einstand": 2006.7,
-    "div_eur": 171.93
+    "div_eur": 171.95
    },
    "p1w": 0.265
   },
@@ -3307,7 +3303,7 @@
     "div": 2.21,
     "div5j": 2.83,
     "kgv": 28.59,
-    "kgv_fwd": 27.47,
+    "kgv_fwd": 27.46,
     "zahlen": "2026-10-27",
     "exdiv": "2026-12-01"
    },
@@ -3617,15 +3613,15 @@
    "tief52": 128.44,
    "ma200": 154.93,
    "sd": {
-    "sektor": "Zyklischer Konsum",
     "branche": "Footwear & Accessories",
-    "land": "Germany",
     "div": 1.6,
     "div5j": 0.64,
+    "exdiv": "2026-05-08",
     "kgv": 19.24,
     "kgv_fwd": 15.21,
-    "zahlen": "2026-10-29",
-    "exdiv": "2026-05-08"
+    "land": "Germany",
+    "sektor": "Zyklischer Konsum",
+    "zahlen": "2026-10-29"
    },
    "depot": {
     "wert": 896.25,
@@ -3662,24 +3658,24 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 3.4607,
-   "fx": 0.0941947,
+   "keur": 3.4609,
+   "fx": 0.0942006,
    "hoch52": 46.32,
    "tief52": 24.405,
    "ma200": 39.77,
    "sd": {
-    "sektor": "Energie",
     "branche": "Oil & Gas Equipment & Services",
-    "land": "Norway",
     "div": 9.85,
     "div5j": 1.76,
+    "exdiv": "2026-04-17",
     "kgv": 5.506,
     "kgv_fwd": 10.06,
-    "zahlen": "2026-10-28",
-    "exdiv": "2026-04-17"
+    "land": "Norway",
+    "sektor": "Energie",
+    "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 1321.992,
+    "wert": 1322.076,
     "gew": 0.407,
     "erg": -12.6,
     "stueck": 382.0,
@@ -3703,28 +3699,28 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 11.597,
-   "fx": 0.114142,
+   "keur": 11.596,
+   "fx": 0.114138,
    "hoch52": 173.31,
    "tief52": 89.5,
    "ma200": 122.43,
    "sd": {
-    "sektor": "Zyklischer Konsum",
     "branche": "Internet Retail",
-    "land": "China",
     "div": 0.98,
+    "exdiv": "2026-06-10",
     "kgv": 25.21,
     "kgv_fwd": 11.26,
-    "zahlen": "2026-11-19",
-    "exdiv": "2026-06-10"
+    "land": "China",
+    "sektor": "Zyklischer Konsum",
+    "zahlen": "2026-11-19"
    },
    "depot": {
-    "wert": 139.1624,
+    "wert": 139.1574,
     "gew": 0.0428,
-    "erg": -17.48,
+    "erg": -17.49,
     "stueck": 12.0,
     "einstand": 168.65,
-    "div_eur": 1.3638
+    "div_eur": 1.3637
    },
    "p1w": 2.06
   },
@@ -3749,14 +3745,14 @@
    "tief52": 94.81,
    "ma200": 123.36,
    "sd": {
-    "sektor": "Zyklischer Konsum",
     "branche": "Internet Retail",
-    "land": "China",
     "div": 1.0,
+    "exdiv": "2026-06-11",
     "kgv": 24.87,
     "kgv_fwd": 11.13,
-    "zahlen": "2026-11-19",
-    "exdiv": "2026-06-11"
+    "land": "China",
+    "sektor": "Zyklischer Konsum",
+    "zahlen": "2026-11-19"
    },
    "depot": {
     "wert": 939.2149,
@@ -3792,11 +3788,11 @@
    "tief52": 19.49,
    "ma200": 114.79,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Communication Equipment",
-    "land": "United States",
     "div": 0.0,
     "kgv_fwd": 12.64,
+    "land": "United States",
+    "sektor": "Technologie",
     "zahlen": "2026-11-05"
    },
    "depot": {
@@ -3831,15 +3827,15 @@
    "tief52": 16.603,
    "ma200": 18.305,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Asset Management",
-    "land": "United States",
     "div": 9.92,
     "div5j": 9.13,
+    "exdiv": "2026-12-15",
     "kgv": 15.93,
     "kgv_fwd": 10.01,
-    "zahlen": "2026-10-27",
-    "exdiv": "2026-12-15"
+    "land": "United States",
+    "sektor": "Finanzen",
+    "zahlen": "2026-10-27"
    },
    "depot": {
     "wert": 1722.674,
@@ -3875,12 +3871,12 @@
    "tief52": 583.2,
    "ma200": 747.47,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "Netherlands",
     "div": 0.0,
     "kgv": 34.78,
     "kgv_fwd": 27.0,
+    "land": "Netherlands",
+    "sektor": "Gesundheit",
     "zahlen": "2026-10-22"
    },
    "depot": {
@@ -3915,12 +3911,12 @@
    "tief52": 116.13,
    "ma200": 166.57,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Computer Hardware",
-    "land": "United States",
     "div": 0.0,
     "kgv": 49.6,
     "kgv_fwd": 30.65,
+    "land": "United States",
+    "sektor": "Technologie",
     "zahlen": "2026-11-03"
    },
    "depot": {
@@ -3963,15 +3959,15 @@
    "tief52": 828.94,
    "ma200": 1393.0,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Semiconductor Equipment & Materials",
-    "land": "Netherlands",
     "div": 0.56,
     "div5j": 0.78,
+    "exdiv": "2026-10-26",
     "kgv": 38.91,
     "kgv_fwd": 24.12,
-    "zahlen": "2026-10-14",
-    "exdiv": "2026-10-26"
+    "land": "Netherlands",
+    "sektor": "Technologie",
+    "zahlen": "2026-10-14"
    },
    "depot": {
     "wert": 5152.636,
@@ -4015,12 +4011,12 @@
    "tief52": 57.15,
    "ma200": 119.4,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Software - Application",
-    "land": "Australia",
     "div": 0.0,
     "kgv": 450.3,
     "kgv_fwd": 22.18,
+    "land": "Australia",
+    "sektor": "Technologie",
     "zahlen": "2027-02-04"
    },
    "depot": {
@@ -4056,15 +4052,15 @@
    "tief52": 40.178,
    "ma200": 50.084,
    "sd": {
-    "sektor": "Grundstoffe",
     "branche": "Chemicals",
-    "land": "Germany",
     "div": 4.15,
     "div5j": 6.15,
+    "exdiv": "2026-05-04",
     "kgv": 24.24,
     "kgv_fwd": 17.81,
-    "zahlen": "2026-10-28",
-    "exdiv": "2026-05-04"
+    "land": "Germany",
+    "sektor": "Grundstoffe",
+    "zahlen": "2026-10-28"
    },
    "depot": {
     "wert": 654.24,
@@ -4108,13 +4104,13 @@
    "tief52": 83.89,
    "ma200": 96.209,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "Germany",
     "div": 0.0,
+    "exdiv": "2022-06-02",
     "kgv_fwd": -16.43,
-    "zahlen": "2026-11-03",
-    "exdiv": "2022-06-02"
+    "land": "Germany",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-11-03"
    },
    "depot": {
     "wert": 3356.652,
@@ -4146,15 +4142,15 @@
    "tief52": 913.04,
    "ma200": 1058.1,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Asset Management",
-    "land": "United States",
     "div": 1.89,
     "div5j": 2.3,
+    "exdiv": "2026-09-08",
     "kgv": 27.83,
     "kgv_fwd": 18.85,
-    "zahlen": "2027-01-14",
-    "exdiv": "2026-09-08"
+    "land": "United States",
+    "sektor": "Finanzen",
+    "zahlen": "2027-01-14"
    },
    "depot": {
     "wert": 915.6332,
@@ -4189,15 +4185,15 @@
    "tief52": 99.214,
    "ma200": 120.61,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Asset Management",
-    "land": "United States",
     "div": 4.08,
     "div5j": 3.21,
+    "exdiv": "2026-11-02",
     "kgv": 27.29,
     "kgv_fwd": 16.61,
-    "zahlen": "2027-01-28",
-    "exdiv": "2026-11-02"
+    "land": "United States",
+    "sektor": "Finanzen",
+    "zahlen": "2027-01-28"
    },
    "depot": {
     "wert": 548.383,
@@ -4232,18 +4228,18 @@
    "tief52": 147.94,
    "ma200": 174.73,
    "sd": {
-    "sektor": "Zyklischer Konsum",
     "branche": "Travel Services",
-    "land": "United States",
     "div": 1.03,
+    "exdiv": "2026-09-11",
     "kgv": 17.27,
     "kgv_fwd": 12.99,
-    "zahlen": "2026-11-03",
-    "exdiv": "2026-09-11"
+    "land": "United States",
+    "sektor": "Zyklischer Konsum",
+    "zahlen": "2026-11-03"
    },
    "depot": {
     "wert": 142.5536,
-    "gew": 0.0438,
+    "gew": 0.0439,
     "erg": -3.875,
     "stueck": 1.0,
     "einstand": 148.3,
@@ -4283,15 +4279,15 @@
    "tief52": 43.839,
    "ma200": 59.206,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Drug Manufacturers - General",
-    "land": "United States",
     "div": 4.06,
     "div5j": 3.86,
+    "exdiv": "2026-10-02",
     "kgv": 13.92,
     "kgv_fwd": 9.374,
-    "zahlen": "2026-10-29",
-    "exdiv": "2026-10-02"
+    "land": "United States",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-10-29"
    },
    "depot": {
     "wert": 674.5474,
@@ -4326,15 +4322,15 @@
    "tief52": 50.992,
    "ma200": 57.825,
    "sd": {
-    "sektor": "Basiskonsum",
     "branche": "Tobacco",
-    "land": "United Kingdom",
     "div": 5.56,
     "div5j": 7.02,
+    "exdiv": "2026-12-29",
     "kgv": 15.59,
     "kgv_fwd": 11.65,
-    "zahlen": "2026-07-30",
-    "exdiv": "2026-12-29"
+    "land": "United Kingdom",
+    "sektor": "Basiskonsum",
+    "zahlen": "2026-07-30"
    },
    "depot": {
     "wert": 435.5199,
@@ -4369,15 +4365,15 @@
    "tief52": 60.61,
    "ma200": 77.869,
    "sd": {
-    "sektor": "Basiskonsum",
     "branche": "Farm Products",
-    "land": "United States",
     "div": 3.56,
     "div5j": 0.65,
+    "exdiv": "2026-04-29",
     "kgv": 54.54,
     "kgv_fwd": 66.1,
-    "zahlen": "2027-01-06",
-    "exdiv": "2026-04-29"
+    "land": "United States",
+    "sektor": "Basiskonsum",
+    "zahlen": "2027-01-06"
    },
    "depot": {
     "wert": 1651.197,
@@ -4413,12 +4409,12 @@
    "tief52": 50.23,
    "ma200": 85.959,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Capital Markets",
-    "land": "United States",
     "div": 0.0,
     "kgv": 39.14,
     "kgv_fwd": 44.98,
+    "land": "United States",
+    "sektor": "Finanzen",
     "zahlen": "2026-11-04"
    },
    "depot": {
@@ -4454,11 +4450,11 @@
    "tief52": 132.13,
    "ma200": 175.18,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Financial Data & Stock Exchanges",
-    "land": "United States",
     "div": 0.0,
     "kgv_fwd": 54.71,
+    "land": "United States",
+    "sektor": "Finanzen",
     "zahlen": "2026-10-29"
    },
    "depot": {
@@ -4474,41 +4470,41 @@
    "t": "CSL.AX",
    "name": "CSL LTD",
    "wa": "AUD",
-   "kurs": 200.73,
-   "tag": -0.0199,
-   "dd": -0.825,
-   "a90": 22.9,
-   "a200": 39.7,
-   "rsi": 67.9,
-   "p3m": 47.9,
-   "ytd": 19.3,
+   "kurs": 200.05,
+   "tag": -0.339,
+   "dd": -1.16,
+   "a90": 21.8,
+   "a200": 39.1,
+   "rsi": 65.8,
+   "p3m": 48.5,
+   "ytd": 18.9,
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 123.41,
-   "fx": 0.614806,
+   "keur": 123.04,
+   "fx": 0.615021,
    "hoch52": 202.4,
    "tief52": 91.056,
-   "ma200": 143.69,
+   "ma200": 143.8,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "Australia",
     "div": 2.02,
     "div5j": 1.44,
+    "exdiv": "2026-09-09",
     "kgv_fwd": 21.28,
-    "zahlen": "2026-08-17",
-    "exdiv": "2026-09-09"
+    "land": "Australia",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-08-17"
    },
    "depot": {
-    "wert": 2344.789,
-    "gew": 0.721,
-    "erg": 103.3,
+    "wert": 2337.665,
+    "gew": 0.719,
+    "erg": 102.6,
     "stueck": 19.0,
     "einstand": 1153.63,
-    "div_eur": 47.365
+    "div_eur": 47.221
    },
-   "p1w": 1.01
+   "p1w": 1.37
   },
   {
    "t": "EVD.DE",
@@ -4533,15 +4529,15 @@
    "tief52": 47.692,
    "ma200": 58.267,
    "sd": {
-    "sektor": "Kommunikation",
     "branche": "Entertainment",
-    "land": "Germany",
     "div": 2.32,
     "div5j": 1.38,
+    "exdiv": "2026-05-28",
     "kgv": 19.38,
     "kgv_fwd": 16.9,
-    "zahlen": "2026-11-12",
-    "exdiv": "2026-05-28"
+    "land": "Germany",
+    "sektor": "Kommunikation",
+    "zahlen": "2026-11-12"
    },
    "depot": {
     "wert": 1244.0,
@@ -4568,29 +4564,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 30.632,
-   "fx": 0.0941947,
+   "keur": 30.634,
+   "fx": 0.0942006,
    "hoch52": 326.7,
    "tief52": 244.26,
    "ma200": 295.46,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Banks - Regional",
-    "land": "Norway",
     "div": 5.52,
     "div5j": 5.81,
+    "exdiv": "2026-04-22",
     "kgv": 11.96,
     "kgv_fwd": 11.32,
-    "zahlen": "2026-10-21",
-    "exdiv": "2026-04-22"
+    "land": "Norway",
+    "sektor": "Finanzen",
+    "zahlen": "2026-10-21"
    },
    "depot": {
-    "wert": 673.9065,
+    "wert": 673.949,
     "gew": 0.207,
-    "erg": 5.519,
+    "erg": 5.525,
     "stueck": 22.0,
     "einstand": 638.66,
-    "div_eur": 37.2
+    "div_eur": 37.202
    },
    "p1w": 2.17
   },
@@ -4618,12 +4614,12 @@
    "tief52": 22.06,
    "ma200": 29.299,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Software - Infrastructure",
-    "land": "United States",
     "div": 0.0,
     "kgv": 17.51,
     "kgv_fwd": 9.624,
+    "land": "United States",
+    "sektor": "Technologie",
     "zahlen": "2026-11-05"
    },
    "depot": {
@@ -4667,15 +4663,15 @@
    "tief52": 848.53,
    "ma200": 1101.4,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Drug Manufacturers - General",
-    "land": "United States",
     "div": 0.49,
     "div5j": 0.75,
+    "exdiv": "2026-11-13",
     "kgv": 46.49,
     "kgv_fwd": 28.34,
-    "zahlen": "2026-10-29",
-    "exdiv": "2026-11-13"
+    "land": "United States",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-10-29"
    },
    "depot": {
     "wert": 3934.59,
@@ -4711,15 +4707,15 @@
    "tief52": 139.0,
    "ma200": 179.81,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Medical Instruments & Supplies",
-    "land": "France",
     "div": 2.1,
     "div5j": 1.53,
+    "exdiv": "2026-05-05",
     "kgv": 35.07,
     "kgv_fwd": 23.67,
-    "zahlen": "2026-02-11",
-    "exdiv": "2026-05-05"
+    "land": "France",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-02-11"
    },
    "depot": {
     "wert": 658.6393,
@@ -4762,12 +4758,12 @@
    "tief52": 40.74,
    "ma200": 51.84,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "United States",
     "div": 0.0,
     "kgv": 21.13,
     "kgv_fwd": 16.51,
+    "land": "United States",
+    "sektor": "Gesundheit",
     "zahlen": "2026-10-29"
    },
    "depot": {
@@ -4800,15 +4796,15 @@
    "tief52": 112.26,
    "ma200": 154.78,
    "sd": {
-    "sektor": "Energie",
     "branche": "Oil & Gas Integrated",
-    "land": "United States",
     "div": 2.6,
     "div5j": 3.34,
+    "exdiv": "2026-11-16",
     "kgv": 16.92,
     "kgv_fwd": 13.22,
-    "zahlen": "2027-01-29",
-    "exdiv": "2026-11-16"
+    "land": "United States",
+    "sektor": "Energie",
+    "zahlen": "2027-01-29"
    },
    "depot": {
     "wert": 441.6513,
@@ -4841,15 +4837,15 @@
    "tief52": 20.182,
    "ma200": 30.04,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Asset Management",
-    "land": "United States",
     "div": 3.68,
     "div5j": 4.69,
+    "exdiv": "2026-09-30",
     "kgv": 18.42,
     "kgv_fwd": 10.03,
-    "zahlen": "2027-01-29",
-    "exdiv": "2026-09-30"
+    "land": "United States",
+    "sektor": "Finanzen",
+    "zahlen": "2027-01-29"
    },
    "depot": {
     "wert": 877.0459,
@@ -4882,15 +4878,15 @@
    "tief52": 17.908,
    "ma200": 37.279,
    "sd": {
-    "sektor": "Energie",
     "branche": "Oil & Gas Midstream",
-    "land": "Cyprus",
     "div": 12.15,
     "div5j": 3.51,
+    "exdiv": "2026-09-18",
     "kgv": 6.577,
     "kgv_fwd": 7.028,
-    "zahlen": "2026-11-20",
-    "exdiv": "2026-09-18"
+    "land": "Cyprus",
+    "sektor": "Energie",
+    "zahlen": "2026-11-20"
    },
    "depot": {
     "wert": 3940.273,
@@ -4926,11 +4922,11 @@
    "tief52": 11.21,
    "ma200": null,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "United States",
     "div": 0.0,
     "kgv_fwd": -6.044,
+    "land": "United States",
+    "sektor": "Gesundheit",
     "zahlen": "2026-11-12"
    },
    "depot": {
@@ -4968,14 +4964,14 @@
    "tief52": 115.3,
    "ma200": 140.12,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Drug Manufacturers - General",
-    "land": "United States",
     "div": 1.94,
     "div5j": 3.28,
+    "exdiv": "2026-12-15",
     "kgv_fwd": 16.88,
-    "zahlen": "2026-10-29",
-    "exdiv": "2026-12-15"
+    "land": "United States",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-10-29"
    },
    "depot": {
     "wert": 2753.023,
@@ -5010,29 +5006,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 25.998,
-   "fx": 0.0941947,
+   "keur": 25.999,
+   "fx": 0.0942006,
    "hoch52": 286.4,
    "tief52": 241.0,
    "ma200": 263.84,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Insurance - Property & Casualty",
-    "land": "Norway",
     "div": 3.64,
     "div5j": 3.96,
+    "exdiv": "2026-03-27",
     "kgv": 19.97,
     "kgv_fwd": 15.79,
-    "zahlen": "2026-10-23",
-    "exdiv": "2026-03-27"
+    "land": "Norway",
+    "sektor": "Finanzen",
+    "zahlen": "2026-10-23"
    },
    "depot": {
-    "wert": 623.9456,
+    "wert": 623.985,
     "gew": 0.192,
-    "erg": 11.77,
+    "erg": 11.78,
     "stueck": 24.0,
     "einstand": 558.24,
-    "div_eur": 22.712
+    "div_eur": 22.713
    },
    "p1w": 3.29
   },
@@ -5051,29 +5047,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 22.909,
-   "fx": 0.0119504,
+   "keur": 22.911,
+   "fx": 0.0119514,
    "hoch52": 2267.4,
    "tief52": 1735.5,
    "ma200": 1953.7,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Drug Manufacturers - General",
-    "land": "United Kingdom",
     "div": 3.6,
     "div5j": 4.1,
+    "exdiv": "2026-11-12",
     "kgv": 17.92,
     "kgv_fwd": 10.2,
-    "zahlen": "2026-10-28",
-    "exdiv": "2026-11-12"
+    "land": "United Kingdom",
+    "sektor": "Gesundheit",
+    "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 549.8153,
+    "wert": 549.8614,
     "gew": 0.169,
-    "erg": 35.34,
+    "erg": 35.35,
     "stueck": 24.0,
     "einstand": 406.26,
-    "div_eur": 19.793
+    "div_eur": 19.795
    },
    "p1w": 4.9
   },
@@ -5100,15 +5096,15 @@
    "tief52": 13.109,
    "ma200": 15.567,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Asset Management",
-    "land": "United States",
     "div": 11.48,
     "div5j": 10.16,
+    "exdiv": "2026-11-10",
     "kgv": 8.62,
     "kgv_fwd": 8.266,
-    "zahlen": "2026-10-29",
-    "exdiv": "2026-11-10"
+    "land": "United States",
+    "sektor": "Finanzen",
+    "zahlen": "2026-10-29"
    },
    "depot": {
     "wert": 981.1729,
@@ -5144,15 +5140,15 @@
    "tief52": 19.665,
    "ma200": 41.586,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Communication Equipment",
-    "land": "United States",
     "div": 1.2,
     "div5j": 2.4,
+    "exdiv": "2026-09-17",
     "kgv": 24.71,
     "kgv_fwd": 10.12,
-    "zahlen": "2026-11-23",
-    "exdiv": "2026-09-17"
+    "land": "United States",
+    "sektor": "Technologie",
+    "zahlen": "2026-11-23"
    },
    "depot": {
     "wert": 3346.367,
@@ -5187,29 +5183,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 16.079,
-   "fx": 0.0941947,
+   "keur": 16.08,
+   "fx": 0.0942006,
    "hoch52": 192.82,
    "tief52": 78.964,
    "ma200": 150.35,
    "sd": {
-    "sektor": "Industrie",
     "branche": "Marine Shipping",
-    "land": "Norway",
     "div": 1.83,
     "div5j": 9.56,
+    "exdiv": "2026-08-24",
     "kgv": 7.737,
     "kgv_fwd": 8.346,
-    "zahlen": "2026-11-19",
-    "exdiv": "2026-08-24"
+    "land": "Norway",
+    "sektor": "Industrie",
+    "zahlen": "2026-11-19"
    },
    "depot": {
-    "wert": 11560.82,
+    "wert": 11561.55,
     "gew": 3.56,
-    "erg": 68.25,
+    "erg": 68.26,
     "stueck": 719.0,
     "einstand": 6871.14,
-    "div_eur": 211.56
+    "div_eur": 211.58
    },
    "p1w": -4.85
   },
@@ -5234,14 +5230,14 @@
    "tief52": 149.59,
    "ma200": null,
    "sd": {
-    "sektor": "Industrie",
     "branche": "Aerospace & Defense",
-    "land": "United States",
     "div": 0.97,
+    "exdiv": "2026-11-13",
     "kgv": 47.16,
     "kgv_fwd": 19.05,
-    "zahlen": "2026-10-28",
-    "exdiv": "2026-11-13"
+    "land": "United States",
+    "sektor": "Industrie",
+    "zahlen": "2026-10-28"
    },
    "depot": {
     "wert": 74.50365,
@@ -5274,15 +5270,15 @@
    "tief52": 194.68,
    "ma200": 229.42,
    "sd": {
-    "sektor": "Industrie",
     "branche": "Conglomerates",
-    "land": "United States",
     "div": 1.22,
     "div5j": 2.12,
+    "exdiv": "2026-11-13",
     "kgv": 11.31,
     "kgv_fwd": 23.11,
-    "zahlen": "2027-01-28",
-    "exdiv": "2026-11-13"
+    "land": "United States",
+    "sektor": "Industrie",
+    "zahlen": "2027-01-28"
    },
    "depot": {
     "wert": 204.2797,
@@ -5318,11 +5314,11 @@
    "tief52": 145.58,
    "ma200": 293.99,
    "sd": {
-    "sektor": "Industrie",
     "branche": "Engineering & Construction",
-    "land": "United States",
     "div": 0.0,
     "kgv": 15.31,
+    "land": "United States",
+    "sektor": "Industrie",
     "zahlen": "2026-11-20"
    },
    "depot": {
@@ -5357,12 +5353,12 @@
    "tief52": 90.3,
    "ma200": 108.62,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Biotechnology",
-    "land": "United States",
     "div": 0.0,
     "kgv": 61.38,
     "kgv_fwd": 13.93,
+    "land": "United States",
+    "sektor": "Gesundheit",
     "zahlen": "2026-10-29"
    },
    "depot": {
@@ -5395,15 +5391,15 @@
    "tief52": 20.338,
    "ma200": 26.927,
    "sd": {
-    "sektor": "Finanzen",
     "branche": "Banks - Diversified",
-    "land": "Netherlands",
     "div": 3.86,
     "div5j": 5.34,
+    "exdiv": "2026-08-03",
     "kgv": 12.73,
     "kgv_fwd": 9.936,
-    "zahlen": "2027-01-28",
-    "exdiv": "2026-08-03"
+    "land": "Netherlands",
+    "sektor": "Finanzen",
+    "zahlen": "2027-01-28"
    },
    "depot": {
     "wert": 628.005,
@@ -5438,15 +5434,15 @@
    "tief52": 204.3,
    "ma200": 245.54,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Information Technology Services",
-    "land": "United States",
     "div": 2.75,
     "div5j": 3.45,
+    "exdiv": "2026-11-10",
     "kgv": 20.86,
     "kgv_fwd": 18.48,
-    "zahlen": "2027-01-27",
-    "exdiv": "2026-11-10"
+    "land": "United States",
+    "sektor": "Technologie",
+    "zahlen": "2027-01-27"
    },
    "depot": {
     "wert": 437.7576,
@@ -5490,12 +5486,12 @@
    "tief52": 332.02,
    "ma200": 430.49,
    "sd": {
-    "sektor": "Gesundheit",
     "branche": "Medical Instruments & Supplies",
-    "land": "United States",
     "div": 0.0,
     "kgv": 54.42,
     "kgv_fwd": 36.09,
+    "land": "United States",
+    "sektor": "Gesundheit",
     "zahlen": "2027-01-21"
    },
    "depot": {
@@ -5530,12 +5526,12 @@
    "tief52": 26.43,
    "ma200": 41.438,
    "sd": {
-    "sektor": "Technologie",
     "branche": "Computer Hardware",
-    "land": "United States",
     "div": 0.0,
     "kgv": 20.23,
     "kgv_fwd": -24.92,
+    "land": "United States",
+    "sektor": "Technologie",
     "zahlen": "2026-11-05"
    },
    "depot": {
@@ -5571,12 +5567,12 @@
    "tief52": 156.66,
    "ma200": 210.56,
    "sd": {
-    "branche": "Diagnostics & Research",
-    "div": 0.0,
-    "kgv": 32.41,
-    "kgv_fwd": 18.76,
-    "land": "United States",
     "sektor": "Gesundheit",
+    "branche": "Diagnostics & Research",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 33.47,
+    "kgv_fwd": 19.37,
     "zahlen": "2026-10-27"
    },
    "depot": {
@@ -5604,27 +5600,27 @@
    "gruppe": null,
    "aus": false,
    "keur": 12.795,
-   "fx": 0.114142,
+   "fx": 0.114138,
    "hoch52": 130.4,
    "tief52": 96.0,
    "ma200": 111.64,
    "sd": {
-    "branche": "Internet Retail",
-    "div": 3.65,
-    "exdiv": "2026-04-08",
-    "kgv": 19.02,
-    "kgv_fwd": 6.798,
-    "land": "China",
     "sektor": "Zyklischer Konsum",
-    "zahlen": "2026-11-17"
+    "branche": "Internet Retail",
+    "land": "China",
+    "div": 3.49,
+    "kgv": 20.02,
+    "kgv_fwd": 7.155,
+    "zahlen": "2026-11-17",
+    "exdiv": "2026-04-08"
    },
    "depot": {
-    "wert": 831.6982,
+    "wert": 831.6688,
     "gew": 0.256,
     "erg": -22.52,
     "stueck": 65.0,
     "einstand": 1073.41,
-    "div_eur": 30.357
+    "div_eur": 29.025
    },
    "p1w": 4.47
   },
@@ -5649,14 +5645,14 @@
    "tief52": 24.526,
    "ma200": 28.298,
    "sd": {
-    "branche": "Internet Retail",
-    "div": 3.72,
-    "exdiv": "2026-04-09",
-    "kgv": 19.45,
-    "kgv_fwd": 6.916,
-    "land": "China",
     "sektor": "Zyklischer Konsum",
-    "zahlen": "2026-11-17"
+    "branche": "Internet Retail",
+    "land": "China",
+    "div": 3.52,
+    "kgv": 19.8,
+    "kgv_fwd": 7.059,
+    "zahlen": "2026-11-17",
+    "exdiv": "2026-04-09"
    },
    "depot": {
     "wert": 76.02084,
@@ -5664,7 +5660,7 @@
     "erg": 4.138,
     "stueck": 3.0,
     "einstand": 73.0,
-    "div_eur": 2.828
+    "div_eur": 2.6759
    },
    "p1w": 5.2
   },
@@ -5685,21 +5681,21 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 0.50965,
-   "fx": 0.114142,
+   "keur": 0.50963,
+   "fx": 0.114138,
    "hoch52": 9.42,
    "tief52": 4.015,
    "ma200": 6.2195,
    "sd": {
-    "branche": "Software - Application",
-    "div": 0.0,
-    "kgv_fwd": -116.6,
-    "land": "China",
     "sektor": "Technologie",
+    "branche": "Software - Application",
+    "land": "China",
+    "div": 0.0,
+    "kgv_fwd": -125.6,
     "zahlen": "2025-08-18"
    },
    "depot": {
-    "wert": 217.6187,
+    "wert": 217.611,
     "gew": 0.0669,
     "erg": -35.35,
     "stueck": 427.0,
@@ -5730,15 +5726,15 @@
    "tief52": 138.95,
    "ma200": 283.65,
    "sd": {
-    "branche": "Semiconductor Equipment & Materials",
-    "div": 0.57,
-    "div5j": 0.78,
-    "exdiv": "2026-09-23",
-    "kgv": 32.26,
-    "kgv_fwd": 17.93,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2027-01-27"
+    "branche": "Semiconductor Equipment & Materials",
+    "land": "United States",
+    "div": 0.6,
+    "div5j": 0.78,
+    "kgv": 33.14,
+    "kgv_fwd": 18.17,
+    "zahlen": "2027-01-27",
+    "exdiv": "2026-12-02"
    },
    "depot": {
     "wert": 1592.49,
@@ -5746,7 +5742,7 @@
     "erg": 103.9,
     "stueck": 8.0,
     "einstand": 781.03,
-    "div_eur": 9.0772
+    "div_eur": 9.5549
    },
    "p1w": -3.61
   },
@@ -5771,15 +5767,15 @@
    "tief52": 385.58,
    "ma200": 493.42,
    "sd": {
-    "branche": "Specialty Chemicals",
-    "div": 1.25,
-    "div5j": 1.29,
-    "exdiv": "2026-12-03",
-    "kgv": 34.86,
-    "kgv_fwd": 26.86,
-    "land": "United Kingdom",
     "sektor": "Grundstoffe",
-    "zahlen": "2026-10-29"
+    "branche": "Specialty Chemicals",
+    "land": "United Kingdom",
+    "div": 1.23,
+    "div5j": 1.29,
+    "kgv": 34.65,
+    "kgv_fwd": 26.69,
+    "zahlen": "2026-10-29",
+    "exdiv": "2026-12-03"
    },
    "depot": {
     "wert": 467.0453,
@@ -5787,7 +5783,7 @@
     "erg": 39.0,
     "stueck": 1.0,
     "einstand": 336.0,
-    "div_eur": 5.8381
+    "div_eur": 5.7447
    },
    "p1w": 2.0
   },
@@ -5812,14 +5808,14 @@
    "tief52": 3.98,
    "ma200": 7.1139,
    "sd": {
+    "sektor": "Kommunikation",
     "branche": "Telecom Services",
+    "land": "United States",
     "div": 0.0,
     "div5j": 10.02,
-    "exdiv": "2022-08-29",
-    "kgv_fwd": -16.27,
-    "land": "United States",
-    "sektor": "Kommunikation",
-    "zahlen": "2026-11-04"
+    "kgv_fwd": -13.01,
+    "zahlen": "2027-02-02",
+    "exdiv": "2022-08-29"
    },
    "depot": {
     "wert": 4.215921,
@@ -5854,15 +5850,15 @@
    "tief52": 378.55,
    "ma200": 461.33,
    "sd": {
-    "branche": "Luxury Goods",
-    "div": 3.24,
-    "div5j": 1.75,
-    "exdiv": "2026-12-01",
-    "kgv": 19.35,
-    "kgv_fwd": 17.24,
-    "land": "France",
     "sektor": "Zyklischer Konsum",
-    "zahlen": "2026-07-27"
+    "branche": "Luxury Goods",
+    "land": "France",
+    "div": 3.23,
+    "div5j": 1.76,
+    "kgv": 18.28,
+    "kgv_fwd": 16.77,
+    "zahlen": "2026-07-27",
+    "exdiv": "2026-12-01"
    },
    "depot": {
     "wert": 1847.132,
@@ -5870,7 +5866,7 @@
     "erg": -21.11,
     "stueck": 4.596,
     "einstand": 2341.52,
-    "div_eur": 59.847
+    "div_eur": 59.662
    },
    "p1w": 0.0996,
    "ab": {
@@ -5903,15 +5899,15 @@
    "tief52": 1490.2,
    "ma200": 1795.2,
    "sd": {
+    "sektor": "Zyklischer Konsum",
     "branche": "Internet Retail",
+    "land": "Uruguay",
     "div": 0.0,
     "div5j": 0.19,
-    "exdiv": "2017-12-28",
-    "kgv": 47.79,
-    "kgv_fwd": 31.17,
-    "land": "Uruguay",
-    "sektor": "Zyklischer Konsum",
-    "zahlen": "2026-11-04"
+    "kgv": 39.97,
+    "kgv_fwd": 27.38,
+    "zahlen": "2026-11-04",
+    "exdiv": "2017-12-28"
    },
    "depot": {
     "wert": 1333.914,
@@ -5945,15 +5941,15 @@
    "tief52": 851.25,
    "ma200": 1320.7,
    "sd": {
-    "branche": "Semiconductors",
-    "div": 0.6,
-    "div5j": 0.62,
-    "exdiv": "2026-09-30",
-    "kgv": 68.6,
-    "kgv_fwd": 27.0,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2026-10-29"
+    "branche": "Semiconductors",
+    "land": "United States",
+    "div": 0.58,
+    "div5j": 0.62,
+    "kgv": 74.43,
+    "kgv_fwd": 29.29,
+    "zahlen": "2026-10-29",
+    "exdiv": "2026-09-30"
    },
    "depot": {
     "wert": 3977.31,
@@ -5961,7 +5957,7 @@
     "erg": 111.8,
     "stueck": 3.273,
     "einstand": 1877.84,
-    "div_eur": 23.864
+    "div_eur": 23.068
    },
    "p1w": 2.21
   },
@@ -5988,15 +5984,15 @@
    "tief52": 52.05,
    "ma200": 63.466,
    "sd": {
-    "branche": "Software - Application",
-    "div": 0.89,
-    "div5j": 0.56,
-    "exdiv": "2026-05-22",
-    "kgv": 35.54,
-    "kgv_fwd": 26.65,
-    "land": "Germany",
     "sektor": "Technologie",
-    "zahlen": "2026-11-05"
+    "branche": "Software - Application",
+    "land": "Germany",
+    "div": 1.05,
+    "div5j": 0.56,
+    "kgv": 30.19,
+    "kgv_fwd": 23.17,
+    "zahlen": "2026-11-05",
+    "exdiv": "2026-05-22"
    },
    "depot": {
     "wert": 516.0,
@@ -6004,7 +6000,7 @@
     "erg": -0.9407,
     "stueck": 8.0,
     "einstand": 520.9,
-    "div_eur": 4.5924
+    "div_eur": 5.418
    },
    "p1w": -12.2,
    "ab": {
@@ -6041,12 +6037,12 @@
    "tief52": 61.99,
    "ma200": 80.818,
    "sd": {
-    "branche": "Entertainment",
-    "div": 0.0,
-    "kgv": 19.24,
-    "kgv_fwd": 17.65,
-    "land": "United States",
     "sektor": "Kommunikation",
+    "branche": "Entertainment",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 18.28,
+    "kgv_fwd": 16.77,
     "zahlen": "2027-01-19"
    },
    "depot": {
@@ -6090,15 +6086,15 @@
    "tief52": 33.87,
    "ma200": 44.536,
    "sd": {
-    "branche": "Footwear & Accessories",
-    "div": 4.26,
-    "div5j": 1.48,
-    "exdiv": "2026-09-01",
-    "kgv": 19.37,
-    "kgv_fwd": 25.87,
-    "land": "United States",
     "sektor": "Zyklischer Konsum",
-    "zahlen": "2026-12-17"
+    "branche": "Footwear & Accessories",
+    "land": "United States",
+    "div": 4.11,
+    "div5j": 1.49,
+    "kgv": 18.59,
+    "kgv_fwd": 25.03,
+    "zahlen": "2026-12-17",
+    "exdiv": "2026-09-01"
    },
    "depot": {
     "wert": 1626.835,
@@ -6106,7 +6102,7 @@
     "erg": -39.46,
     "stueck": 47.0,
     "einstand": 2687.29,
-    "div_eur": 69.303
+    "div_eur": 66.863
    },
    "p1w": 0.494,
    "ab": {
@@ -6139,15 +6135,15 @@
    "tief52": 220.97,
    "ma200": 279.46,
    "sd": {
-    "branche": "Drug Manufacturers - General",
-    "div": 4.33,
-    "div5j": 1.5,
-    "exdiv": "2026-08-14",
-    "kgv": 10.89,
-    "kgv_fwd": 12.83,
-    "land": "Denmark",
     "sektor": "Gesundheit",
-    "zahlen": "2026-11-04"
+    "branche": "Drug Manufacturers - General",
+    "land": "Denmark",
+    "div": 4.29,
+    "div5j": 1.5,
+    "kgv": 10.65,
+    "kgv_fwd": 11.93,
+    "zahlen": "2027-02-03",
+    "exdiv": "2026-08-14"
    },
    "depot": {
     "wert": 4867.01,
@@ -6155,7 +6151,7 @@
     "erg": -31.27,
     "stueck": 134.005,
     "einstand": 7081.39,
-    "div_eur": 210.74
+    "div_eur": 208.79
    },
    "p1w": 0.5
   },
@@ -6182,12 +6178,12 @@
    "tief52": 11.6,
    "ma200": 14.268,
    "sd": {
-    "branche": "Banks - Regional",
-    "div": 0.0,
-    "kgv": 16.45,
-    "kgv_fwd": 10.67,
-    "land": "Brazil",
     "sektor": "Finanzen",
+    "branche": "Banks - Regional",
+    "land": "Brazil",
+    "div": 0.0,
+    "kgv": 16.55,
+    "kgv_fwd": 10.91,
     "zahlen": "2026-11-12"
    },
    "depot": {
@@ -6225,13 +6221,13 @@
    "tief52": 34.41,
    "ma200": 53.043,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 0.0,
-    "kgv": 12.34,
-    "kgv_fwd": 23.78,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2026-11-25"
+    "branche": "Software - Infrastructure",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 11.47,
+    "kgv_fwd": 22.11,
+    "zahlen": "2026-11-24"
    },
    "depot": {
     "wert": 1114.48,
@@ -6274,12 +6270,12 @@
    "tief52": 62.93,
    "ma200": 127.65,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 0.0,
-    "kgv": 110.9,
-    "kgv_fwd": 43.07,
-    "land": "United States",
     "sektor": "Technologie",
+    "branche": "Software - Infrastructure",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 107.4,
+    "kgv_fwd": 40.74,
     "zahlen": "2026-12-01"
    },
    "depot": {
@@ -6323,12 +6319,12 @@
    "tief52": 141.67,
    "ma200": 275.05,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 0.0,
-    "kgv": 879.9,
-    "kgv_fwd": 72.14,
-    "land": "United States",
     "sektor": "Technologie",
+    "branche": "Software - Infrastructure",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 815.9,
+    "kgv_fwd": 66.83,
     "zahlen": "2026-11-18"
    },
    "depot": {
@@ -6369,15 +6365,15 @@
    "tief52": 82.77,
    "ma200": 101.69,
    "sd": {
-    "branche": "Software - Application",
-    "div": 4.12,
-    "div5j": 2.84,
-    "exdiv": "2026-10-26",
-    "kgv": 23.7,
-    "kgv_fwd": 18.69,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2026-12-18"
+    "branche": "Software - Application",
+    "land": "United States",
+    "div": 4.15,
+    "div5j": 2.84,
+    "kgv": 23.06,
+    "kgv_fwd": 18.19,
+    "zahlen": "2026-12-18",
+    "exdiv": "2026-10-26"
    },
    "depot": {
     "wert": 312.0319,
@@ -6385,7 +6381,7 @@
     "erg": 31.67,
     "stueck": 3.0,
     "einstand": 236.98,
-    "div_eur": 12.856
+    "div_eur": 12.949
    },
    "p1w": 0.476
   },
@@ -6404,29 +6400,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 8.1481,
-   "fx": 0.160269,
+   "keur": 8.1472,
+   "fx": 0.160251,
    "hoch52": 66.49,
    "tief52": 29.475,
    "ma200": 47.955,
    "sd": {
-    "branche": "Oil & Gas Integrated",
-    "div": 6.34,
-    "div5j": 14.56,
-    "exdiv": "2026-08-24",
-    "kgv": 4.871,
-    "kgv_fwd": 3.583,
-    "land": "Brazil",
     "sektor": "Energie",
-    "zahlen": "2026-11-10"
+    "branche": "Oil & Gas Integrated",
+    "land": "Brazil",
+    "div": 7.18,
+    "div5j": 14.54,
+    "kgv": 4.847,
+    "kgv_fwd": 3.97,
+    "zahlen": "2026-11-10",
+    "exdiv": "2026-08-24"
    },
    "depot": {
-    "wert": 1621.47,
+    "wert": 1621.288,
     "gew": 0.499,
-    "erg": 45.25,
+    "erg": 45.23,
     "stueck": 199.0,
     "einstand": 1116.35,
-    "div_eur": 102.8
+    "div_eur": 116.41
    },
    "p1w": -12.1
   },
@@ -6451,15 +6447,15 @@
    "tief52": 11.061,
    "ma200": 18.875,
    "sd": {
-    "branche": "Oil & Gas Integrated",
-    "div": 6.78,
-    "div5j": 15.37,
-    "exdiv": "2026-08-25",
-    "kgv": 4.915,
-    "kgv_fwd": 4.697,
-    "land": "Brazil",
     "sektor": "Energie",
-    "zahlen": "2026-11-10"
+    "branche": "Oil & Gas Integrated",
+    "land": "Brazil",
+    "div": 7.79,
+    "div5j": 15.35,
+    "kgv": 4.616,
+    "kgv_fwd": 4.286,
+    "zahlen": "2026-11-10",
+    "exdiv": "2026-08-25"
    },
    "depot": {
     "wert": 818.1215,
@@ -6467,7 +6463,7 @@
     "erg": 57.63,
     "stueck": 50.0,
     "einstand": 519.0,
-    "div_eur": 55.469
+    "div_eur": 63.732
    },
    "p1w": -13.3
   },
@@ -6495,15 +6491,15 @@
    "tief52": 22.859,
    "ma200": 26.135,
    "sd": {
-    "branche": "Drug Manufacturers - General",
-    "div": 5.73,
-    "div5j": 4.8,
-    "exdiv": "2026-11-06",
-    "kgv": 41.46,
-    "kgv_fwd": 10.55,
-    "land": "United States",
     "sektor": "Gesundheit",
-    "zahlen": "2027-02-02"
+    "branche": "Drug Manufacturers - General",
+    "land": "United States",
+    "div": 5.88,
+    "div5j": 4.81,
+    "kgv": 41.94,
+    "kgv_fwd": 9.996,
+    "zahlen": "2027-02-02",
+    "exdiv": "2026-11-06"
    },
    "depot": {
     "wert": 5362.567,
@@ -6511,7 +6507,7 @@
     "erg": 9.112,
     "stueck": 204.054,
     "einstand": 4914.75,
-    "div_eur": 307.28
+    "div_eur": 315.32
    },
    "p1w": -0.704
   },
@@ -6538,15 +6534,15 @@
    "tief52": 80.202,
    "ma200": 121.98,
    "sd": {
-    "branche": "Electrical Equipment & Parts",
-    "div": 0.8,
-    "div5j": 1.2,
-    "exdiv": "2026-04-20",
-    "kgv": 25.97,
-    "kgv_fwd": 16.18,
-    "land": "Italy",
     "sektor": "Industrie",
-    "zahlen": "2026-10-29"
+    "branche": "Electrical Equipment & Parts",
+    "land": "Italy",
+    "div": 0.89,
+    "div5j": 1.19,
+    "kgv": 26.67,
+    "kgv_fwd": 16.38,
+    "zahlen": "2026-10-29",
+    "exdiv": "2026-04-20"
    },
    "depot": {
     "wert": 1069.0,
@@ -6554,7 +6550,7 @@
     "erg": 72.44,
     "stueck": 10.0,
     "einstand": 619.93,
-    "div_eur": 8.552
+    "div_eur": 9.5141
    },
    "p1w": -4.68
   },
@@ -6581,15 +6577,15 @@
    "tief52": 412.96,
    "ma200": 630.18,
    "sd": {
+    "sektor": "Industrie",
     "branche": "Engineering & Construction",
+    "land": "United States",
     "div": 0.07,
     "div5j": 0.12,
-    "exdiv": "2026-10-01",
-    "kgv": 52.36,
-    "kgv_fwd": 26.74,
-    "land": "United States",
-    "sektor": "Industrie",
-    "zahlen": "2026-10-29"
+    "kgv": 52.77,
+    "kgv_fwd": 26.95,
+    "zahlen": "2026-10-29",
+    "exdiv": "2026-10-01"
    },
    "depot": {
     "wert": 1043.937,
@@ -6622,15 +6618,15 @@
    "tief52": 17.99,
    "ma200": 20.453,
    "sd": {
-    "branche": "REIT - Specialty",
-    "div": 5.3,
-    "div5j": 3.76,
-    "exdiv": "2026-12-17",
-    "kgv": 43.77,
-    "kgv_fwd": 35.49,
-    "land": "United States",
     "sektor": "Immobilien",
-    "zahlen": "2026-11-04"
+    "branche": "REIT - Specialty",
+    "land": "United States",
+    "div": 4.77,
+    "div5j": 3.77,
+    "kgv": 34.65,
+    "kgv_fwd": 37.04,
+    "zahlen": "2026-11-04",
+    "exdiv": "2026-12-17"
    },
    "depot": {
     "wert": 845.9769,
@@ -6638,7 +6634,7 @@
     "erg": -2.619,
     "stueck": 44.0,
     "einstand": 868.73,
-    "div_eur": 44.837
+    "div_eur": 40.353
    },
    "p1w": 9.48
   },
@@ -6660,28 +6656,29 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 436.57,
-   "fx": 1.08546,
+   "keur": 436.5,
+   "fx": 1.08529,
    "hoch52": 403.4,
    "tief52": 260.43,
    "ma200": 343.96,
    "sd": {
+    "sektor": "Gesundheit",
     "branche": "Drug Manufacturers - General",
-    "div": 2.51,
-    "div5j": 3.22,
-    "exdiv": "2026-03-12",
-    "kgv": 25.83,
-    "kgv_fwd": 17.93,
     "land": "Switzerland",
-    "sektor": "Gesundheit"
+    "div": 2.44,
+    "div5j": 3.22,
+    "kgv": 26.21,
+    "kgv_fwd": 18.22,
+    "zahlen": "2027-01-28",
+    "exdiv": "2026-03-12"
    },
    "depot": {
-    "wert": 1432.39,
+    "wert": 1432.173,
     "gew": 0.441,
-    "erg": 72.64,
+    "erg": 72.61,
     "stueck": 3.281,
     "einstand": 829.71,
-    "div_eur": 35.953
+    "div_eur": 34.945
    },
    "p1w": 2.86
   },
@@ -6706,15 +6703,15 @@
    "tief52": 346.37,
    "ma200": 425.31,
    "sd": {
-    "branche": "Specialty Industrial Machinery",
-    "div": 1.3,
-    "div5j": 1.59,
-    "exdiv": "2026-11-16",
-    "kgv": 41.49,
-    "kgv_fwd": 29.7,
-    "land": "United States",
     "sektor": "Industrie",
-    "zahlen": "2026-11-05"
+    "branche": "Specialty Industrial Machinery",
+    "land": "United States",
+    "div": 1.49,
+    "div5j": 1.59,
+    "kgv": 31.67,
+    "kgv_fwd": 23.79,
+    "zahlen": "2027-02-04",
+    "exdiv": "2026-11-16"
    },
    "depot": {
     "wert": 607.9015,
@@ -6722,7 +6719,7 @@
     "erg": -3.058,
     "stueck": 1.71,
     "einstand": 627.08,
-    "div_eur": 7.9027
+    "div_eur": 9.0577
    },
    "p1w": -11.0
   },
@@ -6750,11 +6747,11 @@
    "tief52": 10.49,
    "ma200": 16.123,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 0.0,
-    "kgv_fwd": 49.01,
-    "land": "United States",
     "sektor": "Technologie",
+    "branche": "Software - Infrastructure",
+    "land": "United States",
+    "div": 0.0,
+    "kgv_fwd": 49.53,
     "zahlen": "2026-12-15"
    },
    "depot": {
@@ -6791,14 +6788,14 @@
    "tief52": 149.86,
    "ma200": 197.46,
    "sd": {
-    "branche": "Software - Application",
-    "div": 0.79,
-    "exdiv": "2026-09-17",
-    "kgv": 21.2,
-    "kgv_fwd": 14.22,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2026-12-02"
+    "branche": "Software - Application",
+    "land": "United States",
+    "div": 0.82,
+    "kgv": 19.53,
+    "kgv_fwd": 13.33,
+    "zahlen": "2026-12-02",
+    "exdiv": "2026-09-17"
    },
    "depot": {
     "wert": 2484.117,
@@ -6806,7 +6803,7 @@
     "erg": 8.554,
     "stueck": 13.0,
     "einstand": 2288.38,
-    "div_eur": 19.625
+    "div_eur": 20.37
    },
    "p1w": -3.92,
    "ab": {
@@ -6841,15 +6838,15 @@
    "tief52": 128.32,
    "ma200": 165.1,
    "sd": {
+    "sektor": "Technologie",
     "branche": "Software - Application",
+    "land": "Germany",
     "div": 1.19,
     "div5j": 1.34,
-    "exdiv": "2026-05-06",
-    "kgv": 31.01,
-    "kgv_fwd": 25.29,
-    "land": "Germany",
-    "sektor": "Technologie",
-    "zahlen": "2026-10-21"
+    "kgv": 30.38,
+    "kgv_fwd": 24.74,
+    "zahlen": "2026-10-21",
+    "exdiv": "2026-05-06"
    },
    "depot": {
     "wert": 2101.0,
@@ -6892,11 +6889,11 @@
    "tief52": 11.94,
    "ma200": 17.934,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 0.0,
-    "kgv_fwd": 51.1,
-    "land": "United States",
     "sektor": "Technologie",
+    "branche": "Software - Infrastructure",
+    "land": "United States",
+    "div": 0.0,
+    "kgv_fwd": 50.83,
     "zahlen": "2026-12-03"
    },
    "depot": {
@@ -6931,11 +6928,11 @@
    "tief52": 121.11,
    "ma200": 241.87,
    "sd": {
-    "branche": "Software - Application",
-    "div": 0.0,
-    "kgv_fwd": 95.09,
-    "land": "United States",
     "sektor": "Technologie",
+    "branche": "Software - Application",
+    "land": "United States",
+    "div": 0.0,
+    "kgv_fwd": 97.21,
     "zahlen": "2026-12-02"
    },
    "depot": {
@@ -6962,27 +6959,27 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 0.80288,
-   "fx": 0.00564216,
+   "keur": 0.80264,
+   "fx": 0.00564048,
    "hoch52": 168.98,
    "tief52": 129.21,
    "ma200": 146.31,
    "sd": {
-    "branche": "Insurance - Life",
-    "div": 5.56,
-    "exdiv": "2027-03-30",
-    "kgv": 18.71,
-    "land": "Japan",
     "sektor": "Finanzen",
-    "zahlen": "2026-11-12"
+    "branche": "Insurance - Life",
+    "land": "Japan",
+    "div": 5.6,
+    "kgv": 18.43,
+    "zahlen": "2026-11-12",
+    "exdiv": "2027-03-30"
    },
    "depot": {
-    "wert": 39.34111,
+    "wert": 39.32935,
     "gew": 0.0121,
     "erg": null,
     "stueck": 49.0,
     "einstand": 0.0,
-    "div_eur": 2.1874
+    "div_eur": 2.2024
    },
    "p1w": -1.04
   },
@@ -7001,29 +6998,29 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 23.906,
-   "fx": 0.00564216,
+   "keur": 23.899,
+   "fx": 0.00564048,
    "hoch52": 4659.4,
    "tief52": 3098.2,
    "ma200": 3540.3,
    "sd": {
-    "branche": "Consumer Electronics",
-    "div": 0.88,
-    "div5j": 0.59,
-    "exdiv": "2027-03-30",
-    "kgv": 21.11,
-    "kgv_fwd": 21.47,
-    "land": "Japan",
     "sektor": "Technologie",
-    "zahlen": "2026-11-05"
+    "branche": "Consumer Electronics",
+    "land": "Japan",
+    "div": 0.81,
+    "div5j": 0.59,
+    "kgv": 20.36,
+    "kgv_fwd": 23.13,
+    "zahlen": "2027-02-04",
+    "exdiv": "2027-03-30"
    },
    "depot": {
-    "wert": 1769.032,
+    "wert": 1768.504,
     "gew": 0.544,
-    "erg": 27.32,
+    "erg": 27.28,
     "stueck": 74.0,
     "einstand": 1389.47,
-    "div_eur": 15.567
+    "div_eur": 14.325
    },
    "p1w": 6.83
   },
@@ -7048,15 +7045,15 @@
    "tief52": 19.32,
    "ma200": 22.392,
    "sd": {
-    "branche": "Consumer Electronics",
-    "div": 0.62,
-    "div5j": 0.6,
-    "exdiv": "2026-03-30",
-    "kgv": 21.6,
-    "kgv_fwd": 21.96,
-    "land": "Japan",
     "sektor": "Technologie",
-    "zahlen": "2026-11-05"
+    "branche": "Consumer Electronics",
+    "land": "Japan",
+    "div": 0.59,
+    "div5j": 0.6,
+    "kgv": 19.93,
+    "kgv_fwd": 22.45,
+    "zahlen": "2027-02-04",
+    "exdiv": "2026-03-30"
    },
    "depot": {
     "wert": 1075.865,
@@ -7064,7 +7061,7 @@
     "erg": 6.743,
     "stueck": 45.0,
     "einstand": 1007.9,
-    "div_eur": 6.6704
+    "div_eur": 6.3476
    },
    "p1w": 5.2
   },
@@ -7085,29 +7082,29 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 30.284,
-   "fx": 0.0941947,
+   "keur": 30.286,
+   "fx": 0.0942006,
    "hoch52": 374.0,
    "tief52": 281.5,
    "ma200": 321.07,
    "sd": {
-    "branche": "Marine Shipping",
-    "div": 5.53,
-    "div5j": 6.31,
-    "exdiv": "2026-04-21",
-    "kgv": 7.51,
-    "kgv_fwd": 8.427,
-    "land": "United Kingdom",
     "sektor": "Industrie",
-    "zahlen": "2026-10-01"
+    "branche": "Marine Shipping",
+    "land": "United Kingdom",
+    "div": 5.67,
+    "div5j": 6.32,
+    "kgv": 7.207,
+    "kgv_fwd": 8.087,
+    "zahlen": "2026-10-01",
+    "exdiv": "2026-04-21"
    },
    "depot": {
-    "wert": 908.5077,
+    "wert": 908.5651,
     "gew": 0.279,
-    "erg": 35.5,
+    "erg": 35.51,
     "stueck": 30.0,
     "einstand": 670.5,
-    "div_eur": 50.24
+    "div_eur": 51.516
    },
    "p1w": -3.89
   },
@@ -7132,12 +7129,12 @@
    "tief52": 11.92,
    "ma200": 19.299,
    "sd": {
-    "branche": "Advertising Agencies",
-    "div": 0.0,
-    "kgv": 16.11,
-    "kgv_fwd": 13.17,
-    "land": "United States",
     "sektor": "Kommunikation",
+    "branche": "Advertising Agencies",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 18.58,
+    "kgv_fwd": 14.63,
     "zahlen": "2026-11-09"
    },
    "depot": {
@@ -7166,29 +7163,29 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 9.5513,
-   "fx": 0.0941947,
+   "keur": 9.5519,
+   "fx": 0.0942006,
    "hoch52": 135.84,
    "tief52": 88.85,
    "ma200": 103.85,
    "sd": {
-    "branche": "Waste Management",
-    "div": 2.17,
-    "div5j": 1.15,
-    "exdiv": "2026-04-24",
-    "kgv": 28.89,
-    "kgv_fwd": 18.65,
-    "land": "Norway",
     "sektor": "Industrie",
-    "zahlen": "2026-10-23"
+    "branche": "Waste Management",
+    "land": "Norway",
+    "div": 2.12,
+    "div5j": 1.16,
+    "kgv": 29.16,
+    "kgv_fwd": 18.36,
+    "zahlen": "2026-10-23",
+    "exdiv": "2026-04-24"
    },
    "depot": {
-    "wert": 983.7882,
+    "wert": 983.8503,
     "gew": 0.303,
-    "erg": -23.43,
+    "erg": -23.42,
     "stueck": 103.0,
     "einstand": 1284.81,
-    "div_eur": 21.348
+    "div_eur": 20.858
    },
    "p1w": 2.53
   },
@@ -7215,15 +7212,15 @@
    "tief52": 51.568,
    "ma200": 73.502,
    "sd": {
-    "branche": "Oil & Gas Integrated",
-    "div": 4.35,
-    "div5j": 5.08,
-    "exdiv": "2026-12-31",
-    "kgv": 9.354,
-    "kgv_fwd": 8.055,
-    "land": "France",
     "sektor": "Energie",
-    "zahlen": "2026-10-29"
+    "branche": "Oil & Gas Integrated",
+    "land": "France",
+    "div": 4.57,
+    "div5j": 5.08,
+    "kgv": 9.072,
+    "kgv_fwd": 7.67,
+    "zahlen": "2026-10-29",
+    "exdiv": "2026-12-31"
    },
    "depot": {
     "wert": 1016.21,
@@ -7231,7 +7228,7 @@
     "erg": 12.13,
     "stueck": 13.0,
     "einstand": 906.31,
-    "div_eur": 44.205
+    "div_eur": 46.441
    },
    "p1w": -5.49,
    "ab": {
@@ -7261,29 +7258,29 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 37.74,
-   "fx": 0.00564216,
+   "keur": 37.729,
+   "fx": 0.00564048,
    "hoch52": 7722.9,
    "tief52": 4906.0,
    "ma200": 6054.4,
    "sd": {
-    "branche": "Software - Infrastructure",
-    "div": 2.59,
-    "div5j": 1.73,
-    "exdiv": "2025-12-29",
-    "kgv": 25.9,
-    "kgv_fwd": 23.32,
-    "land": "Japan",
     "sektor": "Technologie",
-    "zahlen": "2026-11-12"
+    "branche": "Software - Infrastructure",
+    "land": "Japan",
+    "div": 2.76,
+    "div5j": 1.73,
+    "kgv": 24.96,
+    "kgv_fwd": 22.42,
+    "zahlen": "2026-11-12",
+    "exdiv": "2025-12-29"
    },
    "depot": {
-    "wert": 415.1447,
+    "wert": 415.0206,
     "gew": 0.128,
-    "erg": -16.91,
+    "erg": -16.93,
     "stueck": 11.0,
     "einstand": 499.62,
-    "div_eur": 10.752
+    "div_eur": 11.455
    },
    "p1w": -6.5
   },
@@ -7308,15 +7305,15 @@
    "tief52": 12.447,
    "ma200": 16.072,
    "sd": {
-    "branche": "Asset Management",
-    "div": 11.96,
-    "div5j": 12.4,
-    "exdiv": "2026-11-13",
-    "kgv": 10.1,
-    "kgv_fwd": 8.444,
-    "land": "United States",
     "sektor": "Finanzen",
-    "zahlen": "2026-11-04"
+    "branche": "Asset Management",
+    "land": "United States",
+    "div": 11.35,
+    "div5j": 12.44,
+    "kgv": 9.642,
+    "kgv_fwd": 8.559,
+    "zahlen": "2026-11-04",
+    "exdiv": "2026-11-13"
    },
    "depot": {
     "wert": 597.1302,
@@ -7324,7 +7321,7 @@
     "erg": 14.02,
     "stueck": 37.0,
     "einstand": 523.69,
-    "div_eur": 71.417
+    "div_eur": 67.774
    },
    "p1w": 5.75
   },
@@ -7349,13 +7346,13 @@
    "tief52": 65.25,
    "ma200": 72.826,
    "sd": {
-    "branche": "Software - Application",
-    "div": 0.0,
-    "kgv": 15.4,
-    "kgv_fwd": 15.93,
-    "land": "United States",
     "sektor": "Technologie",
-    "zahlen": "2026-11-04"
+    "branche": "Software - Application",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 41.21,
+    "kgv_fwd": 15.98,
+    "zahlen": "2027-02-03"
    },
    "depot": {
     "wert": 501.6141,
@@ -7387,15 +7384,15 @@
    "tief52": 197.9,
    "ma200": 242.57,
    "sd": {
-    "branche": "Biotechnology",
-    "div": 0.52,
-    "div5j": 0.96,
-    "exdiv": "2026-05-04",
-    "kgv": 24.96,
-    "kgv_fwd": 19.48,
-    "land": "Belgium",
     "sektor": "Gesundheit",
-    "zahlen": "2026-07-30"
+    "branche": "Biotechnology",
+    "land": "Belgium",
+    "div": 0.49,
+    "div5j": 0.95,
+    "kgv": 26.02,
+    "kgv_fwd": 19.71,
+    "zahlen": "2026-07-30",
+    "exdiv": "2026-05-04"
    },
    "depot": {
     "wert": 4712.0,
@@ -7403,7 +7400,7 @@
     "erg": 76.04,
     "stueck": 16.0,
     "einstand": 2676.6,
-    "div_eur": 24.502
+    "div_eur": 23.089
    },
    "p1w": 6.51
   },
@@ -7431,15 +7428,15 @@
    "tief52": 255.97,
    "ma200": 361.79,
    "sd": {
-    "branche": "Healthcare Plans",
-    "div": 2.29,
-    "div5j": 1.55,
-    "exdiv": "2026-09-14",
-    "kgv": 23.56,
-    "kgv_fwd": 17.72,
-    "land": "United States",
     "sektor": "Gesundheit",
-    "zahlen": "2027-01-12"
+    "branche": "Healthcare Plans",
+    "land": "United States",
+    "div": 2.33,
+    "div5j": 1.56,
+    "kgv": 23.12,
+    "kgv_fwd": 17.36,
+    "zahlen": "2027-01-12",
+    "exdiv": "2026-12-07"
    },
    "depot": {
     "wert": 1813.115,
@@ -7447,7 +7444,7 @@
     "erg": 38.33,
     "stueck": 5.0,
     "einstand": 1310.75,
-    "div_eur": 41.52
+    "div_eur": 42.246
    },
    "p1w": 0.168
   },
@@ -7475,12 +7472,12 @@
    "tief52": 453.93,
    "ma200": 535.61,
    "sd": {
-    "branche": "Drug Manufacturers - Specialty & Generic",
-    "div": 0.0,
-    "kgv": 21.62,
-    "kgv_fwd": 18.0,
-    "land": "United States",
     "sektor": "Gesundheit",
+    "branche": "Drug Manufacturers - Specialty & Generic",
+    "land": "United States",
+    "div": 0.0,
+    "kgv": 22.22,
+    "kgv_fwd": 16.59,
     "zahlen": "2026-11-04"
    },
    "depot": {
@@ -7509,8 +7506,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 4.5845,
-   "fx": 0.0941947,
+   "keur": 4.5847,
+   "fx": 0.0942006,
    "hoch52": 59.1,
    "tief52": 28.673,
    "ma200": 44.862,
@@ -7526,12 +7523,12 @@
     "zahlen": "2026-10-21"
    },
    "depot": {
-    "wert": 3750.084,
+    "wert": 3750.321,
     "gew": 1.15,
-    "erg": 47.89,
+    "erg": 47.9,
     "stueck": 818.0,
     "einstand": 2535.66,
-    "div_eur": 378.76
+    "div_eur": 378.78
    },
    "p1w": -10.1
   },
@@ -9254,7 +9251,7 @@
    "gruppe": null,
    "aus": false,
    "hoch52": 1060.4,
-   "tief52": 541.52,
+   "tief52": 541.53,
    "ma200": 805.01,
    "p1w": -6.31,
    "ab": {

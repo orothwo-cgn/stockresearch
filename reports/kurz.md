@@ -1,9 +1,9 @@
-# Kurzfassung 11.11.2026 00:10
+# Kurzfassung 11.11.2026 00:41
 
 **Markt:** Nasdaq 100 -0,6 % (200T -0,9 %), S&P 500 -0,4 % (200T +2,6 %), DAX +0,5 % (200T +5,8 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 34 (Angst, Vorwoche 24), VIX 19,5
 **Zinsen:** US 10 Jahre 4,98 % (90T 4,87 %, 200T 4,57 %, Hoch 12 M 5,31 %), 30 Jahre 5,35 %, Kurve 10J−3M +0,87
-**Depot:** 325.094 € (+9 € heute), seit Kauf +54,3 %
+**Depot:** 325.089 € (+1 € heute), seit Kauf +54,3 %
 **Schwächste:** Applied Optoelectronic -7,3 %, ENPHASE ENERGY INC.DL- -5,0 %, Atlassian Corp. -4,1 %, CIRCLE INT.GRP A DL-,0 -3,8 %
 **Stärkste:** LUMEN TECHNOLOGIES DL +9,0 %, CLOUDFLARE INC. A DL-, +4,1 %, BROADCOM INC. DL-,001 +3,9 %, TWILIO INC. +3,7 %
 
@@ -42,4 +42,4 @@
 - HSBC: 16,03 €, Zone 15,10 € (+6,2 %)
 - Münchener Rück: 576,40 €, Zone 538,00 € (+7,1 %)
 
-Weitere Hinweise: 1 neu, 296 aktiv. Vollständig: reports/2026-11-11_0010.md
+Weitere Hinweise: 0 neu, 296 aktiv. Vollständig: reports/2026-11-11_0041.md
