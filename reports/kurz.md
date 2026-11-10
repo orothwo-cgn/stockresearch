@@ -1,45 +1,46 @@
-# Kurzfassung 10.11.2026 17:11
+# Kurzfassung 10.11.2026 17:41
 
-**Markt:** Nasdaq 100 -0,7 % (200T -1,0 %), S&P 500 -0,6 % (200T +2,3 %), DAX +0,6 % (200T +5,9 %)
-**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 34 (Angst, Vorwoche 24), VIX 21,0
-**Zinsen:** US 10 Jahre 4,99 % (90T 4,87 %, 200T 4,57 %, Hoch 12 M 5,31 %), 30 Jahre 5,35 %, Kurve 10J−3M +0,87
-**Depot:** 325.443 € (+205 € heute), seit Kauf +54,5 %
-**Schwächste:** Applied Optoelectronic -7,7 %, ENPHASE ENERGY INC.DL- -5,9 %, CIRCLE INT.GRP A DL-,0 -4,2 %, Coinbase Global Inc. -3,9 %
-**Stärkste:** LUMEN TECHNOLOGIES DL +11,2 %, TWILIO INC. +4,7 %, Sony Group Corp. +3,7 %, CLOUDFLARE INC. A DL-, +3,6 %
+**Markt:** Nasdaq 100 -1,1 % (200T -1,4 %), S&P 500 -0,8 % (200T +2,2 %), DAX +0,5 % (200T +5,8 %)
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 34 (Angst, Vorwoche 24), VIX 20,6
+**Zinsen:** US 10 Jahre 5,00 % (90T 4,87 %, 200T 4,57 %, Hoch 12 M 5,31 %), 30 Jahre 5,36 %, Kurve 10J−3M +0,88
+**Depot:** 324.907 € (-455 € heute), seit Kauf +54,3 %
+**Schwächste:** Applied Optoelectronic -7,7 %, ENPHASE ENERGY INC.DL- -6,1 %, CIRCLE INT.GRP A DL-,0 -4,6 %, SailPoint Inc. -4,6 %
+**Stärkste:** LUMEN TECHNOLOGIES DL +10,4 %, TWILIO INC. +4,1 %, Sony Group Corp. +3,7 %, Trend Micro Inc. +3,5 %
 
 **Wichtig heute:**
-- S&P 500 nähert sich der 200-Tage-Linie: nur noch 2,3 % darüber.
+- S&P 500 nähert sich der 200-Tage-Linie: nur noch 2,2 % darüber.
 - NextEra Energy (NEE) notiert unter der 200-Tage-Linie (-0,2 %).
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Alphabet: 258,22 €, Zone 240,00 € (+7,6 %)
-- Palantir: 149,93 €, Zone 140,00 € (+7,1 %)
-- CrowdStrike: 203,30 €, Zone 195,00 € (+4,3 %)
-- Datadog: 162,54 €, Zone 154,00 € (+5,5 %)
-- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 181,37 (+3,1 %)
-- Fortinet: 110,92 €, Zone 107,00 € (+3,7 %)
-- Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 123,77 (+5,9 %)
-- ServiceNow: 90,13 €, Zone 101,50 € (-11,2 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 100,57 (-3,4 %)
-- Vertiv: 172,73 €, Zone 185,00 € (-6,6 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 192,74 (+2,5 %)
-- KLA: 136,46 €, Zone 152,00 € (-10,2 %)
-- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 152,27 (+1,1 %)
-- Onto Innovation: 178,01 €, Zone 217,00 € (-18,0 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 198,63 (+5,0 %)
-- Qnity Electronics: 110,35 €, Zone 107,00 € (+3,1 %)
-- Teradyne: 219,12 €, Zone 287,00 € (-23,7 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 244,50 (-15,7 %)
-- Astera Labs: 194,88 €, Zone 218,00 € (-10,6 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 217,45 (-10,0 %)
-- Marvell Technology: 139,14 €, Zone 198,00 € (-29,7 %)
-- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 155,25 (-18,2 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.358,50 (+2,1 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 181,38 (-5,0 %)
-- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 27,37 (-36,9 %)
-- Broadcom: 294,84 €, Zone 275,00 € (+7,2 %)
-- Schneider Electric: 235,85 €, Zone 228,00 € (+3,4 %)
-- HSBC: 16,10 €, Zone 15,10 € (+6,6 %)
-- Münchener Rück: 577,40 €, Zone 538,00 € (+7,3 %)
+- Alphabet: 257,56 €, Zone 240,00 € (+7,3 %)
+- Palantir: 149,14 €, Zone 140,00 € (+6,5 %)
+- CrowdStrike: 201,92 €, Zone 195,00 € (+3,5 %)
+- Datadog: 161,95 €, Zone 154,00 € (+5,2 %)
+- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 180,59 (+2,6 %)
+- Fortinet: 111,28 €, Zone 107,00 € (+4,0 %)
+- Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 124,09 (+6,2 %)
+- ServiceNow: 89,43 €, Zone 101,50 € (-11,9 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 99,72 (-4,2 %)
+- Vertiv: 172,05 €, Zone 185,00 € (-7,0 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 191,85 (+2,0 %)
+- KLA: 135,40 €, Zone 152,00 € (-10,9 %)
+- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 150,98 (+0,2 %)
+- Onto Innovation: 176,36 €, Zone 217,00 € (-18,7 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 196,66 (+3,9 %)
+- Qnity Electronics: 109,81 €, Zone 107,00 € (+2,6 %)
+- Teradyne: 217,54 €, Zone 287,00 € (-24,2 %)
+- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 242,57 (-16,4 %)
+- Astera Labs: 193,38 €, Zone 218,00 € (-11,3 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 215,63 (-10,7 %)
+- Marvell Technology: 137,87 €, Zone 198,00 € (-30,4 %)
+- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 153,73 (-19,0 %)
+- Hermès: 1.348,50 €, Zone 1.250,00 € (+7,9 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.348,50 (+1,3 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 180,79 (-5,3 %)
+- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 27,30 (-37,1 %)
+- Broadcom: 292,29 €, Zone 275,00 € (+6,3 %)
+- Schneider Electric: 235,30 €, Zone 228,00 € (+3,2 %)
+- HSBC: 16,07 €, Zone 15,10 € (+6,4 %)
+- Münchener Rück: 576,60 €, Zone 538,00 € (+7,2 %)
 
-Weitere Hinweise: 6 neu, 304 aktiv. Vollständig: reports/2026-11-10_1711.md
+Weitere Hinweise: 5 neu, 300 aktiv. Vollständig: reports/2026-11-10_1741.md
