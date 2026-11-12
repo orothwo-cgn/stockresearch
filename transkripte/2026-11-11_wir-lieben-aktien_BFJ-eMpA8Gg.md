@@ -1,0 +1,11 @@
+# NVIDIA-Crash – ich hatte euch gewarnt! 🚨
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 11.11.2026
+- Link: https://www.youtube.com/watch?v=BFJ-eMpA8Gg
+- Ausgewertet: ja
+
+## Transkript
+
+Die Nvidia-Aktie crasht immer weiter. Sie steht mittlerweile über 30% unter Allzeithoch und die Frage ist, ist das jetzt die Kaufchance des Jahres 2026? Hör mir jetzt kurz zu, ich beantworte dir ganz genau, wo du die Aktie wieder kaufen solltest. Zuallererst müssen wir uns erstmal ansehen, was hier gerade passiert ist. Wir haben den Bruch des mittelfristigen Aufwärtstrends hier und einen rapiden Abverkauf, aber ich kann euch beruhigen. Ich habe euch nämlich schon vor einiger Zeit gesagt, hier vor zwei Wochen, wir werden diese Korrektur wahrscheinlich sehen. Könnt ihr auf YouTube alles noch nachsehen. Schauen uns das jetzt aber mal an, was bei Nvidia gerade passiert, dann haben wir langfristig gesehen immer noch einen schönen Aufwärtstrend. Das hat damit überhaupt nichts zu tun und zu so einem Trend gehören nun einmal in regelmäßigen zeitlichen Abständen auch Korrekturen. Die Korrekturen sind bei Nvidia auch gerne mal etwas tiefer, weil wir in einem zyklischen Sektor sind, also der Halbleitermarkt ist generell zyklisch. Eine tiefere Korrektur würde bedeuten in Richtung 140-150 US-Dollar und dann kann man sich die Aktie wieder aus antizyklischer Sicht ansehen. Schauen wir uns das Ganze kurz bis mittelfristig mal an, dann sehen wir hier auch die erste Unterstützungszone, wenn wir das Volumen anschalten. Wir sehen aber auch, wir bröckeln gerade direkt runter durch. Also sollten wir uns jetzt nicht direkt wieder fangen und in diese Zone zurückretten, muss man sagen, ist eher damit zu rechnen, dass wir hier abprallen und die Korrektur ausweiten in Richtung der alten Verlaufshochs 130, 140, 150 US-Dollar. Und wichtig ist dann, wenn wir diese Zone reinkommen, wir brauchen eine Stabilisierung, wir müssen uns ein bisschen seitwärts bewegen und dann der Ausbruch nach oben. Wenn genau sowas passiert, dann werde ich noch mal ein Video dazu machen, dann wird es nämlich gute langfristige Kaufchancen geben. Aber wenn du das nicht verpassen willst, dann solltest du mir jetzt unbedingt folgen.
