@@ -1,9 +1,9 @@
-# Kurzfassung 12.11.2026 23:11
+# Kurzfassung 12.11.2026 23:41
 
 **Markt:** Nasdaq 100 -0,3 % (200T +0,9 %), S&P 500 -0,4 % (200T +3,5 %), DAX +0,4 % (200T +7,2 %)
 **Stimmung:** Crash-Muster Ruhe (5/100), Fear & Greed 40 (Angst, Vorwoche 20), VIX 18,7
 **Zinsen:** US 10 Jahre 5,10 % (90T 4,88 %, 200T 4,58 %, Hoch 12 M 5,31 %), 30 Jahre 5,43 %, Kurve 10J−3M +0,97
-**Depot:** 331.680 € (+346 € heute), seit Kauf +57,5 %
+**Depot:** 331.670 € (+346 € heute), seit Kauf +57,5 %
 **Schwächste:** IonQ Inc. -9,4 %, Alibaba Group Holding -7,1 %, Generate Biomedicines -6,8 %, Alibaba Group Holding -6,8 %
 **Stärkste:** BROADCOM INC. DL-,001 +5,5 %, Arista Networks Inc. +5,1 %, Sony Financial Group I +4,0 %, MUENCH.RUECKVERS. NA O +2,9 %
 
@@ -33,6 +33,6 @@
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 172,30 (-9,8 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 26,78 (-38,3 %)
 - Schneider Electric: 244,80 €, Zone 228,00 € (+7,4 %)
-- HSBC: 16,21 €, Zone 15,10 € (+7,4 %)
+- HSBC: 16,22 €, Zone 15,10 € (+7,4 %)
 
-Weitere Hinweise: 0 neu, 305 aktiv. Vollständig: reports/2026-11-12_2311.md
+Weitere Hinweise: 0 neu, 305 aktiv. Vollständig: reports/2026-11-12_2341.md
