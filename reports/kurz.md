@@ -1,9 +1,9 @@
-# Kurzfassung 13.11.2026 23:11
+# Kurzfassung 13.11.2026 23:41
 
 **Markt:** Nasdaq 100 -1,2 % (200T -0,3 %), S&P 500 -0,4 % (200T +3,0 %), DAX -0,1 % (200T +7,1 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 39 (Angst, Vorwoche 24), VIX 19,3
 **Zinsen:** US 10 Jahre 5,15 % (90T 4,88 %, 200T 4,58 %, Hoch 12 M 5,31 %), 30 Jahre 5,48 %, Kurve 10J−3M +1,03
-**Depot:** 331.511 € (-773 € heute), seit Kauf +57,4 %
+**Depot:** 331.505 € (-773 € heute), seit Kauf +57,4 %
 **Schwächste:** IonQ Inc. -6,4 %, Applied Optoelectronic -5,6 %, Kingsoft Cloud Holding -5,2 %, BROADCOM INC. DL-,001 -4,8 %
 **Stärkste:** Nu Holdings Ltd. +11,7 %, Trend Micro Inc. +8,3 %, CAL-MAINE FOODS DL-,01 +3,5 %, META PLATF. A DL-,0000 +2,9 %
 
@@ -40,4 +40,4 @@
 - Schneider Electric: 243,45 €, Zone 228,00 € (+6,8 %)
 - HSBC: 16,23 €, Zone 15,10 € (+7,5 %)
 
-Weitere Hinweise: 1 neu, 303 aktiv. Vollständig: reports/2026-11-13_2311.md
+Weitere Hinweise: 0 neu, 303 aktiv. Vollständig: reports/2026-11-13_2341.md
