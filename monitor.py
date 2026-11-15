@@ -231,7 +231,8 @@ def main(schnell=False):
         liste["titel"] = {t: d for t, d in liste["titel"].items() if t not in ausschluss}
     watch = {t: w for t, w in watch.items() if t not in ausschluss}
     mitglied = {t: l for t, l in mitglied.items() if t not in ausschluss}
-    abstauber = {t: {**d, "stand": l["stand"]} for sl, l in listen.items() if sl.startswith("abstauber") for t, d in l["titel"].items()}
+    # Neuere Liste überschreibt ältere (Reihenfolge in watchlisten.yaml); Schnäppchenliste hat nur ein Limit (limit2_eur None)
+    abstauber = {t: {**d, "stand": l["stand"], "liste": sl} for sl, l in listen.items() if sl.startswith(("abstauber", "schnaeppchen")) for t, d in l["titel"].items()}
 
     infos = {}
     for ticker in watch:
@@ -557,18 +558,20 @@ def main(schnell=False):
                 faktor = float(round(d["kurs_eur"] / start_eur))
         if faktor != 1.0:
             d = {**d, "name": f"{d['name']}, Limits split-bereinigt 1:{faktor:g}",
-                 **{f: d[f] / faktor for f in ("limit1_eur", "limit2_eur", "ziel_eur")}}
+                 **{f: d[f] / faktor for f in ("limit1_eur", "limit2_eur", "ziel_eur") if d.get(f) is not None}}
         abstand1 = (kurs_eur / d["limit1_eur"] - 1) * 100
         abstauber_zeilen.append({"ticker": ticker, **d, "kurs_eur": kurs_eur, "abstand1": abstand1})
         name = f"{d['name']} ({ticker})"
-        stufe = 2 if kurs_eur <= d["limit2_eur"] else 1 if kurs_eur <= d["limit1_eur"] else 0
+        stand_txt = "Schnäppchenliste 11/2026" if d["liste"].startswith("schnaeppchen") else "Liste Stand 2025"
+        stufe = 2 if d.get("limit2_eur") and kurs_eur <= d["limit2_eur"] else 1 if kurs_eur <= d["limit1_eur"] else 0
         neu_tiefer = zone_neu_erreicht(f"{ticker}:abstauber", stufe, kurs_eur > d["limit1_eur"] * 1.05)
         if stufe == 2 and neu_tiefer:
-            h.add(f"{ticker}:abstauber2", f"{name} unter Abstauber-Kauflimit 2: {fmt(kurs_eur, 2)} € ≤ {fmt(d['limit2_eur'], 2)} € (Ziel {fmt(d['ziel_eur'], 0)} €, Liste Stand 2025).", True)
+            h.add(f"{ticker}:abstauber2", f"{name} unter Abstauber-Kauflimit 2: {fmt(kurs_eur, 2)} € ≤ {fmt(d['limit2_eur'], 2)} € (Ziel {fmt(d['ziel_eur'], 0)} €, {stand_txt}).", True)
         elif stufe == 1 and neu_tiefer:
-            h.add(f"{ticker}:abstauber1", f"{name} hat Abstauber-Kauflimit 1 erreicht: {fmt(kurs_eur, 2)} € ≤ {fmt(d['limit1_eur'], 2)} € (Limit 2: {fmt(d['limit2_eur'], 2)} €, Liste Stand 2025).", True)
+            h.add(f"{ticker}:abstauber1", f"{name} hat Abstauber-Kauflimit {'1 ' if d.get('limit2_eur') else ''}erreicht: {fmt(kurs_eur, 2)} € ≤ {fmt(d['limit1_eur'], 2)} € ("
+                  + (f"Limit 2: {fmt(d['limit2_eur'], 2)} €, " if d.get('limit2_eur') else f"Ziel {fmt(d['ziel_eur'], 0)} €, ") + f"{stand_txt}).", True)
         elif stufe == 0 and abstand1 <= sw["abstauber_nah_prozent"]:
-            h.add(f"{ticker}:abstauber_nah", f"{name} nähert sich Abstauber-Kauflimit 1: {fmt(kurs_eur, 2)} €, Limit {fmt(d['limit1_eur'], 2)} € ({fmt(abstand1, prozent=True, vorzeichen=True)}).")
+            h.add(f"{ticker}:abstauber_nah", f"{name} nähert sich Abstauber-Kauflimit {'1 ' if d.get('limit2_eur') else ''}({stand_txt}): {fmt(kurs_eur, 2)} €, Limit {fmt(d['limit1_eur'], 2)} € ({fmt(abstand1, prozent=True, vorzeichen=True)}).")
 
     # Sektorrotation: Relative Stärke zum S&P 500
     spy = k.get("SPY")
@@ -673,12 +676,13 @@ def main(schnell=False):
 
     if abstauber_zeilen:
         nah = sorted((r for r in abstauber_zeilen if r["abstand1"] <= 15), key=lambda r: r["abstand1"])
-        z += ["", "## Abstauberlisten (aktienlust, Limits Stand 2025)", "",
-              f"{len(nah)} von {len(abstauber_zeilen)} Titeln liegen höchstens 15 % über Kauflimit 1. Die Limits sind von 2025 und nicht mehr aktuell.", ""]
+        z += ["", "## Abstauberlisten (aktienlust)", "",
+              f"{len(nah)} von {len(abstauber_zeilen)} Titeln liegen höchstens 15 % über Kauflimit 1. Limits aus der Schnäppchenliste 2027 (06.11.2026, nur ein Limit) "
+              "haben Vorrang; übrige Titel aus den Abstauberlisten April 2025, die nicht mehr aktuell sind.", ""]
         if nah:
-            z += ["| Titel | Kurs (EUR) | Limit 1 | Limit 2 | Ziel | Abstand zu Limit 1 | im Depot |", "|---|---:|---:|---:|---:|---:|:---:|"]
+            z += ["| Titel | Liste | Kurs (EUR) | Limit 1 | Limit 2 | Ziel | Abstand zu Limit 1 | im Depot |", "|---|---|---:|---:|---:|---:|---:|:---:|"]
             for r in nah:
-                z.append(f"| {r['name']} ({r['ticker']}) | {fmt(r['kurs_eur'], 2)} | {fmt(r['limit1_eur'], 2)} | {fmt(r['limit2_eur'], 2)} | {fmt(r['ziel_eur'], 0)} | {fmt(r['abstand1'], prozent=True, vorzeichen=True)} | {'ja' if r['ticker'] in portfolio else ''} |")
+                z.append(f"| {r['name']} ({r['ticker']}) | {'2027' if r['liste'].startswith('schnaeppchen') else '2025'} | {fmt(r['kurs_eur'], 2)} | {fmt(r['limit1_eur'], 2)} | {fmt(r['limit2_eur'], 2) if r.get('limit2_eur') else '–'} | {fmt(r['ziel_eur'], 0)} | {fmt(r['abstand1'], prozent=True, vorzeichen=True)} | {'ja' if r['ticker'] in portfolio else ''} |")
 
     if nur_listen:
         tief = sorted((t for t in nur_listen if k.get(t)), key=lambda t: k[t]["drawdown"])[:20]
@@ -687,7 +691,7 @@ def main(schnell=False):
         for t in tief:
             m = k[t]
             name = next(l["titel"][t]["name"] for l in listen.values() if t in l["titel"])
-            namen_listen = ", ".join(x.replace("google_", "").replace("abstauber_", "Abstauber ") for x in mitglied[t])
+            namen_listen = ", ".join(x.replace("google_", "").replace("abstauber_", "Abstauber ").replace("schnaeppchen_2027", "Schnäppchen 2027") for x in mitglied[t])
             z.append(f"| {name} ({t}) | {namen_listen} | {fmt(m['tag'], prozent=True, vorzeichen=True)} | {fmt(m['drawdown'], prozent=True)} | {fmt(m['abstand90'], prozent=True, vorzeichen=True)} | {fmt(m['abstand200'], prozent=True, vorzeichen=True)} | {fmt(m['rsi'], 0)} |")
 
     z += ["", "## Sektorrotation (relativ zum S&P 500)", "", "| Sektor | ETF | rel. 1 M | rel. 3 M | Abstand 200T |", "|---|---|---:|---:|---:|"]

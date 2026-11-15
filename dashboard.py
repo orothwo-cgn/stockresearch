@@ -20,6 +20,7 @@ LISTEN_NAMEN = {
     "google_medizin": "medizin",
     "abstauber_usa": "Abstauber USA",
     "abstauber_europa": "Abstauber Europa",
+    "schnaeppchen_2027": "Schnäppchen 2027",
 }
 
 
@@ -96,7 +97,7 @@ def schreibe(*, jetzt, cfg, k, kurse, watch, infos, positionen, pf_wert, pf_eins
         eintrag["p1w"] = woche(kurse, t)
         if t in abst:
             r = abst[t]
-            eintrag["ab"] = {"l1": zahl(r["limit1_eur"]), "l2": zahl(r["limit2_eur"]), "ziel": zahl(r["ziel_eur"]),
+            eintrag["ab"] = {"l1": zahl(r["limit1_eur"]), "l2": zahl(r.get("limit2_eur")), "liste": "2027" if r["liste"].startswith("schnaeppchen") else "2025", "ziel": zahl(r["ziel_eur"]),
                              "keur": zahl(r["kurs_eur"]), "abst": zahl(r["abstand1"], 3),
                              "split": "split-bereinigt" in r["name"]}
         titel.append(eintrag)

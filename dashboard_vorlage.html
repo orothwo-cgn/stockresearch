@@ -398,7 +398,7 @@ const spaltenDepot = [
 ];
 const spaltenAbst = [
   { k: "keur", n: "Kurs €", v: (t) => t.ab?.keur, h: (t) => zahl(t.ab?.keur) },
-  { k: "l1", n: "Limit 1 €", v: (t) => t.ab?.l1, h: (t) => zahl(t.ab?.l1) + (t.ab?.split ? '<span class="chip">Split</span>' : "") },
+  { k: "l1", n: "Limit 1 €", v: (t) => t.ab?.l1, h: (t) => zahl(t.ab?.l1) + (t.ab?.liste === "2027" ? '<span class="chip">2027</span>' : "") + (t.ab?.split ? '<span class="chip">Split</span>' : "") },
   { k: "l2", n: "Limit 2 €", v: (t) => t.ab?.l2, h: (t) => zahl(t.ab?.l2) },
   { k: "ziel", n: "Ziel €", v: (t) => t.ab?.ziel, h: (t) => zahl(t.ab?.ziel, 0) },
   { k: "abst", n: "zu Limit 1", v: (t) => t.ab?.abst, h: (t) => `<span class="${klasse(t.ab?.abst)}">${proz(t.ab?.abst)}</span>` },
@@ -436,7 +436,7 @@ function zeichneListe() {
   const kopf = "<thead><tr>" + sp.map((x) => `<th data-k="${x.k}" class="${x.k === s.k ? "sortiert" + (auf ? " auf" : "") : ""}">${x.n}</th>`).join("") + "</tr></thead>";
   const body = zeilen.map((t) => `<tr data-t="${esc(t.t)}">` + sp.map((x) => `<td>${x.h(t)}</td>`).join("") + "</tr>").join("");
   document.getElementById("liste").innerHTML = kopf + "<tbody>" + (body || `<tr><td class="leer" colspan="${sp.length}">Keine Titel für diese Auswahl.</td></tr>`) + "</tbody>";
-  const hinw = aktiv === "abstauber" ? "Limits aus den aktienlust-Abstauberlisten, Stand April 2025, um Aktiensplits bereinigt. Sie sind nicht mehr aktuell." : "";
+  const hinw = aktiv === "abstauber" ? "Limits aus der aktienlust-Schnäppchenliste 2027 (06.11.2026, nur ein Limit, Chip 2027), sonst aus den Abstauberlisten April 2025 (um Splits bereinigt, nicht mehr aktuell)." : "";
   document.getElementById("listen-hinweis").textContent = `${zeilen.length} Titel. ${hinw}`;
 }
 document.getElementById("tabs").addEventListener("click", (e) => {

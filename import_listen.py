@@ -58,6 +58,20 @@ def lies_abstauber(pdf):
             yield {"isin": t, "name": teile[i - 1], "kurs_eur": kurs, "limit1_eur": limit1, "limit2_eur": limit2, "ziel_eur": ziel}
 
 
+def lies_schnaeppchen(pdf):
+    """Schnäppchenliste 2027 (aktienlust, 06.11.2026): Kurs, Hoch, Tief, Abstand zum Hoch, ein Abstauberlimit, Ziel, 2x Potenzial."""
+    zeilen = [t.strip() for t in "".join(seite.get_text() for seite in pymupdf.open(pdf)).splitlines() if t.strip()]
+    namen = {z: zeilen[i - 1] for i, z in enumerate(zeilen) if re.fullmatch(r"[A-Z]{2}[A-Z0-9]{9}\d", z)}
+    teile = [w for z in zeilen for w in z.split()]  # "1.210,00 2.500,00" steht teils in einer Zeile
+    for i, t in enumerate(teile):
+        if re.fullmatch(r"[A-Z]{2}[A-Z0-9]{9}\d", t):
+            try:
+                kurs, hoch, tief, _, limit, ziel = (zahl(w) for w in teile[i + 1:i + 7])
+            except ValueError:
+                continue
+            yield {"isin": t, "name": namen.get(t, t), "kurs_eur": kurs, "limit1_eur": limit, "limit2_eur": None, "ziel_eur": ziel}
+
+
 def lies_google(pfad):
     h = pfad.read_text(encoding="utf-8", errors="replace")
     boersen = {}
@@ -86,10 +100,12 @@ def main():
     google_karte = lade(GOOGLE_MAP)
     ergebnis = {}
 
-    for pdf in sorted(QUELLEN.glob("Abstauberliste-*.pdf")):
-        schluessel = "abstauber_" + ("usa" if "USA" in pdf.name else "europa")
+    pdfs = [(p, "abstauber_" + ("usa" if "USA" in p.name else "europa"), lies_abstauber, "2025-04-15") for p in sorted(QUELLEN.glob("Abstauberliste-*.pdf"))]
+    # Neuere Liste zuletzt: bei Titeln in mehreren Listen gelten im Monitor ihre Limits
+    pdfs += [(p, "schnaeppchen_2027", lies_schnaeppchen, "2026-11-06") for p in sorted(QUELLEN.glob("Schnaeppchenliste-*.pdf"))]
+    for pdf, schluessel, leser, stand in pdfs:
         titel = {}
-        for z in lies_abstauber(pdf):
+        for z in leser(pdf):
             if z["isin"] not in isin_karte:
                 isin_karte[z["isin"]] = {"ticker": suche_ticker(z["isin"], s), "name": z["name"]}
             eintrag = isin_karte[z["isin"]]
@@ -98,8 +114,8 @@ def main():
                 continue
             titel[eintrag["ticker"]] = {"name": z["name"], "isin": z["isin"], "kurs_eur": z["kurs_eur"], "limit1_eur": z["limit1_eur"],
                                         "limit2_eur": z["limit2_eur"], "ziel_eur": z["ziel_eur"]}
-        # Stand der Limits: beide Listen erschienen im April 2025 (Zoll-Korrektur); für die Split-Bereinigung
-        ergebnis[schluessel] = {"quelle": f"aktienlust, {pdf.name}", "stand": "2025-04-15", "titel": titel}
+        # Stand der Limits (für die Split-Bereinigung): Abstauberlisten April 2025 (Zoll-Korrektur), Schnäppchenliste 06.11.2026
+        ergebnis[schluessel] = {"quelle": f"aktienlust, {pdf.name}", "stand": stand, "titel": titel}
         print(f"{schluessel}: {len(titel)} Titel")
 
     if GOOGLE_HTML.exists():
