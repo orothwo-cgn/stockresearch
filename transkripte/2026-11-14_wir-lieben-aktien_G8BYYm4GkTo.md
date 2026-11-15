@@ -1,0 +1,11 @@
+# Darum kaufe ich NVIDIA JETZT noch nicht! ✋
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 14.11.2026
+- Link: https://www.youtube.com/watch?v=G8BYYm4GkTo
+- Ausgewertet: ja
+
+## Transkript
+
+Die Nvidiaakt Aktie hat allein diese Woche 13 % an Wert verloren, ist inzwischen deutlich über 30% unter Allzeit hoch. Und die Frage ist, ist das jetzt die perfekte Kaufchance oder sollte man lieber die Finger weglassen? Hör mir kurz zu, ich verrate dir ganz genau, was du wissen musst. Wenn wir uns entweder mal ansehen, dann haben wir einen schnellen Abverkauf. Und das Wichtige ist jetzt, es gibt immer die Klugscheißer da draußen, die hier oben schon zu mir meinten, ja, jetzt ist Kursückgang, jetzt müssen wir kaufen hier by the Dip und dann hier noch mal by the Dip. Die haben inzwischen alle kein Cash mehr. Was wir machen ist, wir gucken, wann erreicht den ND spannende Zon und dann warten wir dort auf eine Umkehr. Ja, dann kaufen wir nicht genau am Tief ein, aber wir haben eben auch die erhöhte Wahrscheinlichkeit, dass wir eine Region der Tiefs einkaufen und nicht hier oben schon ganz dumm reingegriffen haben. Der erste Zone, die dafür möglich gewesen wäre, wäre hier oben gewesen. Die zweite Zone ist jetzt hier unten. Die haben wir ganz knapp hier auch schon angelaufen bei 140 bis 150 USDollar. Was ich aber sehen will, ist mehr als einfach nur ein Tag, wo wir hochkaufen und jetzt tatsächlich schon wieder eine leicht beische Candle. Ich will also sehen, dass wir zumindest das Preisniveau annehmen, vielleicht noch mal tiefer laufen und dann so zur Oberseite ausbrechen. Im Optimalfall sogar eine längere Bodenbildung. Schauen wir uns nämlich mal an, was die Aktie in der Vergangenheit gemacht hat. Dann sehen wir selbst hier bei so einer schnellen Umkehr auch, dass sie hier ein bisschen seitwärts gelaufen ist, bevor sie dann zur Oberseite durchgestartet ist. Wenn wir zu größeren Korrekturen wie 2022 zurückgehen, dann haben wir sogar hier eine richtig große Bodenbildung gesehen. Und genauso etwas möchte ich jetzt auch haben. Ich würde nicht aus VMO reingreifen. Der aktuelle das aktuelle Niveau ist definitiv spannend, auch noch leicht tiefer und dort habe ich es auch für Käufe auf der Watchlist. Also folgt mir, um da meine Updates dazu nicht zu verpassen.
