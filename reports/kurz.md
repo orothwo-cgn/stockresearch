@@ -1,47 +1,42 @@
-# Kurzfassung 16.11.2026 18:26
+# Kurzfassung 16.11.2026 18:41
 
 **Markt:** Nasdaq 100 -2,2 % (200T -2,6 %), S&P 500 -1,5 % (200T +1,5 %), DAX -0,6 % (200T +6,5 %)
-**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 35 (Angst, Vorwoche 32), VIX 21,2
-**Zinsen:** US 10 Jahre 5,14 % (90T 4,89 %, 200T 4,59 %, Hoch 12 M 5,31 %), 30 Jahre 5,48 %, Kurve 10J−3M +1,01
-**Depot:** 326.841 € (-4.728 € heute), seit Kauf +55,2 %
-**Schwächste:** Generate Biomedicines -9,4 %, IonQ Inc. -8,2 %, Applied Optoelectronic -7,9 %, CIRCLE INT.GRP A DL-,0 -7,3 %
-**Stärkste:** Trend Micro Inc. +8,3 %, XPENG INC. SP.ADS/2 CL +5,4 %, Dropbox Inc. +2,8 %, Novo-Nordisk AS +2,4 %
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 34 (Angst, Vorwoche 32), VIX 21,6
+**Zinsen:** US 10 Jahre 5,13 % (90T 4,89 %, 200T 4,59 %, Hoch 12 M 5,31 %), 30 Jahre 5,47 %, Kurve 10J−3M +1,00
+**Depot:** 327.007 € (-4.662 € heute), seit Kauf +55,2 %
+**Schwächste:** Generate Biomedicines -9,4 %, IonQ Inc. -8,2 %, Applied Optoelectronic -8,0 %, CIRCLE INT.GRP A DL-,0 -7,2 %
+**Stärkste:** Trend Micro Inc. +8,3 %, XPENG INC. SP.ADS/2 CL +5,6 %, Dropbox Inc. +3,1 %, Novo-Nordisk AS +2,4 %
 
 **Wichtig heute:**
 - S&P 500 nähert sich der 200-Tage-Linie: nur noch 1,5 % darüber.
 - Summit Therapeutics Inc (SMMT) fällt heute um -15,5 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Microsoft: 474,21 €, Zone 447,00 € (+6,1 %)
-- Palantir: 147,46 €, Zone 140,00 € (+5,3 %)
-- CrowdStrike: 199,71 €, Zone 195,00 € (+2,4 %)
-- Datadog: 157,82 €, Zone 154,00 € (+2,5 %)
-- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 173,82 (-1,2 %)
-- Fortinet: 112,01 €, Zone 107,00 € (+4,7 %)
-- Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 123,36 (+5,6 %)
-- ServiceNow: 91,69 €, Zone 101,50 € (-9,7 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 100,98 (-3,0 %)
-- Vertiv: 171,29 €, Zone 185,00 € (-7,4 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 188,65 (+0,3 %)
-- KLA: 132,51 €, Zone 152,00 € (-12,8 %)
-- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 145,93 (-3,2 %)
-- Onto Innovation: 178,68 €, Zone 217,00 € (-17,7 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 196,78 (+4,0 %)
-- Qnity Electronics: 104,63 €, Zone 107,00 € (-2,2 %)
-- Teradyne: 211,74 €, Zone 287,00 € (-26,2 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 233,19 (-19,6 %)
-- Astera Labs: 187,05 €, Zone 218,00 € (-14,2 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 206,00 (-14,7 %)
-- Marvell Technology: 133,01 €, Zone 198,00 € (-32,8 %)
-- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 146,49 (-22,8 %)
+- Microsoft: 474,45 €, Zone 447,00 € (+6,1 %)
+- Palantir: 147,57 €, Zone 140,00 € (+5,4 %)
+- CrowdStrike: 199,63 €, Zone 195,00 € (+2,4 %)
+- Datadog: 158,07 €, Zone 154,00 € (+2,6 %)
+- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 174,01 (-1,1 %)
+- Fortinet: 111,83 €, Zone 107,00 € (+4,5 %)
+- Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 123,11 (+5,4 %)
+- ServiceNow: 91,96 €, Zone 101,50 € (-9,4 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 101,23 (-2,8 %)
+- Vertiv: 171,53 €, Zone 185,00 € (-7,3 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 188,83 (+0,4 %)
+- KLA: Kursziel −50 % vom Hoch = 150,68, Kurs 146,25 (-2,9 %)
+- Onto Innovation: 179,09 €, Zone 217,00 € (-17,5 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 197,15 (+4,2 %)
+- Qnity Electronics: 104,79 €, Zone 107,00 € (-2,1 %)
+- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 233,30 (-19,6 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 206,67 (-14,4 %)
+- Marvell Technology: 133,63 €, Zone 198,00 € (-32,5 %)
+- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 147,11 (-22,5 %)
 - Hermès: 1.349,50 €, Zone 1.250,00 € (+8,0 %)
 - Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.349,50 (+1,4 %)
-- F5 Networks: 274,16 €, Zone 255,00 € (+7,5 %)
-- F5 Networks: Kursziel −40 % vom Hoch = 287,90, Kurs 301,94 (+4,9 %)
-- First Solar: 150,10 €, Zone 141,00 € (+6,5 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 165,31 (-13,4 %)
-- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 24,88 (-42,7 %)
+- F5 Networks: Kursziel −40 % vom Hoch = 287,90, Kurs 302,53 (+5,1 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 165,65 (-13,2 %)
+- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 24,94 (-42,5 %)
 - Schneider Electric: 241,55 €, Zone 228,00 € (+5,9 %)
-- HSBC: 16,14 €, Zone 15,10 € (+6,9 %)
+- HSBC: 16,15 €, Zone 15,10 € (+6,9 %)
 
-Weitere Hinweise: 5 neu, 328 aktiv. Vollständig: reports/2026-11-16_1826.md
+Weitere Hinweise: 3 neu, 323 aktiv. Vollständig: reports/2026-11-16_1841.md
