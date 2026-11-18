@@ -1,0 +1,11 @@
+# NVIDIA fast -40 %: Was steckt WIRKLICH hinter dem Crash? 📉
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 17.11.2026
+- Link: https://www.youtube.com/watch?v=CH75Brp2gFw
+- Ausgewertet: ja
+
+## Transkript
+
+Die Nvidia Akt hat seit dem Hoch fast 40% an Wert verloren. Aber was ist hier eigentlich das Problem? Gib mir 60 Sekunden Zeit, ich erkläre dir, warum es hier wirklich geht und auch ab wann entweder ihrer wieder spannt für Käufe ist. In den Medien reden alle von Jason Wang, dem CEO und von seinen Affären. Das ist natürlich so oder so alles nicht toll, aber das Problem ist vor allem, dass eine Affäre mit einer vermeintlich chinesischen Spionen ist. In der Vergangenheit hat sich Jenson Wang immer wieder dafür stark gemacht, dass Nvidia mehr nach China exportieren darf, was die US-Regierung aus strategischer Sicht auf jeden Fall unterbinden wollte. Und jetzt wird's richtig spannend. Im letzten Geschäftsjahr wurden fast 20% der Umsätze über Singapur abgereicht. Wirklich geliefert wurden nach Singapur aber nur unter 2% der Chips. Im Quartal von Mai bis Juli 2025 war das ein Umsatzvolumen von über 10 Milliarden US-Dollar, ungefähr 22% vom Gesamtumsatz und 80% mehr als im Jahr zuvor. Und das war dann auch das letzte Mal, dass man diese Umsätze so ausgewiesen hat. Was danach passiert ist, ist relativ unklar. Und jetzt schließt sich der Kreis, denn die vermeintlich chinesische Spionin Alice Huang, die also die Affäre von Jensen Hang war, hat bei Megga Speed in Singapur gearbeitet und die sollen laut der New York Times zwischen 2024 und 26 für ungefähr 5 Milliarden US-Dollar Chips von Nvidia gekauft haben, die wiederum weiter nach China geliefert wurden. Zumindest ist das der Vorwurf und zudem potenziell ein extremer Bruch von dem, was die US-Regierung Nvidia vorgeschrieben hat. Langfristig ist die Nvidiaaktie auf jeden Fall in einem gesunden Aufwärtstrend und die aktuelle Korrektur ist völlig in Ordnung. Hier der Bereich 140 bis 150 US-Dollar ist jetzt erstmal die stärkste Unterstützungszone und wenn wir hier ein Boden sehen, dann kann man sie sich durchaus auch mal näher angucken. Heute Abend gibt's neue Quartalzahlen. Ich halte euch zu dem ganzen auf dem Laufenden. Also folgt mir, um das nicht zu verpassen.
