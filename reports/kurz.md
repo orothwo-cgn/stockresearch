@@ -1,45 +1,46 @@
-# Kurzfassung 18.11.2026 19:41
+# Kurzfassung 18.11.2026 20:11
 
-**Markt:** Nasdaq 100 +0,6 % (200T -3,2 %), S&P 500 +0,1 % (200T +0,0 %), DAX -1,2 % (200T +3,0 %)
-**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 25 (extreme Angst, Vorwoche 36), VIX 24,0
-**Zinsen:** US 10 Jahre 5,06 % (90T 4,90 %, 200T 4,60 %, Hoch 12 M 5,31 %), 30 Jahre 5,41 %, Kurve 10J−3M +0,91
-**Depot:** 323.298 € (+1.987 € heute), seit Kauf +53,5 %
-**Schwächste:** Kingsoft Cloud Holding -11,5 %, Applied Optoelectronic -9,8 %, UNITEDHEALTH GROUP DL- -8,8 %, Nemetschek SE -5,8 %
-**Stärkste:** Okta Inc. +10,7 %, SENTINELONE INC.A -,00 +9,8 %, SailPoint Inc. +8,8 %, CROWDSTRIKE HLD. DL-,0 +8,8 %
+**Markt:** Nasdaq 100 +0,3 % (200T -3,5 %), S&P 500 -0,2 % (200T -0,3 %), DAX -1,2 % (200T +3,0 %)
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 26 (Angst, Vorwoche 36), VIX 23,6
+**Zinsen:** US 10 Jahre 5,06 % (90T 4,90 %, 200T 4,60 %, Hoch 12 M 5,31 %), 30 Jahre 5,41 %, Kurve 10J−3M +0,92
+**Depot:** 322.997 € (+1.532 € heute), seit Kauf +53,3 %
+**Schwächste:** Applied Optoelectronic -11,7 %, Kingsoft Cloud Holding -11,5 %, UNITEDHEALTH GROUP DL- -9,7 %, Nemetschek SE -5,8 %
+**Stärkste:** Okta Inc. +11,0 %, SENTINELONE INC.A -,00 +10,2 %, SailPoint Inc. +10,2 %, CROWDSTRIKE HLD. DL-,0 +8,8 %
 
 **Wichtig heute:**
-- S&P 500 nähert sich der 200-Tage-Linie: nur noch 0,0 % darüber.
+- S&P 500 notiert unter der 200-Tage-Linie (-0,3 %).
 - DAX nähert sich der 200-Tage-Linie: nur noch 3,0 % darüber.
+- Applied Optoelectronics Inc. (AAOI) fällt heute um -11,7 %.
 - Kingsoft Cloud Holdings Ltd. (3896.HK) fällt heute um -11,5 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Microsoft: 463,93 €, Zone 447,00 € (+3,8 %)
-- Alphabet: 257,97 €, Zone 240,00 € (+7,5 %)
-- Palantir: 142,63 €, Zone 140,00 € (+1,9 %)
-- Datadog: 152,28 €, Zone 154,00 € (-1,1 %)
-- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 167,23 (-5,0 %)
-- ServiceNow: 82,22 €, Zone 101,50 € (-19,0 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 90,29 (-13,3 %)
-- Vertiv: 178,11 €, Zone 185,00 € (-3,7 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 195,60 (+4,0 %)
-- KLA: 131,07 €, Zone 152,00 € (-13,8 %)
-- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 143,94 (-4,3 %)
-- Onto Innovation: 184,32 €, Zone 217,00 € (-15,1 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 202,42 (+7,0 %)
-- Qnity Electronics: 105,29 €, Zone 107,00 € (-1,6 %)
-- Teradyne: 212,29 €, Zone 287,00 € (-26,0 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 233,13 (-19,7 %)
-- Astera Labs: 197,35 €, Zone 218,00 € (-9,5 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 216,73 (-10,3 %)
-- Marvell Technology: 132,13 €, Zone 198,00 € (-33,3 %)
-- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 145,10 (-23,5 %)
+- Microsoft: 463,82 €, Zone 447,00 € (+3,8 %)
+- Alphabet: 258,21 €, Zone 240,00 € (+7,6 %)
+- Palantir: 142,81 €, Zone 140,00 € (+2,0 %)
+- Datadog: 154,22 €, Zone 154,00 € (+0,1 %)
+- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 169,21 (-3,8 %)
+- ServiceNow: 82,23 €, Zone 101,50 € (-19,0 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 90,22 (-13,3 %)
+- Vertiv: 176,34 €, Zone 185,00 € (-4,7 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 193,48 (+2,9 %)
+- KLA: 129,54 €, Zone 152,00 € (-14,8 %)
+- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 142,13 (-5,5 %)
+- Onto Innovation: 181,29 €, Zone 217,00 € (-16,5 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 198,91 (+5,1 %)
+- Qnity Electronics: 104,62 €, Zone 107,00 € (-2,2 %)
+- Teradyne: 209,43 €, Zone 287,00 € (-27,0 %)
+- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 229,79 (-20,8 %)
+- Astera Labs: 194,67 €, Zone 218,00 € (-10,7 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 213,59 (-11,6 %)
+- Marvell Technology: 130,38 €, Zone 198,00 € (-34,2 %)
+- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 143,05 (-24,6 %)
 - Hermès: 1.278,50 €, Zone 1.250,00 € (+2,3 %)
 - Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.278,50 (-3,9 %)
-- First Solar: 139,19 €, Zone 141,00 € (-1,3 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 152,85 (-20,0 %)
-- Enphase Energy: 20,58 €, Zone 20,50 € (+0,4 %)
-- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 22,59 (-47,9 %)
+- First Solar: 137,99 €, Zone 141,00 € (-2,1 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 151,40 (-20,7 %)
+- Enphase Energy: 20,30 €, Zone 20,50 € (-1,0 %)
+- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 22,27 (-48,7 %)
 - Schneider Electric: 238,05 €, Zone 228,00 € (+4,4 %)
-- HSBC: 15,49 €, Zone 15,10 € (+2,6 %)
+- HSBC: 15,48 €, Zone 15,10 € (+2,5 %)
 
-Weitere Hinweise: 9 neu, 352 aktiv. Vollständig: reports/2026-11-18_1941.md
+Weitere Hinweise: 7 neu, 353 aktiv. Vollständig: reports/2026-11-18_2011.md
