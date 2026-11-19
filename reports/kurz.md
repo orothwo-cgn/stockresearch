@@ -1,19 +1,14 @@
-# Kurzfassung 19.11.2026 23:41
+# Kurzfassung 20.11.2026 00:11
 
-**Markt:** Nasdaq 100 -2,2 % (200T -5,5 %), S&P 500 -2,0 % (200T -2,3 %), DAX -1,1 % (200T +1,9 %)
+**Markt:** Nasdaq 100 -2,2 % (200T -5,5 %), S&P 500 -2,0 % (200T -2,3 %), DAX -0,9 % (200T +2,0 %)
 **Stimmung:** Crash-Muster Korrektur (55/100), Fear & Greed 19 (extreme Angst, Vorwoche 40), VIX 28,4
 **Zinsen:** US 10 Jahre 5,05 % (90T 4,91 %, 200T 4,60 %, Hoch 12 M 5,31 %), 30 Jahre 5,40 %, Kurve 10J−3M +0,90
-**Depot:** 318.583 € (-4.132 € heute), seit Kauf +51,2 %
+**Depot:** 318.636 € (-4.074 € heute), seit Kauf +51,3 %
 **Schwächste:** TWILIO INC. -8,8 %, Kingsoft Cloud Holding -6,3 %, The Trade Desk Inc. -6,2 %, UNITEDHEALTH GROUP DL- -5,6 %
 **Stärkste:** Palo Alto Networks Inc +6,4 %, Okta Inc. +5,7 %, Trend Micro Inc. +5,7 %, Zscaler Inc. +4,0 %
 
 **Wichtig heute:**
-- Nasdaq 100 liegt 15,1 % unter dem 52-Wochen-Hoch (Stufe 15 %).
-- S&P 500 notiert unter der 200-Tage-Linie (-2,3 %).
-- DAX nähert sich der 200-Tage-Linie: nur noch 1,9 % darüber.
-- Fortinet (FTNT) notiert unter der 200-Tage-Linie (-0,1 %).
-- Twilio (TWLO) notiert unter der 200-Tage-Linie (-8,1 %).
-- British American Tobacco (BATS.L) notiert unter der 200-Tage-Linie (-1,4 %).
+- nichts
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 543,39 €, Zone 516,00 € (+5,3 %)
@@ -46,8 +41,8 @@
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 151,95 (-20,4 %)
 - Enphase Energy: 20,03 €, Zone 20,50 € (-2,3 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 21,98 (-49,4 %)
-- Schneider Electric: 235,25 €, Zone 228,00 € (+3,2 %)
+- Schneider Electric: 235,75 €, Zone 228,00 € (+3,4 %)
 - HSBC: 15,28 €, Zone 15,10 € (+1,2 %)
-- Münchener Rück: 574,80 €, Zone 538,00 € (+6,8 %)
+- Münchener Rück: 575,60 €, Zone 538,00 € (+7,0 %)
 
-Weitere Hinweise: 0 neu, 385 aktiv. Vollständig: reports/2026-11-19_2341.md
+Weitere Hinweise: 0 neu, 384 aktiv. Vollständig: reports/2026-11-20_0011.md
