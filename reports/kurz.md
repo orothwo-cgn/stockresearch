@@ -1,9 +1,9 @@
-# Kurzfassung 19.11.2026 23:11
+# Kurzfassung 19.11.2026 23:37
 
 **Markt:** Nasdaq 100 -2,2 % (200T -5,5 %), S&P 500 -2,0 % (200T -2,3 %), DAX -1,1 % (200T +1,9 %)
 **Stimmung:** Crash-Muster Korrektur (55/100), Fear & Greed 19 (extreme Angst, Vorwoche 40), VIX 28,4
 **Zinsen:** US 10 Jahre 5,05 % (90T 4,91 %, 200T 4,60 %, Hoch 12 M 5,31 %), 30 Jahre 5,40 %, Kurve 10J−3M +0,90
-**Depot:** 318.612 € (-4.133 € heute), seit Kauf +51,3 %
+**Depot:** 318.603 € (-4.133 € heute), seit Kauf +51,3 %
 **Schwächste:** TWILIO INC. -8,8 %, Kingsoft Cloud Holding -6,3 %, The Trade Desk Inc. -6,2 %, UNITEDHEALTH GROUP DL- -5,6 %
 **Stärkste:** Palo Alto Networks Inc +6,4 %, Okta Inc. +5,7 %, Trend Micro Inc. +5,7 %, Zscaler Inc. +4,0 %
 
@@ -28,22 +28,26 @@
 - ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 88,87 (-14,6 %)
 - Vertiv: 168,62 €, Zone 185,00 € (-8,9 %)
 - Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 184,99 (-1,6 %)
+- KLA: 128,96 €, Zone 152,00 € (-15,2 %)
 - KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 141,48 (-6,0 %)
 - Onto Innovation: 178,59 €, Zone 217,00 € (-17,7 %)
 - Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 195,93 (+3,5 %)
 - Qnity Electronics: 103,57 €, Zone 107,00 € (-3,2 %)
 - Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 113,63 (+7,9 %)
+- Teradyne: 207,30 €, Zone 287,00 € (-27,8 %)
 - Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 227,43 (-21,6 %)
+- Astera Labs: 192,87 €, Zone 218,00 € (-11,5 %)
 - Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 211,60 (-12,4 %)
 - Marvell Technology: 126,22 €, Zone 198,00 € (-36,3 %)
 - Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 138,47 (-27,0 %)
 - Hermès: 1.272,00 €, Zone 1.250,00 € (+1,8 %)
 - Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.272,00 (-4,4 %)
+- First Solar: 138,50 €, Zone 141,00 € (-1,8 %)
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 151,95 (-20,4 %)
 - Enphase Energy: 20,03 €, Zone 20,50 € (-2,3 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 21,98 (-49,4 %)
 - Schneider Electric: 235,25 €, Zone 228,00 € (+3,2 %)
-- HSBC: 15,29 €, Zone 15,10 € (+1,2 %)
+- HSBC: 15,28 €, Zone 15,10 € (+1,2 %)
 - Münchener Rück: 574,80 €, Zone 538,00 € (+6,8 %)
 
-Weitere Hinweise: 2 neu, 379 aktiv. Vollständig: reports/2026-11-19_2311.md
+Weitere Hinweise: 6 neu, 385 aktiv. Vollständig: reports/2026-11-19_2337.md
