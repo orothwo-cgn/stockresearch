@@ -1,4 +1,4 @@
-# Kurzfassung 20.11.2026 23:10
+# Kurzfassung 20.11.2026 23:41
 
 **Markt:** Nasdaq 100 -5,6 % (200T -10,8 %), S&P 500 -3,7 % (200T -6,0 %), DAX -2,6 % (200T -0,8 %)
 **Stimmung:** Crash-Muster Panik (95/100), Fear & Greed 10 (extreme Angst, Vorwoche 37), VIX 35,9
@@ -90,4 +90,4 @@
 - HSBC: 14,72 €, Zone 15,10 € (-2,5 %)
 - Münchener Rück: 580,00 €, Zone 538,00 € (+7,8 %)
 
-Weitere Hinweise: 0 neu, 458 aktiv. Vollständig: reports/2026-11-20_2310.md
+Weitere Hinweise: 0 neu, 458 aktiv. Vollständig: reports/2026-11-20_2341.md
