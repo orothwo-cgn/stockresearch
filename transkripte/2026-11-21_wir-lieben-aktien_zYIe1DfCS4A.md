@@ -1,0 +1,11 @@
+# NVIDIA halbiert: Wo liegt der Boden? 📉
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 21.11.2026
+- Link: https://www.youtube.com/watch?v=zYIe1DfCS4A
+- Ausgewertet: ja
+
+## Transkript
+
+Leute, wir müssen über die Nvidiaaktie sprechen. Gib mir 60 Sekunden Zeit, ich sag dir alles, was du aktuell wissen musst. Wir haben bei Nvidia mittlerweile ein Kursverlust vom Allzeit hoch aus von ungefähr plus - 50% plus wäre natürlich schön. So, was ist hier los? Werden erst ja während von Jensen Wang. Jetzt prüft die SCCIA auch noch der TQ Bericht, also letzte Quartalsbericht ist ja auch noch nicht draußen, der kommt nachgelagert und es sind mehrere Probleme. Einerseits die Finanzierungsgeschichten in der Bilanz gönten Probleme bereiten, dann haben wir das ganze China Geschäft, wo wir nicht so gewissen mit Singapur und Co. Umsätzen, was ist da eigentlich passiert? In jedem Fall müssen wir uns daran halten, was Nvidia langfristig immer wieder gemacht hat. Und da muss man sagen, die aktuelle Korrektur ist tatsächlich eine gängige Korrektur und entsprechend auch potenziell eine gute Kaufchance, die sich jetzt seit Jahren wieder geben könnte. Wer jetzt hier davor irgendwann Nvidia gekauft hat, hat das in der Regel zu viel zu teuren und unattraktiven Kursen aufs FMO getan. Was muss jetzt aber passieren, damit es hier Kaufsignale gibt? Erstmal, wo sind die wichtigen Unterstützungszonen? Machen uns mal den kurzfristigen Chart auf und gucken, wo das Volumen liegt. Hier oben hätte ich mir schon eine Stabilisierung vorstellen können, ist nicht gelungen. Jetzt haben haben wir hier unten vor allem den Bereich um 115 120 US-Dollar meinetwegen auch noch bis zum aktuellen Bereich. Der sollte am besten halten. Alles was tiefer geht, hier wird schon langsam dann eine ungesunde Korrekturlänge und dann drohen wir auch den übergeordneten Trend zu brechen. Entsprechend würde ich mich hier wirklich nach Umkehrsignalen umsehen. Sowas kann wie eine kleine Bodenbildung aussehen. Sowas kann schnell gehen wie eine Vumkehr. Aber bislang hier, wer hier reingegriffen hat, hat das einfach nur aus VMO getan. Hier waren keinerlei Umkehrsignale da. Schaut euch das an. Es war ein lopenreiner Abwärtstrend. Deswegen lasst ein Abo da. Ich mache euch Updates zu Nvidia und dann verpasst ihr das nicht.

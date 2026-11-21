@@ -1,0 +1,11 @@
+# NVIDIA-Crash: DIESES Signal entscheidet jetzt alles ⚠️
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 21.11.2026
+- Link: https://www.youtube.com/watch?v=ybwx_F7cOmI
+- Ausgewertet: ja
+
+## Transkript
+
+Die Nvidia Aktie steht mittlerweile 50% unter Allzeit hoch und sie ist das beste Beispiel dafür, warum Privatanlege an der Börse einfach immer wieder scheitern. Pass kurz auf, ich sag dir auch, wann du Nvidia wieder kaufen kannst. So, schauen wir uns Nvidia mal an. Dann haben wir 50% seit dem Hoch verloren und viele denken immer, sie sind so ne klug und schlauer als der ganze Markt und müssen dann in so eine Panik hier immer wieder reingreifen. Die kaufen seit hier oben, ich sehe so viele Post auf Reddit, kaufen seit hier oben Nvidia, haben schon lange kein Cash mehr und warten einfach nicht auf Umkehrsignale. Was wollen wir denn sehen, bevor wir eine Aktie kaufen? Wir wollen, dass die großen Marktteilnehmer auf unsere Seite wechseln. Genauso jetzt mit den ganzen Vorwürfen SCC und so weiter. Ich habe keine Ahnung, was hinter verschlossenen Türen passiert, aber wovon ich eine Ahnung habe, ist, wenn ich merke, hier kommen die großen Marktteilnehmer rein, bauen Position auf, dass dann irgendwie vielleicht die Situation besser werden könnte. Das gleiche ist auch im schnellen Ausmaß hier 2025 passiert. Wir hatten auf einmal eine schöne kleine Bodenbildung. Wir hatten hier Volumen, das viel gehandelt wurde. Warum? Nicht nur, weil viele Retailanleger gekauft haben, sondern weil eben auch großes Volumen reingekommen ist. Und genau das brauchen wir bei Nvidia eben auch, bevor wir hier irgendwie reingreifen. Das gilt im Prinzip aber für jede Aktie, die wir da draußen haben. Schauen schauen wir uns die wichtigsten Unterstützungsz mal an. Dann war erstmal der Bereich der Hochs hier zu nennen. Da sind wir aber einfach durchgerasselt und jetzt haben wir unter uns hier recht viel Volumen. Also der Bereich hier 100 12 115 bis 125$, der sollte jetzt am besten auch halten, denn alles was tiefer geht, gerade dann auch hier unter 100$ ist dann schon als ungesund einzuordnen und langfristig beim Video nicht mehr wirklich gut einzuschätzen. Ich mache euch Updates dazu, also folgt mir, um das nicht zu verpassen und ja, bis zum nächsten Video.
