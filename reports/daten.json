@@ -1,8 +1,8 @@
 {
- "stand": "21.11.2026 00:41",
+ "stand": "21.11.2026 03:51",
  "depot": {
-  "wert": 307927.32,
-  "einstand": 210637.85
+  "wert": 307995.83,
+  "einstand": 210638.07
  },
  "markt": [
   {
@@ -32,14 +32,14 @@
   {
    "t": "^GDAXI",
    "name": "DAX",
-   "kurs": 24839.0,
-   "tag": -2.45,
-   "a90": -3.5,
-   "a200": -0.631,
-   "dd": -7.22,
-   "p1m": -2.1,
-   "ytd": 1.43,
-   "p1w": -7.14
+   "kurs": 24803.0,
+   "tag": -2.6,
+   "a90": -3.64,
+   "a200": -0.777,
+   "dd": -7.36,
+   "p1m": -2.24,
+   "ytd": 1.28,
+   "p1w": -7.28
   },
   {
    "t": "^VIX",
@@ -89,10 +89,12 @@
   "rating": "extreme Angst",
   "vorwoche": 37.4,
   "vormonat": 28.7,
-  "stand": "2026-11-21T00:41",
+  "stand": "2026-11-21T03:51",
   "aus_cache": false
  },
- "neu_wichtig": [],
+ "neu_wichtig": [
+  "DAX fällt heute um -2,6 %."
+ ],
  "neu_weitere": [],
  "aktiv": [
   {
@@ -124,12 +126,16 @@
    "wichtig": true
   },
   {
-   "text": "DAX notiert unter der 200-Tage-Linie (-0,6 %).",
+   "text": "DAX notiert unter der 200-Tage-Linie (-0,8 %).",
    "wichtig": true
   },
   {
-   "text": "DAX notiert unter der 90-Tage-Linie (-3,5 %).",
+   "text": "DAX notiert unter der 90-Tage-Linie (-3,6 %).",
    "wichtig": false
+  },
+  {
+   "text": "DAX fällt heute um -2,6 %.",
+   "wichtig": true
   },
   {
    "text": "VIX bei 35,9 (Stufe 30): erhöhte Angst im Markt.",
@@ -200,7 +206,7 @@
    "wichtig": false
   },
   {
-   "text": "Alphabet (GOOGL) nähert sich Kaufzone 1: 241,73 €, Zone 240,00 €.",
+   "text": "Alphabet (GOOGL) nähert sich Kaufzone 1: 241,84 €, Zone 240,00 €.",
    "wichtig": false
   },
   {
@@ -552,7 +558,7 @@
    "wichtig": false
   },
   {
-   "text": "Broadcom (AVGO) nähert sich Kaufzone 1: 277,38 €, Zone 275,00 €.",
+   "text": "Broadcom (AVGO) nähert sich Kaufzone 1: 277,50 €, Zone 275,00 €.",
    "wichtig": false
   },
   {
@@ -1684,7 +1690,7 @@
    "wichtig": false
   },
   {
-   "text": "BHP Billiton (0HN3.L) liegt 29,5 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
+   "text": "BHP Billiton (0HN3.L) liegt 29,2 % unter dem 52-Wochen-Hoch (Stufe 25 %).",
    "wichtig": false
   },
   {
@@ -1884,19 +1890,19 @@
    "wichtig": false
   },
   {
-   "text": "Home Depot (HD) nähert sich Abstauber-Kauflimit 1 (Liste Stand 2025): 308,93 €, Limit 300,00 € (+3,0 %).",
+   "text": "Home Depot (HD) nähert sich Abstauber-Kauflimit 1 (Liste Stand 2025): 309,07 €, Limit 300,00 € (+3,0 %).",
    "wichtig": false
   },
   {
-   "text": "IBM (IBM) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 204,51 €, Limit 201,00 € (+1,7 %).",
+   "text": "IBM (IBM) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 204,60 €, Limit 201,00 € (+1,8 %).",
    "wichtig": false
   },
   {
-   "text": "Intel (INTC) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 46,73 €, Limit 46,00 € (+1,6 %).",
+   "text": "Intel (INTC) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 46,75 €, Limit 46,00 € (+1,6 %).",
    "wichtig": false
   },
   {
-   "text": "Zscaler (ZS) nähert sich Abstauber-Kauflimit 1 (Liste Stand 2025): 177,52 €, Limit 171,00 € (+3,8 %).",
+   "text": "Zscaler (ZS) nähert sich Abstauber-Kauflimit 1 (Liste Stand 2025): 177,60 €, Limit 171,00 € (+3,9 %).",
    "wichtig": false
   },
   {
@@ -1904,23 +1910,23 @@
    "wichtig": false
   },
   {
-   "text": "BioNTech (BNTX) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 73,77 €, Limit 72,00 € (+2,5 %).",
+   "text": "BioNTech (BNTX) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 73,80 €, Limit 72,00 € (+2,5 %).",
    "wichtig": false
   },
   {
-   "text": "CoreWeave (CRWV) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 36,00 €, Limit 35,00 € (+2,9 %).",
+   "text": "CoreWeave (CRWV) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 36,02 €, Limit 35,00 € (+2,9 %).",
    "wichtig": false
   },
   {
-   "text": "Lam Research (LRCX) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 167,00 €, Limit 160,00 € (+4,4 %).",
+   "text": "Lam Research (LRCX) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 167,07 €, Limit 160,00 € (+4,4 %).",
    "wichtig": false
   },
   {
-   "text": "Oracle (ORCL) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 92,20 €, Limit 92,00 € (+0,2 %).",
+   "text": "Oracle (ORCL) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 92,24 €, Limit 92,00 € (+0,3 %).",
    "wichtig": false
   },
   {
-   "text": "Xiaomi (1810.HK) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 3,22 €, Limit 3,10 € (+3,7 %).",
+   "text": "Xiaomi (1810.HK) nähert sich Abstauber-Kauflimit (Schnäppchenliste 11/2026): 3,21 €, Limit 3,10 € (+3,7 %).",
    "wichtig": false
   }
  ],
@@ -1944,8 +1950,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 224.9,
-   "fx": 0.9112,
+   "keur": 225.0,
+   "fx": 0.9116,
    "hoch52": 284.02,
    "tief52": 198.79,
    "ma200": 245.15,
@@ -1963,9 +1969,9 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 8771.193,
+    "wert": 8775.044,
     "gew": 2.85,
-    "erg": 40.81,
+    "erg": 40.87,
     "stueck": 39.0,
     "einstand": 6228.98
    },
@@ -1975,8 +1981,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 400.0,
-    "keur": 224.9,
-    "abst": 6.09,
+    "keur": 225.0,
+    "abst": 6.13,
     "split": false
    }
   },
@@ -1998,8 +2004,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 312.14,
-   "fx": 0.9112,
+   "keur": 312.28,
+   "fx": 0.9116,
    "hoch52": 356.27,
    "tief52": 245.84,
    "ma200": 302.79,
@@ -2019,12 +2025,12 @@
     "exdiv": "2026-11-12"
    },
    "depot": {
-    "wert": 1248.563,
-    "gew": 0.405,
-    "erg": 60.22,
+    "wert": 1249.111,
+    "gew": 0.406,
+    "erg": 60.29,
     "stueck": 4.0,
     "einstand": 779.3,
-    "div_eur": 3.8705
+    "div_eur": 3.8722
    },
    "p1w": -3.85,
    "ab": {
@@ -2032,8 +2038,8 @@
     "l2": 176.0,
     "liste": "2025",
     "ziel": 260.0,
-    "keur": 312.14,
-    "abst": 57.6,
+    "keur": 312.28,
+    "abst": 57.7,
     "split": false
    }
   },
@@ -2055,8 +2061,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 511.04,
-   "fx": 0.9112,
+   "keur": 511.26,
+   "fx": 0.9116,
    "hoch52": 777.59,
    "tief52": 524.82,
    "ma200": 627.89,
@@ -2075,12 +2081,12 @@
     "exdiv": "2026-09-21"
    },
    "depot": {
-    "wert": 5709.31,
+    "wert": 5711.817,
     "gew": 1.85,
-    "erg": 3.959,
+    "erg": 4.005,
     "stueck": 11.172,
     "einstand": 5491.86,
-    "div_eur": 19.983
+    "div_eur": 19.991
    },
    "p1w": -12.6,
    "ab": {
@@ -2088,8 +2094,8 @@
     "l2": 461.0,
     "liste": "2025",
     "ziel": 800.0,
-    "keur": 511.04,
-    "abst": -2.66,
+    "keur": 511.26,
+    "abst": -2.62,
     "split": false
    }
   },
@@ -2111,8 +2117,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 441.49,
-   "fx": 0.9112,
+   "keur": 441.69,
+   "fx": 0.9116,
    "hoch52": 554.73,
    "tief52": 351.49,
    "ma200": 441.93,
@@ -2132,12 +2138,12 @@
     "exdiv": "2026-11-19"
    },
    "depot": {
-    "wert": 5080.72,
+    "wert": 5082.95,
     "gew": 1.65,
-    "erg": 26.53,
+    "erg": 26.59,
     "stueck": 11.508,
     "einstand": 4015.28,
-    "div_eur": 40.138
+    "div_eur": 40.155
    },
    "p1w": -7.33,
    "ab": {
@@ -2145,7 +2151,7 @@
     "l2": 292.0,
     "liste": "2025",
     "ziel": 450.0,
-    "keur": 441.49,
+    "keur": 441.69,
     "abst": 38.0,
     "split": false
    }
@@ -2169,8 +2175,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 92.204,
-   "fx": 0.9112,
+   "keur": 92.245,
+   "fx": 0.9116,
    "hoch52": 246.38,
    "tief52": 101.19,
    "ma200": 152.19,
@@ -2186,12 +2192,12 @@
     "exdiv": "2026-10-09"
    },
    "depot": {
-    "wert": 2305.108,
+    "wert": 2306.12,
     "gew": 0.749,
-    "erg": -34.78,
+    "erg": -34.75,
     "stueck": 25.0,
     "einstand": 3534.34,
-    "div_eur": 41.722
+    "div_eur": 41.741
    },
    "p1w": -19.3,
    "ab": {
@@ -2199,8 +2205,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 200.0,
-    "keur": 92.204,
-    "abst": 0.222,
+    "keur": 92.245,
+    "abst": 0.266,
     "split": false
    }
   },
@@ -2223,8 +2229,8 @@
    ],
    "gruppe": "big_player",
    "aus": false,
-   "keur": 241.73,
-   "fx": 0.9112,
+   "keur": 241.84,
+   "fx": 0.9116,
    "hoch52": 402.12,
    "tief52": 265.29,
    "ma200": 336.71,
@@ -2243,12 +2249,12 @@
     "exdiv": "2026-12-07"
    },
    "depot": {
-    "wert": 12328.34,
+    "wert": 12333.76,
     "gew": 4.0,
-    "erg": 59.3,
+    "erg": 59.37,
     "stueck": 51.0,
     "einstand": 7739.29,
-    "div_eur": 39.451
+    "div_eur": 39.468
    },
    "p1w": -10.3,
    "ab": {
@@ -2256,8 +2262,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 450.0,
-    "keur": 241.73,
-    "abst": -0.111,
+    "keur": 241.84,
+    "abst": -0.0668,
     "split": false
    }
   },
@@ -2279,8 +2285,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 130.75,
-   "fx": 0.9112,
+   "keur": 130.81,
+   "fx": 0.9116,
    "hoch52": 209.05,
    "tief52": 107.27,
    "ma200": 153.97,
@@ -2298,9 +2304,9 @@
     "zahlen": "2027-02-01"
    },
    "depot": {
-    "wert": 6537.404,
+    "wert": 6540.275,
     "gew": 2.12,
-    "erg": 327.7,
+    "erg": 327.9,
     "stueck": 50.0,
     "einstand": 1528.42
    },
@@ -2310,7 +2316,7 @@
     "l2": 51.0,
     "liste": "2025",
     "ziel": 120.0,
-    "keur": 130.75,
+    "keur": 130.81,
     "abst": 114.0,
     "split": false
    }
@@ -2333,8 +2339,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 209.07,
-   "fx": 0.9112,
+   "keur": 209.16,
+   "fx": 0.9116,
    "hoch52": 278.86,
    "tief52": 87.562,
    "ma200": 176.19,
@@ -2352,9 +2358,9 @@
     "zahlen": "2026-12-01"
    },
    "depot": {
-    "wert": 5250.895,
+    "wert": 5253.2,
     "gew": 1.71,
-    "erg": 159.9,
+    "erg": 160.0,
     "stueck": 25.116,
     "einstand": 2020.51
    },
@@ -2364,7 +2370,7 @@
     "l2": 53.75,
     "liste": "2025",
     "ziel": 100.0,
-    "keur": 209.07,
+    "keur": 209.16,
     "abst": 216.0,
     "split": true
    }
@@ -2386,8 +2392,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 250.54,
-   "fx": 0.9112,
+   "keur": 250.65,
+   "fx": 0.9116,
    "hoch52": 360.93,
    "tief52": 160.19,
    "ma200": 256.26,
@@ -2404,9 +2410,9 @@
     "zahlen": "2026-11-05"
    },
    "depot": {
-    "wert": 3758.153,
+    "wert": 3759.803,
     "gew": 1.22,
-    "erg": 84.41,
+    "erg": 84.49,
     "stueck": 15.0,
     "einstand": 2037.91
    },
@@ -2429,8 +2435,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 143.4,
-   "fx": 0.9112,
+   "keur": 143.46,
+   "fx": 0.9116,
    "hoch52": 293.26,
    "tief52": 102.61,
    "ma200": 202.51,
@@ -2448,9 +2454,9 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 716.9777,
+    "wert": 717.2924,
     "gew": 0.233,
-    "erg": 42.65,
+    "erg": 42.71,
     "stueck": 5.0,
     "einstand": 502.63
    },
@@ -2475,8 +2481,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 113.5,
-   "fx": 0.9112,
+   "keur": 113.55,
+   "fx": 0.9116,
    "hoch52": 194.75,
    "tief52": 75.23,
    "ma200": 131.88,
@@ -2494,9 +2500,9 @@
     "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 4312.964,
+    "wert": 4314.858,
     "gew": 1.4,
-    "erg": 39.97,
+    "erg": 40.04,
     "stueck": 38.0,
     "einstand": 3081.27
    },
@@ -2506,7 +2512,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 160.0,
-    "keur": 113.5,
+    "keur": 113.55,
     "abst": 23.4,
     "split": false
    }
@@ -2528,8 +2534,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 156.82,
-   "fx": 0.9112,
+   "keur": 156.89,
+   "fx": 0.9116,
    "hoch52": 301.27,
    "tief52": 108.49,
    "ma200": 194.81,
@@ -2547,9 +2553,9 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 1568.175,
+    "wert": 1568.864,
     "gew": 0.509,
-    "erg": 50.43,
+    "erg": 50.5,
     "stueck": 10.0,
     "einstand": 1042.46
    },
@@ -2574,8 +2580,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 79.83,
-   "fx": 0.9112,
+   "keur": 79.865,
+   "fx": 0.9116,
    "hoch52": 173.5,
    "tief52": 83.0,
    "ma200": 113.25,
@@ -2589,13 +2595,13 @@
     "land": "United States",
     "div": 0.0,
     "kgv": 63.03,
-    "kgv_fwd": 18.24,
+    "kgv_fwd": 18.23,
     "zahlen": "2027-01-27"
    },
    "depot": {
-    "wert": 1836.095,
+    "wert": 1836.901,
     "gew": 0.596,
-    "erg": -14.46,
+    "erg": -14.42,
     "stueck": 23.0,
     "einstand": 2146.47
    },
@@ -2605,8 +2611,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 160.0,
-    "keur": 79.83,
-    "abst": -2.65,
+    "keur": 79.865,
+    "abst": -2.6,
     "split": false
    }
   },
@@ -2627,8 +2633,8 @@
    ],
    "gruppe": "wachstum",
    "aus": false,
-   "keur": 151.48,
-   "fx": 0.9112,
+   "keur": 151.54,
+   "fx": 0.9116,
    "hoch52": 376.06,
    "tief52": 149.73,
    "ma200": 271.48,
@@ -2648,12 +2654,12 @@
     "exdiv": "2026-11-24"
    },
    "depot": {
-    "wert": 6210.593,
+    "wert": 6213.32,
     "gew": 2.02,
-    "erg": 38.73,
+    "erg": 38.79,
     "stueck": 41.0,
     "einstand": 4476.84,
-    "div_eur": 8.6948
+    "div_eur": 8.6986
    },
    "p1w": -17.7
   },
@@ -2676,8 +2682,8 @@
    ],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 115.6,
-   "fx": 0.9112,
+   "keur": 115.65,
+   "fx": 0.9116,
    "hoch52": 300.91,
    "tief52": 109.14,
    "ma200": 181.38,
@@ -2704,8 +2710,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 250.0,
-    "keur": 115.6,
-    "abst": 5.09,
+    "keur": 115.65,
+    "abst": 5.14,
     "split": false
    }
   },
@@ -2728,8 +2734,8 @@
    ],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 155.05,
-   "fx": 0.9112,
+   "keur": 155.12,
+   "fx": 0.9116,
    "hoch52": 378.45,
    "tief52": 125.28,
    "ma200": 259.91,
@@ -2749,9 +2755,9 @@
     "zahlen": "2026-11-09"
    },
    "depot": {
-    "wert": 155.0498,
+    "wert": 155.1179,
     "gew": 0.0504,
-    "erg": -22.09,
+    "erg": -22.05,
     "stueck": 1.0,
     "einstand": 199.0
    },
@@ -2775,8 +2781,8 @@
    ],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 94.282,
-   "fx": 0.9112,
+   "keur": 94.323,
+   "fx": 0.9116,
    "hoch52": 175.52,
    "tief52": 73.351,
    "ma200": 130.69,
@@ -2795,12 +2801,12 @@
     "exdiv": "2026-11-30"
    },
    "depot": {
-    "wert": 677.2266,
+    "wert": 677.5239,
     "gew": 0.22,
-    "erg": -22.41,
+    "erg": -22.38,
     "stueck": 7.183,
     "einstand": 872.84,
-    "div_eur": 1.8962
+    "div_eur": 1.8971
    },
    "p1w": -12.6
   },
@@ -2808,7 +2814,7 @@
    "t": "TER",
    "name": "Teradyne",
    "wa": "USD",
-   "kurs": 204.77,
+   "kurs": 204.78,
    "tag": -9.96,
    "dd": -57.7,
    "a90": -40.9,
@@ -2819,8 +2825,8 @@
    "listen": [],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 186.59,
-   "fx": 0.9112,
+   "keur": 186.68,
+   "fx": 0.9116,
    "hoch52": 483.65,
    "tief52": 155.6,
    "ma200": 349.17,
@@ -2860,8 +2866,8 @@
    ],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 164.33,
-   "fx": 0.9112,
+   "keur": 164.41,
+   "fx": 0.9116,
    "hoch52": 483.02,
    "tief52": 100.27,
    "ma200": 258.83,
@@ -2900,8 +2906,8 @@
    ],
    "gruppe": "wartebank",
    "aus": false,
-   "keur": 111.42,
-   "fx": 0.9112,
+   "keur": 111.47,
+   "fx": 0.9116,
    "hoch52": 316.28,
    "tief52": 73.659,
    "ma200": 188.53,
@@ -2921,12 +2927,12 @@
     "exdiv": "2026-10-09"
    },
    "depot": {
-    "wert": 2339.852,
+    "wert": 2340.879,
     "gew": 0.76,
-    "erg": 76.81,
+    "erg": 76.89,
     "stueck": 21.0,
     "einstand": 1323.35,
-    "div_eur": 3.9777
+    "div_eur": 3.9795
    },
    "p1w": -22.0,
    "ab": {
@@ -2934,8 +2940,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 250.0,
-    "keur": 111.42,
-    "abst": -3.95,
+    "keur": 111.47,
+    "abst": -3.9,
     "split": false
    }
   },
@@ -3010,8 +3016,8 @@
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 209.81,
-   "fx": 0.9112,
+   "keur": 209.91,
+   "fx": 0.9116,
    "hoch52": 261.62,
    "tief52": 160.25,
    "ma200": 221.86,
@@ -3045,8 +3051,8 @@
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 7.3625,
-   "fx": 0.9112,
+   "keur": 7.3657,
+   "fx": 0.9116,
    "hoch52": 21.83,
    "tief52": 8.08,
    "ma200": 13.793,
@@ -3059,9 +3065,9 @@
     "zahlen": "2026-11-16"
    },
    "depot": {
-    "wert": 176.6999,
+    "wert": 176.7775,
     "gew": 0.0574,
-    "erg": -47.68,
+    "erg": -47.66,
     "stueck": 24.0,
     "einstand": 337.75
    },
@@ -3082,8 +3088,8 @@
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 277.0,
-   "fx": 0.9112,
+   "keur": 277.12,
+   "fx": 0.9116,
    "hoch52": 479.83,
    "tief52": 225.83,
    "ma200": 366.59,
@@ -3117,8 +3123,8 @@
    "listen": [],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 34.398,
-   "fx": 0.9112,
+   "keur": 34.413,
+   "fx": 0.9116,
    "hoch52": 48.916,
    "tief52": 35.95,
    "ma200": 42.056,
@@ -3157,8 +3163,8 @@
    ],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 125.37,
-   "fx": 0.9112,
+   "keur": 125.43,
+   "fx": 0.9116,
    "hoch52": 318.25,
    "tief52": 137.59,
    "ma200": 211.1,
@@ -3181,7 +3187,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 280.0,
-    "keur": 125.37,
+    "keur": 125.43,
     "abst": -17.5,
     "split": false
    }
@@ -3205,8 +3211,8 @@
    ],
    "gruppe": "beobachtung",
    "aus": false,
-   "keur": 17.887,
-   "fx": 0.9112,
+   "keur": 17.895,
+   "fx": 0.9116,
    "hoch52": 72.33,
    "tief52": 19.63,
    "ma200": 39.974,
@@ -3224,9 +3230,9 @@
     "zahlen": "2026-10-27"
    },
    "depot": {
-    "wert": 447.1714,
+    "wert": 447.3677,
     "gew": 0.145,
-    "erg": -42.51,
+    "erg": -42.49,
     "stueck": 25.0,
     "einstand": 777.88
    },
@@ -3236,8 +3242,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 50.0,
-    "keur": 17.887,
-    "abst": -25.5,
+    "keur": 17.895,
+    "abst": -25.4,
     "split": false
    }
   },
@@ -3256,8 +3262,8 @@
    "listen": [],
    "gruppe": "zurueckgestellt",
    "aus": false,
-   "keur": 282.47,
-   "fx": 0.9112,
+   "keur": 282.6,
+   "fx": 0.9116,
    "hoch52": 384.17,
    "tief52": 268.9,
    "ma200": 319.24,
@@ -3293,8 +3299,8 @@
    ],
    "gruppe": "dividendenwachstum",
    "aus": false,
-   "keur": 277.38,
-   "fx": 0.9112,
+   "keur": 277.5,
+   "fx": 0.9116,
    "hoch52": 479.94,
    "tief52": 291.53,
    "ma200": 366.92,
@@ -3314,12 +3320,12 @@
     "exdiv": "2026-09-21"
    },
    "depot": {
-    "wert": 277.3784,
+    "wert": 277.5002,
     "gew": 0.0901,
-    "erg": -19.8,
+    "erg": -19.76,
     "stueck": 1.0,
     "einstand": 345.85,
-    "div_eur": 2.0803
+    "div_eur": 2.0813
    },
    "p1w": -12.3,
    "ab": {
@@ -3327,8 +3333,8 @@
     "l2": 125.0,
     "liste": "2025",
     "ziel": 225.0,
-    "keur": 277.38,
-    "abst": 82.5,
+    "keur": 277.5,
+    "abst": 82.6,
     "split": false
    }
   },
@@ -3395,8 +3401,8 @@
    ],
    "gruppe": "dividendenwachstum",
    "aus": false,
-   "keur": 366.18,
-   "fx": 0.9112,
+   "keur": 366.34,
+   "fx": 0.9116,
    "hoch52": 435.76,
    "tief52": 293.82,
    "ma200": 347.95,
@@ -3416,12 +3422,12 @@
     "exdiv": "2026-11-10"
    },
    "depot": {
-    "wert": 2703.536,
+    "wert": 2704.723,
     "gew": 0.878,
-    "erg": 26.88,
+    "erg": 26.93,
     "stueck": 7.383,
     "einstand": 2130.84,
-    "div_eur": 21.088
+    "div_eur": 21.097
    },
    "p1w": -5.61,
    "ab": {
@@ -3429,7 +3435,7 @@
     "l2": 251.0,
     "liste": "2025",
     "ziel": 350.0,
-    "keur": 366.18,
+    "keur": 366.34,
     "abst": 33.2,
     "split": false
    }
@@ -3449,8 +3455,8 @@
    "listen": [],
    "gruppe": "dividendenwachstum",
    "aus": false,
-   "keur": 274.92,
-   "fx": 0.9112,
+   "keur": 275.04,
+   "fx": 0.9116,
    "hoch52": 313.43,
    "tief52": 186.18,
    "ma200": 242.44,
@@ -3470,12 +3476,12 @@
     "exdiv": "2026-12-11"
    },
    "depot": {
-    "wert": 549.8363,
+    "wert": 550.0777,
     "gew": 0.179,
-    "erg": 21.26,
+    "erg": 21.31,
     "stueck": 2.0,
     "einstand": 453.45,
-    "div_eur": 13.856
+    "div_eur": 13.862
    },
    "p1w": -2.65
   },
@@ -3496,8 +3502,8 @@
    ],
    "gruppe": "dividendenwachstum",
    "aus": false,
-   "keur": 93.854,
-   "fx": 0.9112,
+   "keur": 93.895,
+   "fx": 0.9116,
    "hoch52": 125.77,
    "tief52": 81.474,
    "ma200": 100.39,
@@ -3517,12 +3523,12 @@
     "exdiv": "2026-10-15"
    },
    "depot": {
-    "wert": 375.4144,
+    "wert": 375.5792,
     "gew": 0.122,
-    "erg": 23.67,
+    "erg": 23.72,
     "stueck": 4.0,
     "einstand": 303.56,
-    "div_eur": 9.1226
+    "div_eur": 9.1266
    },
    "p1w": -5.09
   },
@@ -3541,8 +3547,8 @@
    "listen": [],
    "gruppe": "anleihen",
    "aus": false,
-   "keur": 74.363,
-   "fx": 0.9112,
+   "keur": 74.396,
+   "fx": 0.9116,
    "hoch52": 81.67,
    "tief52": 80.02,
    "ma200": 80.905,
@@ -3568,8 +3574,8 @@
    "listen": [],
    "gruppe": "anleihen",
    "aus": false,
-   "keur": 83.511,
-   "fx": 0.9112,
+   "keur": 83.548,
+   "fx": 0.9116,
    "hoch52": 95.093,
    "tief52": 88.619,
    "ma200": 92.069,
@@ -3594,8 +3600,8 @@
    "listen": [],
    "gruppe": "anleihen",
    "aus": false,
-   "keur": 74.217,
-   "fx": 0.9112,
+   "keur": 74.25,
+   "fx": 0.9116,
    "hoch52": 87.725,
    "tief52": 76.787,
    "ma200": 82.622,
@@ -3623,8 +3629,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 14.724,
-   "fx": 0.0119318,
+   "keur": 14.726,
+   "fx": 0.0119333,
    "hoch52": 1597.2,
    "tief52": 1040.9,
    "ma200": 1391.8,
@@ -3644,12 +3650,12 @@
     "exdiv": "2026-11-05"
    },
    "depot": {
-    "wert": 17020.69,
+    "wert": 17022.92,
     "gew": 5.53,
-    "erg": 130.6,
+    "erg": 130.7,
     "stueck": 1156.0,
     "einstand": 7379.93,
-    "div_eur": 398.28
+    "div_eur": 398.34
    },
    "p1w": -8.89
   },
@@ -3782,8 +3788,8 @@
    "listen": [],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 52.512,
-   "fx": 0.0119318,
+   "keur": 52.519,
+   "fx": 0.0119333,
    "hoch52": 4960.6,
    "tief52": 3960.0,
    "ma200": 4408.6,
@@ -3803,12 +3809,12 @@
     "exdiv": "2026-12-24"
    },
    "depot": {
-    "wert": 3098.186,
+    "wert": 3098.593,
     "gew": 1.01,
-    "erg": 54.39,
+    "erg": 54.41,
     "stueck": 59.0,
     "einstand": 2006.7,
-    "div_eur": 170.4
+    "div_eur": 170.42
    },
    "p1w": -5.48
   },
@@ -3829,8 +3835,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 68.222,
-   "fx": 0.9112,
+   "keur": 68.251,
+   "fx": 0.9116,
    "hoch52": 78.9,
    "tief52": 52.192,
    "ma200": 68.538,
@@ -3850,12 +3856,12 @@
     "exdiv": "2026-09-15"
    },
    "depot": {
-    "wert": 204.6646,
+    "wert": 204.7545,
     "gew": 0.0665,
-    "erg": 18.71,
+    "erg": 18.76,
     "stueck": 3.0,
     "einstand": 172.41,
-    "div_eur": 12.178
+    "div_eur": 12.183
    },
    "p1w": -4.79
   },
@@ -3876,8 +3882,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 154.33,
-   "fx": 0.9112,
+   "keur": 154.4,
+   "fx": 0.9116,
    "hoch52": 173.02,
    "tief52": 134.15,
    "ma200": 148.46,
@@ -3897,12 +3903,12 @@
     "exdiv": "2026-10-23"
    },
    "depot": {
-    "wert": 2160.619,
+    "wert": 2161.568,
     "gew": 0.702,
-    "erg": 26.79,
+    "erg": 26.85,
     "stueck": 14.0,
     "einstand": 1704.06,
-    "div_eur": 55.96
+    "div_eur": 55.985
    },
    "p1w": -0.253,
    "ab": {
@@ -3910,8 +3916,8 @@
     "l2": 135.0,
     "liste": "2025",
     "ziel": 200.0,
-    "keur": 154.33,
-    "abst": 5.71,
+    "keur": 154.4,
+    "abst": 5.75,
     "split": false
    }
   },
@@ -3932,8 +3938,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 248.98,
-   "fx": 0.9112,
+   "keur": 249.09,
+   "fx": 0.9116,
    "hoch52": 334.5,
    "tief52": 230.88,
    "ma200": 277.88,
@@ -3953,12 +3959,12 @@
     "exdiv": "2026-12-01"
    },
    "depot": {
-    "wert": 1069.851,
-    "gew": 0.347,
-    "erg": 18.76,
+    "wert": 1070.321,
+    "gew": 0.348,
+    "erg": 18.81,
     "stueck": 4.297,
     "einstand": 900.86,
-    "div_eur": 30.277
+    "div_eur": 30.29
    },
    "p1w": 0.467,
    "ab": {
@@ -3966,8 +3972,8 @@
     "l2": 235.0,
     "liste": "2025",
     "ziel": 330.0,
-    "keur": 248.98,
-    "abst": -4.61,
+    "keur": 249.09,
+    "abst": -4.56,
     "split": false
    }
   },
@@ -3988,8 +3994,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 88.377,
-   "fx": 0.9112,
+   "keur": 88.416,
+   "fx": 0.9116,
    "hoch52": 99.48,
    "tief52": 66.253,
    "ma200": 83.236,
@@ -4014,7 +4020,7 @@
     "l2": 56.0,
     "liste": "2025",
     "ziel": 80.0,
-    "keur": 88.377,
+    "keur": 88.416,
     "abst": 44.9,
     "split": false
    }
@@ -4038,8 +4044,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 128.06,
-   "fx": 0.9112,
+   "keur": 128.12,
+   "fx": 0.9116,
    "hoch52": 165.45,
    "tief52": 123.73,
    "ma200": 143.33,
@@ -4059,12 +4065,12 @@
     "exdiv": "2026-12-04"
    },
    "depot": {
-    "wert": 1152.54,
+    "wert": 1153.046,
     "gew": 0.374,
-    "erg": 7.273,
+    "erg": 7.32,
     "stueck": 9.0,
     "einstand": 1074.4,
-    "div_eur": 49.098
+    "div_eur": 49.12
    },
    "p1w": -3.37,
    "ab": {
@@ -4072,8 +4078,8 @@
     "l2": 121.0,
     "liste": "2025",
     "ziel": 200.0,
-    "keur": 128.06,
-    "abst": -2.24,
+    "keur": 128.12,
+    "abst": -2.2,
     "split": false
    }
   },
@@ -4092,8 +4098,8 @@
    "listen": [],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 76.04,
-   "fx": 0.9112,
+   "keur": 76.073,
+   "fx": 0.9116,
    "hoch52": 96.443,
    "tief52": 75.49,
    "ma200": 86.482,
@@ -4131,8 +4137,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 39.008,
-   "fx": 0.9112,
+   "keur": 39.026,
+   "fx": 0.9116,
    "hoch52": 42.81,
    "tief52": 32.261,
    "ma200": 37.261,
@@ -4173,8 +4179,8 @@
    ],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 246.45,
-   "fx": 0.9112,
+   "keur": 246.56,
+   "fx": 0.9116,
    "hoch52": 285.75,
    "tief52": 196.79,
    "ma200": 249.44,
@@ -4194,12 +4200,12 @@
     "exdiv": "2026-11-24"
    },
    "depot": {
-    "wert": 1232.261,
+    "wert": 1232.802,
     "gew": 0.4,
-    "erg": 85.77,
+    "erg": 85.85,
     "stueck": 5.0,
     "einstand": 663.34,
-    "div_eur": 24.768
+    "div_eur": 24.779
    },
    "p1w": -5.35,
    "ab": {
@@ -4207,8 +4213,8 @@
     "l2": 134.0,
     "liste": "2025",
     "ziel": 200.0,
-    "keur": 246.45,
-    "abst": 76.0,
+    "keur": 246.56,
+    "abst": 76.1,
     "split": false
    }
   },
@@ -4227,8 +4233,8 @@
    "listen": [],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 52.877,
-   "fx": 0.9112,
+   "keur": 52.9,
+   "fx": 0.9116,
    "hoch52": 65.187,
    "tief52": 53.096,
    "ma200": 60.194,
@@ -4264,8 +4270,8 @@
    "listen": [],
    "gruppe": "dividende",
    "aus": false,
-   "keur": 50.162,
-   "fx": 0.9112,
+   "keur": 50.184,
+   "fx": 0.9116,
    "hoch52": 60.603,
    "tief52": 47.674,
    "ma200": 53.347,
@@ -4285,12 +4291,12 @@
     "exdiv": "2026-12-08"
    },
    "depot": {
-    "wert": 3661.794,
+    "wert": 3663.401,
     "gew": 1.19,
-    "erg": 6.866,
+    "erg": 6.913,
     "stueck": 73.0,
     "einstand": 3426.52,
-    "div_eur": 292.21
+    "div_eur": 292.34
    },
    "p1w": -2.39
   },
@@ -4364,8 +4370,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 3.3607,
-   "fx": 0.0933534,
+   "keur": 3.3595,
+   "fx": 0.0933208,
    "hoch52": 46.32,
    "tief52": 24.405,
    "ma200": 40.118,
@@ -4381,12 +4387,12 @@
     "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 1283.796,
+    "wert": 1283.347,
     "gew": 0.417,
-    "erg": -15.13,
+    "erg": -15.16,
     "stueck": 382.0,
     "einstand": 1512.66,
-    "div_eur": 124.14
+    "div_eur": 124.1
    },
    "p1w": -4.26
   },
@@ -4407,8 +4413,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 9.6954,
-   "fx": 0.116321,
+   "keur": 9.6907,
+   "fx": 0.116265,
    "hoch52": 173.31,
    "tief52": 80.55,
    "ma200": 119.36,
@@ -4423,12 +4429,12 @@
     "zahlen": "2026-11-19"
    },
    "depot": {
-    "wert": 116.3443,
+    "wert": 116.2883,
     "gew": 0.0378,
-    "erg": -31.01,
+    "erg": -31.05,
     "stueck": 12.0,
     "einstand": 168.65,
-    "div_eur": 1.3263
+    "div_eur": 1.3257
    },
    "p1w": -7.95,
    "ab": {
@@ -4436,8 +4442,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 20.0,
-    "keur": 9.6954,
-    "abst": -5.41,
+    "keur": 9.6907,
+    "abst": -5.46,
     "split": false
    }
   },
@@ -4456,8 +4462,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 73.88,
-   "fx": 0.9112,
+   "keur": 73.913,
+   "fx": 0.9116,
    "hoch52": 175.57,
    "tief52": 81.08,
    "ma200": 120.3,
@@ -4472,12 +4478,12 @@
     "zahlen": "2026-11-19"
    },
    "depot": {
-    "wert": 754.6852,
+    "wert": 755.0165,
     "gew": 0.245,
-    "erg": -40.72,
+    "erg": -40.69,
     "stueck": 10.215,
     "einstand": 1272.98,
-    "div_eur": 8.7543
+    "div_eur": 8.7582
    },
    "p1w": -14.1
   },
@@ -4499,8 +4505,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 30.006,
-   "fx": 0.9112,
+   "keur": 30.019,
+   "fx": 0.9116,
    "hoch52": 223.1,
    "tief52": 19.49,
    "ma200": 114.94,
@@ -4513,9 +4519,9 @@
     "zahlen": "2026-11-05"
    },
    "depot": {
-    "wert": 30.00582,
-    "gew": 0.00974,
-    "erg": -65.08,
+    "wert": 30.01899,
+    "gew": 0.00975,
+    "erg": -65.06,
     "stueck": 1.0,
     "einstand": 85.92
    },
@@ -4538,8 +4544,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 16.793,
-   "fx": 0.9112,
+   "keur": 16.801,
+   "fx": 0.9116,
    "hoch52": 19.701,
    "tief52": 16.603,
    "ma200": 18.333,
@@ -4555,12 +4561,12 @@
     "zahlen": "2026-10-27"
    },
    "depot": {
-    "wert": 1662.548,
+    "wert": 1663.278,
     "gew": 0.54,
-    "erg": 4.338,
+    "erg": 4.384,
     "stueck": 99.0,
     "einstand": 1593.43,
-    "div_eur": 167.25
+    "div_eur": 167.33
    },
    "p1w": -3.86
   },
@@ -4622,8 +4628,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 152.74,
-   "fx": 0.9112,
+   "keur": 152.8,
+   "fx": 0.9116,
    "hoch52": 216.74,
    "tief52": 116.13,
    "ma200": 168.58,
@@ -4637,9 +4643,9 @@
     "zahlen": "2026-11-03"
    },
    "depot": {
-    "wert": 4734.795,
+    "wert": 4736.874,
     "gew": 1.54,
-    "erg": 66.97,
+    "erg": 67.04,
     "stueck": 31.0,
     "einstand": 2835.72
    },
@@ -4649,7 +4655,7 @@
     "l2": 55.0,
     "liste": "2025",
     "ziel": 120.0,
-    "keur": 152.74,
+    "keur": 152.8,
     "abst": 135.0,
     "split": false
    }
@@ -4724,8 +4730,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 122.69,
-   "fx": 0.9112,
+   "keur": 122.75,
+   "fx": 0.9116,
    "hoch52": 227.61,
    "tief52": 57.15,
    "ma200": 120.49,
@@ -4739,9 +4745,9 @@
     "zahlen": "2027-02-04"
    },
    "depot": {
-    "wert": 1226.931,
-    "gew": 0.398,
-    "erg": 81.66,
+    "wert": 1227.469,
+    "gew": 0.399,
+    "erg": 81.74,
     "stueck": 10.0,
     "einstand": 675.41
    },
@@ -4819,8 +4825,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 73.771,
-   "fx": 0.9112,
+   "keur": 73.803,
+   "fx": 0.9116,
    "hoch52": 119.34,
    "tief52": 80.96,
    "ma200": 95.092,
@@ -4834,9 +4840,9 @@
     "zahlen": "2026-11-03"
    },
    "depot": {
-    "wert": 3172.142,
+    "wert": 3173.535,
     "gew": 1.03,
-    "erg": -12.0,
+    "erg": -11.96,
     "stueck": 43.0,
     "einstand": 3604.57
    },
@@ -4846,8 +4852,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 160.0,
-    "keur": 73.771,
-    "abst": 2.46,
+    "keur": 73.803,
+    "abst": 2.5,
     "split": false
    }
   },
@@ -4866,8 +4872,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 1003.9,
-   "fx": 0.9112,
+   "keur": 1004.3,
+   "fx": 0.9116,
    "hoch52": 1226.3,
    "tief52": 913.04,
    "ma200": 1062.0,
@@ -4883,12 +4889,12 @@
     "zahlen": "2027-01-14"
    },
    "depot": {
-    "wert": 840.2536,
+    "wert": 840.6225,
     "gew": 0.273,
-    "erg": 16.43,
+    "erg": 16.48,
     "stueck": 0.837,
     "einstand": 721.71,
-    "div_eur": 16.049
+    "div_eur": 16.056
    },
    "p1w": -9.91
   },
@@ -4909,8 +4915,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 100.96,
-   "fx": 0.9112,
+   "keur": 101.01,
+   "fx": 0.9116,
    "hoch52": 157.02,
    "tief52": 99.214,
    "ma200": 119.93,
@@ -4926,12 +4932,12 @@
     "zahlen": "2027-01-28"
    },
    "depot": {
-    "wert": 504.8048,
+    "wert": 505.0264,
     "gew": 0.164,
-    "erg": -1.517,
+    "erg": -1.474,
     "stueck": 5.0,
     "einstand": 512.58,
-    "div_eur": 21.808
+    "div_eur": 21.817
    },
    "p1w": -7.81
   },
@@ -4953,8 +4959,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 132.04,
-   "fx": 0.9112,
+   "keur": 132.1,
+   "fx": 0.9116,
    "hoch52": 218.11,
    "tief52": 144.91,
    "ma200": 173.15,
@@ -4969,12 +4975,12 @@
     "zahlen": "2026-11-03"
    },
    "depot": {
-    "wert": 132.042,
+    "wert": 132.1,
     "gew": 0.0429,
-    "erg": -10.96,
+    "erg": -10.92,
     "stueck": 1.0,
     "einstand": 148.3,
-    "div_eur": 1.4128
+    "div_eur": 1.4135
    },
    "p1w": -9.19,
    "ab": {
@@ -4982,8 +4988,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 225.0,
-    "keur": 132.04,
-    "abst": -1.46,
+    "keur": 132.1,
+    "abst": -1.42,
     "split": false
    }
   },
@@ -5005,8 +5011,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 53.579,
-   "fx": 0.9112,
+   "keur": 53.602,
+   "fx": 0.9116,
    "hoch52": 67.392,
    "tief52": 43.983,
    "ma200": 59.482,
@@ -5022,12 +5028,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 642.9427,
+    "wert": 643.225,
     "gew": 0.209,
-    "erg": 12.56,
+    "erg": 12.61,
     "stueck": 12.0,
     "einstand": 571.18,
-    "div_eur": 25.718
+    "div_eur": 25.729
    },
    "p1w": -7.3
   },
@@ -5048,8 +5054,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 51.793,
-   "fx": 0.9112,
+   "keur": 51.815,
+   "fx": 0.9116,
    "hoch52": 64.752,
    "tief52": 50.992,
    "ma200": 57.881,
@@ -5065,12 +5071,12 @@
     "zahlen": "2026-07-30"
    },
    "depot": {
-    "wert": 414.3408,
+    "wert": 414.5228,
     "gew": 0.135,
-    "erg": 9.325,
+    "erg": 9.373,
     "stueck": 8.0,
     "einstand": 379.0,
-    "div_eur": 22.292
+    "div_eur": 22.301
    },
    "p1w": -8.16
   },
@@ -5091,8 +5097,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 65.907,
-   "fx": 0.9112,
+   "keur": 65.936,
+   "fx": 0.9116,
    "hoch52": 93.5,
    "tief52": 60.61,
    "ma200": 77.242,
@@ -5108,12 +5114,12 @@
     "zahlen": "2027-01-06"
    },
    "depot": {
-    "wert": 1812.181,
+    "wert": 1812.977,
     "gew": 0.589,
-    "erg": -8.118,
+    "erg": -8.078,
     "stueck": 27.496,
     "einstand": 1972.29,
-    "div_eur": 66.688
+    "div_eur": 66.718
    },
    "p1w": 8.85
   },
@@ -5135,8 +5141,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 43.291,
-   "fx": 0.9112,
+   "keur": 43.31,
+   "fx": 0.9116,
    "hoch52": 132.84,
    "tief52": 47.51,
    "ma200": 85.777,
@@ -5150,9 +5156,9 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 173.1644,
+    "wert": 173.2405,
     "gew": 0.0562,
-    "erg": -36.24,
+    "erg": -36.21,
     "stueck": 4.0,
     "einstand": 271.6
    },
@@ -5177,8 +5183,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 92.915,
-   "fx": 0.9112,
+   "keur": 92.956,
+   "fx": 0.9116,
    "hoch52": 277.36,
    "tief52": 101.97,
    "ma200": 172.45,
@@ -5191,9 +5197,9 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 464.5753,
+    "wert": 464.7793,
     "gew": 0.151,
-    "erg": -42.41,
+    "erg": -42.39,
     "stueck": 5.0,
     "einstand": 806.7
    },
@@ -5203,7 +5209,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 220.0,
-    "keur": 92.915,
+    "keur": 92.956,
     "abst": -11.5,
     "split": false
    }
@@ -5223,8 +5229,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 119.07,
-   "fx": 0.603511,
+   "keur": 119.74,
+   "fx": 0.60691,
    "hoch52": 204.54,
    "tief52": 91.056,
    "ma200": 144.75,
@@ -5239,12 +5245,12 @@
     "zahlen": "2026-08-17"
    },
    "depot": {
-    "wert": 2262.268,
-    "gew": 0.735,
-    "erg": 96.1,
+    "wert": 2275.009,
+    "gew": 0.739,
+    "erg": 97.2,
     "stueck": 19.0,
     "einstand": 1153.63,
-    "div_eur": 45.245
+    "div_eur": 45.5
    },
    "p1w": -2.77
   },
@@ -5316,8 +5322,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 30.181,
-   "fx": 0.0933534,
+   "keur": 30.171,
+   "fx": 0.0933208,
    "hoch52": 329.3,
    "tief52": 246.14,
    "ma200": 297.89,
@@ -5333,12 +5339,12 @@
     "zahlen": "2026-10-21"
    },
    "depot": {
-    "wert": 663.9855,
+    "wert": 663.7532,
     "gew": 0.216,
-    "erg": 3.965,
+    "erg": 3.929,
     "stueck": 22.0,
     "einstand": 638.66,
-    "div_eur": 36.32
+    "div_eur": 36.307
    },
    "p1w": -0.889
   },
@@ -5360,8 +5366,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 30.899,
-   "fx": 0.9112,
+   "keur": 30.912,
+   "fx": 0.9116,
    "hoch52": 37.83,
    "tief52": 22.06,
    "ma200": 29.632,
@@ -5375,9 +5381,9 @@
     "zahlen": "2026-11-05"
    },
    "depot": {
-    "wert": 587.077,
+    "wert": 587.3348,
     "gew": 0.191,
-    "erg": 26.78,
+    "erg": 26.83,
     "stueck": 19.0,
     "einstand": 463.08
    },
@@ -5387,8 +5393,8 @@
     "l2": 20.0,
     "liste": "2025",
     "ziel": 40.0,
-    "keur": 30.899,
-    "abst": 40.4,
+    "keur": 30.912,
+    "abst": 40.5,
     "split": false
    }
   },
@@ -5410,8 +5416,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 1227.5,
-   "fx": 0.9112,
+   "keur": 1228.0,
+   "fx": 0.9116,
    "hoch52": 1443.5,
    "tief52": 847.5,
    "ma200": 1115.0,
@@ -5427,12 +5433,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 3767.156,
+    "wert": 3768.81,
     "gew": 1.22,
-    "erg": 66.84,
+    "erg": 66.92,
     "stueck": 3.069,
     "einstand": 2257.91,
-    "div_eur": 18.082
+    "div_eur": 18.09
    },
    "p1w": -6.68
   },
@@ -5507,8 +5513,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 58.891,
-   "fx": 0.9112,
+   "keur": 58.917,
+   "fx": 0.9116,
    "hoch52": 72.75,
    "tief52": 40.74,
    "ma200": 52.857,
@@ -5522,9 +5528,9 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 1533.341,
+    "wert": 1534.014,
     "gew": 0.498,
-    "erg": 79.97,
+    "erg": 80.05,
     "stueck": 26.037,
     "einstand": 851.99
    },
@@ -5545,8 +5551,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 145.78,
-   "fx": 0.9112,
+   "keur": 145.85,
+   "fx": 0.9116,
    "hoch52": 186.08,
    "tief52": 111.55,
    "ma200": 154.88,
@@ -5562,12 +5568,12 @@
     "zahlen": "2027-01-29"
    },
    "depot": {
-    "wert": 437.3487,
+    "wert": 437.5407,
     "gew": 0.142,
-    "erg": 25.05,
+    "erg": 25.1,
     "stueck": 3.0,
     "einstand": 349.74,
-    "div_eur": 11.196
+    "div_eur": 11.201
    },
    "p1w": -5.62
   },
@@ -5586,8 +5592,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 29.195,
-   "fx": 0.9112,
+   "keur": 29.208,
+   "fx": 0.9116,
    "hoch52": 36.3,
    "tief52": 20.182,
    "ma200": 30.401,
@@ -5603,12 +5609,12 @@
     "zahlen": "2027-01-29"
    },
    "depot": {
-    "wert": 788.2609,
+    "wert": 788.607,
     "gew": 0.256,
-    "erg": 58.67,
+    "erg": 58.74,
     "stueck": 27.0,
     "einstand": 496.78,
-    "div_eur": 29.717
+    "div_eur": 29.73
    },
    "p1w": -11.0
   },
@@ -5627,8 +5633,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 41.195,
-   "fx": 0.9112,
+   "keur": 41.213,
+   "fx": 0.9116,
    "hoch52": 59.19,
    "tief52": 17.908,
    "ma200": 38.119,
@@ -5644,12 +5650,12 @@
     "zahlen": "2026-11-20"
    },
    "depot": {
-    "wert": 4133.665,
+    "wert": 4135.48,
     "gew": 1.34,
-    "erg": 165.4,
+    "erg": 165.5,
     "stueck": 100.343,
     "einstand": 1557.34,
-    "div_eur": 489.43
+    "div_eur": 489.64
    },
    "p1w": -3.75
   },
@@ -5671,8 +5677,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 8.6928,
-   "fx": 0.9112,
+   "keur": 8.6967,
+   "fx": 0.9116,
    "hoch52": 20.38,
    "tief52": 9.54,
    "ma200": null,
@@ -5685,11 +5691,11 @@
     "zahlen": "2026-11-12"
    },
    "depot": {
-    "wert": 156.4713,
+    "wert": 156.54,
     "gew": 0.0508,
     "erg": -27.19,
     "stueck": 18.0,
-    "einstand": 214.9065
+    "einstand": 215.0009
    },
    "p1w": -21.0
   },
@@ -5713,8 +5719,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 151.65,
-   "fx": 0.9112,
+   "keur": 151.72,
+   "fx": 0.9116,
    "hoch52": 174.48,
    "tief52": 116.21,
    "ma200": 141.23,
@@ -5729,12 +5735,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 2729.718,
-    "gew": 0.886,
-    "erg": 134.6,
+    "wert": 2730.916,
+    "gew": 0.887,
+    "erg": 134.7,
     "stueck": 18.0,
     "einstand": 1163.72,
-    "div_eur": 53.502
+    "div_eur": 53.526
    },
    "p1w": -0.982,
    "ab": {
@@ -5742,8 +5748,8 @@
     "l2": 82.0,
     "liste": "2025",
     "ziel": 125.0,
-    "keur": 151.65,
-    "abst": 64.8,
+    "keur": 151.72,
+    "abst": 64.9,
     "split": false
    }
   },
@@ -5762,8 +5768,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 25.71,
-   "fx": 0.0933534,
+   "keur": 25.701,
+   "fx": 0.0933208,
    "hoch52": 286.4,
    "tief52": 241.0,
    "ma200": 264.59,
@@ -5779,12 +5785,12 @@
     "zahlen": "2026-10-23"
    },
    "depot": {
-    "wert": 617.0288,
+    "wert": 616.8129,
     "gew": 0.2,
-    "erg": 10.53,
+    "erg": 10.49,
     "stueck": 24.0,
     "einstand": 558.24,
-    "div_eur": 21.719
+    "div_eur": 21.712
    },
    "p1w": -2.48
   },
@@ -5803,8 +5809,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 21.984,
-   "fx": 0.0119318,
+   "keur": 21.987,
+   "fx": 0.0119333,
    "hoch52": 2267.2,
    "tief52": 1735.3,
    "ma200": 1949.3,
@@ -5820,12 +5826,12 @@
     "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 527.622,
+    "wert": 527.6913,
     "gew": 0.171,
-    "erg": 29.87,
+    "erg": 29.89,
     "stueck": 24.0,
     "einstand": 406.26,
-    "div_eur": 18.783
+    "div_eur": 18.786
    },
    "p1w": -3.61
   },
@@ -5846,8 +5852,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 13.641,
-   "fx": 0.9112,
+   "keur": 13.647,
+   "fx": 0.9116,
    "hoch52": 17.25,
    "tief52": 12.733,
    "ma200": 15.109,
@@ -5863,12 +5869,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 927.5651,
+    "wert": 927.9724,
     "gew": 0.301,
-    "erg": 2.472,
+    "erg": 2.517,
     "stueck": 68.0,
     "einstand": 905.19,
-    "div_eur": 110.57
+    "div_eur": 110.61
    },
    "p1w": -5.67
   },
@@ -5890,8 +5896,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 37.277,
-   "fx": 0.9112,
+   "keur": 37.294,
+   "fx": 0.9116,
    "hoch52": 73.46,
    "tief52": 19.665,
    "ma200": 42.581,
@@ -5907,12 +5913,12 @@
     "zahlen": "2026-11-23"
    },
    "depot": {
-    "wert": 2907.621,
+    "wert": 2908.897,
     "gew": 0.944,
-    "erg": 102.4,
+    "erg": 102.5,
     "stueck": 78.0,
     "einstand": 1436.44,
-    "div_eur": 35.473
+    "div_eur": 35.489
    },
    "p1w": -15.3,
    "ab": {
@@ -5920,7 +5926,7 @@
     "l2": 12.0,
     "liste": "2025",
     "ziel": 25.0,
-    "keur": 37.277,
+    "keur": 37.294,
     "abst": 170.0,
     "split": false
    }
@@ -5940,8 +5946,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 15.702,
-   "fx": 0.0933534,
+   "keur": 15.697,
+   "fx": 0.0933208,
    "hoch52": 192.82,
    "tief52": 78.964,
    "ma200": 153.43,
@@ -5957,12 +5963,12 @@
     "zahlen": "2026-11-19"
    },
    "depot": {
-    "wert": 11289.77,
-    "gew": 3.67,
-    "erg": 64.31,
+    "wert": 11285.82,
+    "gew": 3.66,
+    "erg": 64.25,
     "stueck": 719.0,
     "einstand": 6871.14,
-    "div_eur": 200.96
+    "div_eur": 200.89
    },
    "p1w": -4.65
   },
@@ -5981,8 +5987,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 137.33,
-   "fx": 0.9112,
+   "keur": 137.39,
+   "fx": 0.9116,
    "hoch52": 269.3,
    "tief52": 149.23,
    "ma200": null,
@@ -5997,12 +6003,12 @@
     "zahlen": "2026-10-28"
    },
    "depot": {
-    "wert": 68.66348,
+    "wert": 68.69362,
     "gew": 0.0223,
-    "erg": 9.354,
+    "erg": 9.402,
     "stueck": 0.5,
     "einstand": 62.79,
-    "div_eur": 0.6729
+    "div_eur": 0.6732
    },
    "p1w": -8.67
   },
@@ -6021,8 +6027,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 193.76,
-   "fx": 0.9112,
+   "keur": 193.84,
+   "fx": 0.9116,
    "hoch52": 257.13,
    "tief52": 194.07,
    "ma200": 228.13,
@@ -6038,12 +6044,12 @@
     "zahlen": "2027-01-28"
    },
    "depot": {
-    "wert": 193.7576,
+    "wert": 193.8426,
     "gew": 0.0629,
-    "erg": -18.29,
+    "erg": -18.25,
     "stueck": 1.0,
     "einstand": 237.13,
-    "div_eur": 2.4801
+    "div_eur": 2.4812
    },
    "p1w": -4.41
   },
@@ -6065,8 +6071,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 142.2,
-   "fx": 0.9112,
+   "keur": 142.26,
+   "fx": 0.9116,
    "hoch52": 396.98,
    "tief52": 145.58,
    "ma200": 292.12,
@@ -6079,9 +6085,9 @@
     "zahlen": "2026-11-20"
    },
    "depot": {
-    "wert": 421.2019,
+    "wert": 421.3868,
     "gew": 0.137,
-    "erg": 2.256,
+    "erg": 2.301,
     "stueck": 2.962,
     "einstand": 411.91
    },
@@ -6091,11 +6097,11 @@
    "t": "INCY",
    "name": "Incyte",
    "wa": "USD",
-   "kurs": 114.62,
+   "kurs": 114.63,
    "tag": -1.07,
    "dd": -11.8,
-   "a90": -4.84,
-   "a200": 4.86,
+   "a90": -4.83,
+   "a200": 4.87,
    "rsi": 41.7,
    "p3m": -10.4,
    "ytd": 16.1,
@@ -6104,8 +6110,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 104.45,
-   "fx": 0.9112,
+   "keur": 104.5,
+   "fx": 0.9116,
    "hoch52": 129.93,
    "tief52": 90.3,
    "ma200": 109.31,
@@ -6119,13 +6125,13 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 1462.248,
+    "wert": 1462.954,
     "gew": 0.475,
-    "erg": 54.41,
+    "erg": 54.49,
     "stueck": 14.0,
     "einstand": 946.96
    },
-   "p1w": -5.25
+   "p1w": -5.24
   },
   {
    "t": "INGA.AS",
@@ -6186,8 +6192,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 204.51,
-   "fx": 0.9112,
+   "keur": 204.6,
+   "fx": 0.9116,
    "hoch52": 324.64,
    "tief52": 202.9,
    "ma200": 241.67,
@@ -6203,12 +6209,12 @@
     "zahlen": "2027-01-27"
    },
    "depot": {
-    "wert": 409.0194,
+    "wert": 409.199,
     "gew": 0.133,
-    "erg": 9.025,
+    "erg": 9.073,
     "stueck": 2.0,
     "einstand": 375.16,
-    "div_eur": 11.412
+    "div_eur": 11.417
    },
    "p1w": -9.18,
    "ab": {
@@ -6216,8 +6222,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 300.0,
-    "keur": 204.51,
-    "abst": 1.75,
+    "keur": 204.6,
+    "abst": 1.79,
     "split": false
    }
   },
@@ -6239,8 +6245,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 363.61,
-   "fx": 0.9112,
+   "keur": 363.77,
+   "fx": 0.9116,
    "hoch52": 592.85,
    "tief52": 332.02,
    "ma200": 427.69,
@@ -6254,9 +6260,9 @@
     "zahlen": "2027-01-21"
    },
    "depot": {
-    "wert": 1810.072,
+    "wert": 1810.867,
     "gew": 0.588,
-    "erg": -12.93,
+    "erg": -12.89,
     "stueck": 4.978,
     "einstand": 2078.84
    },
@@ -6280,8 +6286,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 18.88,
-   "fx": 0.9112,
+   "keur": 18.888,
+   "fx": 0.9116,
    "hoch52": 72.07,
    "tief52": 20.72,
    "ma200": 40.912,
@@ -6295,9 +6301,9 @@
     "zahlen": "2026-11-05"
    },
    "depot": {
-    "wert": 339.8411,
+    "wert": 339.9903,
     "gew": 0.11,
-    "erg": -62.25,
+    "erg": -62.23,
     "stueck": 18.0,
     "einstand": 900.17
    },
@@ -6307,8 +6313,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 60.0,
-    "keur": 18.88,
-    "abst": -5.6,
+    "keur": 18.888,
+    "abst": -5.56,
     "split": false
    }
   },
@@ -6330,8 +6336,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 223.99,
-   "fx": 0.9112,
+   "keur": 224.09,
+   "fx": 0.9116,
    "hoch52": 279.36,
    "tief52": 156.66,
    "ma200": 212.17,
@@ -6345,9 +6351,9 @@
     "zahlen": "2026-10-27"
    },
    "depot": {
-    "wert": 1343.947,
-    "gew": 0.436,
-    "erg": 75.61,
+    "wert": 1344.537,
+    "gew": 0.437,
+    "erg": 75.69,
     "stueck": 6.0,
     "einstand": 765.3
    },
@@ -6368,8 +6374,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 11.394,
-   "fx": 0.116321,
+   "keur": 11.388,
+   "fx": 0.116265,
    "hoch52": 130.4,
    "tief52": 96.0,
    "ma200": 111.27,
@@ -6384,12 +6390,12 @@
     "zahlen": "2026-11-17"
    },
    "depot": {
-    "wert": 740.5867,
-    "gew": 0.241,
-    "erg": -31.01,
+    "wert": 740.2302,
+    "gew": 0.24,
+    "erg": -31.04,
     "stueck": 65.0,
     "einstand": 1073.41,
-    "div_eur": 26.809
+    "div_eur": 26.796
    },
    "p1w": -8.46
   },
@@ -6408,8 +6414,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 22.689,
-   "fx": 0.9112,
+   "keur": 22.699,
+   "fx": 0.9116,
    "hoch52": 33.77,
    "tief52": 24.526,
    "ma200": 28.257,
@@ -6424,12 +6430,12 @@
     "zahlen": "2026-11-17"
    },
    "depot": {
-    "wert": 68.06664,
+    "wert": 68.09652,
     "gew": 0.0221,
-    "erg": -6.758,
+    "erg": -6.717,
     "stueck": 3.0,
     "einstand": 73.0,
-    "div_eur": 2.4708
+    "div_eur": 2.4719
    },
    "p1w": -10.8
   },
@@ -6450,8 +6456,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 0.3542,
-   "fx": 0.116321,
+   "keur": 0.35403,
+   "fx": 0.116265,
    "hoch52": 9.42,
    "tief52": 3.045,
    "ma200": 6.1026,
@@ -6464,9 +6470,9 @@
     "zahlen": "2025-08-18"
    },
    "depot": {
-    "wert": 151.2423,
+    "wert": 151.1695,
     "gew": 0.0491,
-    "erg": -55.07,
+    "erg": -55.09,
     "stueck": 427.0,
     "einstand": 336.59
    },
@@ -6490,8 +6496,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 167.0,
-   "fx": 0.9112,
+   "keur": 167.07,
+   "fx": 0.9116,
    "hoch52": 432.87,
    "tief52": 138.95,
    "ma200": 283.0,
@@ -6507,12 +6513,12 @@
     "zahlen": "2027-01-27"
    },
    "depot": {
-    "wert": 1335.965,
+    "wert": 1336.551,
     "gew": 0.434,
-    "erg": 71.05,
+    "erg": 71.13,
     "stueck": 8.0,
     "einstand": 781.03,
-    "div_eur": 8.4166
+    "div_eur": 8.4203
    },
    "p1w": -18.9,
    "ab": {
@@ -6520,8 +6526,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 350.0,
-    "keur": 167.0,
-    "abst": 4.37,
+    "keur": 167.07,
+    "abst": 4.42,
     "split": false
    }
   },
@@ -6540,8 +6546,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 458.18,
-   "fx": 0.9112,
+   "keur": 458.38,
+   "fx": 0.9116,
    "hoch52": 544.85,
    "tief52": 385.58,
    "ma200": 495.93,
@@ -6557,12 +6563,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 458.1787,
+    "wert": 458.3798,
     "gew": 0.149,
-    "erg": 36.36,
+    "erg": 36.42,
     "stueck": 1.0,
     "einstand": 336.0,
-    "div_eur": 5.5898
+    "div_eur": 5.5922
    },
    "p1w": -4.42
   },
@@ -6581,8 +6587,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 3.4899,
-   "fx": 0.9112,
+   "keur": 3.4914,
+   "fx": 0.9116,
    "hoch52": 10.99,
    "tief52": 3.83,
    "ma200": 6.9484,
@@ -6597,9 +6603,9 @@
     "zahlen": "2027-02-02"
    },
    "depot": {
-    "wert": 3.489896,
+    "wert": 3.491428,
     "gew": 0.00113,
-    "erg": 181.4,
+    "erg": 181.6,
     "stueck": 1.0,
     "einstand": 1.24
    },
@@ -6674,8 +6680,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 1234.7,
-   "fx": 0.9112,
+   "keur": 1235.2,
+   "fx": 0.9116,
    "hoch52": 2295.0,
    "tief52": 1355.0,
    "ma200": 1766.4,
@@ -6691,9 +6697,9 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 1234.676,
+    "wert": 1235.218,
     "gew": 0.401,
-    "erg": -13.26,
+    "erg": -13.22,
     "stueck": 1.0,
     "einstand": 1423.4
    },
@@ -6716,8 +6722,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 1040.6,
-   "fx": 0.9112,
+   "keur": 1041.1,
+   "fx": 0.9116,
    "hoch52": 1684.8,
    "tief52": 851.48,
    "ma200": 1328.4,
@@ -6733,12 +6739,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 3406.002,
+    "wert": 3407.497,
     "gew": 1.11,
-    "erg": 81.38,
+    "erg": 81.46,
     "stueck": 3.273,
     "einstand": 1877.84,
-    "div_eur": 20.777
+    "div_eur": 20.786
    },
    "p1w": -17.9
   },
@@ -6815,8 +6821,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 51.692,
-   "fx": 0.9112,
+   "keur": 51.715,
+   "fx": 0.9116,
    "hoch52": 109.35,
    "tief52": 56.73,
    "ma200": 79.939,
@@ -6830,9 +6836,9 @@
     "zahlen": "2027-01-19"
    },
    "depot": {
-    "wert": 930.4627,
+    "wert": 930.8712,
     "gew": 0.302,
-    "erg": -28.69,
+    "erg": -28.66,
     "stueck": 18.0,
     "einstand": 1304.79
    },
@@ -6842,8 +6848,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 110.0,
-    "keur": 51.692,
-    "abst": -2.47,
+    "keur": 51.715,
+    "abst": -2.42,
     "split": false
    }
   },
@@ -6866,8 +6872,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 29.997,
-   "fx": 0.9112,
+   "keur": 30.01,
+   "fx": 0.9116,
    "hoch52": 66.035,
    "tief52": 32.92,
    "ma200": 43.56,
@@ -6883,12 +6889,12 @@
     "zahlen": "2026-12-17"
    },
    "depot": {
-    "wert": 1409.845,
+    "wert": 1410.464,
     "gew": 0.458,
-    "erg": -47.54,
+    "erg": -47.51,
     "stueck": 47.0,
     "einstand": 2687.29,
-    "div_eur": 60.482
+    "div_eur": 60.509
    },
    "p1w": -13.3,
    "ab": {
@@ -6896,8 +6902,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 80.0,
-    "keur": 29.997,
-    "abst": -3.24,
+    "keur": 30.01,
+    "abst": -3.19,
     "split": false
    }
   },
@@ -6918,8 +6924,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 35.392,
-   "fx": 0.133806,
+   "keur": 35.39,
+   "fx": 0.133801,
    "hoch52": 383.09,
    "tief52": 220.97,
    "ma200": 275.82,
@@ -6935,12 +6941,12 @@
     "zahlen": "2027-02-03"
    },
    "depot": {
-    "wert": 4742.655,
+    "wert": 4742.483,
     "gew": 1.54,
     "erg": -33.03,
     "stueck": 134.005,
     "einstand": 7081.39,
-    "div_eur": 194.45
+    "div_eur": 194.44
    },
    "p1w": -5.01,
    "ab": {
@@ -6948,7 +6954,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 60.0,
-    "keur": 35.392,
+    "keur": 35.39,
     "abst": 14.2,
     "split": false
    }
@@ -6970,8 +6976,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 10.269,
-   "fx": 0.9112,
+   "keur": 10.274,
+   "fx": 0.9116,
    "hoch52": 18.76,
    "tief52": 11.27,
    "ma200": 14.036,
@@ -6985,9 +6991,9 @@
     "zahlen": "2026-11-12"
    },
    "depot": {
-    "wert": 2146.268,
+    "wert": 2147.21,
     "gew": 0.697,
-    "erg": -13.27,
+    "erg": -13.24,
     "stueck": 209.0,
     "einstand": 2474.79
    },
@@ -7013,8 +7019,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 49.405,
-   "fx": 0.9112,
+   "keur": 49.427,
+   "fx": 0.9116,
    "hoch52": 74.63,
    "tief52": 34.41,
    "ma200": 53.79,
@@ -7028,9 +7034,9 @@
     "zahlen": "2026-11-24"
    },
    "depot": {
-    "wert": 1037.511,
+    "wert": 1037.966,
     "gew": 0.337,
-    "erg": 27.49,
+    "erg": 27.55,
     "stueck": 21.0,
     "einstand": 813.8
    },
@@ -7040,8 +7046,8 @@
     "l2": 48.0,
     "liste": "2025",
     "ziel": 100.0,
-    "keur": 49.405,
-    "abst": -10.2,
+    "keur": 49.427,
+    "abst": -10.1,
     "split": false
    }
   },
@@ -7063,8 +7069,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 174.46,
-   "fx": 0.9112,
+   "keur": 174.53,
+   "fx": 0.9116,
    "hoch52": 232.13,
    "tief52": 62.93,
    "ma200": 131.68,
@@ -7078,9 +7084,9 @@
     "zahlen": "2026-12-01"
    },
    "depot": {
-    "wert": 8374.001,
+    "wert": 8377.677,
     "gew": 2.72,
-    "erg": 116.3,
+    "erg": 116.4,
     "stueck": 48.0,
     "einstand": 3871.63
    },
@@ -7090,8 +7096,8 @@
     "l2": 91.0,
     "liste": "2025",
     "ziel": 150.0,
-    "keur": 174.46,
-    "abst": 91.7,
+    "keur": 174.53,
+    "abst": 91.8,
     "split": false
    }
   },
@@ -7113,8 +7119,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 312.83,
-   "fx": 0.9112,
+   "keur": 312.97,
+   "fx": 0.9116,
    "hoch52": 419.91,
    "tief52": 141.67,
    "ma200": 281.38,
@@ -7128,7 +7134,7 @@
     "zahlen": "2026-11-18"
    },
    "depot": {
-    "wert": 8133.663,
+    "wert": 8137.234,
     "gew": 2.64,
     "erg": 104.8,
     "stueck": 26.0,
@@ -7140,7 +7146,7 @@
     "l2": 131.0,
     "liste": "2025",
     "ziel": 250.0,
-    "keur": 312.83,
+    "keur": 312.97,
     "abst": 107.0,
     "split": false
    }
@@ -7160,8 +7166,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 102.63,
-   "fx": 0.9112,
+   "keur": 102.67,
+   "fx": 0.9116,
    "hoch52": 126.06,
    "tief52": 82.77,
    "ma200": 102.37,
@@ -7177,12 +7183,12 @@
     "zahlen": "2026-12-18"
    },
    "depot": {
-    "wert": 307.8853,
+    "wert": 308.0205,
     "gew": 0.1,
-    "erg": 29.92,
+    "erg": 29.98,
     "stueck": 3.0,
     "einstand": 236.98,
-    "div_eur": 12.439
+    "div_eur": 12.444
    },
    "p1w": -2.64
   },
@@ -7201,8 +7207,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 7.4587,
-   "fx": 0.153377,
+   "keur": 7.4793,
+   "fx": 0.1538,
    "hoch52": 66.49,
    "tief52": 29.475,
    "ma200": 48.426,
@@ -7218,12 +7224,12 @@
     "zahlen": "2026-11-10"
    },
    "depot": {
-    "wert": 1484.282,
-    "gew": 0.482,
-    "erg": 32.96,
+    "wert": 1488.379,
+    "gew": 0.483,
+    "erg": 33.33,
     "stueck": 199.0,
     "einstand": 1116.35,
-    "div_eur": 108.35
+    "div_eur": 108.65
    },
    "p1w": -4.74
   },
@@ -7242,8 +7248,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 14.588,
-   "fx": 0.9112,
+   "keur": 14.595,
+   "fx": 0.9116,
    "hoch52": 26.16,
    "tief52": 11.061,
    "ma200": 18.982,
@@ -7259,12 +7265,12 @@
     "zahlen": "2026-11-10"
    },
    "depot": {
-    "wert": 729.4156,
+    "wert": 729.7358,
     "gew": 0.237,
-    "erg": 40.54,
+    "erg": 40.6,
     "stueck": 50.0,
     "einstand": 519.0,
-    "div_eur": 60.323
+    "div_eur": 60.349
    },
    "p1w": -12.7
   },
@@ -7286,8 +7292,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 24.967,
-   "fx": 0.9112,
+   "keur": 24.978,
+   "fx": 0.9116,
    "hoch52": 30.347,
    "tief52": 22.869,
    "ma200": 26.269,
@@ -7303,12 +7309,12 @@
     "zahlen": "2027-02-02"
    },
    "depot": {
-    "wert": 5094.591,
+    "wert": 5096.828,
     "gew": 1.65,
-    "erg": 3.659,
+    "erg": 3.705,
     "stueck": 204.054,
     "einstand": 4914.75,
-    "div_eur": 303.64
+    "div_eur": 303.77
    },
    "p1w": -5.16
   },
@@ -7372,8 +7378,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 509.39,
-   "fx": 0.9112,
+   "keur": 509.61,
+   "fx": 0.9116,
    "hoch52": 784.99,
    "tief52": 412.96,
    "ma200": 634.81,
@@ -7389,12 +7395,12 @@
     "zahlen": "2026-10-29"
    },
    "depot": {
-    "wert": 1018.776,
+    "wert": 1019.224,
     "gew": 0.331,
-    "erg": 106.0,
+    "erg": 106.1,
     "stueck": 2.0,
     "einstand": 494.6,
-    "div_eur": 0.81502
+    "div_eur": 0.81538
    },
    "p1w": -7.14
   },
@@ -7413,8 +7419,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 18.479,
-   "fx": 0.9112,
+   "keur": 18.487,
+   "fx": 0.9116,
    "hoch52": 23.734,
    "tief52": 17.99,
    "ma200": 20.422,
@@ -7430,12 +7436,12 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 813.082,
+    "wert": 813.4389,
     "gew": 0.264,
-    "erg": -6.406,
+    "erg": -6.365,
     "stueck": 44.0,
     "einstand": 868.73,
-    "div_eur": 39.678
+    "div_eur": 39.696
    },
    "p1w": -5.67
   },
@@ -7443,22 +7449,22 @@
    "t": "ROP.SW",
    "name": "Roche Holding",
    "wa": "CHF",
-   "kurs": 396.5,
-   "tag": -0.676,
-   "dd": -3.13,
-   "a90": 7.38,
+   "kurs": 396.8,
+   "tag": -0.601,
+   "dd": -3.05,
+   "a90": 7.46,
    "a200": 14.5,
-   "rsi": 53.3,
-   "p3m": 6.07,
-   "ytd": 24.5,
+   "rsi": 53.6,
+   "p3m": 6.15,
+   "ytd": 24.6,
    "listen": [
     "google_beobachtungsliste",
     "google_medizin"
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 430.6,
-   "fx": 1.086,
+   "keur": 428.55,
+   "fx": 1.08001,
    "hoch52": 409.3,
    "tief52": 298.27,
    "ma200": 346.42,
@@ -7474,14 +7480,14 @@
     "zahlen": "2027-01-28"
    },
    "depot": {
-    "wert": 1412.796,
-    "gew": 0.459,
-    "erg": 70.28,
+    "wert": 1406.062,
+    "gew": 0.457,
+    "erg": 69.46,
     "stueck": 3.281,
     "einstand": 829.71,
-    "div_eur": 33.766
+    "div_eur": 33.605
    },
-   "p1w": -2.03
+   "p1w": -1.95
   },
   {
    "t": "ROK",
@@ -7498,8 +7504,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 329.79,
-   "fx": 0.9112,
+   "keur": 329.94,
+   "fx": 0.9116,
    "hoch52": 491.78,
    "tief52": 345.12,
    "ma200": 422.73,
@@ -7515,12 +7521,12 @@
     "zahlen": "2027-02-04"
    },
    "depot": {
-    "wert": 563.9419,
+    "wert": 564.1895,
     "gew": 0.183,
-    "erg": -10.07,
+    "erg": -10.03,
     "stueck": 1.71,
     "einstand": 627.08,
-    "div_eur": 8.5155
+    "div_eur": 8.5193
    },
    "p1w": -9.75
   },
@@ -7542,8 +7548,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 19.427,
-   "fx": 0.9112,
+   "keur": 19.435,
+   "fx": 0.9116,
    "hoch52": 22.39,
    "tief52": 10.49,
    "ma200": 16.334,
@@ -7556,11 +7562,11 @@
     "zahlen": "2026-12-08"
    },
    "depot": {
-    "wert": 291.4017,
-    "gew": 0.0946,
+    "wert": 291.5297,
+    "gew": 0.0947,
     "erg": 9.341,
     "stueck": 15.0,
-    "einstand": 266.5078
+    "einstand": 266.6248
    },
    "p1w": 2.55
   },
@@ -7584,8 +7590,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 164.58,
-   "fx": 0.9112,
+   "keur": 164.65,
+   "fx": 0.9116,
    "hoch52": 264.42,
    "tief52": 149.86,
    "ma200": 197.2,
@@ -7600,12 +7606,12 @@
     "zahlen": "2026-12-02"
    },
    "depot": {
-    "wert": 2139.552,
+    "wert": 2140.491,
     "gew": 0.695,
-    "erg": -6.504,
+    "erg": -6.463,
     "stueck": 13.0,
     "einstand": 2288.38,
-    "div_eur": 17.544
+    "div_eur": 17.552
    },
    "p1w": -17.1,
    "ab": {
@@ -7613,8 +7619,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 300.0,
-    "keur": 164.58,
-    "abst": -6.49,
+    "keur": 164.65,
+    "abst": -6.45,
     "split": false
    }
   },
@@ -7654,7 +7660,7 @@
    },
    "depot": {
     "wert": 1840.0,
-    "gew": 0.598,
+    "gew": 0.597,
     "erg": 22.87,
     "stueck": 10.0,
     "einstand": 1497.5,
@@ -7688,8 +7694,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 20.876,
-   "fx": 0.9112,
+   "keur": 20.885,
+   "fx": 0.9116,
    "hoch52": 26.27,
    "tief52": 11.94,
    "ma200": 18.281,
@@ -7702,9 +7708,9 @@
     "zahlen": "2026-12-03"
    },
    "depot": {
-    "wert": 459.263,
+    "wert": 459.4646,
     "gew": 0.149,
-    "erg": 63.7,
+    "erg": 63.77,
     "stueck": 22.0,
     "einstand": 280.56
    },
@@ -7728,8 +7734,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 232.19,
-   "fx": 0.9112,
+   "keur": 232.29,
+   "fx": 0.9116,
    "hoch52": 368.89,
    "tief52": 121.11,
    "ma200": 245.57,
@@ -7742,9 +7748,9 @@
     "zahlen": "2026-12-02"
    },
    "depot": {
-    "wert": 2670.672,
+    "wert": 2671.845,
     "gew": 0.867,
-    "erg": 77.09,
+    "erg": 77.16,
     "stueck": 11.502,
     "einstand": 1508.13
    },
@@ -7754,7 +7760,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 350.0,
-    "keur": 232.19,
+    "keur": 232.29,
     "abst": 10.6,
     "split": false
    }
@@ -7774,8 +7780,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 0.81827,
-   "fx": 0.0057503,
+   "keur": 0.81236,
+   "fx": 0.00570881,
    "hoch52": 168.98,
    "tief52": 129.21,
    "ma200": 145.9,
@@ -7789,12 +7795,12 @@
     "zahlen": "2027-02-10"
    },
    "depot": {
-    "wert": 40.09511,
-    "gew": 0.013,
+    "wert": 39.80579,
+    "gew": 0.0129,
     "erg": null,
     "stueck": 49.0,
     "einstand": 0.0,
-    "div_eur": 2.1932
+    "div_eur": 2.1774
    },
    "p1w": -1.93
   },
@@ -7813,8 +7819,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 24.795,
-   "fx": 0.0057503,
+   "keur": 24.616,
+   "fx": 0.00570881,
    "hoch52": 4659.4,
    "tief52": 3098.2,
    "ma200": 3564.5,
@@ -7830,12 +7836,12 @@
     "zahlen": "2027-02-04"
    },
    "depot": {
-    "wert": 1834.851,
-    "gew": 0.596,
-    "erg": 32.05,
+    "wert": 1821.611,
+    "gew": 0.591,
+    "erg": 31.1,
     "stueck": 74.0,
     "einstand": 1389.47,
-    "div_eur": 14.862
+    "div_eur": 14.755
    },
    "p1w": -0.942
   },
@@ -7854,8 +7860,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 24.867,
-   "fx": 0.9112,
+   "keur": 24.878,
+   "fx": 0.9116,
    "hoch52": 29.35,
    "tief52": 19.32,
    "ma200": 22.586,
@@ -7871,12 +7877,12 @@
     "zahlen": "2027-02-04"
    },
    "depot": {
-    "wert": 1118.999,
+    "wert": 1119.49,
     "gew": 0.363,
-    "erg": 11.02,
+    "erg": 11.07,
     "stueck": 45.0,
     "einstand": 1007.9,
-    "div_eur": 7.833
+    "div_eur": 7.8364
    },
    "p1w": 0.813
   },
@@ -7897,8 +7903,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 30.247,
-   "fx": 0.0933534,
+   "keur": 30.236,
+   "fx": 0.0933208,
    "hoch52": 374.0,
    "tief52": 281.5,
    "ma200": 322.08,
@@ -7914,12 +7920,12 @@
     "zahlen": "2026-10-01"
    },
    "depot": {
-    "wert": 907.3953,
+    "wert": 907.0778,
     "gew": 0.295,
-    "erg": 35.33,
+    "erg": 35.28,
     "stueck": 30.0,
     "einstand": 670.5,
-    "div_eur": 50.27
+    "div_eur": 50.252
    },
    "p1w": -2.7
   },
@@ -7938,8 +7944,8 @@
    "listen": [],
    "gruppe": null,
    "aus": true,
-   "keur": 12.192,
-   "fx": 0.9112,
+   "keur": 12.197,
+   "fx": 0.9116,
    "hoch52": 40.11,
    "tief52": 11.92,
    "ma200": 18.72,
@@ -7953,9 +7959,9 @@
     "zahlen": "2026-11-09"
    },
    "depot": {
-    "wert": 97.53484,
+    "wert": 97.57767,
     "gew": 0.0317,
-    "erg": -65.69,
+    "erg": -65.67,
     "stueck": 8.0,
     "einstand": 284.24
    },
@@ -7978,8 +7984,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 8.0844,
-   "fx": 0.0933534,
+   "keur": 8.0816,
+   "fx": 0.0933208,
    "hoch52": 135.84,
    "tief52": 86.6,
    "ma200": 102.58,
@@ -7995,12 +8001,12 @@
     "zahlen": "2026-10-23"
    },
    "depot": {
-    "wert": 832.6939,
+    "wert": 832.4025,
     "gew": 0.27,
-    "erg": -35.19,
+    "erg": -35.21,
     "stueck": 103.0,
     "einstand": 1284.81,
-    "div_eur": 18.569
+    "div_eur": 18.563
    },
    "p1w": -11.7
   },
@@ -8074,8 +8080,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 43.605,
-   "fx": 0.0057503,
+   "keur": 43.29,
+   "fx": 0.00570881,
    "hoch52": 7693.7,
    "tief52": 4906.0,
    "ma200": 6084.8,
@@ -8091,12 +8097,12 @@
     "zahlen": "2026-11-12"
    },
    "depot": {
-    "wert": 479.6497,
-    "gew": 0.156,
-    "erg": -3.997,
+    "wert": 476.1886,
+    "gew": 0.155,
+    "erg": -4.69,
     "stueck": 11.0,
     "einstand": 499.62,
-    "div_eur": 12.231
+    "div_eur": 12.143
    },
    "p1w": 5.12
   },
@@ -8115,8 +8121,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 15.153,
-   "fx": 0.9112,
+   "keur": 15.16,
+   "fx": 0.9116,
    "hoch52": 18.19,
    "tief52": 12.329,
    "ma200": 16.013,
@@ -8132,12 +8138,12 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 560.6704,
+    "wert": 560.9166,
     "gew": 0.182,
-    "erg": 7.062,
+    "erg": 7.109,
     "stueck": 37.0,
     "einstand": 523.69,
-    "div_eur": 65.374
+    "div_eur": 65.403
    },
    "p1w": -6.05
   },
@@ -8156,8 +8162,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 57.834,
-   "fx": 0.9112,
+   "keur": 57.859,
+   "fx": 0.9116,
    "hoch52": 92.57,
    "tief52": 63.47,
    "ma200": 72.403,
@@ -8171,9 +8177,9 @@
     "zahlen": "2027-02-03"
    },
    "depot": {
-    "wert": 462.6709,
+    "wert": 462.874,
     "gew": 0.15,
-    "erg": -6.102,
+    "erg": -6.061,
     "stueck": 8.0,
     "einstand": 492.74
    },
@@ -8238,8 +8244,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 309.67,
-   "fx": 0.9112,
+   "keur": 309.81,
+   "fx": 0.9116,
    "hoch52": 433.68,
    "tief52": 255.97,
    "ma200": 365.85,
@@ -8255,12 +8261,12 @@
     "zahlen": "2027-01-12"
    },
    "depot": {
-    "wert": 1548.357,
+    "wert": 1549.036,
     "gew": 0.503,
-    "erg": 18.13,
+    "erg": 18.18,
     "stueck": 5.0,
     "einstand": 1310.75,
-    "div_eur": 34.838
+    "div_eur": 34.853
    },
    "p1w": -16.6
   },
@@ -8282,8 +8288,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 505.47,
-   "fx": 0.9112,
+   "keur": 505.69,
+   "fx": 0.9116,
    "hoch52": 608.49,
    "tief52": 464.93,
    "ma200": 539.85,
@@ -8297,9 +8303,9 @@
     "zahlen": "2026-11-04"
    },
    "depot": {
-    "wert": 3538.29,
+    "wert": 3539.843,
     "gew": 1.15,
-    "erg": 85.45,
+    "erg": 85.54,
     "stueck": 7.0,
     "einstand": 1907.9
    },
@@ -8322,8 +8328,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 4.312,
-   "fx": 0.0933534,
+   "keur": 4.3105,
+   "fx": 0.0933208,
    "hoch52": 57.483,
    "tief52": 27.888,
    "ma200": 44.322,
@@ -8339,12 +8345,12 @@
     "zahlen": "2026-10-21"
    },
    "depot": {
-    "wert": 3527.212,
-    "gew": 1.15,
-    "erg": 39.1,
+    "wert": 3525.977,
+    "gew": 1.14,
+    "erg": 39.06,
     "stueck": 818.0,
     "einstand": 2535.66,
-    "div_eur": 385.88
+    "div_eur": 385.74
    },
    "p1w": -5.96
   },
@@ -8367,8 +8373,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 469.29,
-   "fx": 0.9112,
+   "keur": 469.49,
+   "fx": 0.9116,
    "hoch52": 558.88,
    "tief52": 422.32,
    "ma200": 484.88,
@@ -8382,9 +8388,9 @@
     "zahlen": "2026-11-02"
    },
    "depot": {
-    "wert": 5441.843,
+    "wert": 5444.232,
     "gew": 1.77,
-    "erg": 19.38,
+    "erg": 19.43,
     "stueck": 11.596,
     "einstand": 4558.49
    },
@@ -8394,8 +8400,8 @@
     "l2": 385.0,
     "liste": "2025",
     "ziel": 550.0,
-    "keur": 469.29,
-    "abst": 11.7,
+    "keur": 469.49,
+    "abst": 11.8,
     "split": false
    }
   },
@@ -8414,8 +8420,8 @@
    "listen": [],
    "gruppe": null,
    "aus": false,
-   "keur": 218.35,
-   "fx": 0.9112,
+   "keur": 218.45,
+   "fx": 0.9116,
    "hoch52": 244.33,
    "tief52": 201.9,
    "ma200": 225.03,
@@ -8431,12 +8437,12 @@
     "zahlen": "2027-01-27"
    },
    "depot": {
-    "wert": 436.7017,
+    "wert": 436.8934,
     "gew": 0.142,
-    "erg": 24.9,
+    "erg": 24.96,
     "stueck": 2.0,
     "einstand": 349.64,
-    "div_eur": 6.7689
+    "div_eur": 6.7718
    },
    "p1w": -1.72
   },
@@ -8458,8 +8464,8 @@
    ],
    "gruppe": null,
    "aus": false,
-   "keur": 177.52,
-   "fx": 0.9112,
+   "keur": 177.6,
+   "fx": 0.9116,
    "hoch52": 289.73,
    "tief52": 118.05,
    "ma200": 166.73,
@@ -8472,9 +8478,9 @@
     "zahlen": "2026-12-02"
    },
    "depot": {
-    "wert": 2933.34,
+    "wert": 2934.628,
     "gew": 0.953,
-    "erg": 8.895,
+    "erg": 8.943,
     "stueck": 16.524,
     "einstand": 2693.73
    },
@@ -8484,8 +8490,8 @@
     "l2": 151.0,
     "liste": "2025",
     "ziel": 250.0,
-    "keur": 177.52,
-    "abst": 3.81,
+    "keur": 177.6,
+    "abst": 3.86,
     "split": false
    }
   },
@@ -9115,14 +9121,14 @@
    "t": "IBE.MC",
    "name": "Iberdrola",
    "wa": null,
-   "kurs": 22.62,
-   "tag": 0.133,
-   "dd": -4.56,
-   "a90": 7.44,
-   "a200": 11.3,
-   "rsi": 54.8,
-   "p3m": 12.4,
-   "ytd": 26.7,
+   "kurs": 22.67,
+   "tag": 0.354,
+   "dd": -4.35,
+   "a90": 7.67,
+   "a200": 11.6,
+   "rsi": 55.7,
+   "p3m": 12.6,
+   "ytd": 27.0,
    "listen": [
     "abstauber_europa"
    ],
@@ -9131,14 +9137,14 @@
    "hoch52": 23.7,
    "tief52": 17.126,
    "ma200": 20.315,
-   "p1w": -4.56,
+   "p1w": -4.35,
    "ab": {
     "l1": 14.5,
     "l2": 13.0,
     "liste": "2025",
     "ziel": 18.0,
-    "keur": 22.62,
-    "abst": 56.0,
+    "keur": 22.67,
+    "abst": 56.3,
     "split": false
    }
   },
@@ -9146,14 +9152,14 @@
    "t": "ITX.MC",
    "name": "Inditex",
    "wa": null,
-   "kurs": 57.8,
-   "tag": -1.1,
-   "dd": -4.15,
-   "a90": 3.99,
-   "a200": 7.62,
-   "rsi": 50.7,
-   "p3m": 0.72,
-   "ytd": 5.98,
+   "kurs": 57.78,
+   "tag": -1.13,
+   "dd": -4.18,
+   "a90": 3.95,
+   "a200": 7.59,
+   "rsi": 50.5,
+   "p3m": 0.686,
+   "ytd": 5.94,
    "listen": [
     "abstauber_europa"
    ],
@@ -9162,13 +9168,13 @@
    "hoch52": 60.3,
    "tief52": 46.515,
    "ma200": 53.705,
-   "p1w": -3.09,
+   "p1w": -3.12,
    "ab": {
     "l1": 42.0,
     "l2": 38.0,
     "liste": "2025",
     "ziel": 55.0,
-    "keur": 57.8,
+    "keur": 57.78,
     "abst": 37.6,
     "split": false
    }
@@ -9824,8 +9830,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 400.0,
-    "keur": 198.38,
-    "abst": -1.3,
+    "keur": 198.46,
+    "abst": -1.26,
     "split": false
    }
   },
@@ -9856,8 +9862,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 580.0,
-    "keur": 386.7,
-    "abst": 15.4,
+    "keur": 386.87,
+    "abst": 15.5,
     "split": false
    }
   },
@@ -9887,7 +9893,7 @@
     "l2": 201.0,
     "liste": "2025",
     "ziel": 300.0,
-    "keur": 274.91,
+    "keur": 275.03,
     "abst": 22.2,
     "split": false
    }
@@ -9897,29 +9903,29 @@
    "name": "Amgen",
    "wa": null,
    "kurs": 435.64,
-   "tag": -0.725,
-   "dd": -8.95,
-   "a90": 3.81,
-   "a200": 14.3,
-   "rsi": 41.0,
-   "p3m": -1.85,
-   "ytd": 35.8,
+   "tag": -0.151,
+   "dd": -8.43,
+   "a90": 4.4,
+   "a200": 15.0,
+   "rsi": 42.4,
+   "p3m": -1.28,
+   "ytd": 36.6,
    "listen": [
     "abstauber_usa",
     "google_beobachtungsliste"
    ],
    "gruppe": null,
    "aus": false,
-   "hoch52": 478.48,
-   "tief52": 307.56,
-   "ma200": 381.02,
-   "p1w": -6.45,
+   "hoch52": 475.73,
+   "tief52": 305.79,
+   "ma200": 378.85,
+   "p1w": -5.91,
    "ab": {
     "l1": 271.0,
     "l2": 251.0,
     "liste": "2025",
     "ziel": 350.0,
-    "keur": 396.96,
+    "keur": 397.13,
     "abst": 46.5,
     "split": false
    }
@@ -9951,7 +9957,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 500.0,
-    "keur": 317.36,
+    "keur": 317.5,
     "abst": 24.5,
     "split": false
    }
@@ -9983,8 +9989,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 300.0,
-    "keur": 138.68,
-    "abst": -4.36,
+    "keur": 138.75,
+    "abst": -4.31,
     "split": false
    }
   },
@@ -10014,8 +10020,8 @@
     "l2": 550.0,
     "liste": "2025",
     "ziel": 1000.0,
-    "keur": 1153.8,
-    "abst": 92.0,
+    "keur": 1154.3,
+    "abst": 92.1,
     "split": false
    }
   },
@@ -10045,8 +10051,8 @@
     "l2": 401.0,
     "liste": "2025",
     "ziel": 550.0,
-    "keur": 519.38,
-    "abst": 19.4,
+    "keur": 519.61,
+    "abst": 19.5,
     "split": false
    }
   },
@@ -10077,7 +10083,7 @@
     "l2": 41.0,
     "liste": "2025",
     "ziel": 80.0,
-    "keur": 63.474,
+    "keur": 63.502,
     "abst": 38.0,
     "split": false
    }
@@ -10108,8 +10114,8 @@
     "l2": 172.0,
     "liste": "2025",
     "ziel": 300.0,
-    "keur": 256.58,
-    "abst": 27.6,
+    "keur": 256.69,
+    "abst": 27.7,
     "split": false
    }
   },
@@ -10139,8 +10145,8 @@
     "l2": 265.0,
     "liste": "2025",
     "ziel": 400.0,
-    "keur": 465.12,
-    "abst": 54.5,
+    "keur": 465.33,
+    "abst": 54.6,
     "split": false
    }
   },
@@ -10170,8 +10176,8 @@
     "l2": 46.0,
     "liste": "2025",
     "ziel": 75.0,
-    "keur": 82.591,
-    "abst": 52.9,
+    "keur": 82.627,
+    "abst": 53.0,
     "split": false
    }
   },
@@ -10201,7 +10207,7 @@
     "l2": 162.0,
     "liste": "2025",
     "ziel": 250.0,
-    "keur": 200.79,
+    "keur": 200.88,
     "abst": 14.1,
     "split": false
    }
@@ -10232,7 +10238,7 @@
     "l2": 385.0,
     "liste": "2025",
     "ziel": 520.0,
-    "keur": 555.15,
+    "keur": 555.39,
     "abst": 31.6,
     "split": false
    }
@@ -10263,7 +10269,7 @@
     "l2": 62.0,
     "liste": "2025",
     "ziel": 130.0,
-    "keur": 253.33,
+    "keur": 253.44,
     "abst": 233.0,
     "split": false
    }
@@ -10295,7 +10301,7 @@
     "l2": 451.0,
     "liste": "2025",
     "ziel": 650.0,
-    "keur": 720.48,
+    "keur": 720.79,
     "abst": 51.7,
     "split": false
    }
@@ -10326,8 +10332,8 @@
     "l2": 270.0,
     "liste": "2025",
     "ziel": 380.0,
-    "keur": 308.93,
-    "abst": 2.98,
+    "keur": 309.07,
+    "abst": 3.02,
     "split": false
    }
   },
@@ -10359,8 +10365,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 100.0,
-    "keur": 46.726,
-    "abst": 1.58,
+    "keur": 46.747,
+    "abst": 1.62,
     "split": false
    }
   },
@@ -10390,8 +10396,8 @@
     "l2": 181.0,
     "liste": "2025",
     "ziel": 250.0,
-    "keur": 282.95,
-    "abst": 45.1,
+    "keur": 283.08,
+    "abst": 45.2,
     "split": false
    }
   },
@@ -10422,7 +10428,7 @@
     "l2": 251.0,
     "liste": "2025",
     "ziel": 400.0,
-    "keur": 93.507,
+    "keur": 93.548,
     "abst": -66.0,
     "split": false
    }
@@ -10454,7 +10460,7 @@
     "l2": 65.0,
     "liste": "2025",
     "ziel": 120.0,
-    "keur": 541.72,
+    "keur": 541.96,
     "abst": 595.0,
     "split": false
    }
@@ -10485,8 +10491,8 @@
     "l2": 26.0,
     "liste": "2025",
     "ziel": 60.0,
-    "keur": 177.68,
-    "abst": 492.0,
+    "keur": 177.76,
+    "abst": 493.0,
     "split": false
    }
   },
@@ -10519,7 +10525,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 260.0,
-    "keur": 114.38,
+    "keur": 114.43,
     "abst": -24.7,
     "split": false
    }
@@ -10551,8 +10557,8 @@
     "l2": 56.0,
     "liste": "2025",
     "ziel": 100.0,
-    "keur": 48.558,
-    "abst": -19.1,
+    "keur": 48.579,
+    "abst": -19.0,
     "split": false
    }
   },
@@ -10583,8 +10589,8 @@
     "l2": 105.0,
     "liste": "2025",
     "ziel": 180.0,
-    "keur": 136.63,
-    "abst": 9.3,
+    "keur": 136.69,
+    "abst": 9.35,
     "split": false
    }
   },
@@ -10614,7 +10620,7 @@
     "l2": 62.0,
     "liste": "2025",
     "ziel": 100.0,
-    "keur": 116.59,
+    "keur": 116.64,
     "abst": 66.6,
     "split": false
    }
@@ -10646,7 +10652,7 @@
     "l2": 81.0,
     "liste": "2025",
     "ziel": 150.0,
-    "keur": 107.5,
+    "keur": 107.55,
     "abst": 26.5,
     "split": false
    }
@@ -10678,8 +10684,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 16.0,
-    "keur": 7.4504,
-    "abst": -8.02,
+    "keur": 7.4468,
+    "abst": -8.06,
     "split": false
    }
   },
@@ -10742,8 +10748,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 100.0,
-    "keur": 36.002,
-    "abst": 2.86,
+    "keur": 36.017,
+    "abst": 2.91,
     "split": false
    }
   },
@@ -10773,7 +10779,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 25.0,
-    "keur": 5.941,
+    "keur": 5.9436,
     "abst": -16.3,
     "split": false
    }
@@ -10804,8 +10810,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 140.0,
-    "keur": 92.918,
-    "abst": 6.8,
+    "keur": 92.405,
+    "abst": 6.21,
     "split": false
    }
   },
@@ -10866,7 +10872,7 @@
     "l2": null,
     "liste": "2027",
     "ziel": 50.0,
-    "keur": 16.648,
+    "keur": 16.655,
     "abst": -20.7,
     "split": false
    }
@@ -10897,8 +10903,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 70.0,
-    "keur": 40.014,
-    "abst": -6.94,
+    "keur": 39.995,
+    "abst": -6.99,
     "split": false
    }
   },
@@ -10928,8 +10934,8 @@
     "l2": null,
     "liste": "2027",
     "ziel": 6.0,
-    "keur": 3.2151,
-    "abst": 3.71,
+    "keur": 3.2136,
+    "abst": 3.66,
     "split": false
    }
   },
@@ -11341,14 +11347,14 @@
    "t": "0HN3.L",
    "name": "BHP Billiton",
    "wa": null,
-   "kurs": 67.76,
-   "tag": -1.77,
-   "dd": -29.5,
-   "a90": -19.6,
-   "a200": -15.9,
-   "rsi": 23.7,
-   "p3m": -28.6,
-   "ytd": 16.7,
+   "kurs": 68.0,
+   "tag": -1.42,
+   "dd": -29.2,
+   "a90": -19.3,
+   "a200": -15.6,
+   "rsi": 23.9,
+   "p3m": -28.3,
+   "ytd": 17.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -11356,8 +11362,8 @@
    "aus": false,
    "hoch52": 96.07,
    "tief52": 50.34,
-   "ma200": 80.551,
-   "p1w": -15.0
+   "ma200": 80.553,
+   "p1w": -14.7
   },
   {
    "t": "BILN.L",
@@ -11632,14 +11638,14 @@
    "t": "ELE.MC",
    "name": "Endesa",
    "wa": null,
-   "kurs": 43.3,
-   "tag": 0.557,
-   "dd": -5.85,
-   "a90": 2.14,
-   "a200": 12.0,
-   "rsi": 46.5,
-   "p3m": 2.95,
-   "ytd": 47.7,
+   "kurs": 43.12,
+   "tag": 0.139,
+   "dd": -6.24,
+   "a90": 1.72,
+   "a200": 11.6,
+   "rsi": 45.0,
+   "p3m": 2.52,
+   "ytd": 47.1,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -11647,8 +11653,8 @@
    "aus": false,
    "hoch52": 45.99,
    "tief52": 28.892,
-   "ma200": 38.647,
-   "p1w": -5.85
+   "ma200": 38.646,
+   "p1w": -6.24
   },
   {
    "t": "EQIX",
@@ -12321,14 +12327,14 @@
    "t": "SDZ.SW",
    "name": "Sandoz",
    "wa": null,
-   "kurs": 80.8,
-   "tag": -0.542,
-   "dd": -7.02,
-   "a90": 10.6,
-   "a200": 17.4,
-   "rsi": 49.8,
-   "p3m": 9.87,
-   "ytd": 41.4,
+   "kurs": 80.5,
+   "tag": -0.911,
+   "dd": -7.36,
+   "a90": 10.2,
+   "a200": 17.0,
+   "rsi": 48.8,
+   "p3m": 9.46,
+   "ytd": 40.9,
    "listen": [
     "google_beobachtungsliste"
    ],
@@ -12336,8 +12342,8 @@
    "aus": false,
    "hoch52": 86.9,
    "tief52": 52.699,
-   "ma200": 68.83,
-   "p1w": -4.49
+   "ma200": 68.828,
+   "p1w": -4.85
   },
   {
    "t": "SERV",
@@ -12615,13 +12621,13 @@
    "t": "VACN.SW",
    "name": "VAT Group",
    "wa": null,
-   "kurs": 493.8,
-   "tag": -5.66,
+   "kurs": 493.7,
+   "tag": -5.67,
    "dd": -30.4,
    "a90": -19.1,
    "a200": -16.9,
    "rsi": 28.9,
-   "p3m": -19.0,
+   "p3m": -19.1,
    "ytd": 29.5,
    "listen": [
     "google_beobachtungsliste"
@@ -12631,7 +12637,7 @@
    "hoch52": 709.6,
    "tief52": 315.93,
    "ma200": 594.42,
-   "p1w": -7.42
+   "p1w": -7.44
   },
   {
    "t": "VEEV",
