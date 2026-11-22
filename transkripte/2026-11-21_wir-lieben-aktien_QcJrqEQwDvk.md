@@ -1,0 +1,11 @@
+# 100.000 € in NVIDIA – und dann kam der Crash 📉
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 21.11.2026
+- Link: https://www.youtube.com/watch?v=QcJrqEQwDvk
+- Ausgewertet: ja
+
+## Transkript
+
+Er fragt ja auf Reddit, wie es eigentlich dem Kollegen geht, der 100.000 € in Nvidia gesteckt hat. Allerdings ist das eben 11 Tage her. Also schauen wir uns das mal an. Ich berichte hier gefühlt jeden Tag über Nvidia. Also folgt mir übrigens, um es nicht zu verpassen. Und 11 Tage Folge heißt, er hat irgendwo hier oben noch gekauft wahrscheinlich und ist mittlerweile richtig richtig fette Minus einige 10.000 € auf jeden Fall. Das Problem ist aber, der Kollege ist selbst schuld, weil ich predige hier in jedem Video wartet ab, bis eine nachhaltige Stabilisierung kommt und dann durfte ich mir Kommentare anhören wie ja, aber dann kommt die schnelle VMkehr und dann war es nichts mit Stabilisierung. Ja, weil selbst eine Vumkehr erkennst du dann an der ersten oder zweiten Kerze. Hier ist aber nichts von der VMK langfristig betrachtet, das werden die meisten jetzt nicht verstehen, aber ist es tatsächlich eine Korrektur, die Nvidia immer wieder mal gemacht hat. Hier, hier und jetzt eben hier. Wenn wir uns jetzt auf dem Niveau hier fangen und ich habe da gleich noch eine Grafik für euch, dann könnte das sogar gute Kaufchancen geben. Aber deswegen Ruhe bewahren, jetzt nicht [räuspern] in Panik verfallen, emotional handeln wie alle anderen. Das bringt euch nämlich gar nichts. Wie wir hier sehen, ist hier auf dem Bereich jetzt die wichtigste Unterstützung. Also 140, 150 war schon nicht schlecht, aber die ist noch mal deutlich stärker. Die sollte allerdings auch halen. Ansonsten kommen wir gefährlich nah an dieses langfristige Trendtiefer ran. Das wäre schon sehr, sehr unsauber. Was würde ich jetzt also machen? nicht einfach reingreifen. Nein, ich warte auf Bremniveau ab, bis die Markte das annehmen, bis ich größere vielleicht positionieren und wir den kleinen Boden sehen. Ja, das kann eine Vumkehr werden. Auch die werden wir dann aber irgendwie sehen. Deswegen Umkehrsignale abwarten, nicht dumm reingreifen, sonst passiert euch das gleiche wie dem BR mit den 100.000 1000 € vor 11 Tagen.

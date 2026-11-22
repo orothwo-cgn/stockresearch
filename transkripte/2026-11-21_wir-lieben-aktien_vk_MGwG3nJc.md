@@ -1,0 +1,11 @@
+# 22.000 € Verlust mit NVIDIA realisiert – Fehler? 😳
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 21.11.2026
+- Link: https://www.youtube.com/watch?v=vk_MGwG3nJc
+- Ausgewertet: ja
+
+## Transkript
+
+Der Kollege hat seine Nvidia-Aktie mit 20.000€ Minus verkauft. Die Frage ist, war es so clever oder hätte er lieber noch mal halten sollen? Schauen wir uns Nvidia erstmal langfristig an, denn es ist nicht das erste Mal, dass die Aktie so eine Korrektur durchmacht. Das ist tatsächlich schon häufiger passiert und ja, jetzt bleibt eben abzuwarten, gerade was bei dem SEC-Bericht und so weiter rauskommt. Aber als antizyklischer Investor sollten wir natürlich erstmal daran denken, okay, das könnte vielleicht eine richtig gute Kaufchance werden, jetzt wo alle auch in Panik sind. Wichtig ist aber und das predige ich auf diesem Account schon seit Wochen, seit dieser Abverkauf gestartet ist, ihr greift nicht einfach ein, sondern wir bleiben ganz ruhig an der Seitenlinie, solange wir hier keine richtigen Umkehrsignale haben. Und hier erkennt eigentlich jeder Blinde, der nicht komplett seiner FOMO verfällt, dass es hier keine Umkehrsignale wirklich gibt. Also, wenn du da reingegriffen hast, dann denk da lieber noch mal drüber nach. Nächstes Mal warten wir eine Stabilisierung ab. Die wichtigen Unterstützungszonen sehen wir jetzt genau hier unter uns. Ich hätte mir hier schon bei 140-150$ als Stabilisierung gut vorstellen können, aber hier ist jetzt der wichtigste Bereich, der halten muss, also der Bereich um 120 Dollar. Und was ich mir auch gut vorstellen kann, hier liegt noch eine alte Kurslücke, also das wäre ein guter Bereich, um sich da mal nachhaltig zu fangen. Ich habe natürlich auch keine Ahnung, was bei SEC und Co. rauskommt, aber wenn wir jetzt sehen, dass dort eine Stabilisierung auf dem Niveau stattfindet, bedeutet das nichts anderes, gerade wenn so eine längere, größere Seitwärtsphase mit viel Volumen ist, dass wahrscheinlich auch die Großen langsam wieder einsteigen. Und genau denen will ich mich ja an die Füße heften sozusagen und den hinterherlaufen, denn die bewegen den Markt in der Regel sowieso. Also, ich werde Updates dazu machen. Wenn ihr die nicht verpassen wollt, dann folgt mir jetzt.
