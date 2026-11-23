@@ -1,55 +1,53 @@
-# Kurzfassung 23.11.2026 13:31
+# Kurzfassung 23.11.2026 15:41
 
-**Markt:** Nasdaq 100 -5,6 % (200T -10,8 %), S&P 500 -3,7 % (200T -6,0 %), DAX +0,9 % (200T +0,1 %)
-**Stimmung:** Crash-Muster Panik (75/100), Fear & Greed 10 (extreme Angst, Vorwoche 31), VIX 30,6
-**Zinsen:** US 10 Jahre 4,91 % (90T 4,91 %, 200T 4,60 %, Hoch 12 M 5,31 %), 30 Jahre 5,30 %, Kurve 10J−3M +0,79
-**Depot:** 308.528 € (-7.337 € heute), seit Kauf +46,5 %
-**Schwächste:** Applied Optoelectronic -16,5 %, XPENG INC. SP.ADS/2 CL -13,9 %, Onto Innovation Inc. -13,2 %, BROADCOM INC. DL-,001 -12,2 %
-**Stärkste:** ASML HOLDING EO -,09 +5,0 %, Prysmian S.p.A. +3,6 %, CAL-MAINE FOODS DL-,01 +3,5 %, UNITEDHEALTH GROUP DL- +2,8 %
+**Markt:** Nasdaq 100 +5,6 % (200T -5,9 %), S&P 500 +3,6 % (200T -2,6 %), DAX +1,6 % (200T +0,8 %)
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 19 (extreme Angst, Vorwoche 31), VIX 26,8
+**Zinsen:** US 10 Jahre 4,97 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,34 %, Kurve 10J−3M +0,82
+**Depot:** 316.923 € (+8.671 € heute), seit Kauf +50,5 %
+**Schwächste:** CROWDSTRIKE HLD. DL-,0 -8,8 %, Nemetschek SE -6,5 %, UNITEDHEALTH GROUP DL- -4,4 %, VAR ENERGI ASA -3,7 %
+**Stärkste:** Applied Optoelectronic +21,0 %, Zscaler Inc. +17,9 %, IonQ Inc. +17,5 %, Marvell Technology Inc +15,7 %
 
 **Wichtig heute:**
-- DAX nähert sich der 200-Tage-Linie: nur noch 0,1 % darüber.
+- DAX nähert sich der 200-Tage-Linie: nur noch 0,8 % darüber.
+- Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -2,8 % in 5 Tagen, 15,3 % unter Hoch, VIX 26,8 (+17 % in 5 Tagen).
+- CrowdStrike (CRWD) hat Kaufzone 1 von 2 erreicht: 191,18 € ≤ 195,00 € (nächste Zone 174,00 €).
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Meta Platforms: 511,43 €, Zone 516,00 € (-0,9 %)
-- Microsoft: 441,83 €, Zone 447,00 € (-1,2 %)
-- Oracle: Kursziel −60 % vom Hoch = 98,55, Kurs 101,19 (+2,7 %)
-- Alphabet: 241,92 €, Zone 240,00 € (+0,8 %)
-- Palantir: 130,85 €, Zone 140,00 € (-6,5 %)
-- CrowdStrike: 209,23 €, Zone 195,00 € (+7,3 %)
-- Datadog: 143,51 €, Zone 154,00 € (-6,8 %)
-- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 157,37 (-10,6 %)
-- Fortinet: 113,59 €, Zone 107,00 € (+6,2 %)
-- Fortinet: Kursziel −40 % vom Hoch = 116,85, Kurs 124,56 (+6,6 %)
-- Twilio: 156,94 €, Zone 165,00 € (-4,9 %)
-- Twilio: Kursziel −40 % vom Hoch = 180,76, Kurs 172,10 (-4,8 %)
-- ServiceNow: 79,89 €, Zone 101,50 € (-21,3 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 87,61 (-15,8 %)
-- Vertiv: 151,59 €, Zone 185,00 € (-18,1 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 166,24 (-11,6 %)
-- KLA: 115,69 €, Zone 152,00 € (-23,9 %)
-- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 126,87 (-15,7 %)
-- Onto Innovation: 155,17 €, Zone 217,00 € (-28,5 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 170,16 (-10,1 %)
-- Qnity Electronics: 94,35 €, Zone 107,00 € (-11,8 %)
-- Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 103,47 (-1,8 %)
-- Teradyne: 186,74 €, Zone 287,00 € (-34,9 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 204,78 (-29,4 %)
-- Astera Labs: 164,46 €, Zone 218,00 € (-24,6 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 180,35 (-25,3 %)
-- Marvell Technology: 111,51 €, Zone 198,00 € (-43,7 %)
-- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 122,28 (-35,6 %)
-- Hermès: 1.229,00 €, Zone 1.250,00 € (-1,7 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.229,00 (-7,6 %)
-- F5 Networks: Kursziel −40 % vom Hoch = 287,90, Kurs 303,99 (+5,6 %)
-- Brookfield Corporation: 34,42 €, Zone 32,00 € (+7,6 %)
-- First Solar: 125,47 €, Zone 141,00 € (-11,0 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 137,59 (-27,9 %)
-- Enphase Energy: 17,90 €, Zone 20,50 € (-12,7 %)
-- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 19,63 (-54,8 %)
-- Broadcom: 277,59 €, Zone 275,00 € (+0,9 %)
-- Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 304,41 (+5,7 %)
-- Schneider Electric: 231,10 €, Zone 228,00 € (+1,4 %)
-- HSBC: 15,00 €, Zone 15,10 € (-0,7 %)
+- Meta Platforms: 530,78 €, Zone 516,00 € (+2,9 %)
+- Microsoft: 457,53 €, Zone 447,00 € (+2,4 %)
+- Alphabet: 251,94 €, Zone 240,00 € (+5,0 %)
+- Palantir: 143,67 €, Zone 140,00 € (+2,6 %)
+- CrowdStrike: 191,18 €, Zone 195,00 € (-2,0 %)
+- Datadog: 151,66 €, Zone 154,00 € (-1,5 %)
+- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 165,91 (-5,7 %)
+- Twilio: 164,84 €, Zone 165,00 € (-0,1 %)
+- Twilio: Kursziel −40 % vom Hoch = 180,76, Kurs 180,33 (-0,2 %)
+- ServiceNow: 82,95 €, Zone 101,50 € (-18,3 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 90,75 (-12,8 %)
+- Vertiv: 168,97 €, Zone 185,00 € (-8,7 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 184,85 (-1,7 %)
+- KLA: 128,61 €, Zone 152,00 € (-15,4 %)
+- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 140,70 (-6,5 %)
+- Onto Innovation: 177,11 €, Zone 217,00 € (-18,4 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 193,76 (+2,4 %)
+- Qnity Electronics: 103,64 €, Zone 107,00 € (-3,1 %)
+- Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 113,38 (+7,7 %)
+- Teradyne: 213,78 €, Zone 287,00 € (-25,5 %)
+- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 233,87 (-19,4 %)
+- Astera Labs: 191,07 €, Zone 218,00 € (-12,4 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 209,02 (-13,5 %)
+- Marvell Technology: 129,31 €, Zone 198,00 € (-34,7 %)
+- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 141,46 (-25,5 %)
+- Hermès: 1.245,00 €, Zone 1.250,00 € (-0,4 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.245,00 (-6,4 %)
+- First Solar: 134,83 €, Zone 141,00 € (-4,4 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 147,51 (-22,8 %)
+- Enphase Energy: 19,69 €, Zone 20,50 € (-4,0 %)
+- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 21,54 (-50,4 %)
+- Broadcom: 282,40 €, Zone 275,00 € (+2,7 %)
+- Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 308,94 (+7,3 %)
+- Schneider Electric: 237,00 €, Zone 228,00 € (+3,9 %)
+- HSBC: 15,23 €, Zone 15,10 € (+0,9 %)
+- Münchener Rück: 576,60 €, Zone 538,00 € (+7,2 %)
 
-Weitere Hinweise: 1 neu, 453 aktiv. Vollständig: reports/2026-11-23_1331.md
+Weitere Hinweise: 45 neu, 389 aktiv. Vollständig: reports/2026-11-23_1541.md
