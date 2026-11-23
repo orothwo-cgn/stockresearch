@@ -1,0 +1,11 @@
+# Extreme Angst an der Börse: Warum ich diesem Indikator nicht blind vertraue 😱
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 22.11.2026
+- Link: https://www.youtube.com/watch?v=LMnGS3ozf0w
+- Ausgewertet: ja
+
+## Transkript
+
+Die meisten Leute wissen in der Theorie, wie sie an der Börse richtig viel Geld verdienen können. Sie kaufen Aktien dann ein, wenn alle ängstlich sind und sind dann vorsichtig, wenn alle anderen gierig sind. Das ist eine alte Börsenweisheit, die die meisten in der Praxis aber nicht umsetzen können. Deswegen gibt es aber einen Indicator, der ganz genau misst, wann sind die Marktteilnehmer ängstlich und wann sind sie gierig, damit du das eben für dich nutzen kannst. Bleib unbedingt bis zum Ende dran, denn dann zeige ich dir noch, wo du den Indicator findest, denn er schlägt gerade sogar so ein bisschen Alarm. Der Indicator ist Fear and Greed Indicator und wenn wir mal schauen, dann gab es in den letzten Jahren wirklich unfassbar viele Kaufbereiche, die er dadurch super markiert hat. In sieben von elf Fällen standen wir ein Jahr später am Gesamtmarkt wieder deutlich höher. Die einzige wirkliche Ausnahme ist die Korrektur, die dann 2022 stattgefunden hat, die deutlich länger ging. Damals hatten wir nämlich immer wieder extreme Angst, dann gab es zwar Aufwärtsbewegungen, aber die Korrektur wurde noch fortgesetzt. Wenn du den Fear and Greed Index also nutzt, dann nutze es eher als Signal, dir den Markt mal genauer anzusehen, aber noch nicht um pauschal zu kaufen. Schauen wir uns nämlich 2022 mal an, dann hatten wir vorher auch eine massive Übertreibung und man muss eben einordnen können, dass danach eine größere Korrektur völlig in Ordnung wäre und dass das hier oben, wo das erste Mal der Alarm vom Fear and Greed Index kam, noch kein gutes Kaufsignal sein kann. Ich sehe den Fear and Greed Index deswegen so als eine Art Kompass, um grob einordnen zu können, wo wir am Markt gerade vom Sentiment her stehen. Und jetzt abschließend noch dazu, wo du den Index findest, einfach Fear and Greed Index eingeben und dann gibt es verschiedene, aber das ist der von CNN und da wird dir angezeigt, wo er aktuell genau steht und wo er auch im zeitlichen Verlauf die ganze Zeit so war. s.

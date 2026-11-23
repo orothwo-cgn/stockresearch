@@ -1,0 +1,11 @@
+# Halbleiter-Aktien: Kurs und Gewinne laufen komplett auseinander 🤯
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 22.11.2026
+- Link: https://www.youtube.com/watch?v=9-w2YQcPtAY
+- Ausgewertet: ja
+
+## Transkript
+
+Das, was gerade bei Halbleiter Aktien passiert ist, wirklich verrückt. Normalerweise entwickeln sich diese beiden Linien immer relativ ähnlich. Einmal Forward EPS und einmal Stock Price. Also, was wird erwartet, wo liegt der Gewinn je Aktie und dann eben noch der Aktienkurs selbst. Und hier hat sich das gerade völlig entkoppelt. Der Aktienpreis ist massiv gefallen. Forward EPS ist weiterhin auf hohen Niveaus. Auf den ersten Blick wirkt das wie eine richtig richtig gute Kaufchance, aber hör mir ganz kurz zu, ich erkläre dir, woran das hier eigentlich liegt. Das Problem bei den Halbleiter Aktien ist, dass sie einfach von der Entwicklung her zyklisch sind. Also, das Geschäftsmodell ist zyklisch, wir haben immer wieder Phasen mit hoher Nachfrage, Phasen mit niedrigerer Nachfrage, also mit einer Abkühlung. Gerade in den letzten ein, zwei Jahren durch KI wurde das noch mal massiv beschleunigt. Sowohl das Wachstum zur Oberseite, aber eben auch potenziell dann das Downside Potenzial, weil dieses Wachstum wird in den Aktien wiederum eingepreist und wenn das nicht ganz so Eintritt, ja gut, dann müssen die Aktien das zur Unterseite ausgleichen. Gerade ist das Forward EPS noch relativ gut. Die Zahlen, die Nvidia meldet, sind z.B. richtig gut, aber es besteht die große Sorge, dass das eben in Zukunft nicht mehr so sein könnte, weil bei Nvidia ist SEC, die muss erstmal einiges überprüfen. Die Demokraten wurden gewählt, KI Baustopps und so weiter drohen in den USA und so weiter. Deswegen preist der Markt das jetzt schon mal ein, aber der Markt übertreibt gerne und zwar in beide Richtungen. Wir sehen das auch recht schön hier beim langfristigen, bei der langfristigen Entwicklung von Halbleiter Aktien. Immer wieder haben wir Korrekturen und das aktuelle, die aktuelle Korrektur ist auch völlig gesund und genau in einer solchen Korrektur sollte man sich die Aktien dann wieder näher ansehen. Ich werde das in der nächsten Zeit machen und auch ein paar Videos dazu posten, also folgt mir, um die nicht zu verpassen.
