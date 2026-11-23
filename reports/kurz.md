@@ -1,53 +1,51 @@
-# Kurzfassung 23.11.2026 15:41
+# Kurzfassung 23.11.2026 16:11
 
-**Markt:** Nasdaq 100 +5,6 % (200T -5,9 %), S&P 500 +3,6 % (200T -2,6 %), DAX +1,6 % (200T +0,8 %)
-**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 19 (extreme Angst, Vorwoche 31), VIX 26,8
-**Zinsen:** US 10 Jahre 4,97 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,34 %, Kurve 10J−3M +0,82
-**Depot:** 316.923 € (+8.671 € heute), seit Kauf +50,5 %
-**Schwächste:** CROWDSTRIKE HLD. DL-,0 -8,8 %, Nemetschek SE -6,5 %, UNITEDHEALTH GROUP DL- -4,4 %, VAR ENERGI ASA -3,7 %
-**Stärkste:** Applied Optoelectronic +21,0 %, Zscaler Inc. +17,9 %, IonQ Inc. +17,5 %, Marvell Technology Inc +15,7 %
+**Markt:** Nasdaq 100 +6,8 % (200T -4,8 %), S&P 500 +4,6 % (200T -1,6 %), DAX +1,9 % (200T +1,1 %)
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 17 (extreme Angst, Vorwoche 31), VIX 28,2
+**Zinsen:** US 10 Jahre 4,95 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,33 %, Kurve 10J−3M +0,80
+**Depot:** 319.228 € (+10.666 € heute), seit Kauf +51,6 %
+**Schwächste:** CROWDSTRIKE HLD. DL-,0 -10,8 %, Nemetschek SE -5,7 %, VAR ENERGI ASA -3,2 %, ALTRIA GRP INC. DL-,33 -2,1 %
+**Stärkste:** Applied Optoelectronic +20,0 %, Marvell Technology Inc +19,2 %, Zscaler Inc. +15,4 %, MONOLITHIC POWER DL-,0 +15,3 %
 
 **Wichtig heute:**
-- DAX nähert sich der 200-Tage-Linie: nur noch 0,8 % darüber.
-- Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -2,8 % in 5 Tagen, 15,3 % unter Hoch, VIX 26,8 (+17 % in 5 Tagen).
-- CrowdStrike (CRWD) hat Kaufzone 1 von 2 erreicht: 191,18 € ≤ 195,00 € (nächste Zone 174,00 €).
+- DAX nähert sich der 200-Tage-Linie: nur noch 1,1 % darüber.
+- Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -1,7 % in 5 Tagen, 14,4 % unter Hoch, VIX 28,2 (+23 % in 5 Tagen).
+- CrowdStrike (CRWD) fällt heute um -10,8 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
-- Meta Platforms: 530,78 €, Zone 516,00 € (+2,9 %)
-- Microsoft: 457,53 €, Zone 447,00 € (+2,4 %)
-- Alphabet: 251,94 €, Zone 240,00 € (+5,0 %)
-- Palantir: 143,67 €, Zone 140,00 € (+2,6 %)
-- CrowdStrike: 191,18 €, Zone 195,00 € (-2,0 %)
-- Datadog: 151,66 €, Zone 154,00 € (-1,5 %)
-- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 165,91 (-5,7 %)
-- Twilio: 164,84 €, Zone 165,00 € (-0,1 %)
-- Twilio: Kursziel −40 % vom Hoch = 180,76, Kurs 180,33 (-0,2 %)
-- ServiceNow: 82,95 €, Zone 101,50 € (-18,3 %)
-- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 90,75 (-12,8 %)
-- Vertiv: 168,97 €, Zone 185,00 € (-8,7 %)
-- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 184,85 (-1,7 %)
-- KLA: 128,61 €, Zone 152,00 € (-15,4 %)
-- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 140,70 (-6,5 %)
-- Onto Innovation: 177,11 €, Zone 217,00 € (-18,4 %)
-- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 193,76 (+2,4 %)
-- Qnity Electronics: 103,64 €, Zone 107,00 € (-3,1 %)
-- Qnity Electronics: Kursziel −40 % vom Hoch = 105,31, Kurs 113,38 (+7,7 %)
-- Teradyne: 213,78 €, Zone 287,00 € (-25,5 %)
-- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 233,87 (-19,4 %)
-- Astera Labs: 191,07 €, Zone 218,00 € (-12,4 %)
-- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 209,02 (-13,5 %)
-- Marvell Technology: 129,31 €, Zone 198,00 € (-34,7 %)
-- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 141,46 (-25,5 %)
-- Hermès: 1.245,00 €, Zone 1.250,00 € (-0,4 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.245,00 (-6,4 %)
-- First Solar: 134,83 €, Zone 141,00 € (-4,4 %)
-- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 147,51 (-22,8 %)
-- Enphase Energy: 19,69 €, Zone 20,50 € (-4,0 %)
-- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 21,54 (-50,4 %)
-- Broadcom: 282,40 €, Zone 275,00 € (+2,7 %)
-- Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 308,94 (+7,3 %)
-- Schneider Electric: 237,00 €, Zone 228,00 € (+3,9 %)
-- HSBC: 15,23 €, Zone 15,10 € (+0,9 %)
-- Münchener Rück: 576,60 €, Zone 538,00 € (+7,2 %)
+- Meta Platforms: 537,67 €, Zone 516,00 € (+4,2 %)
+- Microsoft: 461,17 €, Zone 447,00 € (+3,2 %)
+- Alphabet: 256,96 €, Zone 240,00 € (+7,1 %)
+- Palantir: 144,81 €, Zone 140,00 € (+3,4 %)
+- CrowdStrike: 187,36 €, Zone 195,00 € (-3,9 %)
+- Datadog: 155,26 €, Zone 154,00 € (+0,8 %)
+- Datadog: Kursziel −40 % vom Hoch = 175,96, Kurs 169,55 (-3,6 %)
+- Twilio: 169,68 €, Zone 165,00 € (+2,8 %)
+- Twilio: Kursziel −40 % vom Hoch = 180,76, Kurs 185,30 (+2,5 %)
+- ServiceNow: 84,08 €, Zone 101,50 € (-17,2 %)
+- ServiceNow: Kursziel −40 % vom Hoch = 104,10, Kurs 91,82 (-11,8 %)
+- Vertiv: 171,58 €, Zone 185,00 € (-7,3 %)
+- Vertiv: Kursziel −50 % vom Hoch = 188,03, Kurs 187,38 (-0,3 %)
+- KLA: 130,71 €, Zone 152,00 € (-14,0 %)
+- KLA: Kursziel −50 % vom Hoch = 150,46, Kurs 142,74 (-5,1 %)
+- Onto Innovation: 179,64 €, Zone 217,00 € (-17,2 %)
+- Onto Innovation: Kursziel −50 % vom Hoch = 189,23, Kurs 196,18 (+3,7 %)
+- Qnity Electronics: 104,18 €, Zone 107,00 € (-2,6 %)
+- Teradyne: 215,90 €, Zone 287,00 € (-24,8 %)
+- Teradyne: Kursziel −40 % vom Hoch = 290,19, Kurs 235,78 (-18,8 %)
+- Astera Labs: 191,88 €, Zone 218,00 € (-12,0 %)
+- Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 209,55 (-13,2 %)
+- Marvell Technology: 133,42 €, Zone 198,00 € (-32,6 %)
+- Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 145,71 (-23,2 %)
+- Hermès: 1.242,00 €, Zone 1.250,00 € (-0,6 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.242,00 (-6,7 %)
+- First Solar: 133,51 €, Zone 141,00 € (-5,3 %)
+- First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 145,80 (-23,6 %)
+- Enphase Energy: 19,13 €, Zone 20,50 € (-6,7 %)
+- Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 20,90 (-51,9 %)
+- Broadcom: 284,97 €, Zone 275,00 € (+3,6 %)
+- Schneider Electric: 235,90 €, Zone 228,00 € (+3,5 %)
+- HSBC: 15,16 €, Zone 15,10 € (+0,4 %)
+- Münchener Rück: 579,20 €, Zone 538,00 € (+7,7 %)
 
-Weitere Hinweise: 45 neu, 389 aktiv. Vollständig: reports/2026-11-23_1541.md
+Weitere Hinweise: 14 neu, 379 aktiv. Vollständig: reports/2026-11-23_1611.md
