@@ -1,0 +1,11 @@
+# Jensen Huang meldet sich – und NVIDIA hebt ab 🚀
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 23.11.2026
+- Link: https://www.youtube.com/watch?v=yrFImM3BEgE
+- Ausgewertet: ja
+
+## Transkript
+
+Nvidia + 34% nachdem Jensen Wang als CEO zurückkommt. Ist das jetzt noch eine gute Kaufchance oder nicht? Gib mir 60 Sekunden Zeit. Ich ordne dir die Situation rational ein. Und genau das solltest du auch tun. Rational bleiben, denn die allermeisten verfallen am Freitag in komplette Panik, heute in totale FOMO. Das ist einfach nichts, wie man langfristig an der Börse agieren sollte, sondern ruhig bleiben. Schauen wir uns die Situation mal an. haben wir bei Nvidia mehrere Probleme. Ich zeige euch gleich noch, worauf ich im Chart achten würde, aber haben wir mehrere Probleme. Erstens die super flache Struktur. Das heißt, wenn Jenson Run wegfällt, ist es wirklich auch unternehmstechnisch vom Aufbau schwierig. Jetzt ist er wieder da. Das haben wir also gelöst. Was wir nicht gelöst haben, ist die China Thematik, Spionage Thematik. Die SEC ist im Haus. Man hat immer noch nicht den 10Q Bericht vorgelegt. Also Bilanzprobleme vielleicht. Das kann natürlich sein, dass man jetzt sagt, okay, Jensang ist wieder da. Das hat man jetzt auch nur gemacht, weil man weiß, das ist alles in Ordnung, aber das sind alles noch ungelöste Thematiken. Deswegen ich traue dem Braten noch nicht so ganz, dass wir jetzt hier zur Oberseite so durchziehen. Wenn es so ist, dann soll die Aktien das ohne mich tun. Ist in Ordnung. Ansonsten ergeben sich nur gute Chance, Risikoverhältnisse, wenn wir noch mal die Kurslücke zurücklaufen. Das ist tatsächlich etwas, was recht wahrscheinlich ist. Das passiert immer wieder, dass wir nach so einem ersten Impuls, wo dann jeder in Vore getrieben komplett da rein musste, ähm dass die ganze Kaufkraft dann weg ist und hier beim Rücksetzer geben äh geben sich dann die wirklich guten Chancen. Also für mich gibt's zwei Szenarien. Entweder die Aktie zieht davon, in Ordnung, unwahrscheinlich, aber in Ordnung. Wir sind ja auch direkt in der Widerstandszone. Dann soll sie es machen gerne ohne mich. oder sie macht hier dann demnächst wieder den Rücksetzer in die Kurslücke rein und dann werde ich sie miren sehen. Ganz einfaches Spiel und ich halte euch dazu auf dem Laufenden. Also folgt mir für mehr. Yeah.
