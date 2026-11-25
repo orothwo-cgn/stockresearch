@@ -1,17 +1,14 @@
-# Kurzfassung 25.11.2026 23:41
+# Kurzfassung 26.11.2026 00:11
 
-**Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX -1,3 % (200T -1,2 %)
+**Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX -1,1 % (200T -1,0 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 30), VIX 28,3
 **Zinsen:** US 10 Jahre 4,85 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,23 %, Kurve 10J−3M +0,69
-**Depot:** 315.203 € (-1.102 € heute), seit Kauf +49,6 %
-**Schwächste:** Nutanix Inc. -15,2 %, ASML HOLDING EO -,09 -5,8 %, Lam Research Corp. -5,7 %, Prysmian S.p.A. -5,4 %
+**Depot:** 315.364 € (-957 € heute), seit Kauf +49,7 %
+**Schwächste:** Nutanix Inc. -15,2 %, ASML HOLDING EO -,09 -5,7 %, Lam Research Corp. -5,7 %, Prysmian S.p.A. -5,6 %
 **Stärkste:** IonQ Inc. +5,1 %, Sony Group Corp. +4,4 %, Nu Holdings Ltd. +4,2 %, SailPoint Inc. +4,0 %
 
 **Wichtig heute:**
-- DAX notiert unter der 200-Tage-Linie (-1,2 %).
-- Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -3,9 % in 5 Tagen, 16,6 % unter Hoch, VIX 28,3 (+15 % in 5 Tagen).
-- Nutanix Inc. (NTNX) fällt heute um -15,2 %.
-- Harmonic Drive Systems Inc (6324.T) fällt heute um -13,1 %.
+- nichts
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 555,49 €, Zone 516,00 € (+7,7 %)
@@ -40,15 +37,15 @@
 - Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 190,34 (-21,2 %)
 - Marvell Technology: 119,25 €, Zone 198,00 € (-39,8 %)
 - Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 130,93 (-31,0 %)
-- Hermès: 1.252,00 €, Zone 1.250,00 € (+0,2 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.252,00 (-5,9 %)
+- Hermès: 1.255,00 €, Zone 1.250,00 € (+0,4 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.255,00 (-5,7 %)
 - First Solar: 134,69 €, Zone 141,00 € (-4,5 %)
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 147,88 (-22,6 %)
 - Enphase Energy: 19,00 €, Zone 20,50 € (-7,3 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 20,86 (-51,9 %)
 - Broadcom: 274,02 €, Zone 275,00 € (-0,4 %)
 - Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 300,86 (+4,5 %)
-- Schneider Electric: 216,65 €, Zone 228,00 € (-5,0 %)
+- Schneider Electric: 216,25 €, Zone 228,00 € (-5,2 %)
 - HSBC: 14,55 €, Zone 15,10 € (-3,7 %)
 
-Weitere Hinweise: 0 neu, 361 aktiv. Vollständig: reports/2026-11-25_2341.md
+Weitere Hinweise: 0 neu, 360 aktiv. Vollständig: reports/2026-11-26_0011.md
