@@ -1,0 +1,11 @@
+# Nasdaq -3 %: Endet die Erholung schon wieder? 🚨
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 24.11.2026
+- Link: https://www.youtube.com/watch?v=PqKvk88qYDE
+- Ausgewertet: ja
+
+## Transkript
+
+Der Nestck ist gestern um 7% nach oben gesprungen, jetzt ist er vorbörslich, aber fast 2 % im Minus. Seit dem Hoch haben wir jetzt schon fast 3% an Wert verloren. Ist das jetzt der nächste große Abwärtsimpuls? Und wir sehen noch mal neue Tiefs oder was ist hier los? Geb mir kurz 60 Sekunden Zeit. Ich sag dir genau, was hier gerade passiert. Schauen wir uns den NCK mal an. Dann sollten wir erst einmal nicht vergessen, dass wir immer noch formal in der Korrektur drin stecken. Wir haben hier unten ein schönes Unterstützungsniveau. Hier ist die nachhaltige Umkehr wahrscheinlich und ich gehe auch nicht mehr von neuen Tiefs aus. Aber jetzt müssen wir auch die Kirche mal im Dorf lassen. Wir hatten gestern zwar einen sehr impulsiven Tag, der Abwärtstrend, den wir hier aber die ganze Zeit haben mit tieferen Hochs und tieferen Tiefs, der ist grundsätzlich immer noch intakt und ist es auch noch bis hier oben. Wenn wir jetzt hier den nächsten Impuls sehen, dann kann sich das ändern, aber das ist erstmal das, womit wir arbeiten müssen. Jetzt müsst ihr euch merken, der Markt entwickelt sich auf jederzeitebene zyklisch. Egal, ob wir uns jetzt den langfristigen Chart ansehen, ob wir uns den mittelfristigen Chart ansehen oder ob wir tief in die Intraday Zeiteinheiten gehen. Wir haben immer Bewegung aufwärts, dann wieder abwärts. Also hier in dem Abwärtstrend, Abwärtsimpuls, Aufwärtskorrektur, Abwärtsimpuls, Aufwärtskorrektur und so weiter. Immer wieder zyklisch. Und genau das gilt hier natürlich auch. Wir hten jetzt einen starken Impuls und der wird jetzt korrigiert in einem völlig gesunden Ausmaß, das auch noch tiefer reichen darf. Und wenn wir uns dann stabilisieren und wir laufen hier langsam runter, dann ist der nächste Aufwärtsimpuls wahrscheinlich. Also nein, keine Panik. Dieser Rücksetzer ist völlig gesund. Ihr habt hier auch jetzt hier kommt jetzt nicht direkt die nächsten Verlaufste, es kommen jetzt drauf an, was wir im weiteren Verlauf des Handels machen, aber grundsätzlich geht erstmal, das ist nicht schlimm, das ist völlig normal. Wenn ihr die Updates dazu nicht verpassen wollt, dann folgt mir jetzt.
