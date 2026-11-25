@@ -1,17 +1,17 @@
-# Kurzfassung 25.11.2026 22:41
+# Kurzfassung 25.11.2026 23:11
 
 **Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX -1,3 % (200T -1,2 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 30), VIX 28,3
 **Zinsen:** US 10 Jahre 4,85 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,23 %, Kurve 10J−3M +0,69
-**Depot:** 315.231 € (-1.118 € heute), seit Kauf +49,7 %
+**Depot:** 315.237 € (-1.102 € heute), seit Kauf +49,7 %
 **Schwächste:** Nutanix Inc. -15,2 %, ASML HOLDING EO -,09 -5,8 %, Lam Research Corp. -5,7 %, Prysmian S.p.A. -5,4 %
-**Stärkste:** IonQ Inc. +5,1 %, Sony Group Corp. +4,9 %, Nu Holdings Ltd. +4,2 %, SailPoint Inc. +4,0 %
+**Stärkste:** IonQ Inc. +5,1 %, Sony Group Corp. +4,4 %, Nu Holdings Ltd. +4,2 %, SailPoint Inc. +4,0 %
 
 **Wichtig heute:**
 - DAX notiert unter der 200-Tage-Linie (-1,2 %).
 - Crash-Muster Stufe Korrektur (Score 45/100): Nasdaq 100 -3,9 % in 5 Tagen, 16,6 % unter Hoch, VIX 28,3 (+15 % in 5 Tagen).
 - Nutanix Inc. (NTNX) fällt heute um -15,2 %.
-- Harmonic Drive Systems Inc (6324.T) fällt heute um -13,3 %.
+- Harmonic Drive Systems Inc (6324.T) fällt heute um -13,1 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 555,55 €, Zone 516,00 € (+7,7 %)
@@ -49,6 +49,6 @@
 - Broadcom: 274,05 €, Zone 275,00 € (-0,3 %)
 - Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 300,86 (+4,5 %)
 - Schneider Electric: 216,65 €, Zone 228,00 € (-5,0 %)
-- HSBC: 14,55 €, Zone 15,10 € (-3,7 %)
+- HSBC: 14,55 €, Zone 15,10 € (-3,6 %)
 
-Weitere Hinweise: 1 neu, 361 aktiv. Vollständig: reports/2026-11-25_2241.md
+Weitere Hinweise: 1 neu, 361 aktiv. Vollständig: reports/2026-11-25_2311.md
