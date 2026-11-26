@@ -1,15 +1,14 @@
-# Kurzfassung 26.11.2026 22:11
+# Kurzfassung 26.11.2026 22:41
 
 **Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX +2,1 % (200T +0,9 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 16), VIX 26,8
 **Zinsen:** US 10 Jahre 4,85 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,24 %, Kurve 10J−3M +0,69
-**Depot:** 317.273 € (+1.885 € heute), seit Kauf +50,6 %
+**Depot:** 317.214 € (+1.716 € heute), seit Kauf +50,6 %
 **Schwächste:** Nutanix Inc. -15,2 %, Lam Research Corp. -5,7 %, Oracle Corp. -5,1 %, DATADOG INC. A DL-,000 -4,3 %
-**Stärkste:** PETROLEO BRAS.SA PET. +7,4 %, Prysmian S.p.A. +6,6 %, IonQ Inc. +5,1 %, Sony Group Corp. +4,4 %
+**Stärkste:** Prysmian S.p.A. +6,6 %, PETROLEO BRAS.SA PET. +5,1 %, IonQ Inc. +5,1 %, Nu Holdings Ltd. +4,2 %
 
 **Wichtig heute:**
 - DAX nähert sich der 200-Tage-Linie: nur noch 0,9 % darüber.
-- Harmonic Drive Systems Inc (6324.T) fällt heute um -13,1 %.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 555,85 €, Zone 516,00 € (+7,7 %)
@@ -49,4 +48,4 @@
 - Schneider Electric: 219,05 €, Zone 228,00 € (-3,9 %)
 - HSBC: 14,88 €, Zone 15,10 € (-1,4 %)
 
-Weitere Hinweise: 1 neu, 351 aktiv. Vollständig: reports/2026-11-26_2211.md
+Weitere Hinweise: 2 neu, 351 aktiv. Vollständig: reports/2026-11-26_2241.md
