@@ -1,9 +1,9 @@
-# Kurzfassung 26.11.2026 20:11
+# Kurzfassung 26.11.2026 20:41
 
 **Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX +2,1 % (200T +0,9 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 16), VIX 26,8
 **Zinsen:** US 10 Jahre 4,85 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,24 %, Kurve 10J−3M +0,69
-**Depot:** 317.159 € (+1.825 € heute), seit Kauf +50,6 %
+**Depot:** 317.154 € (+1.822 € heute), seit Kauf +50,6 %
 **Schwächste:** Nutanix Inc. -15,2 %, Lam Research Corp. -5,7 %, Oracle Corp. -5,1 %, DATADOG INC. A DL-,000 -4,3 %
 **Stärkste:** Prysmian S.p.A. +6,6 %, IonQ Inc. +5,1 %, Sony Group Corp. +4,4 %, Nu Holdings Ltd. +4,2 %
 
@@ -49,4 +49,4 @@
 - Schneider Electric: 219,05 €, Zone 228,00 € (-3,9 %)
 - HSBC: 14,88 €, Zone 15,10 € (-1,5 %)
 
-Weitere Hinweise: 0 neu, 352 aktiv. Vollständig: reports/2026-11-26_2011.md
+Weitere Hinweise: 0 neu, 352 aktiv. Vollständig: reports/2026-11-26_2041.md
