@@ -1,14 +1,14 @@
-# Kurzfassung 26.11.2026 09:31
+# Kurzfassung 26.11.2026 11:31
 
-**Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX +1,7 % (200T +0,5 %)
-**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 16), VIX 27,2
+**Markt:** Nasdaq 100 -0,6 % (200T -7,3 %), S&P 500 -0,3 % (200T -2,3 %), DAX +2,2 % (200T +1,0 %)
+**Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 15 (extreme Angst, Vorwoche 16), VIX 27,0
 **Zinsen:** US 10 Jahre 4,85 % (90T 4,92 %, 200T 4,61 %, Hoch 12 M 5,31 %), 30 Jahre 5,24 %, Kurve 10J−3M +0,69
-**Depot:** 316.840 € (+1.402 € heute), seit Kauf +50,4 %
+**Depot:** 316.702 € (+1.404 € heute), seit Kauf +50,4 %
 **Schwächste:** Nutanix Inc. -15,2 %, Lam Research Corp. -5,7 %, Oracle Corp. -5,1 %, DATADOG INC. A DL-,000 -4,3 %
-**Stärkste:** IonQ Inc. +5,1 %, Nu Holdings Ltd. +4,2 %, Prysmian S.p.A. +4,1 %, SailPoint Inc. +4,0 %
+**Stärkste:** IonQ Inc. +5,1 %, Prysmian S.p.A. +5,0 %, Nu Holdings Ltd. +4,2 %, SailPoint Inc. +4,0 %
 
 **Wichtig heute:**
-- DAX nähert sich der 200-Tage-Linie: nur noch 0,5 % darüber.
+- DAX nähert sich der 200-Tage-Linie: nur noch 1,0 % darüber.
 
 **Nahe an deinen Kaufzonen (bis 8 %):**
 - Meta Platforms: 555,67 €, Zone 516,00 € (+7,7 %)
@@ -37,15 +37,15 @@
 - Astera Labs: Kursziel −50 % vom Hoch = 241,51, Kurs 190,34 (-21,2 %)
 - Marvell Technology: 119,29 €, Zone 198,00 € (-39,8 %)
 - Marvell Technology: Kursziel −40 % vom Hoch = 189,77, Kurs 130,93 (-31,0 %)
-- Hermès: 1.272,50 €, Zone 1.250,00 € (+1,8 %)
-- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.272,50 (-4,4 %)
+- Hermès: 1.280,50 €, Zone 1.250,00 € (+2,4 %)
+- Hermès: Kursziel −40 % vom Hoch = 1.330,59, Kurs 1.280,50 (-3,8 %)
 - First Solar: 134,73 €, Zone 141,00 € (-4,4 %)
 - First Solar: Kursziel −40 % vom Hoch = 190,95, Kurs 147,88 (-22,6 %)
 - Enphase Energy: 19,01 €, Zone 20,50 € (-7,3 %)
 - Enphase Energy: Kursziel −40 % vom Hoch = 43,40, Kurs 20,86 (-51,9 %)
 - Broadcom: 274,11 €, Zone 275,00 € (-0,3 %)
 - Broadcom: Kursziel −40 % vom Hoch = 287,96, Kurs 300,86 (+4,5 %)
-- Schneider Electric: 220,80 €, Zone 228,00 € (-3,2 %)
-- HSBC: 14,89 €, Zone 15,10 € (-1,4 %)
+- Schneider Electric: 219,75 €, Zone 228,00 € (-3,6 %)
+- HSBC: 14,87 €, Zone 15,10 € (-1,5 %)
 
-Weitere Hinweise: 4 neu, 349 aktiv. Vollständig: reports/2026-11-26_0931.md
+Weitere Hinweise: 4 neu, 351 aktiv. Vollständig: reports/2026-11-26_1131.md
