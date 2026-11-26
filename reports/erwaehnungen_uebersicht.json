@@ -1,11 +1,11 @@
 {
  "fenster_tage": 30,
- "videos": 444,
+ "videos": 465,
  "titel": [
   {
    "ticker": "GOOGL",
    "name": "Alphabet",
-   "anzahl": 47,
+   "anzahl": 48,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Beating Beta",
@@ -14,15 +14,39 @@
     "Wir lieben Aktien",
     "aktienlust"
    ],
-   "hauptthema": 26,
+   "hauptthema": 28,
    "tendenzen": {
     "kaufen": 17,
-    "beobachten": 11,
+    "beobachten": 13,
     "nachkaufen": 8,
     "neutral": 6,
-    "halten": 5
+    "halten": 4
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Alphabet sei von der Spitze viel zu weit korrigiert, im KI-Sektor genial aufgestellt und könne schneller als gedacht Richtung Allzeithoch laufen; der Sprecher sieht die Aktie als Schnäppchen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Als einzige im Vergleich biete Alphabet eine wirklich gute Chance; intakter Aufwärtstrend, aber der Sprecher wartet auf Bestätigung durch einen Ausbruch über das Hoch oder eine Stabilisierung.",
+     "kaufzone_oder_ziel": "Korrekturausweitung in Richtung 250 als Wunschszenario; Bestätigung bei Ausbruch über das Hoch",
+     "titel": "Alphabet-Aktie am Scheideweg – mein Traumszenario"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Unter den Hyperscalern für den Sprecher die einzige wirklich gute Chance: Aufwärtstrend, gesunde Korrektur, Unterstützungszonen; er wartet Marktsignale ab (Ausbruch über das Hoch bestätigt, sonst Korrekturausweitung).",
+     "kaufzone_oder_ziel": "Wunschszenario: Korrekturausweitung Richtung 250 mit Stabilisierung",
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-24",
      "kanal": "Beating Beta",
@@ -30,37 +54,13 @@
      "these": "Alphabet ist für den Gast klar der stärkste Favorit unter den Hyperscalern.",
      "kaufzone_oder_ziel": null,
      "titel": "Diese Hyperscaler-Aktien sind jetzt ein Kauf wert! #alphabet #spacex"
-    },
-    {
-     "datum": "2026-11-24",
-     "kanal": "InvestIngenieur",
-     "tendenz": "beobachten",
-     "these": "Profitables Kerngeschäft plus Cloud, KI, Waymo und Quantencomputing; die Korrektur durch hohe KI-Investitionen und mögliche Margenbelastung im Cloudgeschäft hält der Sprecher für teils temporär. Er wartet ab, ob die Supportzone hält und sich ein Boden bildet.",
-     "kaufzone_oder_ziel": "Supportzone um 270 $, bei Halten attraktiv für den Einstieg; Analystenkursziel im Mittel 357, Fair Value laut Modellen 286.",
-     "titel": "Diese Tech-Aktien sind jetzt kaufenswert!"
-    },
-    {
-     "datum": "2026-11-23",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Favorit; er erwartet, dass sich die Aktie in den nächsten 10 bis 15 Jahren verzehnfacht (Umsatz-, Gewinn- und Produktivitätswachstum, Geldmengenwachstum). Hyperscaler gelten als bester Inflationsschutz.",
-     "kaufzone_oder_ziel": "Verzehnfachung in 10 bis 15 Jahren",
-     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
-    },
-    {
-     "datum": "2026-11-23",
-     "kanal": "Tim Schäfer",
-     "tendenz": "nachkaufen",
-     "these": "Am Freitag aufgestockt; Aktie hat im letzten Jahr kaum Performance gemacht, wird laut Sprecher aufholen (Waymo, Gemini).",
-     "kaufzone_oder_ziel": "Heute rund 280 $",
-     "titel": "Nvidia-Wahnsinn: Rückkehr des Gründers an die Spitze. Donald Trump holt ihn zurück. Aktie dreht auf"
     }
    ]
   },
   {
    "ticker": "MSFT",
    "name": "Microsoft",
-   "anzahl": 21,
+   "anzahl": 20,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Beating Beta",
@@ -72,7 +72,7 @@
    "hauptthema": 3,
    "tendenzen": {
     "neutral": 12,
-    "kaufen": 4,
+    "kaufen": 3,
     "halten": 3,
     "beobachten": 2
    },
@@ -114,7 +114,7 @@
   {
    "ticker": "NVDA",
    "name": "Nvidia",
-   "anzahl": 91,
+   "anzahl": 98,
    "kanaele": [
     "Beating Beta",
     "InvestIngenieur",
@@ -122,12 +122,12 @@
     "Wir lieben Aktien",
     "aktienlust"
    ],
-   "hauptthema": 75,
+   "hauptthema": 81,
    "tendenzen": {
-    "neutral": 12,
-    "beobachten": 59,
+    "neutral": 14,
+    "halten": 7,
+    "beobachten": 63,
     "kaufen": 11,
-    "halten": 6,
     "meiden": 2,
     "nachkaufen": 1
    },
@@ -141,35 +141,35 @@
      "titel": "Wiederholt Nvidia die 2.000-%-Rallye? Warum ich nicht daran glaube"
     },
     {
-     "datum": "2026-11-24",
-     "kanal": "InvestIngenieur",
-     "tendenz": "beobachten",
-     "these": "Bewertung bleibt laut Modellen und Analysten attraktiv, doch nach über 30 % Anstieg ist das Chancen-Risiko-Verhältnis schlechter; langfristig zählen China-Geschäft, Nachhaltigkeit der KI-Nachfrage und die Kreiselgeschäfte mit Großkunden.",
-     "kaufzone_oder_ziel": "Erste Tranche im Bereich um 169 $ möglich, ein Rücksetzer auf rund 143 $ ist denkbar; Einstieg in mehreren Tranchen oder von der Seitenlinie beobachten. Analystenkursziel im Mittel 224.",
-     "titel": "Diese Tech-Aktien sind jetzt kaufenswert!"
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "halten",
+     "these": "Von der Spitze bei 240 Dollar habe sich die Aktie halbiert; der Sprecher hält Nvidia für sehr robust und glaubt, dass sich Käufe auszahlen, verweist aber auf laufende Untersuchungen, die er bei den China-Vorwürfen für übertrieben hält.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
     },
     {
-     "datum": "2026-11-24",
+     "datum": "2026-11-25",
      "kanal": "Wir lieben Aktien",
      "tendenz": "beobachten",
-     "these": "Der Kurssprung wird laut Sprecher meist zumindest teilweise korrigiert; offen sind der 10-Q-Bericht, die SEC-Prüfung und die China-Umsätze, positiv ist die Rückkehr von Jensen Huang.",
-     "kaufzone_oder_ziel": "Auf die Lauer legen im Bereich 140 bis 150 $ und bei Stabilisierung nach Kaufchancen schauen.",
-     "titel": "NVIDIA +37 % vom Tief: Ist der Zug schon abgefahren? 🚀"
+     "these": "Gesunde Korrektur, Unterstützungszone hält und die Kurslücke wird angelaufen; aggressive Tranchen sind denkbar, konservative erst nach Ausbruch auf neue Verlaufshochs, der Sprecher selbst kauft Nvidia aber nicht.",
+     "kaufzone_oder_ziel": "Konservative Tranchen erst bei Ausbruch auf neue Verlaufshochs und bestätigtem Aufwärtstrend",
+     "titel": "NVIDIA: Ist DAS jetzt die Kaufchance des Jahres?"
     },
     {
-     "datum": "2026-11-24",
+     "datum": "2026-11-25",
      "kanal": "Wir lieben Aktien",
      "tendenz": "beobachten",
-     "these": "Er würde die Aktie jetzt nicht kaufen, erwartet eine Korrektur zurück in die Kurslücke und sieht nach oben nur begrenztes Potenzial (etwa 50 % bis zum Allzeithoch); wer sie unbedingt will, soll einen langsamen Rücksetzer abwarten.",
-     "kaufzone_oder_ziel": "Rücksetzer in die Kurslücke abwarten, Zahl wird nicht genannt.",
-     "titel": "NVIDIA: -47 % und jetzt +31 % – meine ehrliche Einordnung 🚀"
+     "these": "Nach dem 30-%-Sprung ist der Rücksetzer in die Kurslücke laut Sprecher wahrscheinlich gewesen; erst Seitwärtsphase, Ausbruch oder Schließen der Lücke wären Umkehrsignale, darüber läge eine dicke Widerstandszone.",
+     "kaufzone_oder_ziel": "Umkehrsignale abwarten; genannte Marke über 1173 $ im Transkript vermutlich Hörfehler",
+     "titel": "NVIDIA rauscht wieder ab: HIER liegt der Boden"
     }
    ]
   },
   {
    "ticker": null,
    "name": "Anthropic",
-   "anzahl": 18,
+   "anzahl": 19,
    "kanaele": [
     "Beating Beta",
     "InvestIngenieur",
@@ -179,11 +179,19 @@
    ],
    "hauptthema": 13,
    "tendenzen": {
-    "neutral": 4,
+    "neutral": 5,
     "beobachten": 13,
     "meiden": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Bei den Modellen wäre Anthropic seine Wahl (Vertrauen der Gesellschaft, nicht teuer bewertet), wegen kurzer Börsenhistorie aber für ihn selbst raus.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-23",
      "kanal": "Tim Schäfer",
@@ -207,67 +215,6 @@
      "these": "Hoch bewertet bei tiefen Verlusten, Zugang für Privatanleger minimal; nach der Euphorie sei ein Rücksetzer Richtung IPO-Niveau denkbar, dann in Ruhe entscheiden.",
      "kaufzone_oder_ziel": "Abwarten, ggf. Einstieg nahe IPO-Niveau",
      "titel": "Anthropic-Aktie kaufen? Jürgen Schmitts 7 Favoriten zum IPO"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "IPO-Pop von ca. 14-15 % unterdurchschnittlich; Bewertungs-Newsletter folgt am nächsten Tag; keine Kaufempfehlung.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CRASH am AKTIENMARKT"
-    }
-   ]
-  },
-  {
-   "ticker": "NFLX",
-   "name": "Netflix",
-   "anzahl": 12,
-   "kanaele": [
-    "Beating Beta",
-    "InvestIngenieur",
-    "Tim Schäfer",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 9,
-   "tendenzen": {
-    "beobachten": 7,
-    "halten": 3,
-    "nachkaufen": 1,
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Langfristig große Kaufzone, aber erst Stabilisierung bzw. Umkehr abwarten; altes Kaufsignal bei 84 $ wird nach unten angepasst.",
-     "kaufzone_oder_ziel": "Große langfristige Kaufzone, Signal 84 $ wird angepasst",
-     "titel": "CRASH am AKTIENMARKT"
-    },
-    {
-     "datum": "2026-11-16",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Bill Ackman hat gekauft, recht geringe Bewertung im Verhältnis zu Abo-Umsätzen, KI-resistentes Geschäftsmodell, gutes Management mit werbebasiertem Abo-Modell; Zuschauer kaufte auf aktuellem Niveau, Sprecher würde noch eine Bodenbildung abwarten.",
-     "kaufzone_oder_ziel": "Bodenbildung abwarten",
-     "titel": "Depot-Check: DIESE Aktie sticht klar heraus! 👀"
-    },
-    {
-     "datum": "2026-11-14",
-     "kanal": "Tim Schäfer",
-     "tendenz": "halten",
-     "these": "Kurs auf 62 Dollar eingebrochen, aber Milliardengewinne jedes Quartal und weiter zweistelliges Umsatzwachstum; Sprecher erwartet Erholung und bleibt dabei.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Autovermieter Hertz steht vor der Pleite? Die Baumaschinentochter Herc vor einem Boom!"
-    },
-    {
-     "datum": "2026-11-12",
-     "kanal": "Tim Schäfer",
-     "tendenz": "halten",
-     "these": "Seit über einem Jahrzehnt im Depot, Sprecher bleibt dabei; verdient jedes Quartal Milliarden, Kurs volatil, Abo-Müdigkeit der Verbraucher als Risiko.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia: Affären, Spionage, Rücktritt, Absturz = Chance. KGV nur 11! Und andere Chancen!"
     }
    ]
   },
@@ -282,7 +229,7 @@
     "Wir lieben Aktien",
     "aktienlust"
    ],
-   "hauptthema": 8,
+   "hauptthema": 7,
    "tendenzen": {
     "kaufen": 13,
     "beobachten": 6,
@@ -290,6 +237,14 @@
     "neutral": 5
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Hyperscaler wie Amazon profitierten davon, dass die KI-Ausgaben mit mehr Bedacht gesteigert würden, was sich in den nächsten Quartalszahlen positiv zeigen solle.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
     {
      "datum": "2026-11-24",
      "kanal": "Beating Beta",
@@ -313,14 +268,6 @@
      "these": "Zusammen mit Alphabet genannter Favorit unter den Hyperscalern.",
      "kaufzone_oder_ziel": null,
      "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
-    },
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Insgesamt positiv gesehen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
     }
    ]
   },
@@ -377,9 +324,60 @@
    ]
   },
   {
+   "ticker": "NFLX",
+   "name": "Netflix",
+   "anzahl": 10,
+   "kanaele": [
+    "Beating Beta",
+    "InvestIngenieur",
+    "Tim Schäfer",
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 9,
+   "tendenzen": {
+    "beobachten": 6,
+    "halten": 3,
+    "nachkaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Langfristig große Kaufzone, aber erst Stabilisierung bzw. Umkehr abwarten; altes Kaufsignal bei 84 $ wird nach unten angepasst.",
+     "kaufzone_oder_ziel": "Große langfristige Kaufzone, Signal 84 $ wird angepasst",
+     "titel": "CRASH am AKTIENMARKT"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Bill Ackman hat gekauft, recht geringe Bewertung im Verhältnis zu Abo-Umsätzen, KI-resistentes Geschäftsmodell, gutes Management mit werbebasiertem Abo-Modell; Zuschauer kaufte auf aktuellem Niveau, Sprecher würde noch eine Bodenbildung abwarten.",
+     "kaufzone_oder_ziel": "Bodenbildung abwarten",
+     "titel": "Depot-Check: DIESE Aktie sticht klar heraus! 👀"
+    },
+    {
+     "datum": "2026-11-14",
+     "kanal": "Tim Schäfer",
+     "tendenz": "halten",
+     "these": "Kurs auf 62 Dollar eingebrochen, aber Milliardengewinne jedes Quartal und weiter zweistelliges Umsatzwachstum; Sprecher erwartet Erholung und bleibt dabei.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Autovermieter Hertz steht vor der Pleite? Die Baumaschinentochter Herc vor einem Boom!"
+    },
+    {
+     "datum": "2026-11-12",
+     "kanal": "Tim Schäfer",
+     "tendenz": "halten",
+     "these": "Seit über einem Jahrzehnt im Depot, Sprecher bleibt dabei; verdient jedes Quartal Milliarden, Kurs volatil, Abo-Müdigkeit der Verbraucher als Risiko.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia: Affären, Spionage, Rücktritt, Absturz = Chance. KGV nur 11! Und andere Chancen!"
+    }
+   ]
+  },
+  {
    "ticker": "AVGO",
    "name": "Broadcom",
-   "anzahl": 10,
+   "anzahl": 11,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Tim Schäfer",
@@ -388,11 +386,19 @@
    ],
    "hauptthema": 5,
    "tendenzen": {
+    "beobachten": 5,
     "kaufen": 3,
-    "beobachten": 4,
     "neutral": 3
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Weniger volatil, hohes und beschleunigtes Wachstum erwartet, historisch aber eher teuer; der Sprecher findet sie wahrscheinlich interessant, sieht klarere Chancen aber anderswo.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-23",
      "kanal": "Tim Schäfer",
@@ -416,20 +422,12 @@
      "these": "Unmittelbarster wirtschaftlicher Profiteur über kundenspezifische Chips, Netzwerktechnik und die Google-TPU-Technologie, auf die Anthropic setzt; Aktie zuletzt weniger unter Druck als andere KI-Werte.",
      "kaufzone_oder_ziel": null,
      "titel": "Anthropic-Aktie kaufen? Jürgen Schmitts 7 Favoriten zum IPO"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Langfristiger Dauerläufer, aktuell in der Korrektur mit gleichmäßigem Verhalten; potenzielles Kaufniveau erreicht, Korrektur könnte noch tiefer gehen; Umkehrsignale final bei Ausbruch auf neue Hochs.",
-     "kaufzone_oder_ziel": "Umkehrsignal bei Ausbruch über Zone 370-380 $",
-     "titel": "Besser als NVIDIA? DIESE Chip-Aktie hab ich im Blick 🔥"
     }
    ]
   },
   {
-   "ticker": "META",
-   "name": "Meta Platforms",
+   "ticker": "MU",
+   "name": "Micron",
    "anzahl": 13,
    "kanaele": [
     "Beating Beta",
@@ -439,65 +437,21 @@
    ],
    "hauptthema": 4,
    "tendenzen": {
-    "beobachten": 1,
-    "neutral": 3,
-    "kaufen": 8,
-    "halten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-24",
-     "kanal": "Beating Beta",
-     "tendenz": "beobachten",
-     "these": "Der Gast ist kein übermäßiger Freund, lobt aber agentische Neuerungen und KI-gesteuerte Werbeansteuerung; bei weniger überbordenden KI-Investitionen könnte es gut werden.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Diese Hyperscaler-Aktien sind jetzt ein Kauf wert! #alphabet #spacex"
-    },
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "neutral",
-     "these": "Nicht übermäßiger Freund, aber agentische KI und KI-Werbesteuerung laufen gut; es könnte passen, wenn die KI-Investitionen nicht mehr so überbordend sind.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Q3-Umsatz +26 % auf knapp 65 Mrd. $, mehr Anzeigen bei höherem Preis je Anzeige durch KI, Aktie auf Ausbruchsniveau zurückgekehrt und günstig bewertet; Risiko sind die hohen Investitionen mit negativem freiem Cashflow.",
-     "kaufzone_oder_ziel": "Kursziel Beating Beta 695 € (rund 23,5-faches operatives Ergebnis)",
-     "titel": "Wissen DIE mehr? DIESE AKTIEN verkaufen Milliardäre jetzt + Gewinner von Morgen der Börsen-Elite"
-    },
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Hyperscaler als Hauptprofiteure; KI-Assistent in den USA bereits erfolgreich platziert.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    }
-   ]
-  },
-  {
-   "ticker": "MU",
-   "name": "Micron",
-   "anzahl": 12,
-   "kanaele": [
-    "Beating Beta",
-    "Tim Schäfer",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 4,
-   "tendenzen": {
+    "meiden": 4,
     "kaufen": 3,
-    "meiden": 3,
     "beobachten": 2,
     "neutral": 3,
     "nachkaufen": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Zyklischer Speicherwert, schlecht einschätzbar, nicht der Favorit des Sprechers.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-23",
      "kanal": "Tim Schäfer",
@@ -521,21 +475,13 @@
      "these": "Als Beispiel für den Halbleiter-Einbruch genannt (-25 %); nach der Panik könnten sich in der nächsten Zeit Kaufchancen ergeben.",
      "kaufzone_oder_ziel": null,
      "titel": "Die KI-Blase platzt – und ich habe es angekündigt 🫧"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Beating Beta",
-     "tendenz": "neutral",
-     "these": "Tepper stockte kräftig auf, Micron ist mit 17,6 % seine größte Position; Beispiel für die Zuflüsse in Speicherwerte, keine eigene Empfehlung des Sprechers.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Wissen DIE mehr? DIESE AKTIEN verkaufen Milliardäre jetzt + Gewinner von Morgen der Börsen-Elite"
     }
    ]
   },
   {
    "ticker": "MCD",
    "name": "McDonald's",
-   "anzahl": 10,
+   "anzahl": 9,
    "kanaele": [
     "InvestIngenieur",
     "Tim Schäfer",
@@ -545,7 +491,7 @@
    "hauptthema": 4,
    "tendenzen": {
     "halten": 2,
-    "kaufen": 7,
+    "kaufen": 6,
     "beobachten": 1
    },
    "letzte": [
@@ -738,9 +684,113 @@
    ]
   },
   {
+   "ticker": "META",
+   "name": "Meta Platforms",
+   "anzahl": 12,
+   "kanaele": [
+    "Beating Beta",
+    "Tim Schäfer",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "beobachten": 2,
+    "neutral": 2,
+    "kaufen": 7,
+    "halten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Hyperscaler mit etwas höherem Risikoprofil, vom Sprecher als mögliche zweite Option neben Alphabet genannt (meinetwegen noch eine Meta).",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-24",
+     "kanal": "Beating Beta",
+     "tendenz": "beobachten",
+     "these": "Der Gast ist kein übermäßiger Freund, lobt aber agentische Neuerungen und KI-gesteuerte Werbeansteuerung; bei weniger überbordenden KI-Investitionen könnte es gut werden.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Diese Hyperscaler-Aktien sind jetzt ein Kauf wert! #alphabet #spacex"
+    },
+    {
+     "datum": "2026-11-22",
+     "kanal": "Beating Beta",
+     "tendenz": "neutral",
+     "these": "Nicht übermäßiger Freund, aber agentische KI und KI-Werbesteuerung laufen gut; es könnte passen, wenn die KI-Investitionen nicht mehr so überbordend sind.",
+     "kaufzone_oder_ziel": null,
+     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Beating Beta",
+     "tendenz": "kaufen",
+     "these": "Q3-Umsatz +26 % auf knapp 65 Mrd. $, mehr Anzeigen bei höherem Preis je Anzeige durch KI, Aktie auf Ausbruchsniveau zurückgekehrt und günstig bewertet; Risiko sind die hohen Investitionen mit negativem freiem Cashflow.",
+     "kaufzone_oder_ziel": "Kursziel Beating Beta 695 € (rund 23,5-faches operatives Ergebnis)",
+     "titel": "Wissen DIE mehr? DIESE AKTIEN verkaufen Milliardäre jetzt + Gewinner von Morgen der Börsen-Elite"
+    }
+   ]
+  },
+  {
+   "ticker": "BTC-USD",
+   "name": "Bitcoin",
+   "anzahl": 5,
+   "kanaele": [
+    "Beating Beta",
+    "Tim Schäfer",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "halten": 1,
+    "meiden": 2,
+    "beobachten": 1,
+    "kaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Beating Beta",
+     "tendenz": "halten",
+     "these": "Der Sprecher hält langfristig an Bitcoin fest (nichts verkauft, nach Tiefs nachgekauft), sieht kurzfristig aber weiteres Abwärtsrisiko bis 40.000 Dollar und stuft das Risiko mit 9 bis 10 von 10 ein; Anteil am Depot 1 bis 3 %, höchstens 10 %, nicht übergewichten.",
+     "kaufzone_oder_ziel": "Sparplan pausiert bis nach 30.11. und 9.12.; eigene Erwartung für 2029: 180.000 bis 220.000 Dollar; realisierter Preis bei knapp 53.000 Dollar als mögliches Kurszielniveau nach unten",
+     "titel": "DAS ENDE DES BITCOIN? Was Anleger jetzt zu Kryptowährungen wissen müssen"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "aktienlust",
+     "tendenz": "meiden",
+     "these": "Kurs fiel von 80.000 auf 65.000 USD; Kryptowerte seien nicht die bevorzugte Anlageklasse des Sprechers und würden es in diesem Leben nicht mehr werden.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "Tim Schäfer",
+     "tendenz": "meiden",
+     "these": "Der Sprecher investiert nicht in Bitcoin und andere Kryptowerte, sondern nur in das, was er kennt (Blue-Chip-Aktien, überwiegend USA).",
+     "kaufzone_oder_ziel": null,
+     "titel": "München Baader Tradingdays + Rundgang durch New York! Irre Preise beim Bäcker + Supermarkt in NYC"
+    },
+    {
+     "datum": "2026-11-15",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Stabilisierung in der Unterstützungszone mit viel Volumen wahrscheinlich, aber erst nach Bodenbildung oder großer weißer Kerze positionieren.",
+     "kaufzone_oder_ziel": "Beobachtungszone 62.000 bis 66.000 US-Dollar, Einstieg erst bei Umkehrsignal",
+     "titel": "Bitcoin stürzt ab: An DIESER Marke fällt die Entscheidung! 📉"
+    }
+   ]
+  },
+  {
    "ticker": null,
    "name": "SpaceX",
-   "anzahl": 8,
+   "anzahl": 7,
    "kanaele": [
     "Beating Beta",
     "Tim Schäfer",
@@ -749,11 +799,18 @@
    ],
    "hauptthema": 1,
    "tendenzen": {
-    "beobachten": 5,
-    "meiden": 2,
-    "neutral": 1
+    "meiden": 3,
+    "beobachten": 4
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Zu kurze Börsenhistorie, um technisch gut eingeschätzt zu werden; höheres Risikoprofil, für den Sprecher raus.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-24",
      "kanal": "Beating Beta",
@@ -777,14 +834,6 @@
      "these": "Hyperscaler machen im Prinzip dasselbe mit weniger Risiko; das Weltraumgeschäft macht wenig aus, nur Starlink ist interessant, aber nicht zu dieser Bewertung.",
      "kaufzone_oder_ziel": null,
      "titel": "Depot Roast: DAS würde ich sofort ändern! 🔥"
-    },
-    {
-     "datum": "2026-11-14",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Volumenzone um den Ausgabepreis ist Widerstand/Unterstützung; Ausbruch darüber wäre positiv, Verbleiben darunter könnte Abverkauf bringen. Bewertung zu hoch, Alphabet und andere Hyperscaler bieten KI mit weniger Risiko.",
-     "kaufzone_oder_ziel": "Interessant erst deutlich unter der Widerstandszone, im Bereich der Verlaufstiefs; Ausgabepreis 135 $",
-     "titel": "SpaceX-Aktie: Explosion oder Absturz? DIESE Marke entscheidet!"
     }
    ]
   },
@@ -839,60 +888,9 @@
    ]
   },
   {
-   "ticker": "BTC-USD",
-   "name": "Bitcoin",
-   "anzahl": 4,
-   "kanaele": [
-    "Beating Beta",
-    "Tim Schäfer",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "meiden": 2,
-    "beobachten": 1,
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-16",
-     "kanal": "aktienlust",
-     "tendenz": "meiden",
-     "these": "Kurs fiel von 80.000 auf 65.000 USD; Kryptowerte seien nicht die bevorzugte Anlageklasse des Sprechers und würden es in diesem Leben nicht mehr werden.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
-    },
-    {
-     "datum": "2026-11-16",
-     "kanal": "Tim Schäfer",
-     "tendenz": "meiden",
-     "these": "Der Sprecher investiert nicht in Bitcoin und andere Kryptowerte, sondern nur in das, was er kennt (Blue-Chip-Aktien, überwiegend USA).",
-     "kaufzone_oder_ziel": null,
-     "titel": "München Baader Tradingdays + Rundgang durch New York! Irre Preise beim Bäcker + Supermarkt in NYC"
-    },
-    {
-     "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Stabilisierung in der Unterstützungszone mit viel Volumen wahrscheinlich, aber erst nach Bodenbildung oder großer weißer Kerze positionieren.",
-     "kaufzone_oder_ziel": "Beobachtungszone 62.000 bis 66.000 US-Dollar, Einstieg erst bei Umkehrsignal",
-     "titel": "Bitcoin stürzt ab: An DIESER Marke fällt die Entscheidung! 📉"
-    },
-    {
-     "datum": "2026-11-03",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Bei Bitcoin, der vor einer spannenden Phase stehe, könne man per Sparplan über die nächsten Monate eine erste Position aufbauen; Bitcoin zieht er MicroStrategy vor.",
-     "kaufzone_oder_ziel": "Sparplan über mehrere Monate",
-     "titel": "Goldenes Kreuz im Kryptomarkt - eine FALLE?!"
-    }
-   ]
-  },
-  {
    "ticker": "ORCL",
    "name": "Oracle",
-   "anzahl": 6,
+   "anzahl": 7,
    "kanaele": [
     "Beating Beta",
     "Tim Schäfer",
@@ -901,12 +899,20 @@
    ],
    "hauptthema": 0,
    "tendenzen": {
-    "meiden": 1,
+    "meiden": 2,
     "kaufen": 2,
     "beobachten": 1,
     "neutral": 2
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Hohe Kreditaufnahme im Verhältnis zum Bestandsgeschäft, 65 % Korrektur, aus Sicht des Sprechers ein Low-Quality-Hyperscaler und schlecht einschätzbar.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-19",
      "kanal": "Wir lieben Aktien",
@@ -930,33 +936,33 @@
      "these": "Kurs auf etwa 127 $ halbiert, schuldenfinanzierter Rechenzentrumsausbau ist riskant; für Value-Anleger interessant, Dividende 1,6 %, KGV unter 20, nächstes Jahr 16.",
      "kaufzone_oder_ziel": null,
      "titel": "Nvidia: Affären, Spionage, Rücktritt, Absturz = Chance. KGV nur 11! Und andere Chancen!"
-    },
-    {
-     "datum": "2026-11-09",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Ein Chip-Leasing-Vertrag mit Tencent über mehrere Milliarden kam nicht zustande, wohl wegen Drucks aus Washington.",
-     "kaufzone_oder_ziel": null,
-     "titel": "🗓️ Nasdaq 100 mit schlimmstem Tag seit 2020: Stoppen die Demokraten den KI-Boom?"
     }
    ]
   },
   {
    "ticker": "RHM.DE",
    "name": "Rheinmetall",
-   "anzahl": 23,
+   "anzahl": 24,
    "kanaele": [
     "Tim Schäfer",
     "Wir lieben Aktien",
     "aktienlust"
    ],
-   "hauptthema": 14,
+   "hauptthema": 15,
    "tendenzen": {
+    "beobachten": 12,
     "meiden": 8,
-    "beobachten": 11,
     "neutral": 4
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Die Aktie befindet sich im Abwärtstrend, Aufwärtsbewegungen (auch bis 900 €) seien zunächst nur Aufwärtskorrekturen; Umkehr und Bodenbildung sind erst bei viel Volumen weiter unten zu erwarten.",
+     "kaufzone_oder_ziel": "Möglicher Boden im Bereich ca. 450 bis 570 €",
+     "titel": "Rheinmetall im freien Fall: An DIESER Marke kann sie drehen"
+    },
     {
      "datum": "2026-11-18",
      "kanal": "Wir lieben Aktien",
@@ -980,21 +986,64 @@
      "these": "Aktuell Finger weg; erwartet wird eine Aufwärtskorrektur und danach der nächste Abverkauf, erst eine große Bodenbildung wäre ein Kaufgrund. Im Screener ist noch kein Kaufsignal verfügbar.",
      "kaufzone_oder_ziel": "Mögliche Stabilisierung in der Zone 450 bis 550 €",
      "titel": "Rheinmetall: Darauf warte ich, bevor ich kaufe"
+    }
+   ]
+  },
+  {
+   "ticker": "CRWV",
+   "name": "CoreWeave",
+   "anzahl": 18,
+   "kanaele": [
+    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 7,
+   "tendenzen": {
+    "neutral": 5,
+    "meiden": 8,
+    "kaufen": 3,
+    "beobachten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Die Neo-Cloud-Anbieter seien zuvor Stars gewesen und würden nun verkauft, als gäbe es kein Morgen; der Sprecher nennt das eine Übertreibung.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
     },
     {
-     "datum": "2026-11-18",
+     "datum": "2026-11-25",
      "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Großer Teil der Korrektur ist wohl überstanden und die Aktie tendenziell in der kaufenswerten Region, der Sprecher greift aber noch nicht zu und wartet auf Kaufsignale.",
+     "tendenz": "meiden",
+     "these": "Neocloud ohne eigenes Basisgeschäft, hohe Zinslast (15 % auf Anleihen), die Zinszahlungen fressen die Einnahmen auf; Neoclouds sind für den Sprecher komplett raus.",
      "kaufzone_oder_ziel": null,
-     "titel": "Rheinmetall halbiert: Wann wird die Aktie wieder kaufenswert?"
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Reiner Neocloud-Anbieter mit hoher Fremdfinanzierung (ca. 15 % Zinsen auf Anleihen) und ohne Basisgeschäft; das Vermietgeschäft muss funktionieren, sonst droht Insolvenz oder Verlust im Preiskampf gegen die Hyperscaler.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Warum ich keine Neocloud-Aktie kaufe"
+    },
+    {
+     "datum": "2026-11-20",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Starke Abhängigkeit von Microsoft, das zunehmend selbst baut und bei Neoclouds aussortiert.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Was passiert mit CoreWeave, wenn Microsoft selbst baut?"
     }
    ]
   },
   {
    "ticker": "INTC",
    "name": "Intel",
-   "anzahl": 15,
+   "anzahl": 16,
    "kanaele": [
     "Tim Schäfer",
     "Wir lieben Aktien",
@@ -1002,13 +1051,21 @@
    ],
    "hauptthema": 7,
    "tendenzen": {
+    "meiden": 6,
     "halten": 3,
     "neutral": 3,
     "kaufen": 1,
-    "meiden": 5,
     "beobachten": 3
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Sehr zyklisch und bei weitem nicht auf dem Stand von TSMC; gefällt dem Sprecher deutlich schlechter.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-23",
      "kanal": "Tim Schäfer",
@@ -1032,72 +1089,13 @@
      "these": "Hat ordentlich Federn gelassen, kann man für einen technischen Rebound kaufen.",
      "kaufzone_oder_ziel": null,
      "titel": "Crash ODER Kaufchance? Nvidia, CoreWeave & Anthropic"
-    },
-    {
-     "datum": "2026-11-10",
-     "kanal": "Tim Schäfer",
-     "tendenz": "halten",
-     "these": "Tim Schäfer hält die Aktie; der Staatseinstieg finanziere die hohen Investitionen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Wie setze ich am besten auf Aktien im Umfeld des KI-Booms, höherer Zinsen und luftiger Tech-Werte?"
-    }
-   ]
-  },
-  {
-   "ticker": "CRWV",
-   "name": "CoreWeave",
-   "anzahl": 15,
-   "kanaele": [
-    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 6,
-   "tendenzen": {
-    "meiden": 6,
-    "kaufen": 3,
-    "beobachten": 2,
-    "neutral": 4
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-20",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Starke Abhängigkeit von Microsoft, das zunehmend selbst baut und bei Neoclouds aussortiert.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Was passiert mit CoreWeave, wenn Microsoft selbst baut?"
-    },
-    {
-     "datum": "2026-11-20",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Hohe Verschuldung, Zinsaufwand das Vierfache des Betriebsergebnisses, 67 % Umsatz mit Microsoft; positiv erst bei Ausbruch über 62-65 $.",
-     "kaufzone_oder_ziel": "Bullcase erst bei Ausbruch über 62-65 $",
-     "titel": "Neocloud Aktien: Droht jetzt der Totalverlust?!"
-    },
-    {
-     "datum": "2026-11-20",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Zinsaufwand viermal so hoch wie das Betriebsergebnis, drohende Cash-Probleme.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CoreWeave: Die Zinslast ist das eigentliche Problem"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Spekulativer Profiteur: Neo-Cloud, stark gefallen, mit bekannt gegebenen Abnahmeverträgen von Anthropic, die durch den IPO abgesichert würden.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Anthropic-Aktie kaufen? Jürgen Schmitts 7 Favoriten zum IPO"
     }
    ]
   },
   {
    "ticker": "NBIS",
    "name": "Nebius",
-   "anzahl": 10,
+   "anzahl": 12,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Wir lieben Aktien",
@@ -1105,13 +1103,29 @@
    ],
    "hauptthema": 4,
    "tendenzen": {
-    "beobachten": 4,
+    "neutral": 2,
+    "beobachten": 5,
     "meiden": 2,
-    "neutral": 1,
     "nachkaufen": 1,
     "kaufen": 2
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Wie bei CoreWeave werde nach der starken Phase massiv verkauft, was der Sprecher als Übertreibung einstuft.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Falls er eine Neocloud wählen müsste, dann Nebius oder Iren wegen relativ gut einschätzbarem Langfristtrend und viel Volumen darunter; erst müsste eine nachhaltige Umkehr kommen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-20",
      "kanal": "Wir lieben Aktien",
@@ -1125,73 +1139,6 @@
      "kanal": "aktienlust",
      "tendenz": "beobachten",
      "these": "Stark gehypt; langfristig höchstens ein kleiner Einstieg, in den nächsten zwei Jahren erwartet der Sprecher günstigere Kurse.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-17",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Wie IREN: tendenziell positiv, Finanzierungsfrage offen; Boden abwarten, langfristig wohl nicht im Depot des Sprechers.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Depot-Umbau: GameStop fliegt, DIESE Aktien kommen rein? 🔄"
-    },
-    {
-     "datum": "2026-11-17",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Nur ein Trend der letzten Jahre, schwer einschätzbar; fällt die Unterstützungszone, droht Rückgang Richtung 50 $. Wenn überhaupt, erst nach Bodenbildung kaufen.",
-     "kaufzone_oder_ziel": "Kauf erst nach Bodenbildung; Risiko Richtung 50 $",
-     "titel": "50.000 € Minus mit Nebius – was JETZT? 📉"
-    }
-   ]
-  },
-  {
-   "ticker": "000660.KS",
-   "name": "SK Hynix",
-   "anzahl": 7,
-   "kanaele": [
-    "Beating Beta",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 4,
-   "tendenzen": {
-    "kaufen": 2,
-    "meiden": 3,
-    "neutral": 1,
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-23",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Übertrieben unter Druck geraten, im Swing-Ansatz auf drei bis fünf Jahre jetzt wieder einsammeln; Rallyes von 60 bis 80 oder 100 % mehrfach möglich, dann Teilgewinne mitnehmen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
-    },
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "meiden",
-     "these": "Zyklischer Speicherhersteller, Margen nicht dauerhaft; kommt für Rappold nicht ins Depot.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Viel Negatives sei eingepreist (Aktie seit dem Juni-Hoch mehr als halbiert, 2027 nur rund das Zweifache des operativen Gewinns), Rekordmargen und rund 100 Billionen Won Rückfluss an Aktionäre 2026; neun Käufer und null Verkäufer unter den Großinvestoren.",
-     "kaufzone_oder_ziel": "Kursziel Beating Beta rund 1350 €; noch nicht all-in, bei guten Kursen einsammeln",
-     "titel": "Wissen DIE mehr? DIESE AKTIEN verkaufen Milliardäre jetzt + Gewinner von Morgen der Börsen-Elite"
-    },
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Wird laut Sprecher von den Nvidia-Aussagen beruhigt und hat Potenzial; Speicherchip-Aktien brauchen aber 2 bis 3 Jahre, um in die Bewertung hineinzuwachsen.",
      "kaufzone_oder_ziel": null,
      "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
     }
@@ -1248,9 +1195,60 @@
    ]
   },
   {
+   "ticker": "000660.KS",
+   "name": "SK Hynix",
+   "anzahl": 7,
+   "kanaele": [
+    "Beating Beta",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 3,
+   "tendenzen": {
+    "meiden": 3,
+    "kaufen": 2,
+    "neutral": 1,
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Speicheraktien sind zyklisch, volatil und schlecht einschätzbar; nach der Rally sieht der Sprecher keinen Kauf.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-23",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Übertrieben unter Druck geraten, im Swing-Ansatz auf drei bis fünf Jahre jetzt wieder einsammeln; Rallyes von 60 bis 80 oder 100 % mehrfach möglich, dann Teilgewinne mitnehmen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
+    },
+    {
+     "datum": "2026-11-22",
+     "kanal": "Beating Beta",
+     "tendenz": "meiden",
+     "these": "Zyklischer Speicherhersteller, Margen nicht dauerhaft; kommt für Rappold nicht ins Depot.",
+     "kaufzone_oder_ziel": null,
+     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Beating Beta",
+     "tendenz": "kaufen",
+     "these": "Viel Negatives sei eingepreist (Aktie seit dem Juni-Hoch mehr als halbiert, 2027 nur rund das Zweifache des operativen Gewinns), Rekordmargen und rund 100 Billionen Won Rückfluss an Aktionäre 2026; neun Käufer und null Verkäufer unter den Großinvestoren.",
+     "kaufzone_oder_ziel": "Kursziel Beating Beta rund 1350 €; noch nicht all-in, bei guten Kursen einsammeln",
+     "titel": "Wissen DIE mehr? DIESE AKTIEN verkaufen Milliardäre jetzt + Gewinner von Morgen der Börsen-Elite"
+    }
+   ]
+  },
+  {
    "ticker": "NKE",
    "name": "Nike",
-   "anzahl": 5,
+   "anzahl": 4,
    "kanaele": [
     "Beating Beta",
     "Tim Schäfer",
@@ -1258,7 +1256,7 @@
    ],
    "hauptthema": 3,
    "tendenzen": {
-    "halten": 2,
+    "halten": 1,
     "kaufen": 2,
     "nachkaufen": 1
    },
@@ -1298,9 +1296,9 @@
    ]
   },
   {
-   "ticker": "CRWD",
-   "name": "CrowdStrike",
-   "anzahl": 7,
+   "ticker": "ASML.AS",
+   "name": "ASML",
+   "anzahl": 9,
    "kanaele": [
     "Beating Beta",
     "Wir lieben Aktien",
@@ -1308,7 +1306,58 @@
    ],
    "hauptthema": 2,
    "tendenzen": {
-    "kaufen": 6,
+    "beobachten": 2,
+    "halten": 2,
+    "kaufen": 4,
+    "nachkaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "beobachten",
+     "these": "Die Angst bei rund 1300 Dollar sei unbegründet, weil Auftragseingang und Auftragsbestand stark gestiegen seien; als Idealfall nennt der Sprecher einen Rücksetzer Richtung 1000 Dollar mit anschließender Stabilisierung.",
+     "kaufzone_oder_ziel": "Idealfall Rücksetzer Richtung 1000 Dollar",
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "halten",
+     "these": "Einer seiner Favoriten und langfristiger Dauerläufer, aber noch nicht tief genug korrigiert; im Screener auf Halten, keine Kaufsignale.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-22",
+     "kanal": "Beating Beta",
+     "tendenz": "kaufen",
+     "these": "Weltmarktführer mit etwa 95 % Marktanteil, stabile hohe Bruttomargen, langfristig haltbar; Rappold betont, er nenne Beispiele und keine Kaufaufforderung.",
+     "kaufzone_oder_ziel": null,
+     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
+    },
+    {
+     "datum": "2026-11-21",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "halten",
+     "these": "Marktführer bei EUV-Lithografie mit ungekratzter Marktmacht; Bewertung wird okay (KGV 38, erwartet 17 für 2028), der Halbleitermarkt dürfte aber noch tiefer korrigieren, daher nur haltenswert.",
+     "kaufzone_oder_ziel": "Genauer ansehen bei größerer Korrektur in Richtung 40 % und Test der alten Allzeithochs",
+     "titel": "Wenn der Aktienmarkt crasht: Diese 5 Aktien kaufe ich für 10.000€"
+    }
+   ]
+  },
+  {
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "anzahl": 6,
+   "kanaele": [
+    "Beating Beta",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "kaufen": 5,
     "beobachten": 1
    },
    "letzte": [
@@ -1343,57 +1392,6 @@
      "these": "Cybersecurity bleibt Favorit; Aktie kaum korrigiert, Einstieg teuer.",
      "kaufzone_oder_ziel": null,
      "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    }
-   ]
-  },
-  {
-   "ticker": "ASML.AS",
-   "name": "ASML",
-   "anzahl": 7,
-   "kanaele": [
-    "Beating Beta",
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "kaufen": 4,
-    "halten": 1,
-    "beobachten": 1,
-    "nachkaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Weltmarktführer mit etwa 95 % Marktanteil, stabile hohe Bruttomargen, langfristig haltbar; Rappold betont, er nenne Beispiele und keine Kaufaufforderung.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
-    },
-    {
-     "datum": "2026-11-21",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "halten",
-     "these": "Marktführer bei EUV-Lithografie mit ungekratzter Marktmacht; Bewertung wird okay (KGV 38, erwartet 17 für 2028), der Halbleitermarkt dürfte aber noch tiefer korrigieren, daher nur haltenswert.",
-     "kaufzone_oder_ziel": "Genauer ansehen bei größerer Korrektur in Richtung 40 % und Test der alten Allzeithochs",
-     "titel": "Wenn der Aktienmarkt crasht: Diese 5 Aktien kaufe ich für 10.000€"
-    },
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Zählt zu den Chipzulieferern, die von Nvidias Zahlen profitieren sollten.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-08",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Stabiler langfristiger Trend, gut einzuschätzen; im Zielportfolio als wachstumsstarker Europa-Wert, der auf interessanten Niveaus steht.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
     }
    ]
   },
@@ -1499,7 +1497,7 @@
   {
    "ticker": "AAPL",
    "name": "Apple",
-   "anzahl": 8,
+   "anzahl": 7,
    "kanaele": [
     "Tim Schäfer",
     "Wir lieben Aktien",
@@ -1509,7 +1507,7 @@
    "tendenzen": {
     "verkaufen": 1,
     "neutral": 4,
-    "kaufen": 2,
+    "kaufen": 1,
     "meiden": 1
    },
    "letzte": [
@@ -1885,7 +1883,7 @@
   {
    "ticker": "PG",
    "name": "Procter & Gamble",
-   "anzahl": 8,
+   "anzahl": 9,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Wir lieben Aktien",
@@ -1893,12 +1891,20 @@
    ],
    "hauptthema": 0,
    "tendenzen": {
+    "neutral": 2,
     "kaufen": 4,
     "halten": 2,
-    "neutral": 1,
     "meiden": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "P&G erhole sich wieder stark und passe zur Empfehlung defensiver Konsumgüter, bei denen es laut Sprecher viele Schnäppchen gibt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
     {
      "datum": "2026-11-16",
      "kanal": "aktienlust",
@@ -1922,14 +1928,6 @@
      "these": "Konsumwert, der die Trendwende bereits vollzogen hat; Beispiel für langfristige Positionen außerhalb von KI.",
      "kaufzone_oder_ziel": null,
      "titel": "JETZT kaufen?! – Top-Aktien für die Schnäppchenjagd! 📈💥"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "halten",
-     "these": "Defensive Dividendenaktie, die sich von ihren Tiefständen (140 bis 145 $) erholt hat und am Crashtag kaum verlor; er verweist auf seine früheren Videos zu den vermeintlich langweiligen Werten.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
     }
    ]
   },
@@ -1985,6 +1983,105 @@
    ]
   },
   {
+   "ticker": "TSM",
+   "name": "TSMC",
+   "anzahl": 5,
+   "kanaele": [
+    "Tim Schäfer",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 2,
+    "kaufen": 2,
+    "halten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Unangefochtener Marktführer bei Foundries, praktisch Monopol bei feinsten Chips; bei den Foundries würde der Sprecher TSMC bevorzugen, es könnte spannend werden.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-23",
+     "kanal": "Tim Schäfer",
+     "tendenz": "beobachten",
+     "these": "Weltgrößter Chipproduzent, KGV 14 bzw. 20, günstig, aber geopolitisches Risiko; auf die Watchlist.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia-Wahnsinn: Rückkehr des Gründers an die Spitze. Donald Trump holt ihn zurück. Aktie dreht auf"
+    },
+    {
+     "datum": "2026-11-18",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Profitiert von den Nvidia-Zahlen, robuste Nachfrage, wieder steigendes Kaufinteresse erwartet.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
+    },
+    {
+     "datum": "2026-11-15",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Dauerläufer, in der Korrektur interessant.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Das perfekte Depot mit 110.000€?!"
+    }
+   ]
+  },
+  {
+   "ticker": "SU.PA",
+   "name": "Schneider Electric",
+   "anzahl": 4,
+   "kanaele": [
+    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "neutral": 2,
+    "kaufen": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Schöner langfristiger Dauerläufer, aber nicht so sauber wie ASML; durchaus in Ordnung.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-18",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Profitiert vom weiteren Rechenzentrumsausbau (Strom, Kühlung).",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Infrastruktur und Gebäudetechnik für Rechenzentren; der Sprecher glaubt, dass man hier jetzt wieder günstige Kurse bekommt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
+    },
+    {
+     "datum": "2026-10-27",
+     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+     "tendenz": "neutral",
+     "these": "Gut, aber zu teuer eingekauft; Bloch ist enttäuscht, lieber amerikanische Pendants.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Top-Aktien mit François Bloch"
+    }
+   ]
+  },
+  {
    "ticker": "CVX",
    "name": "Chevron",
    "anzahl": 4,
@@ -2034,52 +2131,52 @@
    ]
   },
   {
-   "ticker": "TSM",
-   "name": "Taiwan Semiconductor (TSMC)",
+   "ticker": "005930.KS",
+   "name": "Samsung Electronics",
    "anzahl": 4,
    "kanaele": [
-    "Tim Schäfer",
+    "Beating Beta",
     "Wir lieben Aktien",
     "aktienlust"
    ],
    "hauptthema": 0,
    "tendenzen": {
-    "beobachten": 1,
-    "kaufen": 2,
-    "halten": 1
+    "meiden": 2,
+    "neutral": 1,
+    "kaufen": 1
    },
    "letzte": [
     {
-     "datum": "2026-11-23",
-     "kanal": "Tim Schäfer",
-     "tendenz": "beobachten",
-     "these": "Weltgrößter Chipproduzent, KGV 14 bzw. 20, günstig, aber geopolitisches Risiko; auf die Watchlist.",
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Zählt zu den Speicheraktien, die der Sprecher als zu volatil meidet.",
      "kaufzone_oder_ziel": null,
-     "titel": "Nvidia-Wahnsinn: Rückkehr des Gründers an die Spitze. Donald Trump holt ihn zurück. Aktie dreht auf"
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
     },
     {
-     "datum": "2026-11-18",
+     "datum": "2026-11-22",
+     "kanal": "Beating Beta",
+     "tendenz": "meiden",
+     "these": "Zyklische Speicherbranche; vor zwei Jahren war das Geschäft am Boden, aktuelle Margen nicht haltbar.",
+     "kaufzone_oder_ziel": null,
+     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Fantastisches Unternehmen in Unterhaltungselektronik und Halbleitern und eine gute Beimischung; die Bilanz sei fundamental schwer zu analysieren.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
+    },
+    {
+     "datum": "2026-10-29",
      "kanal": "aktienlust",
      "tendenz": "kaufen",
-     "these": "Profitiert von den Nvidia-Zahlen, robuste Nachfrage, wieder steigendes Kaufinteresse erwartet.",
+     "these": "Rekordgewinn (107,4 Billionen Won), Aktie fällt trotzdem, weil die Zahlen bekannt waren und SK Hynix optimistischer klang; Speicherchip-Margen halten nicht ewig. Als Depotbeimischung weiter sinnvoll, KGV um 5 sei für ihn schwer einzuordnen.",
      "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Dauerläufer, in der Korrektur interessant.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Das perfekte Depot mit 110.000€?!"
-    },
-    {
-     "datum": "2026-10-30",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "halten",
-     "these": "Muss deutlich tiefer korrigieren, erst dann interessant; auf aktuellem Niveau nur halten.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CRASH am Aktienmarkt - LIVE"
+     "titel": "Quartalszahlen-Check: Startschuss für die Jahresendrally!?"
     }
    ]
   },
@@ -2128,18 +2225,26 @@
   {
    "ticker": "IREN",
    "name": "IREN",
-   "anzahl": 8,
+   "anzahl": 9,
    "kanaele": [
     "ALWAYS AHEAD (François Bloch / payOFF The Week)",
     "Wir lieben Aktien"
    ],
    "hauptthema": 7,
    "tendenzen": {
-    "beobachten": 5,
+    "beobachten": 6,
     "neutral": 1,
     "meiden": 2
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Zusammen mit Nebius die am ehesten denkbare Neocloud, mit schönem Unterstützungsniveau; für das Langfristdepot zieht er Halbleiter vor.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-20",
      "kanal": "Wir lieben Aktien",
@@ -2163,78 +2268,20 @@
      "these": "Tendenziell positiv wegen vorhandener Rechenpower, aber nicht voll überzeugt; All-in ergibt bei keiner Aktie Sinn.",
      "kaufzone_oder_ziel": null,
      "titel": "Alles auf IREN setzen?! Genial oder Wahnsinn? 🚀"
-    },
-    {
-     "datum": "2026-11-17",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Schneller Anstieg, langsame Korrektur, oben keine Unterstützung; erst bei echter Unterstützung und Bodenbildung einsteigen, Nachkaufen ohne Boden wird kritisiert.",
-     "kaufzone_oder_ziel": null,
-     "titel": "IREN im Crash: Diesen Fehler machen gerade alle! 📉"
-    }
-   ]
-  },
-  {
-   "ticker": null,
-   "name": "Anthropic (IPO)",
-   "anzahl": 6,
-   "kanaele": [
-    "Beating Beta",
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 6,
-   "tendenzen": {
-    "kaufen": 2,
-    "neutral": 1,
-    "beobachten": 2,
-    "meiden": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "kaufen",
-     "these": "Erste reinrassige KI-Modellaktie mit hohem Cash-Bestand; nach dem Bewertungsabschlag ein besseres Chance-Risiko-Profil als bei SpaceX. Rappold hat gezeichnet, ruft aber nicht zum Zeichnen auf.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Tech-IPOs haben im Schnitt etwa 20 % Pop, bei Anthropic sei mehr möglich, wenn der Gesamtmarkt mitspielt; Spanne 70 bis 78 US-Dollar, Bewertung könnte in Richtung 2 Billionen plus gehen; die Positionsgröße müsse aber zum eigenen Risikoempfinden passen.",
-     "kaufzone_oder_ziel": "Bewertung in Richtung 2 Billionen US-Dollar plus genannt, kein Kursziel je Aktie.",
-     "titel": "Fast 100.000 € in Anthropic am ersten Tag – Wahnsinn? 😳"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Kurzfristig Pop und mögliche Rallyfortsetzung erwartet, die Bewertung bei der Spanne von 70 bis 78 US-Dollar sei nicht zu teuer, danach aber typischerweise eine deutliche Korrektur im ersten Jahr.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Auf Pump in den Anthropic-IPO: 11.000 € per Dispo 🚨"
-    },
-    {
-     "datum": "2026-11-14",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Anfangs möglicher Hype, aber Tech-IPOs fallen im ersten Jahr im Median um 54 bis 55 %; der Sprecher hält sich zurück und schaut später genauer hin.",
-     "kaufzone_oder_ziel": "Erwartete Bewertung laut PolyMarket 1,25 bis 1,5 Billionen US-Dollar",
-     "titel": "Mega-Börsengang von Anthropic – jetzt einsteigen?! 🚀"
     }
    ]
   },
   {
    "ticker": "NOW",
    "name": "ServiceNow",
-   "anzahl": 13,
+   "anzahl": 12,
    "kanaele": [
     "Wir lieben Aktien",
     "aktienlust"
    ],
    "hauptthema": 5,
    "tendenzen": {
-    "kaufen": 3,
+    "kaufen": 2,
     "beobachten": 6,
     "nachkaufen": 2,
     "halten": 1,
@@ -2327,6 +2374,56 @@
    ]
   },
   {
+   "ticker": null,
+   "name": "Anthropic (IPO)",
+   "anzahl": 5,
+   "kanaele": [
+    "Beating Beta",
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 5,
+   "tendenzen": {
+    "kaufen": 2,
+    "neutral": 1,
+    "beobachten": 1,
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-22",
+     "kanal": "Beating Beta",
+     "tendenz": "kaufen",
+     "these": "Erste reinrassige KI-Modellaktie mit hohem Cash-Bestand; nach dem Bewertungsabschlag ein besseres Chance-Risiko-Profil als bei SpaceX. Rappold hat gezeichnet, ruft aber nicht zum Zeichnen auf.",
+     "kaufzone_oder_ziel": null,
+     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Tech-IPOs haben im Schnitt etwa 20 % Pop, bei Anthropic sei mehr möglich, wenn der Gesamtmarkt mitspielt; Spanne 70 bis 78 US-Dollar, Bewertung könnte in Richtung 2 Billionen plus gehen; die Positionsgröße müsse aber zum eigenen Risikoempfinden passen.",
+     "kaufzone_oder_ziel": "Bewertung in Richtung 2 Billionen US-Dollar plus genannt, kein Kursziel je Aktie.",
+     "titel": "Fast 100.000 € in Anthropic am ersten Tag – Wahnsinn? 😳"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Kurzfristig Pop und mögliche Rallyfortsetzung erwartet, die Bewertung bei der Spanne von 70 bis 78 US-Dollar sei nicht zu teuer, danach aber typischerweise eine deutliche Korrektur im ersten Jahr.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Auf Pump in den Anthropic-IPO: 11.000 € per Dispo 🚨"
+    },
+    {
+     "datum": "2026-11-14",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Anfangs möglicher Hype, aber Tech-IPOs fallen im ersten Jahr im Median um 54 bis 55 %; der Sprecher hält sich zurück und schaut später genauer hin.",
+     "kaufzone_oder_ziel": "Erwartete Bewertung laut PolyMarket 1,25 bis 1,5 Billionen US-Dollar",
+     "titel": "Mega-Börsengang von Anthropic – jetzt einsteigen?! 🚀"
+    }
+   ]
+  },
+  {
    "ticker": "NOVO-B.CO",
    "name": "Novo Nordisk",
    "anzahl": 8,
@@ -2377,19 +2474,27 @@
   {
    "ticker": "MRVL",
    "name": "Marvell Technology",
-   "anzahl": 13,
+   "anzahl": 14,
    "kanaele": [
     "Wir lieben Aktien",
     "aktienlust"
    ],
    "hauptthema": 3,
    "tendenzen": {
-    "kaufen": 6,
+    "kaufen": 7,
     "beobachten": 4,
     "neutral": 2,
     "nachkaufen": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Der Sprecher sieht Marvell auf dem aktuellen Niveau als Schnäppchen und will allmählich in Tranchen einsteigen.",
+     "kaufzone_oder_ziel": "Einstieg in Tranchen",
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
     {
      "datum": "2026-11-23",
      "kanal": "aktienlust",
@@ -2413,32 +2518,32 @@
      "these": "Weniger sauberer Trend als Applied Materials, Bewertung in Ordnung, aber nicht mehr bereit zu zahlen; für ihn kein Kaufkandidat, weil er im Halbleitersektor schönere, besser einschätzbare Werte hat.",
      "kaufzone_oder_ziel": "Bullish bei Ausbruch mit Momentum und gleichzeitig Ausbruch des Halbleiterindex über 175 US-Dollar; bei Korrektur spätestens bei 90 US-Dollar Stabilisierung kaufen.",
      "titel": "8 AKTIEN IM CHECK! NVIDIA nach dem Schock – jetzt kaufen?!"
-    },
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Nach der Korrektur wieder sehr attraktive Chancen; durch Übernahme und Integration von Lumentum noch unverzichtbarer.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
     }
    ]
   },
   {
    "ticker": "LRCX",
    "name": "Lam Research",
-   "anzahl": 11,
+   "anzahl": 12,
    "kanaele": [
     "Wir lieben Aktien",
     "aktienlust"
    ],
    "hauptthema": 3,
    "tendenzen": {
-    "beobachten": 8,
+    "beobachten": 9,
     "kaufen": 2,
     "halten": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Schöne Aktie, aber auf den aktuellen Niveaus noch nicht interessant.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-24",
      "kanal": "Wir lieben Aktien",
@@ -2462,35 +2567,35 @@
      "these": "Zählt zu den Chipzulieferern, die von Nvidias Zahlen profitieren sollten.",
      "kaufzone_oder_ziel": null,
      "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-16",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Nach Korrektur von der Spitze wieder spannend und sehr gut positioniert (im Transkript als 'Lesen/Terrain Lesan' verhört, aus dem Zusammenhang als Lam Research gedeutet).",
-     "kaufzone_oder_ziel": null,
-     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
     }
    ]
   },
   {
    "ticker": "ENR.DE",
    "name": "Siemens Energy",
-   "anzahl": 7,
+   "anzahl": 8,
    "kanaele": [
     "Wir lieben Aktien",
     "aktienlust"
    ],
    "hauptthema": 3,
    "tendenzen": {
+    "meiden": 2,
     "neutral": 1,
     "beobachten": 1,
     "halten": 2,
     "verkaufen": 1,
-    "meiden": 1,
     "kaufen": 1
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Keine langfristige Charthistorie, schlecht einschätzbar, passt nicht in sein Portfolio.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-18",
      "kanal": "aktienlust",
@@ -2514,14 +2619,154 @@
      "these": "Gut aufgestellt (Gasturbinen, Rechenzentrumstechnik, Gamesa wieder in der Spur), aber nicht mehr billig; die Bäume wachsen nicht mehr in den Himmel, solides Kurspotenzial sollte jedoch drin sein.",
      "kaufzone_oder_ziel": null,
      "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    }
+   ]
+  },
+  {
+   "ticker": "SNDK",
+   "name": "SanDisk",
+   "anzahl": 8,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "meiden": 3,
+    "neutral": 4,
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Zyklischer Speicherwert, schlecht einschätzbar, nicht der Favorit des Sprechers.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-23",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Nach Aktiensplit 8:1 und starkem Kursrückgang (umgerechnet von 300 auf rund 94 USD) immer noch kein Schnäppchen, aber technische Reaktion von 50 bis 60 % nicht schlecht.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Kein Fan; erste langfristige Korrektur, zyklisch, niedriges KGV allein hilft nicht; andere Aktien vorziehen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "CRASH am AKTIENMARKT"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Aktie fiel 8 % nach einem Hype bis rund 2400 USD (Jahresbeginn 237 USD); wer dem Hype hinterherlief, habe über die Hälfte verloren, Gewinnmitnahmen seien nach dem Anstieg verständlich, möglicherweise gebe es nun eine negative Übertreibung.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    }
+   ]
+  },
+  {
+   "ticker": "CAT",
+   "name": "Caterpillar",
+   "anzahl": 8,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "beobachten": 2,
+    "kaufen": 1,
+    "meiden": 3,
+    "neutral": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Kein Pureplay und zyklisch; auf dem Niveau nicht interessant, erst bei tieferer und längerer Korrektur würde er hinsehen.",
+     "kaufzone_oder_ziel": "Erst nach tieferer, längerer Korrektur",
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-23",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Sieht er positiv, im Zusammenhang mit dem Bau von Rechenzentren (Baumaschinen).",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Kein Freund wegen stark beschleunigtem Trend (Sonderkonjunktur Infrastruktur); große Makrokorrektur oder Seitwärtsphase wahrscheinlich.",
+     "kaufzone_oder_ziel": null,
+     "titel": "CRASH am AKTIENMARKT"
+    },
+    {
+     "datum": "2026-11-12",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Rund 50 % vom Hoch korrigiert, aber zyklisch; KGV wirkt durch hohe Prognosen niedriger als es ist, weitere Korrektur möglich, andere Aktien besser einschätzbar.",
+     "kaufzone_oder_ziel": null,
+     "titel": "8 AKTIEN IM CHECK! Welche würde ich JETZT kaufen?"
+    }
+   ]
+  },
+  {
+   "ticker": "KLAC",
+   "name": "KLA",
+   "anzahl": 7,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "beobachten": 3,
+    "kaufen": 3,
+    "halten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Schöne Aktie, derzeit in der Analyse des Sprechers; auf aktuellem Niveau nicht interessant.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-18",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Zählt zu den Chipzulieferern, die von Nvidias Zahlen profitieren sollten.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
     },
     {
      "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "verkaufen",
-     "these": "Langfristig schlecht einschätzbar.",
+     "kanal": "aktienlust",
+     "tendenz": "beobachten",
+     "these": "Wie Lam als Halbleiter-Ausrüster spannend.",
      "kaufzone_oder_ziel": null,
-     "titel": "Das perfekte Depot mit 110.000€?!"
+     "titel": "Nach dem NVIDIA-Beben: DIESE Aktien profitieren!"
+    },
+    {
+     "datum": "2026-11-11",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Seit der Spitze halbiert, Chance auf technische Erholung beim Positionsaufbau.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Crash ODER Kaufchance? Nvidia, CoreWeave & Anthropic"
     }
    ]
   },
@@ -2577,154 +2822,6 @@
    ]
   },
   {
-   "ticker": "SNDK",
-   "name": "Sandisk",
-   "anzahl": 7,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "neutral": 4,
-    "meiden": 2,
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-23",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Nach Aktiensplit 8:1 und starkem Kursrückgang (umgerechnet von 300 auf rund 94 USD) immer noch kein Schnäppchen, aber technische Reaktion von 50 bis 60 % nicht schlecht.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Kein Fan; erste langfristige Korrektur, zyklisch, niedriges KGV allein hilft nicht; andere Aktien vorziehen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CRASH am AKTIENMARKT"
-    },
-    {
-     "datum": "2026-11-16",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Aktie fiel 8 % nach einem Hype bis rund 2400 USD (Jahresbeginn 237 USD); wer dem Hype hinterherlief, habe über die Hälfte verloren, Gewinnmitnahmen seien nach dem Anstieg verständlich, möglicherweise gebe es nun eine negative Übertreibung.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
-    },
-    {
-     "datum": "2026-11-09",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Das niedrige KGV (um 3) ist bei zyklischen Speicherchip-Aktien ein Warnsignal, weil das KGV am Zyklushoch niedrig ist; das Angebots-Nachfrage-Verhältnis soll sich bis 2029 weiter verschlechtern, eine Stabilisierung ist nicht in Sicht.",
-     "kaufzone_oder_ziel": null,
-     "titel": "🗓️ Nasdaq 100 mit schlimmstem Tag seit 2020: Stoppen die Demokraten den KI-Boom?"
-    }
-   ]
-  },
-  {
-   "ticker": "CAT",
-   "name": "Caterpillar",
-   "anzahl": 7,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "kaufen": 1,
-    "meiden": 3,
-    "neutral": 2,
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-23",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Sieht er positiv, im Zusammenhang mit dem Bau von Rechenzentren (Baumaschinen).",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia-Comeback von Jensen Huang – ist das die Kehrtwende an der Börse?"
-    },
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Kein Freund wegen stark beschleunigtem Trend (Sonderkonjunktur Infrastruktur); große Makrokorrektur oder Seitwärtsphase wahrscheinlich.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CRASH am AKTIENMARKT"
-    },
-    {
-     "datum": "2026-11-12",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Rund 50 % vom Hoch korrigiert, aber zyklisch; KGV wirkt durch hohe Prognosen niedriger als es ist, weitere Korrektur möglich, andere Aktien besser einschätzbar.",
-     "kaufzone_oder_ziel": null,
-     "titel": "8 AKTIEN IM CHECK! Welche würde ich JETZT kaufen?"
-    },
-    {
-     "datum": "2026-11-09",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Top-Unternehmen, nach der Rally aber nicht mehr günstig.",
-     "kaufzone_oder_ziel": null,
-     "titel": "China-Spionage bei NVIDIA?! – Aktie unter Druck!"
-    }
-   ]
-  },
-  {
-   "ticker": "TSLA",
-   "name": "Tesla",
-   "anzahl": 5,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "verkaufen": 2,
-    "meiden": 2,
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "verkaufen",
-     "these": "Hoch bewertet und schlecht einschätzbar.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Das perfekte Depot mit 110.000€?!"
-    },
-    {
-     "datum": "2026-11-08",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "verkaufen",
-     "these": "Fliegt als Erstes raus, weil Bewertung und Chartbild nicht sauber sind.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "meiden",
-     "these": "Der Sprecher ist nicht investiert und glaubt, dass er auch künftig nicht mehr investieren wird.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "meiden",
-     "these": "Seit 2021 per Saldo wenig passiert, Bewertungsdruck und Zweifel wachsen; Humanoide Roboter und Robotaxis noch unbewiesen, mögliche Fusion mit SpaceX. Sprecher ist aktuell draußen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
    "ticker": "BAC",
    "name": "Bank of America",
    "anzahl": 5,
@@ -2774,46 +2871,6 @@
    ]
   },
   {
-   "ticker": "V",
-   "name": "Visa",
-   "anzahl": 3,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "beobachten": 2,
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-21",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Ruhiger, gut einschätzbarer Dauerläufer mit hohen Marktanteilen und Margen, bei KGV 35 und Allzeithoch aber nicht auf interessantem Niveau.",
-     "kaufzone_oder_ziel": "Interessant nach Korrektur oder Crash, mit deutlich unter 30er KGV und erwartetem KGV deutlich unter 20",
-     "titel": "Wenn der Aktienmarkt crasht: Diese 5 Aktien kaufe ich für 10.000€"
-    },
-    {
-     "datum": "2026-11-21",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Technisch sehr gut einschätzbarer Dauerläufer am Allzeithoch, aktuell nicht auf interessantem Niveau; nach einer Korrektur oder im Crash würde der Sprecher sie sich ansehen.",
-     "kaufzone_oder_ziel": "Interessant bei erwartetem KGV deutlich unter 30 (für das Folgejahr deutlich unter 20) nach Korrektur oder Crash",
-     "titel": "Visa oder Volkswagen? Meine Crash-Watchlist"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Klarer Kauf als langfristige Dividendenaktie, da immer mehr digital bezahlt wird.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
    "ticker": "ZS",
    "name": "Zscaler",
    "anzahl": 3,
@@ -2851,6 +2908,46 @@
      "these": "Nicht negativ gesehen, aber langfristig gibt es schönere Plays.",
      "kaufzone_oder_ziel": null,
      "titel": "CRASH am Aktienmarkt - LIVE"
+    }
+   ]
+  },
+  {
+   "ticker": "MSTR",
+   "name": "Strategy (MicroStrategy)",
+   "anzahl": 3,
+   "kanaele": [
+    "Beating Beta",
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "neutral": 1,
+    "halten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Beating Beta",
+     "tendenz": "neutral",
+     "these": "MSCI will Kryptoaktien wie MicroStrategy zum 30. November aus den Indizes entfernen, was Verkaufsdruck auf die Aktie und auf Bitcoin auslösen könnte; der Sprecher rät zur Vorsicht.",
+     "kaufzone_oder_ziel": null,
+     "titel": "DAS ENDE DES BITCOIN? Was Anleger jetzt zu Kryptowährungen wissen müssen"
+    },
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "halten",
+     "these": "Gehebelte Bitcoin-Wette mit Kurs-Buchwert-Verhältnis von 0,85 und sehr hoher Volatilität; Verkauf käme nicht infrage, der Kurs hängt aber an der Entscheidungszone des Bitcoin.",
+     "kaufzone_oder_ziel": "Bei Bruch nach unten Platz bis etwa 70 US-Dollar; Ausbruch über 180 US-Dollar öffne den Weg in Richtung 500 US-Dollar und darüber.",
+     "titel": "8 AKTIEN IM CHECK! NVIDIA nach dem Schock – jetzt kaufen?!"
+    },
+    {
+     "datum": "2026-11-03",
+     "kanal": "Beating Beta",
+     "tendenz": "halten",
+     "these": "Der Sprecher hält die Aktie schon länger und will sie weiter halten, rät Neueinsteigern aber zur Vorsicht, weil sie ein spekulativer Hebel auf Bitcoin ist, der auch nach unten wirkt; auf die Watchlist legen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Goldenes Kreuz im Kryptomarkt - eine FALLE?!"
     }
    ]
   },
@@ -2978,37 +3075,6 @@
      "these": "Jürgen: Quantencomputing ist hochspekulativ und eine Geduldsfrage (Aktie von 45 auf 16 Dollar); aussitzen und nur mit kleinem Geld sowie breit gestreut investieren, nicht nur auf D-Wave setzen.",
      "kaufzone_oder_ziel": null,
      "titel": "US-WAHL-SPEZIAL: DIE Folgen für die Börse!"
-    }
-   ]
-  },
-  {
-   "ticker": "MSTR",
-   "name": "Strategy",
-   "anzahl": 2,
-   "kanaele": [
-    "Beating Beta",
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "halten": 2
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-19",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "halten",
-     "these": "Gehebelte Bitcoin-Wette mit Kurs-Buchwert-Verhältnis von 0,85 und sehr hoher Volatilität; Verkauf käme nicht infrage, der Kurs hängt aber an der Entscheidungszone des Bitcoin.",
-     "kaufzone_oder_ziel": "Bei Bruch nach unten Platz bis etwa 70 US-Dollar; Ausbruch über 180 US-Dollar öffne den Weg in Richtung 500 US-Dollar und darüber.",
-     "titel": "8 AKTIEN IM CHECK! NVIDIA nach dem Schock – jetzt kaufen?!"
-    },
-    {
-     "datum": "2026-11-03",
-     "kanal": "Beating Beta",
-     "tendenz": "halten",
-     "these": "Der Sprecher hält die Aktie schon länger und will sie weiter halten, rät Neueinsteigern aber zur Vorsicht, weil sie ein spekulativer Hebel auf Bitcoin ist, der auch nach unten wirkt; auf die Watchlist legen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Goldenes Kreuz im Kryptomarkt - eine FALLE?!"
     }
    ]
   },
@@ -3289,53 +3355,6 @@
    ]
   },
   {
-   "ticker": "NEE",
-   "name": "NextEra Energy",
-   "anzahl": 4,
-   "kanaele": [
-    "Tim Schäfer",
-    "aktienlust"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "kaufen": 4
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-13",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Von Tiefs erholt, steigender Energiebedarf; sinnvoll, einen Fuß in die Tür zu stellen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Cisco-Zahlen & Nvidia-Beben – Nvidia braucht neuen Visionär!"
-    },
-    {
-     "datum": "2026-11-09",
-     "kanal": "Tim Schäfer",
-     "tendenz": "kaufen",
-     "these": "Größter Versorger, geplante Übernahme von Dominion Energy (Genehmigungen stehen aus), fast 3 % Dividende, KGV 15, profitiert vom steigenden Strombedarf durch KI und Klima.",
-     "kaufzone_oder_ziel": "Einstieg bei ca. 87 $ möglich",
-     "titel": "Diese US-Aktien sind heiß, ihre Profite steigen schneller... Gewinneraktien, die kaum jemand kennt"
-    },
-    {
-     "datum": "2026-10-28",
-     "kanal": "Tim Schäfer",
-     "tendenz": "kaufen",
-     "these": "Versorger mit Solar und Atom, Dividende über 3 %, KGV rund 14, seit Jahren seitwärts; steigender Strombedarf durch KI, keine schnelle Verdopplung, aber solide Rendite.",
-     "kaufzone_oder_ziel": "Kurs rund 81 USD",
-     "titel": "Ausgebombte Aktien: Lachszüchter, Consultinghäuser, Software..."
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Tolle Aktie, im Jahresausblick des Sprechers vorgestellt; Energiehunger und Strombedarf wachsen weiter.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
    "ticker": "0700.HK",
    "name": "Tencent",
    "anzahl": 4,
@@ -3602,6 +3621,45 @@
    ]
   },
   {
+   "ticker": "NEE",
+   "name": "NextEra Energy",
+   "anzahl": 3,
+   "kanaele": [
+    "Tim Schäfer",
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "kaufen": 3
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-13",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Von Tiefs erholt, steigender Energiebedarf; sinnvoll, einen Fuß in die Tür zu stellen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Cisco-Zahlen & Nvidia-Beben – Nvidia braucht neuen Visionär!"
+    },
+    {
+     "datum": "2026-11-09",
+     "kanal": "Tim Schäfer",
+     "tendenz": "kaufen",
+     "these": "Größter Versorger, geplante Übernahme von Dominion Energy (Genehmigungen stehen aus), fast 3 % Dividende, KGV 15, profitiert vom steigenden Strombedarf durch KI und Klima.",
+     "kaufzone_oder_ziel": "Einstieg bei ca. 87 $ möglich",
+     "titel": "Diese US-Aktien sind heiß, ihre Profite steigen schneller... Gewinneraktien, die kaum jemand kennt"
+    },
+    {
+     "datum": "2026-10-28",
+     "kanal": "Tim Schäfer",
+     "tendenz": "kaufen",
+     "these": "Versorger mit Solar und Atom, Dividende über 3 %, KGV rund 14, seit Jahren seitwärts; steigender Strombedarf durch KI, keine schnelle Verdopplung, aber solide Rendite.",
+     "kaufzone_oder_ziel": "Kurs rund 81 USD",
+     "titel": "Ausgebombte Aktien: Lachszüchter, Consultinghäuser, Software..."
+    }
+   ]
+  },
+  {
    "ticker": "APP",
    "name": "AppLovin",
    "anzahl": 3,
@@ -3761,6 +3819,87 @@
      "these": "Turnaround gut gestartet, aber Problemaktie; Johnson & Johnson in einer Korrektur wäre vorzuziehen.",
      "kaufzone_oder_ziel": null,
      "titel": "Mit 56 noch eine Zusatzrente aufbauen? Dieses Depot zeigt, wie es geht!"
+    }
+   ]
+  },
+  {
+   "ticker": "TSLA",
+   "name": "Tesla",
+   "anzahl": 3,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "verkaufen": 2,
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-15",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "verkaufen",
+     "these": "Hoch bewertet und schlecht einschätzbar.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Das perfekte Depot mit 110.000€?!"
+    },
+    {
+     "datum": "2026-11-08",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "verkaufen",
+     "these": "Fliegt als Erstes raus, weil Bewertung und Chartbild nicht sauber sind.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "meiden",
+     "these": "Der Sprecher ist nicht investiert und glaubt, dass er auch künftig nicht mehr investieren wird.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
+    }
+   ]
+  },
+  {
+   "ticker": "VRT",
+   "name": "Vertiv",
+   "anzahl": 3,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "neutral": 1,
+    "kaufen": 1,
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Korrektur okay und ansehbar, der Sprecher kann andere Aktien bei gleicher Renditeerwartung besser einschätzen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-18",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Profitiert vom weiteren Rechenzentrumsausbau (Strom, Kühlung); mittelfristig aussichtsreich.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
+    },
+    {
+     "datum": "2026-11-12",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Bewertung inzwischen unterdurchschnittlich (KGV 2028 ca. 15), aber Risiko durch teilweisen Baustopp von Rechenzentren in den USA und Frage, wie viel Gewinn dauerhaft ist; noch keine Stabilisierung, lieber weitere Korrektur abwarten.",
+     "kaufzone_oder_ziel": "größerer Freund bei Rückgang Richtung Tiefs bzw. 140 $; Ausbruchsmarke ca. 260 $",
+     "titel": "8 AKTIEN IM CHECK! Welche würde ich JETZT kaufen?"
     }
    ]
   },
@@ -3925,6 +4064,38 @@
    ]
   },
   {
+   "ticker": "ANET",
+   "name": "Arista Networks",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1,
+    "kaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Ähnlich wie Amphenol nicht schlecht, aktuell aber ohne klare Kaufchance.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Wachstumsstarker Netzwerkausrüster für Hyperskaler mit hohen Margen, der laut Rapold zuletzt mit fantastischen Zahlen überzeugte; nach der Korrektur im langjährigen Aufwärtstrend sieht er wieder eine Kaufchance, billig sei die Aktie nie.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Crash und Anthropic-Börsengang: Das sind die Profiteure!"
+    }
+   ]
+  },
+  {
    "ticker": "AJG",
    "name": "Arthur Gallagher",
    "anzahl": 2,
@@ -3989,38 +4160,6 @@
    ]
   },
   {
-   "ticker": "VRT",
-   "name": "Vertiv",
-   "anzahl": 2,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "kaufen": 1,
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Profitiert vom weiteren Rechenzentrumsausbau (Strom, Kühlung); mittelfristig aussichtsreich.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-12",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Bewertung inzwischen unterdurchschnittlich (KGV 2028 ca. 15), aber Risiko durch teilweisen Baustopp von Rechenzentren in den USA und Frage, wie viel Gewinn dauerhaft ist; noch keine Stabilisierung, lieber weitere Korrektur abwarten.",
-     "kaufzone_oder_ziel": "größerer Freund bei Rückgang Richtung Tiefs bzw. 140 $; Ausbruchsmarke ca. 260 $",
-     "titel": "8 AKTIEN IM CHECK! Welche würde ich JETZT kaufen?"
-    }
-   ]
-  },
-  {
    "ticker": "9988.HK",
    "name": "Alibaba",
    "anzahl": 2,
@@ -4049,6 +4188,55 @@
      "these": "Der Sprecher erwartet in den nächsten sieben Jahren noch eine extrem starke China-Rally mit Alibaba und dem Hang Seng, man müsse aber auf den Startschuss warten, aktuell gebe es zu viele Probleme.",
      "kaufzone_oder_ziel": null,
      "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    }
+   ]
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola",
+   "anzahl": 6,
+   "kanaele": [
+    "Tim Schäfer",
+    "aktienlust"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "neutral": 3,
+    "kaufen": 1,
+    "halten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Coca-Cola habe kaum korrigiert und laufe schon wieder Richtung Allzeithoch; als Beispiel für defensive Konsumwerte, die der Sprecher seit dem Sommer empfiehlt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Wie McDonald's: Konsumgüterwert, der weiter ordentlich Geld verdient.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "halten",
+     "these": "Defensiver Wert, der am Crashtag kaum verlor; Konsumgüter seien noch nicht zu attraktiven Preisen zu haben.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "Tim Schäfer",
+     "tendenz": "halten",
+     "these": "Gehört zu den 10 bis 12 verbliebenen Dividendenwerten im Privatdepot.",
+     "kaufzone_oder_ziel": null,
+     "titel": "1,5% statt 30%: Mit diesem Trick sparst du viel Steuern auf deine Aktiengewinne: Lennard verrät es"
     }
    ]
   },
@@ -4103,57 +4291,8 @@
    ]
   },
   {
-   "ticker": "KO",
-   "name": "Coca-Cola",
-   "anzahl": 5,
-   "kanaele": [
-    "Tim Schäfer",
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 1,
-    "halten": 2,
-    "neutral": 2
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-16",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Wie McDonald's: Konsumgüterwert, der weiter ordentlich Geld verdient.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "halten",
-     "these": "Defensiver Wert, der am Crashtag kaum verlor; Konsumgüter seien noch nicht zu attraktiven Preisen zu haben.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "Tim Schäfer",
-     "tendenz": "halten",
-     "these": "Gehört zu den 10 bis 12 verbliebenen Dividendenwerten im Privatdepot.",
-     "kaufzone_oder_ziel": null,
-     "titel": "1,5% statt 30%: Mit diesem Trick sparst du viel Steuern auf deine Aktiengewinne: Lennard verrät es"
-    },
-    {
-     "datum": "2026-11-04",
-     "kanal": "Tim Schäfer",
-     "tendenz": "neutral",
-     "these": "Hauptsitz in Atlanta, eine Gelddruckmaschine und tolle Dividendenaktie, die viel besser lief als Pepsi.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Waymo: Autonomes Fahren in Atlanta. Die Google-Tochter ist führend in den USA!"
-    }
-   ]
-  },
-  {
-   "ticker": "MELI",
-   "name": "MercadoLibre",
+   "ticker": "IFX.DE",
+   "name": "Infineon",
    "anzahl": 4,
    "kanaele": [
     "Wir lieben Aktien",
@@ -4161,88 +4300,42 @@
    ],
    "hauptthema": 0,
    "tendenzen": {
-    "beobachten": 4
+    "beobachten": 2,
+    "kaufen": 1,
+    "neutral": 1
    },
    "letzte": [
     {
-     "datum": "2026-11-19",
+     "datum": "2026-11-25",
      "kanal": "Wir lieben Aktien",
      "tendenz": "beobachten",
-     "these": "Tolle Aktie, ähnliches Bild; er würde am liebsten das genannte Ziel im Chart sehen, wo Volumen und Unterstützung liegen.",
+     "these": "Nicht schlecht und auf schönem Unterstützungsniveau, aber schlechter einschätzbar (Seitwärtsphase 2021 bis 2025); im Halbleitersektor gibt es höhere Renditechancen.",
      "kaufzone_oder_ziel": null,
-     "titel": "CRASH am AKTIENMARKT"
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
     },
     {
-     "datum": "2026-11-17",
+     "datum": "2026-11-09",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Von 90 auf 45 € halbiert; auf diesem Niveau wieder attraktiv, da KI und Autoelektronik die Kernsegmente stützen und die Auftragslage gut ist.",
+     "kaufzone_oder_ziel": "um 45 €",
+     "titel": "China-Spionage bei NVIDIA?! – Aktie unter Druck!"
+    },
+    {
+     "datum": "2026-11-08",
      "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Als Amazon Lateinamerikas hochinteressant, aber Stabilisierung abwarten; steht auf der Watchlist.",
+     "tendenz": "neutral",
+     "these": "Im Umbau des Depots herausgenommen, aber kein Wert, den der Sprecher negativ sieht; im Vergleich zu Nvidia langsamer.",
      "kaufzone_oder_ziel": null,
-     "titel": "NVIDIA Earnings Live Reaktion - Erste Earnings ohne Jensen Huang!"
+     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
     },
     {
      "datum": "2026-10-30",
      "kanal": "Wir lieben Aktien",
      "tendenz": "beobachten",
-     "these": "Beste Lateinamerika-Aktie, wahrscheinlich Ausweitung der Korrektur; bei neuen Tiefs entstehen sehr gute langfristige Kaufchancen (derzeit 3 von 5 im Screener, tiefer 5 von 5).",
-     "kaufzone_oder_ziel": "Tiefere Korrektur abwarten",
+     "these": "Im Vergleich schwache Halbleiteraktie, wird tiefer wieder spannend.",
+     "kaufzone_oder_ziel": "Um 40 €",
      "titel": "CRASH am Aktienmarkt - LIVE"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Kursverlust nach der Wiederwahl Lulas in Brasilien und Druck auf den Real; ob Kaufchance, hänge von der Entwicklung in Brasilien ab.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": "MA",
-   "name": "Mastercard",
-   "anzahl": 4,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 3,
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Ergänzt den Finanzsektor um Zahlungsanbieter.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Das perfekte Depot mit 110.000€?!"
-    },
-    {
-     "datum": "2026-11-14",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Ist in Ordnung als Watchlist-Wert.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Watchlist-Check: DIESE Aktien fehlen noch! 👀"
-    },
-    {
-     "datum": "2026-11-08",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Schöner Dauerläufer, der die Volatilität im Portfolio senkt.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Gemeinsam mit Visa und American Express als Aktie genannt, die jedem Depot gut tut.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
     }
    ]
   },
@@ -4292,46 +4385,6 @@
      "these": "Nach Eindrücken in den USA als sehr spannende Aktie bezeichnet.",
      "kaufzone_oder_ziel": null,
      "titel": "1,5% statt 30%: Mit diesem Trick sparst du viel Steuern auf deine Aktiengewinne: Lennard verrät es"
-    }
-   ]
-  },
-  {
-   "ticker": "SU.PA",
-   "name": "Schneider Electric",
-   "anzahl": 3,
-   "kanaele": [
-    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 2,
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Profitiert vom weiteren Rechenzentrumsausbau (Strom, Kühlung).",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Infrastruktur und Gebäudetechnik für Rechenzentren; der Sprecher glaubt, dass man hier jetzt wieder günstige Kurse bekommt.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
-    },
-    {
-     "datum": "2026-10-27",
-     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
-     "tendenz": "neutral",
-     "these": "Gut, aber zu teuer eingekauft; Bloch ist enttäuscht, lieber amerikanische Pendants.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Top-Aktien mit François Bloch"
     }
    ]
   },
@@ -4498,88 +4551,6 @@
    ]
   },
   {
-   "ticker": "005930.KS",
-   "name": "Samsung Electronics",
-   "anzahl": 3,
-   "kanaele": [
-    "Beating Beta",
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "meiden": 1,
-    "neutral": 1,
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-22",
-     "kanal": "Beating Beta",
-     "tendenz": "meiden",
-     "these": "Zyklische Speicherbranche; vor zwei Jahren war das Geschäft am Boden, aktuelle Margen nicht haltbar.",
-     "kaufzone_oder_ziel": null,
-     "titel": "BÖRSEN-CRASH: Diese Aktien kauft Tech-Millionär Thomas Rappold jetzt massiv zu"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Fantastisches Unternehmen in Unterhaltungselektronik und Halbleitern und eine gute Beimischung; die Bilanz sei fundamental schwer zu analysieren.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
-    },
-    {
-     "datum": "2026-10-29",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Rekordgewinn (107,4 Billionen Won), Aktie fällt trotzdem, weil die Zahlen bekannt waren und SK Hynix optimistischer klang; Speicherchip-Margen halten nicht ewig. Als Depotbeimischung weiter sinnvoll, KGV um 5 sei für ihn schwer einzuordnen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Quartalszahlen-Check: Startschuss für die Jahresendrally!?"
-    }
-   ]
-  },
-  {
-   "ticker": "IFX.DE",
-   "name": "Infineon",
-   "anzahl": 3,
-   "kanaele": [
-    "Wir lieben Aktien",
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 1,
-    "neutral": 1,
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-09",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Von 90 auf 45 € halbiert; auf diesem Niveau wieder attraktiv, da KI und Autoelektronik die Kernsegmente stützen und die Auftragslage gut ist.",
-     "kaufzone_oder_ziel": "um 45 €",
-     "titel": "China-Spionage bei NVIDIA?! – Aktie unter Druck!"
-    },
-    {
-     "datum": "2026-11-08",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Im Umbau des Depots herausgenommen, aber kein Wert, den der Sprecher negativ sieht; im Vergleich zu Nvidia langsamer.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
-    },
-    {
-     "datum": "2026-10-30",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Im Vergleich schwache Halbleiteraktie, wird tiefer wieder spannend.",
-     "kaufzone_oder_ziel": "Um 40 €",
-     "titel": "CRASH am Aktienmarkt - LIVE"
-    }
-   ]
-  },
-  {
    "ticker": "DB1.DE",
    "name": "Deutsche Börse",
    "anzahl": 2,
@@ -4705,6 +4676,38 @@
    ]
   },
   {
+   "ticker": "PRY.MI",
+   "name": "Prysmian",
+   "anzahl": 2,
+   "kanaele": [
+    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1,
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Ähnliche Entwicklung wie Quanta, günstiger bewertet; einen genaueren Blick wert, keine tiefe Analyse vorhanden.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-10-27",
+     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+     "tendenz": "neutral",
+     "these": "Nach der Korrektur nicht überzeugt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Top-Aktien mit François Bloch"
+    }
+   ]
+  },
+  {
    "ticker": "NDA.DE",
    "name": "Aurubis",
    "anzahl": 2,
@@ -4731,6 +4734,37 @@
      "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
      "tendenz": "meiden",
      "these": "Finger weglassen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Top-Aktien mit François Bloch"
+    }
+   ]
+  },
+  {
+   "ticker": "FIX",
+   "name": "Comfort Systems USA",
+   "anzahl": 2,
+   "kanaele": [
+    "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "neutral": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Gute Aktie, aber eher Highflyer nach massiver Rally.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-10-27",
+     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
+     "tendenz": "neutral",
+     "these": "Spannend, aber spekulativ und nicht für den Vermögensaufbau gedacht.",
      "kaufzone_oder_ziel": null,
      "titel": "Top-Aktien mit François Bloch"
     }
@@ -5084,6 +5118,38 @@
    ]
   },
   {
+   "ticker": "BE",
+   "name": "Bloom Energy",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien",
+    "aktienlust"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1,
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Tendenziell positiv bei neuem Momentum, aber ohne lange Charthistorie und riskant; er will nicht hinterherlaufen, es gebe spannendere Chancen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Hat bisher geliefert und gute Aufträge im Rechenzentrumsgeschäft, ist aber spekulativ und leidet bei Abverkäufen überproportional; deshalb nur in Tranchen kaufen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
+    }
+   ]
+  },
+  {
    "ticker": "DPLM.L",
    "name": "Diploma",
    "anzahl": 2,
@@ -5258,65 +5324,26 @@
    ]
   },
   {
-   "ticker": "KLAC",
-   "name": "KLA",
-   "anzahl": 7,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "kaufen": 3,
-    "beobachten": 3,
-    "halten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Zählt zu den Chipzulieferern, die von Nvidias Zahlen profitieren sollten.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-11-15",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Wie Lam als Halbleiter-Ausrüster spannend.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nach dem NVIDIA-Beben: DIESE Aktien profitieren!"
-    },
-    {
-     "datum": "2026-11-11",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Seit der Spitze halbiert, Chance auf technische Erholung beim Positionsaufbau.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Crash ODER Kaufchance? Nvidia, CoreWeave & Anthropic"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "halten",
-     "these": "Tolles Unternehmen, das aber kurzfristig überzogen hatte (über 300 $); nach Teilgewinnen früher im Jahr hat der Sprecher nach der Halbierung bereits zugekauft, räumt aber ein, womöglich zu früh gewesen zu sein.",
-     "kaufzone_oder_ziel": "Aktuell etwa 130 $, langfristiger Aufwärtstrend bei rund 100 $",
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
-    }
-   ]
-  },
-  {
    "ticker": "BESI.AS",
-   "name": "BE Semiconductor Industries",
-   "anzahl": 5,
+   "name": "BE Semiconductor",
+   "anzahl": 6,
    "kanaele": [
     "Wir lieben Aktien"
    ],
    "hauptthema": 2,
    "tendenzen": {
+    "kaufen": 1,
     "beobachten": 5
    },
    "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Gefällt dem Sprecher gut, fällt gleichmäßig zurück, interessante Niveaus; im Screener stehen laut Sprecher bereits Kaufsignale.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
     {
      "datum": "2026-11-24",
      "kanal": "Wir lieben Aktien",
@@ -5340,14 +5367,6 @@
      "these": "Langfristiger Aufwärtstrend, aktuell in der Korrektur; dort will sich der Sprecher für Kaufchancen auf die Lauer legen.",
      "kaufzone_oder_ziel": null,
      "titel": "Besser als NVIDIA? Diese Aktien finde ich gerade spannender 🔥"
-    },
-    {
-     "datum": "2026-11-04",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Wie Lam Research als gleichmäßiger laufender Halbleiterwert abseits des Mainstreams genannt.",
-     "kaufzone_oder_ziel": null,
-     "titel": "CHIP-CRASH! Warum Nvidia, AMD & Co. noch viel tiefer fallen könnten!"
     }
    ]
   },
@@ -5395,82 +5414,6 @@
      "these": "High-Risk-Wert, schöne Aktie; Sprecher möchte Test der Tiefs und Bodenbildung sehen, antizyklisch für langfristige Käufer auf die Lauer legen.",
      "kaufzone_oder_ziel": null,
      "titel": "CRASH am Aktienmarkt - LIVE"
-    }
-   ]
-  },
-  {
-   "ticker": "PANW",
-   "name": "Palo Alto Networks",
-   "anzahl": 3,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "kaufen": 3
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-22",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Schwergewicht, entwickelt sich vom Firewall-Anbieter zum umfassenden Cybersecurity-Konzern; frische Quartalszahlen (Umsatz +9 % auf 3,44 Mrd. USD, bereinigter Gewinn +66 %, Prognose angehoben) und geschickte Zukäufe (CyberArk, Applied Compute); Risiko ist die hohe Bewertung.",
-     "kaufzone_oder_ziel": "Fuß in die Tür stellen und in den nächsten Jahren in Tranchen nachkaufen; Hoch bei ca. 430 USD, Rücksetzer auf rund 350 bzw. 300 USD",
-     "titel": "Hacker-Gefahr steigt: Meine Top 7 Cybersecurity-Aktien!"
-    },
-    {
-     "datum": "2026-11-18",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Cybersecurity bleibt Favorit und werde wichtiger; Aktie kaum korrigiert, man müsse in den sauren Apfel beißen und teuer einsteigen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Cybersecurity-Ausgaben steigen durch Hackerangriffe und KI-Boom, Palo Alto gilt als klarer Profiteur; zudem Gründungspartner von Anthropic, Analysten heben die Kursziele an.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": null,
-   "name": "Anthropic (Börsengang)",
-   "anzahl": 3,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "beobachten": 3
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-16",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Der Börsengang am Donnerstag ist für Privatanleger kaum zugänglich, da der Kuchen vorab verteilt ist; der Sprecher wartet ab und rechnet damit, die Aktie in Wochen oder Monaten auf IPO-Niveau einsammeln zu können.",
-     "kaufzone_oder_ziel": "in ein paar Wochen/Monaten auf IPO-Niveau",
-     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
-    },
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Entscheidend sei die Bewertung beim Börsengang; Anthropic hat rund 130 Mrd. Dollar Cash und würde mit dem IPO auf etwa 250 Mrd. kommen. Der Gastgeber rät, zwei bis vier Wochen nach dem Börsengang abzuwarten, statt am ersten Tag einzusteigen.",
-     "kaufzone_oder_ziel": "Abwarten, Einstieg 2 bis 4 Wochen nach dem IPO",
-     "titel": "KI-Crash und Anthropic-Börsengang: Das sind die Profiteure!"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Bei Neuemissionen sei man oft wenige Wochen später deutlich günstiger zum Zug gekommen; bei der Bewertung zum Start viel Korrekturluft nach unten, Sprecher würde nicht sofort einsteigen. Emissionsvolumen rund 100 Mrd. USD, hoher Nettoverlust.",
-     "kaufzone_oder_ziel": "Nicht zum Start einsteigen, später günstiger",
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
     }
    ]
   },
@@ -5629,37 +5572,6 @@
    ]
   },
   {
-   "ticker": "OKTA",
-   "name": "Okta",
-   "anzahl": 2,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 2,
-   "tendenzen": {
-    "kaufen": 1,
-    "halten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-22",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Spezialist für sichere Identitäten, Zukunftsfantasie ist die Identifizierung autonomer KI-Agenten; Umsatz +11 %, Auftragseingang +17 %; Risiko durch starke Konkurrenz (Microsoft, Palo Alto), insgesamt etwas riskanter als die ersten drei.",
-     "kaufzone_oder_ziel": "Muss-Aktie eine Stufe unter den Basisinvestments, Einstieg in Tranchen",
-     "titel": "Hacker-Gefahr steigt: Meine Top 7 Cybersecurity-Aktien!"
-    },
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "halten",
-     "these": "Nach langer Bodenbildung geht die Aktie stark nach oben; Sprecher empfiehlt bei hohem Gewinn den Einsatz herauszunehmen und die Gewichtung (z. B. max. 3 %) zu begrenzen, bei Rücksetzern wieder zuzukaufen.",
-     "kaufzone_oder_ziel": "Gewichtung auf ca. 3 % begrenzen, Nachkauf bei Rückfall auf ca. 2 %",
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
    "ticker": "MOWI.OL",
    "name": "Mowi",
    "anzahl": 2,
@@ -5748,6 +5660,74 @@
      "these": "Warnbeispiel für FOMO-Kauf und Klumpenrisiko; Sprecher äußert sich nicht zur Aktie selbst, sondern zur Positionsgröße.",
      "kaufzone_oder_ziel": null,
      "titel": "Eine halbe Million verzockt?! Dieses Depot schockt mich 😱"
+    }
+   ]
+  },
+  {
+   "ticker": "V",
+   "name": "Visa",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 2,
+   "tendenzen": {
+    "beobachten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-21",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Ruhiger, gut einschätzbarer Dauerläufer mit hohen Marktanteilen und Margen, bei KGV 35 und Allzeithoch aber nicht auf interessantem Niveau.",
+     "kaufzone_oder_ziel": "Interessant nach Korrektur oder Crash, mit deutlich unter 30er KGV und erwartetem KGV deutlich unter 20",
+     "titel": "Wenn der Aktienmarkt crasht: Diese 5 Aktien kaufe ich für 10.000€"
+    },
+    {
+     "datum": "2026-11-21",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Technisch sehr gut einschätzbarer Dauerläufer am Allzeithoch, aktuell nicht auf interessantem Niveau; nach einer Korrektur oder im Crash würde der Sprecher sie sich ansehen.",
+     "kaufzone_oder_ziel": "Interessant bei erwartetem KGV deutlich unter 30 (für das Folgejahr deutlich unter 20) nach Korrektur oder Crash",
+     "titel": "Visa oder Volkswagen? Meine Crash-Watchlist"
+    }
+   ]
+  },
+  {
+   "ticker": null,
+   "name": "Anthropic (Börsengang)",
+   "anzahl": 3,
+   "kanaele": [
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 3
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "beobachten",
+     "these": "Die Aktie schloss unter dem Ausgabepreis; der Sprecher hält die Bewertung selbst auf dem Niveau für sehr ambitioniert, glaubt aber an KI und will mit einer ersten Tranche einen Fuß in die Tür stellen.",
+     "kaufzone_oder_ziel": "Erste Tranche im Bereich von 70 Dollar",
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    },
+    {
+     "datum": "2026-11-16",
+     "kanal": "aktienlust",
+     "tendenz": "beobachten",
+     "these": "Der Börsengang am Donnerstag ist für Privatanleger kaum zugänglich, da der Kuchen vorab verteilt ist; der Sprecher wartet ab und rechnet damit, die Aktie in Wochen oder Monaten auf IPO-Niveau einsammeln zu können.",
+     "kaufzone_oder_ziel": "in ein paar Wochen/Monaten auf IPO-Niveau",
+     "titel": "Jahresendrally in Gefahr? Nvidia, Inflation & Gold im Crash-Modus!"
+    },
+    {
+     "datum": "2026-11-06",
+     "kanal": "aktienlust",
+     "tendenz": "beobachten",
+     "these": "Entscheidend sei die Bewertung beim Börsengang; Anthropic hat rund 130 Mrd. Dollar Cash und würde mit dem IPO auf etwa 250 Mrd. kommen. Der Gastgeber rät, zwei bis vier Wochen nach dem Börsengang abzuwarten, statt am ersten Tag einzusteigen.",
+     "kaufzone_oder_ziel": "Abwarten, Einstieg 2 bis 4 Wochen nach dem IPO",
+     "titel": "KI-Crash und Anthropic-Börsengang: Das sind die Profiteure!"
     }
    ]
   },
@@ -5944,6 +5924,67 @@
    ]
   },
   {
+   "ticker": "GLW",
+   "name": "Corning",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Schlecht einschätzbar; ein impulsiver Ausbruch aus dem Abwärtstrend wäre positiv für den nächsten Impuls.",
+     "kaufzone_oder_ziel": "Ausbruch über 125 US-Dollar",
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-10-30",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Stabiler Aufwärtstrend mit unfassbarer Trendbeschleunigung; trotz Halbierung seit dem Hoch noch deutlich Luft nach unten, auch wegen der Bewertung. Nvidia-Option bei 180 $.",
+     "kaufzone_oder_ziel": null,
+     "titel": "NVIDIA kauft diese 3 Aktien"
+    }
+   ]
+  },
+  {
+   "ticker": "SNPS",
+   "name": "Synopsys",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1,
+    "nachkaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Gefällt dem Sprecher, mittlere Risikoklasse, historisch eher unterdurchschnittlich bewertet; IP/EDA-Software insgesamt spannend.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-04",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "nachkaufen",
+     "these": "Chipdesign-Software mit wiederkehrenden Einnahmen und tiefem Burggraben (Duopol mit Cadence), geringes KI-Disruptionsrisiko, Bewertung nach langer Seitwärtsphase abgebaut (Kurs-FCF um 31); Kritikpunkt ist die teure Ansys-Übernahme mit 26 Mrd. USD Goodwill.",
+     "kaufzone_oder_ziel": "Wichtiger Ausbruch über 514 USD, danach über 541 USD",
+     "titel": "4 Tech-Aktien, die wir jetzt kaufen wollen!"
+    }
+   ]
+  },
+  {
    "ticker": "WMT",
    "name": "Walmart",
    "anzahl": 2,
@@ -6006,6 +6047,66 @@
    ]
   },
   {
+   "ticker": "SMCI",
+   "name": "Super Micro Computer",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "meiden": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Serveraktien haben massive Rallys hinter sich und sind schlecht einschätzbar; der Sprecher ist kein Fan.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-08",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "In den Himmel gehypt, Depotinhaber ist 70 % im Minus; bei Auflösung nach unten sind bis zu 90 % Verlust möglich.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
+    }
+   ]
+  },
+  {
+   "ticker": "GEV",
+   "name": "GE Vernova",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "meiden": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Keine langfristige Charthistorie, schlecht einschätzbar, passt nicht in sein Portfolio.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-11",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Profiteur des KI-Infrastrukturbooms (KUV 4,7, für 2028 3,3 erwartet), nach großer Rally in größerer Korrektur; für langfristiges Investment ist die Aktie für den Sprecher raus, außerdem gilt für ihn eine Regel gegen Titel mit begrenzter Historie, sie kommt ihm nicht ins Depot.",
+     "kaufzone_oder_ziel": "Kurzfristig Trendfortsetzung bei Überschreiten von 935 $, sonst langfristige Korrektur",
+     "titel": "BAUSTOPP für KI! NVIDIA stürzt ab!"
+    }
+   ]
+  },
+  {
    "ticker": "CSCO",
    "name": "Cisco Systems",
    "anzahl": 2,
@@ -6033,6 +6134,66 @@
      "these": "Umsatz +24 % auf 18,5 Mrd. $, Prognose angehoben, KI-Netzwerke 9 Mrd. $ erwartet; bei KGV um 30 fair bewertet, kein Schnäppchen, Positionen halten und in Schwäche aufbauen.",
      "kaufzone_oder_ziel": null,
      "titel": "Cisco-Zahlen & Nvidia-Beben – Nvidia braucht neuen Visionär!"
+    }
+   ]
+  },
+  {
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "anzahl": 2,
+   "kanaele": [
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "kaufen": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-22",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Schwergewicht, entwickelt sich vom Firewall-Anbieter zum umfassenden Cybersecurity-Konzern; frische Quartalszahlen (Umsatz +9 % auf 3,44 Mrd. USD, bereinigter Gewinn +66 %, Prognose angehoben) und geschickte Zukäufe (CyberArk, Applied Compute); Risiko ist die hohe Bewertung.",
+     "kaufzone_oder_ziel": "Fuß in die Tür stellen und in den nächsten Jahren in Tranchen nachkaufen; Hoch bei ca. 430 USD, Rücksetzer auf rund 350 bzw. 300 USD",
+     "titel": "Hacker-Gefahr steigt: Meine Top 7 Cybersecurity-Aktien!"
+    },
+    {
+     "datum": "2026-11-18",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Cybersecurity bleibt Favorit und werde wichtiger; Aktie kaum korrigiert, man müsse in den sauren Apfel beißen und teuer einsteigen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nvidia nach den Zahlen: SO geht's jetzt weiter!"
+    }
+   ]
+  },
+  {
+   "ticker": "ARM",
+   "name": "Arm Holdings",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 2
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Stark korrigiert, hohe Risikoklasse, gefällt dem Sprecher; am Unterstützungsniveau könnte sich eine Stabilisierung und dann der nächste Impuls ergeben.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Arm-Architektur steckt in nahezu jedem Handy, die Aktie ist noch nicht lange an der Börse und hat nach der Korrektur bis zu den Hochs ein Potenzial von etwa 200 %; höhere Risikoklasse, daher erst Stabilisierung und Bodenbildung abwarten.",
+     "kaufzone_oder_ziel": "Erst nach Stabilisierung am aktuellen Niveau; Potenzial bis zu den Hochs ca. 200 %",
+     "titel": "Statt NVIDIA: Diese Aktie finde ich gerade spannender"
     }
    ]
   },
@@ -6367,28 +6528,6 @@
    ]
   },
   {
-   "ticker": "GLW",
-   "name": "Corning",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-30",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "beobachten",
-     "these": "Stabiler Aufwärtstrend mit unfassbarer Trendbeschleunigung; trotz Halbierung seit dem Hoch noch deutlich Luft nach unten, auch wegen der Bewertung. Nvidia-Option bei 180 $.",
-     "kaufzone_oder_ziel": null,
-     "titel": "NVIDIA kauft diese 3 Aktien"
-    }
-   ]
-  },
-  {
    "ticker": "AZO",
    "name": "AutoZone",
    "anzahl": 1,
@@ -6587,50 +6726,6 @@
    ]
   },
   {
-   "ticker": "SNPS",
-   "name": "Synopsys",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "nachkaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-04",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "nachkaufen",
-     "these": "Chipdesign-Software mit wiederkehrenden Einnahmen und tiefem Burggraben (Duopol mit Cadence), geringes KI-Disruptionsrisiko, Bewertung nach langer Seitwärtsphase abgebaut (Kurs-FCF um 31); Kritikpunkt ist die teure Ansys-Übernahme mit 26 Mrd. USD Goodwill.",
-     "kaufzone_oder_ziel": "Wichtiger Ausbruch über 514 USD, danach über 541 USD",
-     "titel": "4 Tech-Aktien, die wir jetzt kaufen wollen!"
-    }
-   ]
-  },
-  {
-   "ticker": "ANET",
-   "name": "Arista Networks",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Wachstumsstarker Netzwerkausrüster für Hyperskaler mit hohen Margen, der laut Rapold zuletzt mit fantastischen Zahlen überzeugte; nach der Korrektur im langjährigen Aufwärtstrend sieht er wieder eine Kaufchance, billig sei die Aktie nie.",
-     "kaufzone_oder_ziel": null,
-     "titel": "KI-Crash und Anthropic-Börsengang: Das sind die Profiteure!"
-    }
-   ]
-  },
-  {
    "ticker": "MRU.TO",
    "name": "Metro (Kanada)",
    "anzahl": 1,
@@ -6759,28 +6854,6 @@
      "these": "Gleiches Royalty-Modell, aber 2026 Kurseinbruch und Dividendenkürzung um etwa 13 % im Mai wegen schwacher Konsumausgaben im Food-Sektor; der Gast ist 14 % im Minus und überlegt nachzulegen.",
      "kaufzone_oder_ziel": null,
      "titel": "Dividendenfluss: Tim Dechent hat 2 Fast-Food-Ketten, die richtig viel Geld abwerfen!"
-    }
-   ]
-  },
-  {
-   "ticker": "SMCI",
-   "name": "Super Micro Computer",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "meiden": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-08",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "In den Himmel gehypt, Depotinhaber ist 70 % im Minus; bei Auflösung nach unten sind bis zu 90 % Verlust möglich.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
     }
    ]
   },
@@ -7137,28 +7210,6 @@
    ]
   },
   {
-   "ticker": "GEV",
-   "name": "GE Vernova",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 1,
-   "tendenzen": {
-    "meiden": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-11",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "meiden",
-     "these": "Profiteur des KI-Infrastrukturbooms (KUV 4,7, für 2028 3,3 erwartet), nach großer Rally in größerer Korrektur; für langfristiges Investment ist die Aktie für den Sprecher raus, außerdem gilt für ihn eine Regel gegen Titel mit begrenzter Historie, sie kommt ihm nicht ins Depot.",
-     "kaufzone_oder_ziel": "Kurzfristig Trendfortsetzung bei Überschreiten von 935 $, sonst langfristige Korrektur",
-     "titel": "BAUSTOPP für KI! NVIDIA stürzt ab!"
-    }
-   ]
-  },
-  {
    "ticker": "SPCX",
    "name": "SpaceX",
    "anzahl": 1,
@@ -7401,6 +7452,28 @@
    ]
   },
   {
+   "ticker": "OKTA",
+   "name": "Okta",
+   "anzahl": 1,
+   "kanaele": [
+    "aktienlust"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "kaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-22",
+     "kanal": "aktienlust",
+     "tendenz": "kaufen",
+     "these": "Spezialist für sichere Identitäten, Zukunftsfantasie ist die Identifizierung autonomer KI-Agenten; Umsatz +11 %, Auftragseingang +17 %; Risiko durch starke Konkurrenz (Microsoft, Palo Alto), insgesamt etwas riskanter als die ersten drei.",
+     "kaufzone_oder_ziel": "Muss-Aktie eine Stufe unter den Basisinvestments, Einstieg in Tranchen",
+     "titel": "Hacker-Gefahr steigt: Meine Top 7 Cybersecurity-Aktien!"
+    }
+   ]
+  },
+  {
    "ticker": "DEZ.DE",
    "name": "Deutz",
    "anzahl": 1,
@@ -7441,6 +7514,94 @@
      "these": "BDC mit Venture Debt für Tech- und Life-Science-Unternehmen und rund 12 % Dividendenrendite; mit dem 1,25-fachen Net Asset Value nahe dem historischen Multiple fair bewertet, Kreditausfälle sind ein Risiko.",
      "kaufzone_oder_ziel": "Supportzone um 14,8 $; Analystenkursziel im Mittel 17,9.",
      "titel": "Diese Tech-Aktien sind jetzt kaufenswert!"
+    }
+   ]
+  },
+  {
+   "ticker": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "anzahl": 1,
+   "kanaele": [
+    "InvestIngenieur"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "InvestIngenieur",
+     "tendenz": "beobachten",
+     "these": "Klassischer Schaufelverkäufer mit wiederkehrenden Umsätzen aus Verbrauchsmaterialien; laut Investing Pro liegt der faire Wert bei 530 Euro (14,9 % Downside), die 26 Analysten sind mit einem mittleren Kursziel von 690 Euro optimistischer, die Aktie ist nahe Allzeithoch.",
+     "kaufzone_oder_ziel": "Einstieg bei Rücksetzer auf die Zone um 616 bis 620 US-Dollar",
+     "titel": "Die nächste KI-Goldgrube? Diese 3 Aktien könnten überraschen!"
+    }
+   ]
+  },
+  {
+   "ticker": "SDGR",
+   "name": "Schrödinger",
+   "anzahl": 1,
+   "kanaele": [
+    "InvestIngenieur"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "InvestIngenieur",
+     "tendenz": "beobachten",
+     "these": "Kleinerer, spekulativerer Softwareanbieter für KI-gestützte Wirkstoffsimulation, noch verlustbringend; fairer Wert laut Investing Pro 19,2 Euro, sieben Analysten sehen im Mittel 30,7 Euro (35 % Potenzial); Trendwende erst bei höherem Tief und Ausbruch durch die Widerstandsbänder.",
+     "kaufzone_oder_ziel": "Erst Signal abwarten: höheres Tief und Ausbruch durch die Widerstandsbänder",
+     "titel": "Die nächste KI-Goldgrube? Diese 3 Aktien könnten überraschen!"
+    }
+   ]
+  },
+  {
+   "ticker": "ARE",
+   "name": "Alexandria Real Estate Equities",
+   "anzahl": 1,
+   "kanaele": [
+    "InvestIngenieur"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "InvestIngenieur",
+     "tendenz": "beobachten",
+     "these": "Laborimmobilien-REIT, der von steigender Forschungsnachfrage profitieren könnte; Kurs seit 2022 um rund 80 % gefallen, Doppelboden im Bereich 38 bis 40 US-Dollar, fairer Wert laut Investing Pro 52,6 Euro, 14 Analysten im Mittel 43 Euro; als möglicher Turnaround-Kandidat auf die Watchlist.",
+     "kaufzone_oder_ziel": "Watchlist, Umkehrzone um 38 bis 40 US-Dollar",
+     "titel": "Die nächste KI-Goldgrube? Diese 3 Aktien könnten überraschen!"
+    }
+   ]
+  },
+  {
+   "ticker": null,
+   "name": "Nasdaq (Index)",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 1,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Der Index liegt in einer starken Unterstützungszone mit potenziell guten langfristigen Kaufzonen; ein nachhaltiger Turnaround braucht das Schließen und Übertreffen der Kurslücke, solange die Tiefs halten.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Nasdaq nach dem Abverkauf: Kaufchance oder kommt der Crash?"
     }
    ]
   },
@@ -7528,6 +7689,44 @@
      "these": "Er sammelt erneuerbare Energien, die aktuell niemanden interessieren, und will bei einer späteren Euphorie Bestände abgeben.",
      "kaufzone_oder_ziel": null,
      "titel": "Quartalszahlen-Check: Startschuss für die Jahresendrally!?"
+    }
+   ]
+  },
+  {
+   "ticker": "MELI",
+   "name": "MercadoLibre",
+   "anzahl": 3,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 3
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-19",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Tolle Aktie, ähnliches Bild; er würde am liebsten das genannte Ziel im Chart sehen, wo Volumen und Unterstützung liegen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "CRASH am AKTIENMARKT"
+    },
+    {
+     "datum": "2026-11-17",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Als Amazon Lateinamerikas hochinteressant, aber Stabilisierung abwarten; steht auf der Watchlist.",
+     "kaufzone_oder_ziel": null,
+     "titel": "NVIDIA Earnings Live Reaktion - Erste Earnings ohne Jensen Huang!"
+    },
+    {
+     "datum": "2026-10-30",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Beste Lateinamerika-Aktie, wahrscheinlich Ausweitung der Korrektur; bei neuen Tiefs entstehen sehr gute langfristige Kaufchancen (derzeit 3 von 5 im Screener, tiefer 5 von 5).",
+     "kaufzone_oder_ziel": "Tiefere Korrektur abwarten",
+     "titel": "CRASH am Aktienmarkt - LIVE"
     }
    ]
   },
@@ -7645,6 +7844,45 @@
      "these": "Jürgen: Gleiche Begründung wie bei Newmont, Minenaktien nach der Korrektur günstig bewertet.",
      "kaufzone_oder_ziel": null,
      "titel": "US-WAHL-SPEZIAL: DIE Folgen für die Börse!"
+    }
+   ]
+  },
+  {
+   "ticker": "MA",
+   "name": "Mastercard",
+   "anzahl": 3,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "kaufen": 2,
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-15",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Ergänzt den Finanzsektor um Zahlungsanbieter.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Das perfekte Depot mit 110.000€?!"
+    },
+    {
+     "datum": "2026-11-14",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Ist in Ordnung als Watchlist-Wert.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Watchlist-Check: DIESE Aktien fehlen noch! 👀"
+    },
+    {
+     "datum": "2026-11-08",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Schöner Dauerläufer, der die Volatilität im Portfolio senkt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "Tesla, Nvidia, Apple & Co.: Warum dieses Depot trotzdem riskant ist"
     }
    ]
   },
@@ -7994,6 +8232,37 @@
    ]
   },
   {
+   "ticker": "CDNS",
+   "name": "Cadence Design Systems",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1,
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Gefällt dem Sprecher, mittlere Risikoklasse, eher unterdurchschnittlich historisch bewertet.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-04",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Wird als einziger relevanter Konkurrent von Synopsys genannt und sei zuletzt minimal stärker gelaufen; der Sprecher hätte sie auch mitbringen können.",
+     "kaufzone_oder_ziel": null,
+     "titel": "4 Tech-Aktien, die wir jetzt kaufen wollen!"
+    }
+   ]
+  },
+  {
    "ticker": "ISRG",
    "name": "Intuitive Surgical",
    "anzahl": 2,
@@ -8024,6 +8293,37 @@
    ]
   },
   {
+   "ticker": "EQIX",
+   "name": "Equinix",
+   "anzahl": 2,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1,
+    "kaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Konservativerer Pick bei den Gebäuden, besser einschätzbar; der Rücksetzer ist nicht schlecht, im Optimalfall noch etwas tiefer.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    },
+    {
+     "datum": "2026-11-15",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Dynamischer Immobilienwert (Rechenzentren).",
+     "kaufzone_oder_ziel": null,
+     "titel": "Das perfekte Depot mit 110.000€?!"
+    }
+   ]
+  },
+  {
    "ticker": "ORLY",
    "name": "O'Reilly Automotive",
    "anzahl": 2,
@@ -8050,116 +8350,6 @@
      "these": "Nur als Beispiel für einen gesunden, gut einschätzbaren langfristigen Aufwärtstrend genannt.",
      "kaufzone_oder_ziel": null,
      "titel": "Siemens Energy nach der Rally: Einstieg oder Falle? ⚡️"
-    }
-   ]
-  },
-  {
-   "ticker": "ARM",
-   "name": "Arm Holdings",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Aktie hat sich vom Hoch über 450 USD ungefähr halbiert; Sprecher erwartet für KI-Hardware eine lange Seitwärtskonsolidierung, bei schlechter Stimmung und tiefen Kursen aber Kaufgelegenheiten.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": null,
-   "name": "Schaeffler",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Als reiner Autozulieferer schwer, Robotik ist ein Zukunftsthema; die Erholung könnte ein kleines Trendwendesignal sein.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": "AXP",
-   "name": "American Express",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "kaufen",
-     "these": "Gemeinsam mit Visa und Mastercard als Aktie genannt, die jedem Depot gut tut.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": "CCJ",
-   "name": "Cameco (im Transkript: Nucor)",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "beobachten": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-26",
-     "kanal": "aktienlust",
-     "tendenz": "beobachten",
-     "these": "Als einer der größten Uran-Anbieter wieder spannend; Rohstoffaktien generell nach starken Korrekturen wieder interessant. Zuordnung des Namens aus dem Zusammenhang erschlossen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Woche der Wahrheit: Für KI-Aktien geht es jetzt um alles!"
-    }
-   ]
-  },
-  {
-   "ticker": "KER.PA",
-   "name": "Kering",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-26",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Minus 17 % am Freitag, der Turnaround läuft nicht richtig an, starke Abhängigkeit von Gucci.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Metas Cashflow im Minus: Kippt der KI-Boom?"
     }
    ]
   },
@@ -8626,28 +8816,6 @@
    ]
   },
   {
-   "ticker": "PRY.MI",
-   "name": "Prysmian",
-   "anzahl": 1,
-   "kanaele": [
-    "ALWAYS AHEAD (François Bloch / payOFF The Week)"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-27",
-     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
-     "tendenz": "neutral",
-     "these": "Nach der Korrektur nicht überzeugt.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Top-Aktien mit François Bloch"
-    }
-   ]
-  },
-  {
    "ticker": "STMPA.PA",
    "name": "STMicroelectronics",
    "anzahl": 1,
@@ -8708,28 +8876,6 @@
      "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
      "tendenz": "meiden",
      "these": "Würde er nicht spielen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Top-Aktien mit François Bloch"
-    }
-   ]
-  },
-  {
-   "ticker": "FIX",
-   "name": "Comfort Systems USA",
-   "anzahl": 1,
-   "kanaele": [
-    "ALWAYS AHEAD (François Bloch / payOFF The Week)"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-10-27",
-     "kanal": "ALWAYS AHEAD (François Bloch / payOFF The Week)",
-     "tendenz": "neutral",
-     "these": "Spannend, aber spekulativ und nicht für den Vermögensaufbau gedacht.",
      "kaufzone_oder_ziel": null,
      "titel": "Top-Aktien mit François Bloch"
     }
@@ -9480,50 +9626,6 @@
      "these": "Transport- und Logistikkonzern sowie Autovermieter, vom Sprecher als interessante Aktie bezeichnet.",
      "kaufzone_oder_ziel": null,
      "titel": "Waymo: Autonomes Fahren in Atlanta. Die Google-Tochter ist führend in den USA!"
-    }
-   ]
-  },
-  {
-   "ticker": "CDNS",
-   "name": "Cadence Design Systems",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-04",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "neutral",
-     "these": "Wird als einziger relevanter Konkurrent von Synopsys genannt und sei zuletzt minimal stärker gelaufen; der Sprecher hätte sie auch mitbringen können.",
-     "kaufzone_oder_ziel": null,
-     "titel": "4 Tech-Aktien, die wir jetzt kaufen wollen!"
-    }
-   ]
-  },
-  {
-   "ticker": "BE",
-   "name": "Bloom Energy",
-   "anzahl": 1,
-   "kanaele": [
-    "aktienlust"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "neutral": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-06",
-     "kanal": "aktienlust",
-     "tendenz": "neutral",
-     "these": "Hat bisher geliefert und gute Aufträge im Rechenzentrumsgeschäft, ist aber spekulativ und leidet bei Abverkäufen überproportional; deshalb nur in Tranchen kaufen.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Panik an der Wall Street: Nvidia & Co. im freien Fall!"
     }
    ]
   },
@@ -10512,28 +10614,6 @@
      "kanal": "Wir lieben Aktien",
      "tendenz": "kaufen",
      "these": "Ergänzt Hermès im zyklischen Konsum.",
-     "kaufzone_oder_ziel": null,
-     "titel": "Das perfekte Depot mit 110.000€?!"
-    }
-   ]
-  },
-  {
-   "ticker": "EQIX",
-   "name": "Equinix",
-   "anzahl": 1,
-   "kanaele": [
-    "Wir lieben Aktien"
-   ],
-   "hauptthema": 0,
-   "tendenzen": {
-    "kaufen": 1
-   },
-   "letzte": [
-    {
-     "datum": "2026-11-15",
-     "kanal": "Wir lieben Aktien",
-     "tendenz": "kaufen",
-     "these": "Dynamischer Immobilienwert (Rechenzentren).",
      "kaufzone_oder_ziel": null,
      "titel": "Das perfekte Depot mit 110.000€?!"
     }
@@ -11592,6 +11672,314 @@
      "these": "Börsenbetreiber, kann man noch kaufen, KGV rund 22-25, Dividende 1,1 %.",
      "kaufzone_oder_ziel": "Rund 105 $",
      "titel": "Nvidia-Wahnsinn: Rückkehr des Gründers an die Spitze. Donald Trump holt ihn zurück. Aktie dreht auf"
+    }
+   ]
+  },
+  {
+   "ticker": "AMGN",
+   "name": "Amgen",
+   "anzahl": 1,
+   "kanaele": [
+    "aktienlust"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "aktienlust",
+     "tendenz": "neutral",
+     "these": "Amgen notiert nahe dem Allzeithoch und steht beispielhaft für den gut laufenden Gesundheitssektor, der in ein diversifiziertes Depot gehöre.",
+     "kaufzone_oder_ziel": null,
+     "titel": "KI-Aktien wieder im Sinkflug: „All in“ rückt wieder näher!"
+    }
+   ]
+  },
+  {
+   "ticker": "8035.T",
+   "name": "Tokyo Electron",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Laut Sprecher ein richtig schöner Wert, der oft vergessen wird und mit Mitgliedern bereits 2025 besprochen wurde.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "MPWR",
+   "name": "Monolithic Power Systems",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Schöner Dauerläufer, mit Mitgliedern schon häufiger betrachtet; im Fazit als Beispiel für Verbindung und Strom genannt.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "ALAB",
+   "name": "Astera Labs",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "neutral": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "neutral",
+     "these": "Relativ kurz an der Börse und schlechter einschätzbar, höheres Risiko.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "VST",
+   "name": "Vistra",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Positiv gesehen und von den beiden Stromerzeugern eher bevorzugt; die Korrektur wäre mit hoher Wahrscheinlichkeit beendet, wenn ein dynamischer Ausbruch gelingt.",
+     "kaufzone_oder_ziel": "Ausbruch über 137 $",
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "CEG",
+   "name": "Constellation Energy",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Verhalten positiv gesehen, aber ohne langfristigen, gut einschätzbaren Trend; der Sprecher selbst eher raus.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "OKLO",
+   "name": "Oklo",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Über 90 % vom Hoch verloren, kaum Umsatz, Risikoklasse über den Neoclouds; für den Sprecher kein Investment.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "SMR",
+   "name": "NuScale Power",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Über 90 % vom Hoch verloren, kaum Umsatz, sehr risikoreich; für den Sprecher kein Investment.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "CCJ",
+   "name": "Cameco",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Langfristiger Aufwärtstrend und gängige Korrektur, positiv gesehen; unter den Kernkraft-Pureplays der einzige Wert, den er ansehen würde, holt ihn aber nicht vollends ab.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "ETN",
+   "name": "Eaton",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "kaufen": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "kaufen",
+     "these": "Schöner langfristiger Trend; die aktuelle Korrektur sei eine angemessene Kaufchance, der Sprecher würde sie Schneider Electric etwas vorziehen.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "DELL",
+   "name": "Dell Technologies",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Serveraktien haben massive Rallys hinter sich und sind schlecht einschätzbar; der Sprecher ist kein Fan.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "CLS",
+   "name": "Celestica",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "meiden": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "meiden",
+     "these": "Massive Rally, Korrektur schlecht einzuordnen; für den Sprecher uninteressant.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "APH",
+   "name": "Amphenol",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Für den Sprecher der absolute Top-Pick bei den Datennetzen und ein sauberer Dauerläufer, aktuell aber keine richtig gute Kaufchance; vielleicht bei tieferer Korrektur.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
+    }
+   ]
+  },
+  {
+   "ticker": "PWR",
+   "name": "Quanta Services",
+   "anzahl": 1,
+   "kanaele": [
+    "Wir lieben Aktien"
+   ],
+   "hauptthema": 0,
+   "tendenzen": {
+    "beobachten": 1
+   },
+   "letzte": [
+    {
+     "datum": "2026-11-25",
+     "kanal": "Wir lieben Aktien",
+     "tendenz": "beobachten",
+     "these": "Stromnetz-Ausbau mit Aufholpotenzial, Korrektur nicht uninteressant, aber relativ teuer (KGV 55); näher ansehen, keine tiefe Analyse vorhanden.",
+     "kaufzone_oder_ziel": null,
+     "titel": "62 KI-Aktien im Überblick: Diese würde ich kaufen!"
     }
    ]
   }

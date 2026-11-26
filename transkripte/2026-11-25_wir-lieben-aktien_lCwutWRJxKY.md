@@ -1,0 +1,11 @@
+# Rheinmetall im freien Fall: An DIESER Marke kann sie drehen 🛡️
+
+- Kanal: Wir lieben Aktien
+- Quelle: Wir lieben Aktien
+- Datum: 25.11.2026
+- Link: https://www.youtube.com/watch?v=lCwutWRJxKY
+- Ausgewertet: ja
+
+## Transkript
+
+absolute Kernschmelze hier bei der Reinmetallaktie. Die Frage ist nur, wie geht's weiter und wann steigt sie endlich wieder? Gib mir 60 Sekunden Zeit, ich sag dir alles, was du wissen musst. Schauen wir uns Reim mit an. Sind wir wirklich in einem lupenreinen Abwärtstrend mit einer Unterbrechung hier, aber jetzt wurde er wieder fortgesetzt. So, das sollte aber an sich kein wundern. Ich hatte euch ja auch davor gewarnt, als wir hier oben die Topbildung gesehen haben, wenn ihr in eine Rally reingreift, die so lang ist, da müsst ihr auch die Korrektur aushalten können bzw. müsst ihr darauf gefasst sein, dass eine Korrektur kommt, die in Relation zu dieser Rally steht. Und das ist bei dieser Korrektur alle mal der Fall. Also jeder, der hier oben gekauft hat, ja, der sollte sich mal bitte angucken, was es bedeutet, antizyklisch zu investieren, denn genau das ist dir in dem Fall nicht gelungen. Schauen wir uns zudem jetzt mal die wichtigen Unterstützungszonen an. Dann können wir mal näher ranzoomen und dann sehen wir auch, wo das Volumen liegt. Sehen wir nämlich einerseits hier oben ist relativ viel Volumen. Hier wurde viel gehandelt, sehen wir hier an der Seite. Und dann sehen wir hier unten ist viel Volumen. Hier zwischen ist jetzt ein bisschen mehr Volumen, weil wir hier gehandelt haben. Wenn wir das abziehen würden, ist hier fast gar nichts. Entsprechend rutschen wir hier auch schnell durch. Erst hier unten im Bereich ungefähr 450 bis 570 € ist wieder viel Volumen und hier ist auch mit einer Umkehrt zu rechnen bzw. da ist das Potenzial für eine Bodenbildung da. Jede Aufwärtsbewegung, die wir jetzt sehen und sollte sie auch bis 900 € gehen, ist erstmal nur eine reine Aufwärtskorrektur, sofern da jetzt nicht richtig viel WMs hintersteckt. Das hatten wir jetzt schon paar mal und jedes Mal bei so einer Aufwärtskorrektur denken alle: "Ja, jetzt habe ich den Dip richtig gekauft." Nee Leute, ihr seid immer noch mititten im Abwärtstrend. Deswegen ich halte euch dazu auf dem Laufenden. Folgt mir, um die Videos nicht zu verpassen.
