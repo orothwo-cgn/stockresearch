@@ -1,10 +1,10 @@
-# Kurzfassung 27.11.2026 21:41
+# Kurzfassung 27.11.2026 22:11
 
 **Markt:** Nasdaq 100 – (200T -4,9 %), S&P 500 – (200T -0,8 %), DAX +0,9 % (200T +1,8 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 25 (extreme Angst, Vorwoche 19), VIX 23,8
 **Zinsen:** US 10 Jahre 4,94 % (90T 4,92 %, 200T 4,62 %, Hoch 12 M 5,31 %), 30 Jahre 5,32 %, Kurve 10J−3M +0,78
-**Depot:** 323.094 € (+1.166 € heute), seit Kauf +53,4 %
-**Schwächste:** PETROLEO BRAS.SA PET. -2,2 %, Sony Group Corp. -1,4 %, CSL LTD -0,9 %, MUENCH.RUECKVERS. NA O -0,6 %
+**Depot:** 323.077 € (+1.157 € heute), seit Kauf +53,4 %
+**Schwächste:** PETROLEO BRAS.SA PET. -2,8 %, Sony Group Corp. -1,4 %, CSL LTD -0,9 %, MUENCH.RUECKVERS. NA O -0,6 %
 **Stärkste:** Nemetschek SE +3,5 %, Kingsoft Cloud Holding +2,6 %, ASML HOLDING EO -,09 +2,6 %, ING GROEP NV EO -,01 +1,9 %
 
 **Wichtig heute:**
@@ -44,4 +44,4 @@
 - Schneider Electric: 220,20 €, Zone 228,00 € (-3,4 %)
 - HSBC: 15,20 €, Zone 15,10 € (+0,6 %)
 
-Weitere Hinweise: 0 neu, 331 aktiv. Vollständig: reports/2026-11-27_2141.md
+Weitere Hinweise: 0 neu, 331 aktiv. Vollständig: reports/2026-11-27_2211.md
