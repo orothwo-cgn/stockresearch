@@ -1,4 +1,4 @@
-# Kurzfassung 28.11.2026 00:11
+# Kurzfassung 28.11.2026 00:17
 
 **Markt:** Nasdaq 100 – (200T -4,9 %), S&P 500 – (200T -0,8 %), DAX +0,9 % (200T +1,7 %)
 **Stimmung:** Crash-Muster Korrektur (45/100), Fear & Greed 25 (extreme Angst, Vorwoche 19), VIX 23,8
@@ -44,4 +44,4 @@
 - Schneider Electric: 220,60 €, Zone 228,00 € (-3,2 %)
 - HSBC: 15,20 €, Zone 15,10 € (+0,7 %)
 
-Weitere Hinweise: 1 neu, 333 aktiv. Vollständig: reports/2026-11-28_0011.md
+Weitere Hinweise: 0 neu, 333 aktiv. Vollständig: reports/2026-11-28_0017.md
